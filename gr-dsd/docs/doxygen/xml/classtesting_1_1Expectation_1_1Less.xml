@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1Expectation_1_1Less" kind="class" language="C++" prot="private">
+    <compoundname>testing::Expectation::Less</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1Expectation_1_1Less_1a821950f0cdd9a6722a26cb45cc65a643" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::Less::operator()</definition>
+        <argsstring>(const Expectation &amp;lhs, const Expectation &amp;rhs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::Expectation::Less::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="530" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="530" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1_1Less_1a821950f0cdd9a6722a26cb45cc65a643" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::Less::operator()</definition>
+        <argsstring>(const Expectation &amp;lhs, const Expectation &amp;rhs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::Expectation::Less::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="530" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="530" bodyend="532"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="528" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="528" bodyend="533"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1Expectation_1_1Less_1a821950f0cdd9a6722a26cb45cc65a643" prot="public" virt="non-virtual"><scope>testing::Expectation::Less</scope><name>operator()</name></member>
+      <member refid="classtesting_1_1Expectation_1_1Less_1a821950f0cdd9a6722a26cb45cc65a643" prot="public" virt="non-virtual"><scope>testing::Expectation::Less</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

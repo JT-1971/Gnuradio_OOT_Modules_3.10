@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1LinkedPtrLessThan" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::LinkedPtrLessThan</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" local="no">gmock-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1internal_1_1LinkedPtrLessThan_1a0614293c43e51b280a870ab117355164" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::LinkedPtrLessThan&lt; T &gt;::operator()</definition>
+        <argsstring>(const ::testing::internal::linked_ptr&lt; T &gt; &amp;lhs, const ::testing::internal::linked_ptr&lt; T &gt; &amp;rhs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::LinkedPtrLessThan::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">::testing::internal::linked_ptr</ref>&lt; T &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">::testing::internal::linked_ptr</ref>&lt; T &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="86" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="structtesting_1_1internal_1_1LinkedPtrLessThan_1a0614293c43e51b280a870ab117355164" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::LinkedPtrLessThan&lt; T &gt;::operator()</definition>
+        <argsstring>(const ::testing::internal::linked_ptr&lt; T &gt; &amp;lhs, const ::testing::internal::linked_ptr&lt; T &gt; &amp;rhs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::LinkedPtrLessThan::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">::testing::internal::linked_ptr</ref>&lt; T &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">::testing::internal::linked_ptr</ref>&lt; T &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="86" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="86" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="85" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="85" bodyend="90"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1LinkedPtrLessThan_1a0614293c43e51b280a870ab117355164" prot="public" virt="non-virtual"><scope>testing::internal::LinkedPtrLessThan</scope><name>operator()</name></member>
+      <member refid="structtesting_1_1internal_1_1LinkedPtrLessThan_1a0614293c43e51b280a870ab117355164" prot="public" virt="non-virtual"><scope>testing::internal::LinkedPtrLessThan</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

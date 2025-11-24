@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1DummyMatchResultListener" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::DummyMatchResultListener</compoundname>
+    <basecompoundref refid="classtesting_1_1MatchResultListener" prot="public" virt="non-virtual">testing::MatchResultListener</basecompoundref>
+    <basecompoundref refid="classtesting_1_1MatchResultListener" prot="public" virt="non-virtual">testing::MatchResultListener</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DummyMatchResultListener_1a3284ab25167628be9a92e4ee5d2042fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DummyMatchResultListener::DummyMatchResultListener</definition>
+        <argsstring>()</argsstring>
+        <name>DummyMatchResultListener</name>
+        <qualifiedname>testing::internal::DummyMatchResultListener::DummyMatchResultListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="205" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DummyMatchResultListener_1a3284ab25167628be9a92e4ee5d2042fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DummyMatchResultListener::DummyMatchResultListener</definition>
+        <argsstring>()</argsstring>
+        <name>DummyMatchResultListener</name>
+        <qualifiedname>testing::internal::DummyMatchResultListener::DummyMatchResultListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="205" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="205" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DummyMatchResultListener_1a6f61b58dda615c1066df5b26992aaf73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DummyMatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(DummyMatchResultListener)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::DummyMatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type>DummyMatchResultListener</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="208" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DummyMatchResultListener_1a6f61b58dda615c1066df5b26992aaf73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DummyMatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(DummyMatchResultListener)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::DummyMatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type>DummyMatchResultListener</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="208" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::MatchResultListener</label>
+        <link refid="classtesting_1_1MatchResultListener"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::DummyMatchResultListener</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::MatchResultListener</label>
+        <link refid="classtesting_1_1MatchResultListener"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::DummyMatchResultListener</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="203" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="203" bodyend="209"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1DummyMatchResultListener_1a3284ab25167628be9a92e4ee5d2042fe" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>DummyMatchResultListener</name></member>
+      <member refid="classtesting_1_1internal_1_1DummyMatchResultListener_1a3284ab25167628be9a92e4ee5d2042fe" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>DummyMatchResultListener</name></member>
+      <member refid="classtesting_1_1internal_1_1DummyMatchResultListener_1a6f61b58dda615c1066df5b26992aaf73" prot="private" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1DummyMatchResultListener_1a6f61b58dda615c1066df5b26992aaf73" prot="private" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>IsInterested</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>IsInterested</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>stream</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" virt="non-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>stream</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1aa29f43f7b2ffd850c721a8a33ccbba92" prot="public" virt="pure-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>~MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a8f11d668de95192079f014f64d1f10d6" prot="public" virt="pure-virtual"><scope>testing::internal::DummyMatchResultListener</scope><name>~MatchResultListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1TuplePrefix" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::TuplePrefix</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+          </param>
+          <param>
+            <type>typename ValueTuple</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool testing::internal::TuplePrefix&lt; N &gt;::Matches</definition>
+        <argsstring>(const MatcherTuple &amp;matcher_tuple, const ValueTuple &amp;value_tuple)</argsstring>
+        <name>Matches</name>
+        <qualifiedname>testing::internal::TuplePrefix::Matches</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>matcher_tuple</declname>
+        </param>
+        <param>
+          <type>const ValueTuple &amp;</type>
+          <declname>value_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="707" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="707" bodyend="712"/>
+        <references refid="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="707" endline="712">testing::internal::TuplePrefix&lt; N &gt;::Matches</references>
+        <referencedby refid="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="707" endline="712">testing::internal::TuplePrefix&lt; N &gt;::Matches</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+          </param>
+          <param>
+            <type>typename ValueTuple</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void testing::internal::TuplePrefix&lt; N &gt;::ExplainMatchFailuresTo</definition>
+        <argsstring>(const MatcherTuple &amp;matchers, const ValueTuple &amp;values, ::std::ostream *os)</argsstring>
+        <name>ExplainMatchFailuresTo</name>
+        <qualifiedname>testing::internal::TuplePrefix::ExplainMatchFailuresTo</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>matchers</declname>
+        </param>
+        <param>
+          <type>const ValueTuple &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="719" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="719" bodyend="750"/>
+        <references refid="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="719" endline="750">testing::internal::TuplePrefix&lt; N &gt;::ExplainMatchFailuresTo</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+        <references refid="namespacetesting_1ae44c50a3a7f0a46f05c8a0b0592b4a62" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3938" endline="3940">testing::Value</references>
+        <referencedby refid="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="719" endline="750">testing::internal::TuplePrefix&lt; N &gt;::ExplainMatchFailuresTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+          </param>
+          <param>
+            <type>typename ValueTuple</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool testing::internal::TuplePrefix&lt; N &gt;::Matches</definition>
+        <argsstring>(const MatcherTuple &amp;matcher_tuple, const ValueTuple &amp;value_tuple)</argsstring>
+        <name>Matches</name>
+        <qualifiedname>testing::internal::TuplePrefix::Matches</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>matcher_tuple</declname>
+        </param>
+        <param>
+          <type>const ValueTuple &amp;</type>
+          <declname>value_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="707" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="707" bodyend="712"/>
+        <references refid="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="707" endline="712">testing::internal::TuplePrefix&lt; N &gt;::Matches</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+          </param>
+          <param>
+            <type>typename ValueTuple</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void testing::internal::TuplePrefix&lt; N &gt;::ExplainMatchFailuresTo</definition>
+        <argsstring>(const MatcherTuple &amp;matchers, const ValueTuple &amp;values, ::std::ostream *os)</argsstring>
+        <name>ExplainMatchFailuresTo</name>
+        <qualifiedname>testing::internal::TuplePrefix::ExplainMatchFailuresTo</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>matchers</declname>
+        </param>
+        <param>
+          <type>const ValueTuple &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="719" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="719" bodyend="750"/>
+        <references refid="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="719" endline="750">testing::internal::TuplePrefix&lt; N &gt;::ExplainMatchFailuresTo</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+        <references refid="namespacetesting_1ae44c50a3a7f0a46f05c8a0b0592b4a62" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3938" endline="3940">testing::Value</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="701" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="701" bodyend="751"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" prot="public" virt="non-virtual"><scope>testing::internal::TuplePrefix</scope><name>ExplainMatchFailuresTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TuplePrefix_1a0ffd38ce90ae6da645a5655aefac5bb7" prot="public" virt="non-virtual"><scope>testing::internal::TuplePrefix</scope><name>ExplainMatchFailuresTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" prot="public" virt="non-virtual"><scope>testing::internal::TuplePrefix</scope><name>Matches</name></member>
+      <member refid="classtesting_1_1internal_1_1TuplePrefix_1ada24ceee73c02e3bb7f8264143170f7a" prot="public" virt="non-virtual"><scope>testing::internal::TuplePrefix</scope><name>Matches</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

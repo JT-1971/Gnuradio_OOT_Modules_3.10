@@ -1,0 +1,1216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structdsd__state" kind="struct" language="C++" prot="public">
+    <compoundname>dsd_state</compoundname>
+    <includes refid="dsd_8h" local="no">dsd.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdsd__state_1ae11739895c6ea304ff3a39681b4b13a0" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* dsd_state::dibit_buf</definition>
+        <argsstring></argsstring>
+        <name>dibit_buf</name>
+        <qualifiedname>dsd_state::dibit_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="136" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1af49ace3a37a5b92387ab6860eca30e28" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* dsd_state::dibit_buf_p</definition>
+        <argsstring></argsstring>
+        <name>dibit_buf_p</name>
+        <qualifiedname>dsd_state::dibit_buf_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="137" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a5e35df4223bbcc80ff1fec7cf312ad65" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::repeat</definition>
+        <argsstring></argsstring>
+        <name>repeat</name>
+        <qualifiedname>dsd_state::repeat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="138" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a738863311d0eea37567a2cae9d11bbac" prot="public" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* dsd_state::audio_out_buf</definition>
+        <argsstring></argsstring>
+        <name>audio_out_buf</name>
+        <qualifiedname>dsd_state::audio_out_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="139" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad127f9113c5be44206b51ac89cfe52d4" prot="public" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* dsd_state::audio_out_buf_p</definition>
+        <argsstring></argsstring>
+        <name>audio_out_buf_p</name>
+        <qualifiedname>dsd_state::audio_out_buf_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="140" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a01d4a2b7225124f36d352a36cfe7bede" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* dsd_state::audio_out_float_buf</definition>
+        <argsstring></argsstring>
+        <name>audio_out_float_buf</name>
+        <qualifiedname>dsd_state::audio_out_float_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="141" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ab6a4ae13a59384653552ba70091110ed" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* dsd_state::audio_out_float_buf_p</definition>
+        <argsstring></argsstring>
+        <name>audio_out_float_buf_p</name>
+        <qualifiedname>dsd_state::audio_out_float_buf_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="142" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a67561f2dab83c90bc4ceb693a4170024" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float dsd_state::audio_out_temp_buf[160]</definition>
+        <argsstring>[160]</argsstring>
+        <name>audio_out_temp_buf</name>
+        <qualifiedname>dsd_state::audio_out_temp_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="143" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1abbb2c7ecbe0e6e189d52b7bd4eb5976d" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* dsd_state::audio_out_temp_buf_p</definition>
+        <argsstring></argsstring>
+        <name>audio_out_temp_buf_p</name>
+        <qualifiedname>dsd_state::audio_out_temp_buf_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="144" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a91a513ab5c04a7cb07b92fe5fd084c5f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::audio_out_idx</definition>
+        <argsstring></argsstring>
+        <name>audio_out_idx</name>
+        <qualifiedname>dsd_state::audio_out_idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="145" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0184a6a31ba059fe429fec50f6ec3f4d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::audio_out_idx2</definition>
+        <argsstring></argsstring>
+        <name>audio_out_idx2</name>
+        <qualifiedname>dsd_state::audio_out_idx2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="146" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a53525827efbe0fa4d3c6cae5804d40dd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>dsd_state::center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="148" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a1a8cc99bd7bc3e5002352ff91c964609" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::jitter</definition>
+        <argsstring></argsstring>
+        <name>jitter</name>
+        <qualifiedname>dsd_state::jitter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="149" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad962720e338ebe0221cc13b237d4cc3b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::synctype</definition>
+        <argsstring></argsstring>
+        <name>synctype</name>
+        <qualifiedname>dsd_state::synctype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="150" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aa6b0a426bb245fa40a428de108fb4bcd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>dsd_state::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="151" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a50eb3360e05e9d455b1499982712f63a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>dsd_state::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="152" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a50df6cd00d5c2dfa7c91ae4876eb9031" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lmid</definition>
+        <argsstring></argsstring>
+        <name>lmid</name>
+        <qualifiedname>dsd_state::lmid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="153" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a40674e07634bc63cf3bee3df82c7ef04" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::umid</definition>
+        <argsstring></argsstring>
+        <name>umid</name>
+        <qualifiedname>dsd_state::umid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="154" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0490187fd6918845e72d3be1b6079dd3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::minref</definition>
+        <argsstring></argsstring>
+        <name>minref</name>
+        <qualifiedname>dsd_state::minref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="155" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a1b111953cad092c472950919d9477c01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::maxref</definition>
+        <argsstring></argsstring>
+        <name>maxref</name>
+        <qualifiedname>dsd_state::maxref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="156" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad63df64ccd77d33fc31a65c209ff1eee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lastsample</definition>
+        <argsstring></argsstring>
+        <name>lastsample</name>
+        <qualifiedname>dsd_state::lastsample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="157" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a720002b58ec4762c3929bec4301c64e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::sbuf[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>sbuf</name>
+        <qualifiedname>dsd_state::sbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="158" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a6b89254f6cb8c2fa44360f3892457c8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::sidx</definition>
+        <argsstring></argsstring>
+        <name>sidx</name>
+        <qualifiedname>dsd_state::sidx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="159" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0f1e3b1856e9362dcb099946b5f1dde3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::maxbuf[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>maxbuf</name>
+        <qualifiedname>dsd_state::maxbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="160" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ade10da2b7bb17d83ef0796c2eaf1fe58" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::minbuf[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>minbuf</name>
+        <qualifiedname>dsd_state::minbuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="161" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a9e754261a59eb57a0396b19967593e34" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::midx</definition>
+        <argsstring></argsstring>
+        <name>midx</name>
+        <qualifiedname>dsd_state::midx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="162" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1af1a6f0d4aea0eca2cfb7a70a094c5f42" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::err_str[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>err_str</name>
+        <qualifiedname>dsd_state::err_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="163" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a5fac13ef5103237283053d9194920e14" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::fsubtype[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>fsubtype</name>
+        <qualifiedname>dsd_state::fsubtype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="164" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a57c9cc87ea3f00a7a697bc65d878a364" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::ftype[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>ftype</name>
+        <qualifiedname>dsd_state::ftype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="165" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aea0d335374f9ab8c333c284f24b6120c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::symbolcnt</definition>
+        <argsstring></argsstring>
+        <name>symbolcnt</name>
+        <qualifiedname>dsd_state::symbolcnt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="166" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0bef0cc9c2532429879b9b1ba4adf250" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::rf_mod</definition>
+        <argsstring></argsstring>
+        <name>rf_mod</name>
+        <qualifiedname>dsd_state::rf_mod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="167" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a7f36cc8e4c7713abc26d29c227b50ad2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::numflips</definition>
+        <argsstring></argsstring>
+        <name>numflips</name>
+        <qualifiedname>dsd_state::numflips</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="168" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0617a706738d5c33d15a4bfd5a68d07a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lastsynctype</definition>
+        <argsstring></argsstring>
+        <name>lastsynctype</name>
+        <qualifiedname>dsd_state::lastsynctype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="169" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a484e59989183ac0eed66f86c8efdf596" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lastp25type</definition>
+        <argsstring></argsstring>
+        <name>lastp25type</name>
+        <qualifiedname>dsd_state::lastp25type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="170" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a7a5416d28a85efe43120f1aa682ad8fe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>dsd_state::offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="171" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a83d12096580506c83f30e29fae8a7b96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::carrier</definition>
+        <argsstring></argsstring>
+        <name>carrier</name>
+        <qualifiedname>dsd_state::carrier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="172" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aaa4a089d3d839efff38f725791dfaaef" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::tg[25][16]</definition>
+        <argsstring>[25][16]</argsstring>
+        <name>tg</name>
+        <qualifiedname>dsd_state::tg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="173" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a4c1b3574b6c22eaf6fcab629301eb7f2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::tgcount</definition>
+        <argsstring></argsstring>
+        <name>tgcount</name>
+        <qualifiedname>dsd_state::tgcount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="174" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aea0596e76353383a2a2a5c41827c6502" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lasttg</definition>
+        <argsstring></argsstring>
+        <name>lasttg</name>
+        <qualifiedname>dsd_state::lasttg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="175" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0afd4470685966647da839662945bbb4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::lastsrc</definition>
+        <argsstring></argsstring>
+        <name>lastsrc</name>
+        <qualifiedname>dsd_state::lastsrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="176" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a9271f5f83b734abc050161c097734e08" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::nac</definition>
+        <argsstring></argsstring>
+        <name>nac</name>
+        <qualifiedname>dsd_state::nac</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="177" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a8b4948b432c7dd33b7bda92ff54b8127" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::errs</definition>
+        <argsstring></argsstring>
+        <name>errs</name>
+        <qualifiedname>dsd_state::errs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="178" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a11b1b24e3dc3aebeda94352047785306" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::errs2</definition>
+        <argsstring></argsstring>
+        <name>errs2</name>
+        <qualifiedname>dsd_state::errs2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="179" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad51fbcf25fa75b4553b3d36a90fd7283" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::mbe_file_type</definition>
+        <argsstring></argsstring>
+        <name>mbe_file_type</name>
+        <qualifiedname>dsd_state::mbe_file_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="180" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aa05878e57781285fc92746bfe2def099" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::optind</definition>
+        <argsstring></argsstring>
+        <name>optind</name>
+        <qualifiedname>dsd_state::optind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="181" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a8d327e32a11b6b68f9a8a85866aa782f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::numtdulc</definition>
+        <argsstring></argsstring>
+        <name>numtdulc</name>
+        <qualifiedname>dsd_state::numtdulc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="182" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a46af1d2c56d12e538b88e8665d0f6a63" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::firstframe</definition>
+        <argsstring></argsstring>
+        <name>firstframe</name>
+        <qualifiedname>dsd_state::firstframe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="183" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a9786bc249cbaf38444216088a61f7aba" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::slot0light[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>slot0light</name>
+        <qualifiedname>dsd_state::slot0light</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="184" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a29ad05a1496ee614abd283a55a40e910" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::slot1light[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>slot1light</name>
+        <qualifiedname>dsd_state::slot1light</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="185" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a5e67eec1fa610b6d4250a97dee187479" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float dsd_state::aout_gain</definition>
+        <argsstring></argsstring>
+        <name>aout_gain</name>
+        <qualifiedname>dsd_state::aout_gain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="186" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ade3c2c39a8525414c94e2b309868fe19" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float dsd_state::aout_max_buf[200]</definition>
+        <argsstring>[200]</argsstring>
+        <name>aout_max_buf</name>
+        <qualifiedname>dsd_state::aout_max_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="187" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a572e7b9a867f14d2903631b2a8289a35" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* dsd_state::aout_max_buf_p</definition>
+        <argsstring></argsstring>
+        <name>aout_max_buf_p</name>
+        <qualifiedname>dsd_state::aout_max_buf_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="188" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a2953d351a44e624b0ca369d3e3ab840a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::aout_max_buf_idx</definition>
+        <argsstring></argsstring>
+        <name>aout_max_buf_idx</name>
+        <qualifiedname>dsd_state::aout_max_buf_idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="189" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ab066936e2a25b354ba1fdd89a6243a32" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::samplesPerSymbol</definition>
+        <argsstring></argsstring>
+        <name>samplesPerSymbol</name>
+        <qualifiedname>dsd_state::samplesPerSymbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="190" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1afcf743b67924b0f71519dbac899c2fc8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::symbolCenter</definition>
+        <argsstring></argsstring>
+        <name>symbolCenter</name>
+        <qualifiedname>dsd_state::symbolCenter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="191" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a44a9f240a8188bf6ab002b9cbe97d47b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::algid[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>algid</name>
+        <qualifiedname>dsd_state::algid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="192" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a917be8fc1b68a4a8109158e54f78054d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dsd_state::keyid[17]</definition>
+        <argsstring>[17]</argsstring>
+        <name>keyid</name>
+        <qualifiedname>dsd_state::keyid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="193" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a0dead5b44377919ac386990dd7c2d886" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::currentslot</definition>
+        <argsstring></argsstring>
+        <name>currentslot</name>
+        <qualifiedname>dsd_state::currentslot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="194" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a4421f85bd686163270a4903b740e154b" prot="public" static="no" mutable="no">
+        <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+        <definition>mbe_parms* dsd_state::cur_mp</definition>
+        <argsstring></argsstring>
+        <name>cur_mp</name>
+        <qualifiedname>dsd_state::cur_mp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="195" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a712431b4de848c7180e743e56cd059dc" prot="public" static="no" mutable="no">
+        <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+        <definition>mbe_parms* dsd_state::prev_mp</definition>
+        <argsstring></argsstring>
+        <name>prev_mp</name>
+        <qualifiedname>dsd_state::prev_mp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="196" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad46cc9266ea07744673698b783a3059a" prot="public" static="no" mutable="no">
+        <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+        <definition>mbe_parms* dsd_state::prev_mp_enhanced</definition>
+        <argsstring></argsstring>
+        <name>prev_mp_enhanced</name>
+        <qualifiedname>dsd_state::prev_mp_enhanced</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="197" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a7a1d54f8b1fc9ddafeb482ac002c9353" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::p25kid</definition>
+        <argsstring></argsstring>
+        <name>p25kid</name>
+        <qualifiedname>dsd_state::p25kid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="198" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ac048c7e1731f508c73f1fa6518a29458" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::last_dibit</definition>
+        <argsstring></argsstring>
+        <name>last_dibit</name>
+        <qualifiedname>dsd_state::last_dibit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="205" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a847936bcdea6ced3c42e05d0d4f89dac" prot="public" static="no" mutable="no">
+        <type><ref refid="structP25Heuristics" kindref="compound">P25Heuristics</ref></type>
+        <definition>P25Heuristics dsd_state::p25_heuristics</definition>
+        <argsstring></argsstring>
+        <name>p25_heuristics</name>
+        <qualifiedname>dsd_state::p25_heuristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="208" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a63ccff9a174241987d8b8790f8f63a3d" prot="public" static="no" mutable="no">
+        <type><ref refid="structP25Heuristics" kindref="compound">P25Heuristics</ref></type>
+        <definition>P25Heuristics dsd_state::inv_p25_heuristics</definition>
+        <argsstring></argsstring>
+        <name>inv_p25_heuristics</name>
+        <qualifiedname>dsd_state::inv_p25_heuristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="211" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a78c0189c69f892e5ad79acd71735f5aa" prot="public" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t dsd_state::input_mutex</definition>
+        <argsstring></argsstring>
+        <name>input_mutex</name>
+        <qualifiedname>dsd_state::input_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="224" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ad4128c870fbf6f4cd1d911363f68c8b2" prot="public" static="no" mutable="no">
+        <type>pthread_cond_t</type>
+        <definition>pthread_cond_t dsd_state::input_ready</definition>
+        <argsstring></argsstring>
+        <name>input_ready</name>
+        <qualifiedname>dsd_state::input_ready</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="225" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a343f1bfa180d45d0962f94db050f509c" prot="public" static="no" mutable="no">
+        <type>const float *</type>
+        <definition>const float* dsd_state::input_samples</definition>
+        <argsstring></argsstring>
+        <name>input_samples</name>
+        <qualifiedname>dsd_state::input_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="226" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a2684c42faad6e174566d0ff944250d23" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::input_length</definition>
+        <argsstring></argsstring>
+        <name>input_length</name>
+        <qualifiedname>dsd_state::input_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="227" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a24fc36b3b04411bdf068153ea8644173" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::input_offset</definition>
+        <argsstring></argsstring>
+        <name>input_offset</name>
+        <qualifiedname>dsd_state::input_offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="228" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a583eb7f3001b9b13e188bd62d7905208" prot="public" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t dsd_state::output_mutex</definition>
+        <argsstring></argsstring>
+        <name>output_mutex</name>
+        <qualifiedname>dsd_state::output_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="230" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1abb71df2fb03c312e6692f6e8d07bab05" prot="public" static="no" mutable="no">
+        <type>pthread_cond_t</type>
+        <definition>pthread_cond_t dsd_state::output_ready</definition>
+        <argsstring></argsstring>
+        <name>output_ready</name>
+        <qualifiedname>dsd_state::output_ready</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="231" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a5d54eda9a39528245a36d6fa9174fb39" prot="public" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* dsd_state::output_buffer</definition>
+        <argsstring></argsstring>
+        <name>output_buffer</name>
+        <qualifiedname>dsd_state::output_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="232" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a4549d0584cef6049e04922c045bc926f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::output_offset</definition>
+        <argsstring></argsstring>
+        <name>output_offset</name>
+        <qualifiedname>dsd_state::output_offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="233" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a9b90ee1d1a9b5f996464f5e0d6d6ce40" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* dsd_state::output_samples</definition>
+        <argsstring></argsstring>
+        <name>output_samples</name>
+        <qualifiedname>dsd_state::output_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="234" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1a329804488b06a9c5128fa09ffe986376" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::output_num_samples</definition>
+        <argsstring></argsstring>
+        <name>output_num_samples</name>
+        <qualifiedname>dsd_state::output_num_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="235" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1ada6c07004925e5a41df17358467e763c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::output_length</definition>
+        <argsstring></argsstring>
+        <name>output_length</name>
+        <qualifiedname>dsd_state::output_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="236" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdsd__state_1aceed18c6fd521dbb99f3abc923bfb476" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dsd_state::output_finished</definition>
+        <argsstring></argsstring>
+        <name>output_finished</name>
+        <qualifiedname>dsd_state::output_finished</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="237" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>P25Heuristics</label>
+        <link refid="structP25Heuristics"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>symbols</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SymbolHeuristics</label>
+        <link refid="structSymbolHeuristics"/>
+      </node>
+      <node id="1">
+        <label>dsd_state</label>
+        <link refid="structdsd__state"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cur_mp</edgelabel>
+          <edgelabel>prev_mp</edgelabel>
+          <edgelabel>prev_mp_enhanced</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>inv_p25_heuristics</edgelabel>
+          <edgelabel>p25_heuristics</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mbe_parameters</label>
+        <link refid="structmbe__parameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="134" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="135" bodyend="238"/>
+    <listofallmembers>
+      <member refid="structdsd__state_1a44a9f240a8188bf6ab002b9cbe97d47b" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>algid</name></member>
+      <member refid="structdsd__state_1a5e67eec1fa610b6d4250a97dee187479" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>aout_gain</name></member>
+      <member refid="structdsd__state_1ade3c2c39a8525414c94e2b309868fe19" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>aout_max_buf</name></member>
+      <member refid="structdsd__state_1a2953d351a44e624b0ca369d3e3ab840a" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>aout_max_buf_idx</name></member>
+      <member refid="structdsd__state_1a572e7b9a867f14d2903631b2a8289a35" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>aout_max_buf_p</name></member>
+      <member refid="structdsd__state_1a738863311d0eea37567a2cae9d11bbac" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_buf</name></member>
+      <member refid="structdsd__state_1ad127f9113c5be44206b51ac89cfe52d4" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_buf_p</name></member>
+      <member refid="structdsd__state_1a01d4a2b7225124f36d352a36cfe7bede" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_float_buf</name></member>
+      <member refid="structdsd__state_1ab6a4ae13a59384653552ba70091110ed" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_float_buf_p</name></member>
+      <member refid="structdsd__state_1a91a513ab5c04a7cb07b92fe5fd084c5f" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_idx</name></member>
+      <member refid="structdsd__state_1a0184a6a31ba059fe429fec50f6ec3f4d" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_idx2</name></member>
+      <member refid="structdsd__state_1a67561f2dab83c90bc4ceb693a4170024" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_temp_buf</name></member>
+      <member refid="structdsd__state_1abbb2c7ecbe0e6e189d52b7bd4eb5976d" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>audio_out_temp_buf_p</name></member>
+      <member refid="structdsd__state_1a83d12096580506c83f30e29fae8a7b96" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>carrier</name></member>
+      <member refid="structdsd__state_1a53525827efbe0fa4d3c6cae5804d40dd" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>center</name></member>
+      <member refid="structdsd__state_1a4421f85bd686163270a4903b740e154b" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>cur_mp</name></member>
+      <member refid="structdsd__state_1a0dead5b44377919ac386990dd7c2d886" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>currentslot</name></member>
+      <member refid="structdsd__state_1ae11739895c6ea304ff3a39681b4b13a0" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>dibit_buf</name></member>
+      <member refid="structdsd__state_1af49ace3a37a5b92387ab6860eca30e28" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>dibit_buf_p</name></member>
+      <member refid="structdsd__state_1af1a6f0d4aea0eca2cfb7a70a094c5f42" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>err_str</name></member>
+      <member refid="structdsd__state_1a8b4948b432c7dd33b7bda92ff54b8127" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>errs</name></member>
+      <member refid="structdsd__state_1a11b1b24e3dc3aebeda94352047785306" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>errs2</name></member>
+      <member refid="structdsd__state_1a46af1d2c56d12e538b88e8665d0f6a63" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>firstframe</name></member>
+      <member refid="structdsd__state_1a5fac13ef5103237283053d9194920e14" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>fsubtype</name></member>
+      <member refid="structdsd__state_1a57c9cc87ea3f00a7a697bc65d878a364" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>ftype</name></member>
+      <member refid="structdsd__state_1a2684c42faad6e174566d0ff944250d23" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>input_length</name></member>
+      <member refid="structdsd__state_1a78c0189c69f892e5ad79acd71735f5aa" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>input_mutex</name></member>
+      <member refid="structdsd__state_1a24fc36b3b04411bdf068153ea8644173" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>input_offset</name></member>
+      <member refid="structdsd__state_1ad4128c870fbf6f4cd1d911363f68c8b2" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>input_ready</name></member>
+      <member refid="structdsd__state_1a343f1bfa180d45d0962f94db050f509c" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>input_samples</name></member>
+      <member refid="structdsd__state_1a63ccff9a174241987d8b8790f8f63a3d" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>inv_p25_heuristics</name></member>
+      <member refid="structdsd__state_1a1a8cc99bd7bc3e5002352ff91c964609" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>jitter</name></member>
+      <member refid="structdsd__state_1a917be8fc1b68a4a8109158e54f78054d" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>keyid</name></member>
+      <member refid="structdsd__state_1ac048c7e1731f508c73f1fa6518a29458" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>last_dibit</name></member>
+      <member refid="structdsd__state_1a484e59989183ac0eed66f86c8efdf596" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lastp25type</name></member>
+      <member refid="structdsd__state_1ad63df64ccd77d33fc31a65c209ff1eee" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lastsample</name></member>
+      <member refid="structdsd__state_1a0afd4470685966647da839662945bbb4" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lastsrc</name></member>
+      <member refid="structdsd__state_1a0617a706738d5c33d15a4bfd5a68d07a" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lastsynctype</name></member>
+      <member refid="structdsd__state_1aea0596e76353383a2a2a5c41827c6502" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lasttg</name></member>
+      <member refid="structdsd__state_1a50df6cd00d5c2dfa7c91ae4876eb9031" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>lmid</name></member>
+      <member refid="structdsd__state_1a50eb3360e05e9d455b1499982712f63a" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>max</name></member>
+      <member refid="structdsd__state_1a0f1e3b1856e9362dcb099946b5f1dde3" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>maxbuf</name></member>
+      <member refid="structdsd__state_1a1b111953cad092c472950919d9477c01" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>maxref</name></member>
+      <member refid="structdsd__state_1ad51fbcf25fa75b4553b3d36a90fd7283" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>mbe_file_type</name></member>
+      <member refid="structdsd__state_1a9e754261a59eb57a0396b19967593e34" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>midx</name></member>
+      <member refid="structdsd__state_1aa6b0a426bb245fa40a428de108fb4bcd" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>min</name></member>
+      <member refid="structdsd__state_1ade10da2b7bb17d83ef0796c2eaf1fe58" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>minbuf</name></member>
+      <member refid="structdsd__state_1a0490187fd6918845e72d3be1b6079dd3" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>minref</name></member>
+      <member refid="structdsd__state_1a9271f5f83b734abc050161c097734e08" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>nac</name></member>
+      <member refid="structdsd__state_1a7f36cc8e4c7713abc26d29c227b50ad2" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>numflips</name></member>
+      <member refid="structdsd__state_1a8d327e32a11b6b68f9a8a85866aa782f" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>numtdulc</name></member>
+      <member refid="structdsd__state_1a7a5416d28a85efe43120f1aa682ad8fe" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>offset</name></member>
+      <member refid="structdsd__state_1aa05878e57781285fc92746bfe2def099" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>optind</name></member>
+      <member refid="structdsd__state_1a5d54eda9a39528245a36d6fa9174fb39" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_buffer</name></member>
+      <member refid="structdsd__state_1aceed18c6fd521dbb99f3abc923bfb476" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_finished</name></member>
+      <member refid="structdsd__state_1ada6c07004925e5a41df17358467e763c" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_length</name></member>
+      <member refid="structdsd__state_1a583eb7f3001b9b13e188bd62d7905208" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_mutex</name></member>
+      <member refid="structdsd__state_1a329804488b06a9c5128fa09ffe986376" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_num_samples</name></member>
+      <member refid="structdsd__state_1a4549d0584cef6049e04922c045bc926f" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_offset</name></member>
+      <member refid="structdsd__state_1abb71df2fb03c312e6692f6e8d07bab05" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_ready</name></member>
+      <member refid="structdsd__state_1a9b90ee1d1a9b5f996464f5e0d6d6ce40" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>output_samples</name></member>
+      <member refid="structdsd__state_1a847936bcdea6ced3c42e05d0d4f89dac" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>p25_heuristics</name></member>
+      <member refid="structdsd__state_1a7a1d54f8b1fc9ddafeb482ac002c9353" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>p25kid</name></member>
+      <member refid="structdsd__state_1a712431b4de848c7180e743e56cd059dc" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>prev_mp</name></member>
+      <member refid="structdsd__state_1ad46cc9266ea07744673698b783a3059a" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>prev_mp_enhanced</name></member>
+      <member refid="structdsd__state_1a5e35df4223bbcc80ff1fec7cf312ad65" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>repeat</name></member>
+      <member refid="structdsd__state_1a0bef0cc9c2532429879b9b1ba4adf250" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>rf_mod</name></member>
+      <member refid="structdsd__state_1ab066936e2a25b354ba1fdd89a6243a32" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>samplesPerSymbol</name></member>
+      <member refid="structdsd__state_1a720002b58ec4762c3929bec4301c64e7" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>sbuf</name></member>
+      <member refid="structdsd__state_1a6b89254f6cb8c2fa44360f3892457c8c" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>sidx</name></member>
+      <member refid="structdsd__state_1a9786bc249cbaf38444216088a61f7aba" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>slot0light</name></member>
+      <member refid="structdsd__state_1a29ad05a1496ee614abd283a55a40e910" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>slot1light</name></member>
+      <member refid="structdsd__state_1afcf743b67924b0f71519dbac899c2fc8" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>symbolCenter</name></member>
+      <member refid="structdsd__state_1aea0d335374f9ab8c333c284f24b6120c" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>symbolcnt</name></member>
+      <member refid="structdsd__state_1ad962720e338ebe0221cc13b237d4cc3b" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>synctype</name></member>
+      <member refid="structdsd__state_1aaa4a089d3d839efff38f725791dfaaef" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>tg</name></member>
+      <member refid="structdsd__state_1a4c1b3574b6c22eaf6fcab629301eb7f2" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>tgcount</name></member>
+      <member refid="structdsd__state_1a40674e07634bc63cf3bee3df82c7ef04" prot="public" virt="non-virtual"><scope>dsd_state</scope><name>umid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

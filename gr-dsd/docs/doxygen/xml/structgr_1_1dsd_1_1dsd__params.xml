@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structgr_1_1dsd_1_1dsd__params" kind="struct" language="C++" prot="public">
+    <compoundname>gr::dsd::dsd_params</compoundname>
+    <includes refid="dsd__block__ff__impl_8h" local="no">dsd_block_ff_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1dsd_1_1dsd__params_1a3c30b43d9f30aa4acf24f9bcb3e86880" prot="public" static="no" mutable="no">
+        <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref></type>
+        <definition>dsd_opts gr::dsd::dsd_params::opts</definition>
+        <argsstring></argsstring>
+        <name>opts</name>
+        <qualifiedname>gr::dsd::dsd_params::opts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="23" column="14" bodyfile="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1dsd_1_1dsd__params_1a4e89646cd26564a4583931935078c987" prot="public" static="no" mutable="no">
+        <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref></type>
+        <definition>dsd_state gr::dsd::dsd_params::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <qualifiedname>gr::dsd::dsd_params::state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="24" column="15" bodyfile="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>P25Heuristics</label>
+        <link refid="structP25Heuristics"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>symbols</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SymbolHeuristics</label>
+        <link refid="structSymbolHeuristics"/>
+      </node>
+      <node id="2">
+        <label>dsd_opts</label>
+        <link refid="structdsd__opts"/>
+      </node>
+      <node id="3">
+        <label>dsd_state</label>
+        <link refid="structdsd__state"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cur_mp</edgelabel>
+          <edgelabel>prev_mp</edgelabel>
+          <edgelabel>prev_mp_enhanced</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>inv_p25_heuristics</edgelabel>
+          <edgelabel>p25_heuristics</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::dsd::dsd_params</label>
+        <link refid="structgr_1_1dsd_1_1dsd__params"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>opts</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mbe_parameters</label>
+        <link refid="structmbe__parameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="21" column="1" bodyfile="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structgr_1_1dsd_1_1dsd__params_1a3c30b43d9f30aa4acf24f9bcb3e86880" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_params</scope><name>opts</name></member>
+      <member refid="structgr_1_1dsd_1_1dsd__params_1a4e89646cd26564a4583931935078c987" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_params</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

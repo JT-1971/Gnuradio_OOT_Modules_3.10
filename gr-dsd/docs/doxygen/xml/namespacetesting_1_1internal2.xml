@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacetesting_1_1internal2" kind="namespace" language="C++">
+    <compoundname>testing::internal2</compoundname>
+    <innerclass refid="classtesting_1_1internal2_1_1TypeWithoutFormatter" prot="public">testing::internal2::TypeWithoutFormatter</innerclass>
+    <innerclass refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_3_01T_00_01kConvertibleToInteger_01_4" prot="public">testing::internal2::TypeWithoutFormatter&lt; T, kConvertibleToInteger &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_3_01T_00_01kProtobuf_01_4" prot="public">testing::internal2::TypeWithoutFormatter&lt; T, kProtobuf &gt;</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TypeKind</name>
+        <qualifiedname>testing::internal2::TypeKind</qualifiedname>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57ab6c394f7612d98d3a4a0514b2d6eb840" prot="public">
+          <name>kProtobuf</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a17045378f0cb6cac7737d414d39c720e" prot="public">
+          <name>kConvertibleToInteger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a36261578e764cf2fabfa058345c95016" prot="public">
+          <name>kOtherType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57ab6c394f7612d98d3a4a0514b2d6eb840" prot="public">
+          <name>kProtobuf</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a17045378f0cb6cac7737d414d39c720e" prot="public">
+          <name>kConvertibleToInteger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a36261578e764cf2fabfa058345c95016" prot="public">
+          <name>kOtherType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="120" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TypeKind</name>
+        <qualifiedname>testing::internal2::TypeKind</qualifiedname>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57ab6c394f7612d98d3a4a0514b2d6eb840" prot="public">
+          <name>kProtobuf</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a17045378f0cb6cac7737d414d39c720e" prot="public">
+          <name>kConvertibleToInteger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a36261578e764cf2fabfa058345c95016" prot="public">
+          <name>kOtherType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57ab6c394f7612d98d3a4a0514b2d6eb840" prot="public">
+          <name>kProtobuf</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a17045378f0cb6cac7737d414d39c720e" prot="public">
+          <name>kConvertibleToInteger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57a36261578e764cf2fabfa058345c95016" prot="public">
+          <name>kOtherType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" line="120" column="1" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" bodystart="120" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetesting_1_1internal2_1a140c8efd51e63a3def98445bff107518" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t testing::internal2::kProtobufOneLinerMaxLength</definition>
+        <argsstring></argsstring>
+        <name>kProtobufOneLinerMaxLength</name>
+        <qualifiedname>testing::internal2::kProtobufOneLinerMaxLength</qualifiedname>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="144" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="144" bodyend="-1"/>
+        <referencedby refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_3_01T_00_01kProtobuf_01_4_1ac96fb775dc776f02da9a671ea0e04599" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="149" endline="155">testing::internal2::TypeWithoutFormatter&lt; T, kProtobuf &gt;::PrintValue</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacetesting_1_1internal2_1a9fbf8e07c0f94dc74d6ef5e56cd3c553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> void</type>
+        <definition>GTEST_API_ void testing::internal2::PrintBytesInObjectTo</definition>
+        <argsstring>(const unsigned char *obj_bytes, size_t count, ::std::ostream *os)</argsstring>
+        <name>PrintBytesInObjectTo</name>
+        <qualifiedname>testing::internal2::PrintBytesInObjectTo</qualifiedname>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>obj_bytes</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="114" column="17" declfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" declline="114" declcolumn="17"/>
+        <referencedby refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_1a6651f6f7be2c0f899729eeb6038f76d3" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="135" endline="138">testing::internal2::TypeWithoutFormatter&lt; T, kTypeKind &gt;::PrintValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacetesting_1_1internal2_1aabfdaa0c4719ce3bf82964d0fcf8d999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Char</type>
+          </param>
+          <param>
+            <type>typename CharTraits</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>::std::basic_ostream&lt; Char, CharTraits &gt; &amp;</type>
+        <definition>::std::basic_ostream&lt; Char, CharTraits &gt; &amp; testing::internal2::operator&lt;&lt;</definition>
+        <argsstring>(::std::basic_ostream&lt; Char, CharTraits &gt; &amp;os, const T &amp;x)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>testing::internal2::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>::std::basic_ostream&lt; Char, CharTraits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="144" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="199" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="110" column="1"/>
+  </compounddef>
+</doxygen>

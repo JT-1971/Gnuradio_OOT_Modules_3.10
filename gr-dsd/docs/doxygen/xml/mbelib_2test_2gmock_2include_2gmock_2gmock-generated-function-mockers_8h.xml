@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h</compoundname>
+    <includes local="yes">gmock/gmock-spec-builders.h</includes>
+    <includes local="yes">gmock/internal/gmock-internal-utils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-generated-function-mockers.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gmock/gmock-spec-builders.h</label>
+      </node>
+      <node id="3">
+        <label>gmock/internal/gmock-internal-utils.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07_08_4" prot="public">testing::internal::FunctionMocker&lt; R()&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6, A7)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_00_01A8_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6, A7, A8)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_00_01A8_00_01A9_08_4" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6, A7, A8, A9)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_0079295c90ba14a714e84d5a856a5b50dd" prot="public">testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07_08_4" prot="public">testing::MockFunction&lt; R()&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_08_4" prot="public">testing::MockFunction&lt; R(A0)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4" prot="public">testing::MockFunction&lt; R(A0, A1)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_00_01A5_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4, A5)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4, A5, A6)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4, A5, A6, A7)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_00_01A8_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4, A5, A6, A7, A8)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_00_01A7_00_01A8_00_01A9_08_4" prot="public">testing::MockFunction&lt; R(A0, A1, A2, A3, A4, A5, A6, A7, A8, A9)&gt;</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" prot="public" static="no">
+        <name>GMOCK_RESULT_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::Result</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="334" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="334" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" prot="public" static="no">
+        <name>GMOCK_ARG_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>N</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::Argument##N</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="339" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="339" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" prot="public" static="no">
+        <name>GMOCK_MATCHER_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>N</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    const <ref refid="classtesting_1_1Matcher" kindref="compound">::testing::Matcher</ref>&lt;<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, N, __VA_ARGS__)&gt;&amp;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="344" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="344" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" prot="public" static="no">
+        <name>GMOCK_MOCKER_</name>
+        <param><defname>arity</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>Method</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1ae3c336cbe1ae2bd1b1d019333e4428a0" kindref="member">GTEST_CONCAT_TOKEN_</ref>(gmock##constness##arity##_##Method##_, __LINE__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="349" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="349" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" prot="public" static="no">
+        <name>GMOCK_METHOD0_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      ) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 0), \
+        this_method_does_not_take_0_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(0, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(0, constness, Method).Invoke(); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method() constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(0, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(0, constness, Method).With(); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(0, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="353" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="353" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" prot="public" static="no">
+        <name>GMOCK_METHOD1_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 1), \
+        this_method_does_not_take_1_argument); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(1, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(1, constness, Method).Invoke(gmock_a1); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(1, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(1, constness, Method).With(gmock_a1); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(1, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="372" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="372" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" prot="public" static="no">
+        <name>GMOCK_METHOD2_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 2), \
+        this_method_does_not_take_2_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(2, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(2, constness, Method).Invoke(gmock_a1, gmock_a2); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(2, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(2, constness, Method).With(gmock_a1, gmock_a2); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(2, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="391" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="391" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" prot="public" static="no">
+        <name>GMOCK_METHOD3_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 3, __VA_ARGS__) gmock_a3) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 3), \
+        this_method_does_not_take_3_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(3, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(3, constness, Method).Invoke(gmock_a1, gmock_a2, \
+        gmock_a3); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 3, __VA_ARGS__) gmock_a3) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(3, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(3, constness, Method).With(gmock_a1, gmock_a2, \
+        gmock_a3); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(3, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="412" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="412" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" prot="public" static="no">
+        <name>GMOCK_METHOD4_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 4, __VA_ARGS__) gmock_a4) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 4), \
+        this_method_does_not_take_4_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(4, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(4, constness, Method).Invoke(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 4, __VA_ARGS__) gmock_a4) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(4, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(4, constness, Method).With(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(4, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="437" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="437" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" prot="public" static="no">
+        <name>GMOCK_METHOD5_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 5, __VA_ARGS__) gmock_a5) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 5), \
+        this_method_does_not_take_5_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(5, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(5, constness, Method).Invoke(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 5, __VA_ARGS__) gmock_a5) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(5, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(5, constness, Method).With(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(5, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="464" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="464" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" prot="public" static="no">
+        <name>GMOCK_METHOD6_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 5, __VA_ARGS__) gmock_a5, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 6, __VA_ARGS__) gmock_a6) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 6), \
+        this_method_does_not_take_6_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(6, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(6, constness, Method).Invoke(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5, gmock_a6); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 5, __VA_ARGS__) gmock_a5, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 6, __VA_ARGS__) gmock_a6) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(6, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(6, constness, Method).With(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5, gmock_a6); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(6, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="493" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="493" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" prot="public" static="no">
+        <name>GMOCK_METHOD7_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0e9d94e9c77df84f1103af06feee1077" kindref="member">GMOCK_RESULT_</ref>(tn, __VA_ARGS__) ct Method( \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 5, __VA_ARGS__) gmock_a5, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 6, __VA_ARGS__) gmock_a6, \
+      <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a887575cc1c31158fba808180a10c004f" kindref="member">GMOCK_ARG_</ref>(tn, 7, __VA_ARGS__) gmock_a7) constness { \
+    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" kindref="member">GTEST_COMPILE_ASSERT_</ref>((<ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt;                          \
+        tn <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">::testing::internal::Function</ref>&lt;__VA_ARGS__&gt;::ArgumentTuple&gt;::value \
+            == 7), \
+        this_method_does_not_take_7_arguments); \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(7, constness, Method).SetOwnerAndName(this, #Method); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(7, constness, Method).Invoke(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5, gmock_a6, gmock_a7); \
+  } \
+  ::testing::MockSpec&lt;__VA_ARGS__&gt;&amp; \
+      gmock_##Method(<ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 1, __VA_ARGS__) gmock_a1, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 2, __VA_ARGS__) gmock_a2, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 3, __VA_ARGS__) gmock_a3, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 4, __VA_ARGS__) gmock_a4, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 5, __VA_ARGS__) gmock_a5, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 6, __VA_ARGS__) gmock_a6, \
+                     <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa87d0009fe91f1c89d658776b55a769c" kindref="member">GMOCK_MATCHER_</ref>(tn, 7, __VA_ARGS__) gmock_a7) constness { \
+    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(7, constness, Method).RegisterOwner(this); \
+    return <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(7, constness, Method).With(gmock_a1, gmock_a2, \
+        gmock_a3, gmock_a4, gmock_a5, gmock_a6, gmock_a7); \
+  } \
+  mutable <ref refid="classtesting_1_1internal_1_1FunctionMocker" kindref="compound">::testing::FunctionMocker</ref>&lt;__VA_ARGS__&gt; <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7d362499e27b1bc3a9806dd3cf58a5b7" kindref="member">GMOCK_MOCKER_</ref>(7, constness, \
+      Method)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="524" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="524" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" prot="public" static="no">
+        <name>GMOCK_METHOD8_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="557" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="557" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" prot="public" static="no">
+        <name>GMOCK_METHOD9_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="592" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="592" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" prot="public" static="no">
+        <name>GMOCK_METHOD10_</name>
+        <param><defname>tn</defname></param>
+        <param><defname>constness</defname></param>
+        <param><defname>ct</defname></param>
+        <param><defname>Method</defname></param>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="631" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="631" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a411c69e9d489d590480f728d365ae450" prot="public" static="no">
+        <name>MOCK_METHOD0</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="672" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ac49d366be035ee87b73264a29059cdc7" prot="public" static="no">
+        <name>MOCK_METHOD1</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="673" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab3fb7d97f21dc99205db38a14df4a1c4" prot="public" static="no">
+        <name>MOCK_METHOD2</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="674" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af11ebf7fafb231778846dba77725cfdd" prot="public" static="no">
+        <name>MOCK_METHOD3</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="675" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a111d70ee62b09089ec3cd7d6662e5cd2" prot="public" static="no">
+        <name>MOCK_METHOD4</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="676" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9b83bed95e89664e61d3a36174de0052" prot="public" static="no">
+        <name>MOCK_METHOD5</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="677" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1add8f8f786444c2c85ac67f550dbde5a6" prot="public" static="no">
+        <name>MOCK_METHOD6</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="678" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a01f3369877a0c52f59c006fbd54b6a10" prot="public" static="no">
+        <name>MOCK_METHOD7</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="679" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae77220bef9ab254c331b9026a3d18dba" prot="public" static="no">
+        <name>MOCK_METHOD8</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="680" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad6b30841fe780994d216cc8829cc127f" prot="public" static="no">
+        <name>MOCK_METHOD9</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="681" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a01760fdd295f5a92264eed6a9ff1dbf8" prot="public" static="no">
+        <name>MOCK_METHOD10</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="682" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ac86e04e649fa8bf35b5f0149a13c935d" prot="public" static="no">
+        <name>MOCK_CONST_METHOD0</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="684" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a6f76aeb56f492cfe538e177b6aa77965" prot="public" static="no">
+        <name>MOCK_CONST_METHOD1</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="685" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a31c489715704817a3f40d178404c61e8" prot="public" static="no">
+        <name>MOCK_CONST_METHOD2</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="686" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="686" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e67763df6705172e1a2ae92f1446bbc" prot="public" static="no">
+        <name>MOCK_CONST_METHOD3</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="687" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="687" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a4614e9d6b24dff60c30dd4dedf494c6c" prot="public" static="no">
+        <name>MOCK_CONST_METHOD4</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="688" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="688" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab7021ec2b869e7c9ea90363ee675f19b" prot="public" static="no">
+        <name>MOCK_CONST_METHOD5</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="689" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a5081a185ba264d599357398952c23af1" prot="public" static="no">
+        <name>MOCK_CONST_METHOD6</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="690" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="690" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0f0e63ed14beab1d85f0160bdbed9930" prot="public" static="no">
+        <name>MOCK_CONST_METHOD7</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="691" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="691" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a614ee58b7c9ab72e90c850d4bb97a502" prot="public" static="no">
+        <name>MOCK_CONST_METHOD8</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="692" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab7429646bacf56a7d560a3d81d497880" prot="public" static="no">
+        <name>MOCK_CONST_METHOD9</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="693" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a4f16ede0ef660fb6dc49e5f5d226fbf9" prot="public" static="no">
+        <name>MOCK_CONST_METHOD10</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="694" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a55a5a1a22cec416ead5605a2da39eec8" prot="public" static="no">
+        <name>MOCK_METHOD0_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="696" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a8e5b9539726be5c7a13f1aa3bcc1f29f" prot="public" static="no">
+        <name>MOCK_METHOD1_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="697" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1adb6e8d8bd6ab614c62d8ecc2ec163e3c" prot="public" static="no">
+        <name>MOCK_METHOD2_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="698" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0b1576f68e6161f106e3d9ee7e3ac28b" prot="public" static="no">
+        <name>MOCK_METHOD3_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="699" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a17dde4ac8109f0bf1b73e3509e42c879" prot="public" static="no">
+        <name>MOCK_METHOD4_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="700" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a3566f9bd057c5cee1841f55cbf685947" prot="public" static="no">
+        <name>MOCK_METHOD5_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="701" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0d16357a0043d36b167a1c42ef33f672" prot="public" static="no">
+        <name>MOCK_METHOD6_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="702" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a31bdd1d1448052f4122ecebf937a8f44" prot="public" static="no">
+        <name>MOCK_METHOD7_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="703" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa7e6573bb6a57f2a2d3c2875caeffaa3" prot="public" static="no">
+        <name>MOCK_METHOD8_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="704" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a838c68cbdf422cfc703b83daf1d1f1e1" prot="public" static="no">
+        <name>MOCK_METHOD9_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="705" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa28723ba52933b5ea9a4ffa1a73d15e1" prot="public" static="no">
+        <name>MOCK_METHOD10_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(typename, , , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="706" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a5fc82f3de9d5e83b0a6bb6cda98a8887" prot="public" static="no">
+        <name>MOCK_CONST_METHOD0_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="708" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="708" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a46dfe8631eee86b15a79aff8a2866621" prot="public" static="no">
+        <name>MOCK_CONST_METHOD1_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="710" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="710" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a4337d7257aa4edff048aa406073b718b" prot="public" static="no">
+        <name>MOCK_CONST_METHOD2_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="712" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="712" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a4c4c3417c197729f647fb0c700a41405" prot="public" static="no">
+        <name>MOCK_CONST_METHOD3_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="714" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="714" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a52290b1b841869d2d624b60ba1b6c3c4" prot="public" static="no">
+        <name>MOCK_CONST_METHOD4_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="716" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="716" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a37d02091cf2e4d31c11f38609d12a815" prot="public" static="no">
+        <name>MOCK_CONST_METHOD5_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="718" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="718" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a18f8d1d9ac6c6684bd681342e130662b" prot="public" static="no">
+        <name>MOCK_CONST_METHOD6_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="720" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="720" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a6e9ae85c17b12ba8882e06b3785d4582" prot="public" static="no">
+        <name>MOCK_CONST_METHOD7_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="722" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="722" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a430c2eae077074190d4b380868d42944" prot="public" static="no">
+        <name>MOCK_CONST_METHOD8_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="724" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="724" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7875d0d77516825a4b9cee703ae85c6f" prot="public" static="no">
+        <name>MOCK_CONST_METHOD9_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="726" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="726" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa31d758cb898bad2d16ac706c204da7f" prot="public" static="no">
+        <name>MOCK_CONST_METHOD10_T</name>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(typename, const, , m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="728" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="728" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1acedf2c97e3493f4f39d35bbead8d9e4a" prot="public" static="no">
+        <name>MOCK_METHOD0_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="731" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="731" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a3ffee4ba10588254eb44e67603e9de71" prot="public" static="no">
+        <name>MOCK_METHOD1_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="733" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="733" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a27fcf1de830388291c2a81b144b8f89b" prot="public" static="no">
+        <name>MOCK_METHOD2_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="735" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="735" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1afef2985a236f7588139c690d395758fb" prot="public" static="no">
+        <name>MOCK_METHOD3_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="737" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="737" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a333774e6dda450fc85c241bff4b9957a" prot="public" static="no">
+        <name>MOCK_METHOD4_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="739" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="739" bodyend="740"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a195de665a5ab83cf56ac9562ccc73838" prot="public" static="no">
+        <name>MOCK_METHOD5_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="741" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="741" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1e55bb6ae5cfcb0403c867541f5f0931" prot="public" static="no">
+        <name>MOCK_METHOD6_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="743" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="743" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a696e2f91735b99b2a37c369a74bad647" prot="public" static="no">
+        <name>MOCK_METHOD7_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="745" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="745" bodyend="746"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a5d207db39768c12d6fecab03cfbe4d75" prot="public" static="no">
+        <name>MOCK_METHOD8_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="747" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="747" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a38494187d78c6a395f78c074d204f593" prot="public" static="no">
+        <name>MOCK_METHOD9_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="749" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="749" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af9641034cbd1f178dacd3515633d951f" prot="public" static="no">
+        <name>MOCK_METHOD10_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="751" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="751" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a001804410911b4ae2bc6f02a45a467e4" prot="public" static="no">
+        <name>MOCK_CONST_METHOD0_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="754" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="754" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a94f4b0954d3d72011acf5f288ca40d42" prot="public" static="no">
+        <name>MOCK_CONST_METHOD1_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="756" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="756" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a7c0507949996b9bae8b03fb6ea90d7a4" prot="public" static="no">
+        <name>MOCK_CONST_METHOD2_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="758" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="758" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ac10e04e26db63b6c2a452e05d3c89db8" prot="public" static="no">
+        <name>MOCK_CONST_METHOD3_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="760" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="760" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a15229a3933a49f5099ee010c6dcaadeb" prot="public" static="no">
+        <name>MOCK_CONST_METHOD4_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="762" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="762" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a8d5e56fa6111cd7ee468e6dacf8691b9" prot="public" static="no">
+        <name>MOCK_CONST_METHOD5_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="764" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="764" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a2d904ee47040f643e7b534c22603dd90" prot="public" static="no">
+        <name>MOCK_CONST_METHOD6_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="766" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="766" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a66076ace4a10740c553080e5273f69c3" prot="public" static="no">
+        <name>MOCK_CONST_METHOD7_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="768" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="768" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab66f6bb289f1105f7c0dac3421c4a7f5" prot="public" static="no">
+        <name>MOCK_CONST_METHOD8_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="770" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="770" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad422a4d4cb5e3b91478e66a26c2af63e" prot="public" static="no">
+        <name>MOCK_CONST_METHOD9_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="772" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="772" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a484ce7e8fbcc26b5145e893b48e7cd7d" prot="public" static="no">
+        <name>MOCK_CONST_METHOD10_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="774" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="774" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a68a3dcece1b6932b4dbda2216ff4fa90" prot="public" static="no">
+        <name>MOCK_METHOD0_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="777" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="777" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a3028c1938f6b819b64400c426ef1e30d" prot="public" static="no">
+        <name>MOCK_METHOD1_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="779" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="779" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a18e4e8da0bdf27bde5ffca30587ff074" prot="public" static="no">
+        <name>MOCK_METHOD2_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="781" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="781" bodyend="782"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1e723cc1c62c9fedb9f54ee30c111047" prot="public" static="no">
+        <name>MOCK_METHOD3_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="783" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="783" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aae18ec395b1ba3e991a25ffb997821ee" prot="public" static="no">
+        <name>MOCK_METHOD4_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="785" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="785" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a04f83b372ebe63dea92cb5c3502ff345" prot="public" static="no">
+        <name>MOCK_METHOD5_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="787" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="787" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0dfe65f974c2b6d60cac3114489b4527" prot="public" static="no">
+        <name>MOCK_METHOD6_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="789" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="789" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae820565d836fda34401e8bdcfaaa7605" prot="public" static="no">
+        <name>MOCK_METHOD7_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="791" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="791" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a0cf1d3aba371dfe424d27b97b5473174" prot="public" static="no">
+        <name>MOCK_METHOD8_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="793" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="793" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad1bd879e10bad098cf68c27c75f4be09" prot="public" static="no">
+        <name>MOCK_METHOD9_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="795" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="795" bodyend="796"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0460a593b7868a5573117032d6d2e3e" prot="public" static="no">
+        <name>MOCK_METHOD10_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(typename, , ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="797" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="797" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a4d7f87bf059071344e3a80c7fd1b9051" prot="public" static="no">
+        <name>MOCK_CONST_METHOD0_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae0d290ffa58d7c624b2e3487ba1252f4" kindref="member">GMOCK_METHOD0_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="800" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="800" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a73aa181fb48e360fd18f1c2b7d9073b0" prot="public" static="no">
+        <name>MOCK_CONST_METHOD1_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a1bc0012d62440dda77208dabdf4925c9" kindref="member">GMOCK_METHOD1_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="802" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="802" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a74512829feca879a8e11731f0442d7b7" prot="public" static="no">
+        <name>MOCK_CONST_METHOD2_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a885295ca6bebb15efb3fc786218c5d47" kindref="member">GMOCK_METHOD2_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="804" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="804" bodyend="805"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ac19708f4d74bb11d9aeecb7c5b74dec8" prot="public" static="no">
+        <name>MOCK_CONST_METHOD3_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af7c77ba511c631de02bb8c45a6ed3045" kindref="member">GMOCK_METHOD3_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="806" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="806" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1acd1c5b5fca7c75ef5ed812f1e495a3f7" prot="public" static="no">
+        <name>MOCK_CONST_METHOD4_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab6430f2cfad9de4aca5258ea559294bb" kindref="member">GMOCK_METHOD4_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="808" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="808" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ae1e95e9eb000b737025cb74da20398ac" prot="public" static="no">
+        <name>MOCK_CONST_METHOD5_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a9e3ecd392499ab19a4a6d3adcabf56f6" kindref="member">GMOCK_METHOD5_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="810" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="810" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a3acffd86eecfbcfe829231930406610b" prot="public" static="no">
+        <name>MOCK_CONST_METHOD6_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ad0ca7f6973a076d0af4c953f8ed91842" kindref="member">GMOCK_METHOD6_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="812" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="812" bodyend="813"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ac041233126a7740a136fc7a9737613dd" prot="public" static="no">
+        <name>MOCK_CONST_METHOD7_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1ab98a8399ba62b53b375c2807f4d39d2f" kindref="member">GMOCK_METHOD7_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="814" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="814" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa4ed75d9f9d23eb0a00543d3ac1ed093" prot="public" static="no">
+        <name>MOCK_CONST_METHOD8_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa84a36427c44505207b7cad5dec7ad67" kindref="member">GMOCK_METHOD8_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="816" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="816" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1afb8878388e0875e109d1fd6902471780" prot="public" static="no">
+        <name>MOCK_CONST_METHOD9_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1aa820171a19cc587c247dbe05cbffc55f" kindref="member">GMOCK_METHOD9_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="818" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="818" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1af697bae09aedcdfb3d6897081efe7541" prot="public" static="no">
+        <name>MOCK_CONST_METHOD10_T_WITH_CALLTYPE</name>
+        <param><defname>ct</defname></param>
+        <param><defname>m</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h_1a81a48223a8771de36ef92ac6d56f6e81" kindref="member">GMOCK_METHOD10_</ref>(typename, const, ct, m, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="820" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="820" bodyend="821"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h"/>
+  </compounddef>
+</doxygen>

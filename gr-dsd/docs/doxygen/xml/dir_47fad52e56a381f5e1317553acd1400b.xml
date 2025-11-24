@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_47fad52e56a381f5e1317553acd1400b" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="mbelib_2test_2gtest_2src_2gtest-internal-inl_8h">mbelib/test/gtest/src/gtest-internal-inl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/src/"/>
+  </compounddef>
+</doxygen>

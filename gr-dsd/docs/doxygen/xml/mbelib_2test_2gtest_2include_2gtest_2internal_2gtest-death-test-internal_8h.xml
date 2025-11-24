@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gtest/include/gtest/internal/gtest-death-test-internal.h</compoundname>
+    <includes local="yes">gtest/internal/gtest-internal.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-death-test-internal.h</label>
+        <link refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest/internal/gtest-internal.h</label>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h_1a29a145cda8bd2d0c6a78b0ac1d670d18" prot="public" static="no">
+        <name>GTEST_UNSUPPORTED_DEATH_TEST_</name>
+        <param><defname>statement</defname></param>
+        <param><defname>regex</defname></param>
+        <param><defname>terminator</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1a00b3684a621ce1422b55a0e7e8a6aecb" kindref="member">GTEST_AMBIGUOUS_ELSE_BLOCKER_</ref> \
+    if (<ref refid="namespacetesting_1_1internal_1a4d46f09c3bfe68700b7f728d2cc3782f" kindref="member">::testing::internal::AlwaysTrue</ref>()) { \
+      <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1a8ef4cb4c465db8c15464aecc6d9510ef" kindref="member">GTEST_LOG_</ref>(WARNING) \
+          &lt;&lt; &quot;Death tests are not supported on this platform.\n&quot; \
+          &lt;&lt; &quot;Statement &apos;&quot; #statement &quot;&apos; cannot be verified.&quot;; \
+    } else if (<ref refid="namespacetesting_1_1internal_1a4b24c851ab13569b1b15b3d259b60d2e" kindref="member">::testing::internal::AlwaysFalse</ref>()) { \
+      <ref refid="classtesting_1_1internal_1_1RE_1a1e81f9a87211bdca645e025f8f0236c8" kindref="member">::testing::internal::RE::PartialMatch</ref>(&quot;.*&quot;, (regex)); \
+      <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a2e66f7dfc5cb87e0fa0289f653173c69" kindref="member">GTEST_SUPPRESS_UNREACHABLE_CODE_WARNING_BELOW_</ref>(statement); \
+      terminator; \
+    } else \
+      <ref refid="classtesting_1_1Message" kindref="compound">::testing::Message</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-death-test-internal.h" line="301" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-death-test-internal.h" bodystart="301" bodyend="312"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-death-test-internal.h"/>
+  </compounddef>
+</doxygen>

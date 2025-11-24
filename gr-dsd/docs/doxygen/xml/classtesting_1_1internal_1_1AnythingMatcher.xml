@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1AnythingMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::AnythingMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1AnythingMatcher_1ae98ebd3352f996a7fb01679917365474" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::AnythingMatcher::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::AnythingMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="860" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="860" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1AnythingMatcher_1ae98ebd3352f996a7fb01679917365474" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::AnythingMatcher::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::AnythingMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="860" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="860" bodyend="860"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="857" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="857" bodyend="861"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1AnythingMatcher_1ae98ebd3352f996a7fb01679917365474" prot="public" virt="non-virtual"><scope>testing::internal::AnythingMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1AnythingMatcher_1ae98ebd3352f996a7fb01679917365474" prot="public" virt="non-virtual"><scope>testing::internal::AnythingMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

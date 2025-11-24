@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1IsAProtocolMessage" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::IsAProtocolMessage</compoundname>
+    <basecompoundref refid="structtesting_1_1internal_1_1bool__constant" prot="public" virt="non-virtual">testing::internal::bool_constant&lt; ImplicitlyConvertible&lt; const T *, const ::ProtocolMessage * &gt;::value||ImplicitlyConvertible&lt; const T *, const ::proto2::Message * &gt;::value &gt;</basecompoundref>
+    <basecompoundref refid="structtesting_1_1internal_1_1bool__constant" prot="public" virt="non-virtual">testing::internal::bool_constant&lt; ImplicitlyConvertible&lt; const T *, const ::ProtocolMessage * &gt;::value||ImplicitlyConvertible&lt; const T *, const ::proto2::Message * &gt;::value &gt;</basecompoundref>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" local="no">gtest-internal.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::internal::bool_constant&lt; ImplicitlyConvertible&lt; const T *, const ::ProtocolMessage * &gt;::value||ImplicitlyConvertible&lt; const T *, const ::proto2::Message * &gt;::value &gt;</label>
+        <link refid="structtesting_1_1internal_1_1bool__constant"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::IsAProtocolMessage&lt; T &gt;</label>
+        <link refid="structtesting_1_1internal_1_1IsAProtocolMessage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::internal::bool_constant&lt; ImplicitlyConvertible&lt; const T *, const ::ProtocolMessage * &gt;::value||ImplicitlyConvertible&lt; const T *, const ::proto2::Message * &gt;::value &gt;</label>
+        <link refid="structtesting_1_1internal_1_1bool__constant"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::IsAProtocolMessage&lt; T &gt;</label>
+        <link refid="structtesting_1_1internal_1_1IsAProtocolMessage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="832" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="835" bodyend="836"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::IsAProtocolMessage</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::IsAProtocolMessage</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1a499fba6576296b04d99690a486424b32" prot="public" virt="non-virtual"><scope>testing::internal::IsAProtocolMessage</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

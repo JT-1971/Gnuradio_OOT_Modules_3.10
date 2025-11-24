@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1WithArgsAction" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::WithArgsAction</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <innerclass refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl" prot="private">testing::internal::WithArgsAction::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename InnerAction</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k1</declname>
+        <defname>k1</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k2</declname>
+        <defname>k2</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k3</declname>
+        <defname>k3</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k4</declname>
+        <defname>k4</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k5</declname>
+        <defname>k5</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k6</declname>
+        <defname>k6</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k7</declname>
+        <defname>k7</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k8</declname>
+        <defname>k8</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k9</declname>
+        <defname>k9</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k10</declname>
+        <defname>k10</defname>
+        <defval>-1</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1WithArgsAction_1a2afd51ea9f4b1c73e1dd7035b4dbee27" prot="private" static="no" mutable="no">
+        <type>const InnerAction</type>
+        <definition>const InnerAction testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::action_</definition>
+        <argsstring></argsstring>
+        <name>action_</name>
+        <qualifiedname>testing::internal::WithArgsAction::action_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="616" column="21" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="616" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1ab408f9c56c8f25564ef554b984e1c926" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::WithArgsAction</definition>
+        <argsstring>(const InnerAction &amp;action)</argsstring>
+        <name>WithArgsAction</name>
+        <qualifiedname>testing::internal::WithArgsAction::WithArgsAction</qualifiedname>
+        <param>
+          <type>const InnerAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="590" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="590" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1ab6d8f89fd5a54f2914da2523b2ba6ee5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::WithArgsAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="593" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="593" bodyend="593"/>
+        <references refid="namespacetesting_1aa254d28c8d883899cbf11ea2f05fc195" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="388" endline="390">testing::MakeAction</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1ab408f9c56c8f25564ef554b984e1c926" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::WithArgsAction</definition>
+        <argsstring>(const InnerAction &amp;action)</argsstring>
+        <name>WithArgsAction</name>
+        <qualifiedname>testing::internal::WithArgsAction::WithArgsAction</qualifiedname>
+        <param>
+          <type>const InnerAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="590" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="590" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1ab6d8f89fd5a54f2914da2523b2ba6ee5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::WithArgsAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="593" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="593" bodyend="593"/>
+        <references refid="namespacetesting_1aa254d28c8d883899cbf11ea2f05fc195" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="388" endline="390">testing::MakeAction</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1a18d435ae27f0b4b00a333a74bde746dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(WithArgsAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::WithArgsAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1WithArgsAction" kindref="compound">WithArgsAction</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="618" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1a18d435ae27f0b4b00a333a74bde746dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(WithArgsAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::WithArgsAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1WithArgsAction" kindref="compound">WithArgsAction</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="618" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="588" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="588" bodyend="619"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1a2afd51ea9f4b1c73e1dd7035b4dbee27" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>action_</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1a18d435ae27f0b4b00a333a74bde746dd" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1a18d435ae27f0b4b00a333a74bde746dd" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1ab6d8f89fd5a54f2914da2523b2ba6ee5" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1ab6d8f89fd5a54f2914da2523b2ba6ee5" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1ab408f9c56c8f25564ef554b984e1c926" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>WithArgsAction</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1ab408f9c56c8f25564ef554b984e1c926" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction</scope><name>WithArgsAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

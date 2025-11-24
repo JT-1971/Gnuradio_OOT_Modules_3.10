@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1String" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::String</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-string_8h" local="no">gtest-string.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1aea55761bd8e9ff8e3cbad262ac983d9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * testing::internal::String::CloneCString</definition>
+        <argsstring>(const char *c_str)</argsstring>
+        <name>CloneCString</name>
+        <qualifiedname>testing::internal::String::CloneCString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>c_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="69" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a06919f642bd47f0593196b460d352f24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CStringEquals</definition>
+        <argsstring>(const char *lhs, const char *rhs)</argsstring>
+        <name>CStringEquals</name>
+        <qualifiedname>testing::internal::String::CStringEquals</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="102" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1acbf0511e9ae5009f42de77e565f6ba61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::ShowWideCString</definition>
+        <argsstring>(const wchar_t *wide_c_str)</argsstring>
+        <name>ShowWideCString</name>
+        <qualifiedname>testing::internal::String::ShowWideCString</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>wide_c_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="108" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a4f5e053907ebced07fe0dc52dd2d1e85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::WideCStringEquals</definition>
+        <argsstring>(const wchar_t *lhs, const wchar_t *rhs)</argsstring>
+        <name>WideCStringEquals</name>
+        <qualifiedname>testing::internal::String::WideCStringEquals</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="116" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7ce24c41c67b928fe89434d3571c988c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CaseInsensitiveCStringEquals</definition>
+        <argsstring>(const char *lhs, const char *rhs)</argsstring>
+        <name>CaseInsensitiveCStringEquals</name>
+        <qualifiedname>testing::internal::String::CaseInsensitiveCStringEquals</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="124" column="15"/>
+        <referencedby refid="namespacetesting_1_1internal_1aebfd0cd34de52d7973a5b2d03ba848cf" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1028" endline="1030">testing::internal::CaseInsensitiveCStringEquals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a0a67eac434fa7800640c9d56cb91e105" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CaseInsensitiveWideCStringEquals</definition>
+        <argsstring>(const wchar_t *lhs, const wchar_t *rhs)</argsstring>
+        <name>CaseInsensitiveWideCStringEquals</name>
+        <qualifiedname>testing::internal::String::CaseInsensitiveWideCStringEquals</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="139" column="15"/>
+        <referencedby refid="namespacetesting_1_1internal_1ad5b31f61a3cc5b4226d3560f5b48f4dd" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1032" endline="1035">testing::internal::CaseInsensitiveCStringEquals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a3de1df085eddc89ef3f3833c67aee3fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::EndsWithCaseInsensitive</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;suffix)</argsstring>
+        <name>EndsWithCaseInsensitive</name>
+        <qualifiedname>testing::internal::String::EndsWithCaseInsensitive</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="144" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a51cab855f7ec6091e5886b6be5598ca2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatIntWidth2</definition>
+        <argsstring>(int value)</argsstring>
+        <name>FormatIntWidth2</name>
+        <qualifiedname>testing::internal::String::FormatIntWidth2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="148" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7bedf4780e0c938d203b73ddb17ff490" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatHexInt</definition>
+        <argsstring>(int value)</argsstring>
+        <name>FormatHexInt</name>
+        <qualifiedname>testing::internal::String::FormatHexInt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="151" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1ab3555eeb6abe4b7c6f63d865af10379d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatByte</definition>
+        <argsstring>(unsigned char value)</argsstring>
+        <name>FormatByte</name>
+        <qualifiedname>testing::internal::String::FormatByte</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="154" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1aea55761bd8e9ff8e3cbad262ac983d9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * testing::internal::String::CloneCString</definition>
+        <argsstring>(const char *c_str)</argsstring>
+        <name>CloneCString</name>
+        <qualifiedname>testing::internal::String::CloneCString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>c_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="69" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a06919f642bd47f0593196b460d352f24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CStringEquals</definition>
+        <argsstring>(const char *lhs, const char *rhs)</argsstring>
+        <name>CStringEquals</name>
+        <qualifiedname>testing::internal::String::CStringEquals</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="102" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1acbf0511e9ae5009f42de77e565f6ba61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::ShowWideCString</definition>
+        <argsstring>(const wchar_t *wide_c_str)</argsstring>
+        <name>ShowWideCString</name>
+        <qualifiedname>testing::internal::String::ShowWideCString</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>wide_c_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="108" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a4f5e053907ebced07fe0dc52dd2d1e85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::WideCStringEquals</definition>
+        <argsstring>(const wchar_t *lhs, const wchar_t *rhs)</argsstring>
+        <name>WideCStringEquals</name>
+        <qualifiedname>testing::internal::String::WideCStringEquals</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="116" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7ce24c41c67b928fe89434d3571c988c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CaseInsensitiveCStringEquals</definition>
+        <argsstring>(const char *lhs, const char *rhs)</argsstring>
+        <name>CaseInsensitiveCStringEquals</name>
+        <qualifiedname>testing::internal::String::CaseInsensitiveCStringEquals</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="124" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a0a67eac434fa7800640c9d56cb91e105" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::CaseInsensitiveWideCStringEquals</definition>
+        <argsstring>(const wchar_t *lhs, const wchar_t *rhs)</argsstring>
+        <name>CaseInsensitiveWideCStringEquals</name>
+        <qualifiedname>testing::internal::String::CaseInsensitiveWideCStringEquals</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="139" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a3de1df085eddc89ef3f3833c67aee3fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::String::EndsWithCaseInsensitive</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;suffix)</argsstring>
+        <name>EndsWithCaseInsensitive</name>
+        <qualifiedname>testing::internal::String::EndsWithCaseInsensitive</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="144" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a51cab855f7ec6091e5886b6be5598ca2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatIntWidth2</definition>
+        <argsstring>(int value)</argsstring>
+        <name>FormatIntWidth2</name>
+        <qualifiedname>testing::internal::String::FormatIntWidth2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="148" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7bedf4780e0c938d203b73ddb17ff490" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatHexInt</definition>
+        <argsstring>(int value)</argsstring>
+        <name>FormatHexInt</name>
+        <qualifiedname>testing::internal::String::FormatHexInt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="151" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1ab3555eeb6abe4b7c6f63d865af10379d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string testing::internal::String::FormatByte</definition>
+        <argsstring>(unsigned char value)</argsstring>
+        <name>FormatByte</name>
+        <qualifiedname>testing::internal::String::FormatByte</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="154" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7c370de44fce74608d0b7e3dd29de035" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <qualifiedname>testing::internal::String::String</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="157" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1String_1a7c370de44fce74608d0b7e3dd29de035" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <qualifiedname>testing::internal::String::String</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-string.h" line="157" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" line="58" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-string.h" bodystart="58" bodyend="158"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1String_1a7ce24c41c67b928fe89434d3571c988c" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CaseInsensitiveCStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a7ce24c41c67b928fe89434d3571c988c" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CaseInsensitiveCStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a0a67eac434fa7800640c9d56cb91e105" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CaseInsensitiveWideCStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a0a67eac434fa7800640c9d56cb91e105" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CaseInsensitiveWideCStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1aea55761bd8e9ff8e3cbad262ac983d9b" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CloneCString</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1aea55761bd8e9ff8e3cbad262ac983d9b" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CloneCString</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a06919f642bd47f0593196b460d352f24" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a06919f642bd47f0593196b460d352f24" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>CStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a3de1df085eddc89ef3f3833c67aee3fe" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>EndsWithCaseInsensitive</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a3de1df085eddc89ef3f3833c67aee3fe" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>EndsWithCaseInsensitive</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1ab3555eeb6abe4b7c6f63d865af10379d" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatByte</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1ab3555eeb6abe4b7c6f63d865af10379d" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatByte</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a7bedf4780e0c938d203b73ddb17ff490" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatHexInt</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a7bedf4780e0c938d203b73ddb17ff490" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatHexInt</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a51cab855f7ec6091e5886b6be5598ca2" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatIntWidth2</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a51cab855f7ec6091e5886b6be5598ca2" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>FormatIntWidth2</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1acbf0511e9ae5009f42de77e565f6ba61" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>ShowWideCString</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1acbf0511e9ae5009f42de77e565f6ba61" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>ShowWideCString</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a7c370de44fce74608d0b7e3dd29de035" prot="private" virt="non-virtual"><scope>testing::internal::String</scope><name>String</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a7c370de44fce74608d0b7e3dd29de035" prot="private" virt="non-virtual"><scope>testing::internal::String</scope><name>String</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a4f5e053907ebced07fe0dc52dd2d1e85" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>WideCStringEquals</name></member>
+      <member refid="classtesting_1_1internal_1_1String_1a4f5e053907ebced07fe0dc52dd2d1e85" prot="public" virt="non-virtual"><scope>testing::internal::String</scope><name>WideCStringEquals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

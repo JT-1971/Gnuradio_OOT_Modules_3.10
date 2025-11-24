@@ -1,0 +1,1257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1StrictMock" kind="class" language="C++" prot="public">
+    <compoundname>testing::StrictMock</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MockClass</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MockClass</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-nice-strict_8h" local="no">gmock-generated-nice-strict.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class MockClass</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1ad609d745db75306dd3b360b5410923fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>()</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="276" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a42db27ba0af29804db8589676817aff8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="284" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="284" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a345933f3f1a10de381a508f93e680c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="289" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1acc25729cd85a3a412106863894a30fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="295" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a6b42ef1460901ea91a2a09f44ae8fba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="301" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="301" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a2019f4e86224b2adbb9e9326bc175c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="308" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="308" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a17b452e1e2f57d7d10f7209587376eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="316" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="316" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4af48752fc22815250369292b9c064bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="324" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="324" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1aac6eaaad3e94491ada7bb43ee6149775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="333" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4129f247ae087d586fdb04f450422d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="342" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="342" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4936b0a5622b39e974deae12ecb1430b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9, const A10 &amp;a10)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>const A10 &amp;</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="351" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="351" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1ae22ba62955775b26c88937ee225db528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::StrictMock&lt; MockClass &gt;::~StrictMock</definition>
+        <argsstring>()</argsstring>
+        <name>~StrictMock</name>
+        <qualifiedname>testing::StrictMock::~StrictMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="358" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="358" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1ad609d745db75306dd3b360b5410923fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>()</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="276" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a42db27ba0af29804db8589676817aff8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="284" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="284" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a345933f3f1a10de381a508f93e680c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="289" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1acc25729cd85a3a412106863894a30fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="295" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a6b42ef1460901ea91a2a09f44ae8fba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="301" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="301" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a2019f4e86224b2adbb9e9326bc175c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="308" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="308" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a17b452e1e2f57d7d10f7209587376eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="316" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="316" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4af48752fc22815250369292b9c064bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="324" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="324" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1aac6eaaad3e94491ada7bb43ee6149775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="333" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4129f247ae087d586fdb04f450422d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="342" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="342" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1a4936b0a5622b39e974deae12ecb1430b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::StrictMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9, const A10 &amp;a10)</argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::StrictMock::StrictMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>const A10 &amp;</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="351" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="351" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1ae22ba62955775b26c88937ee225db528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::StrictMock&lt; MockClass &gt;::~StrictMock</definition>
+        <argsstring>()</argsstring>
+        <name>~StrictMock</name>
+        <qualifiedname>testing::StrictMock::~StrictMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="358" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="358" bodyend="361"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1af8425a436acea9e665a223971bac8a71" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(StrictMock)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::StrictMock::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1StrictMock" kindref="compound">StrictMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="364" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1StrictMock_1af8425a436acea9e665a223971bac8a71" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::StrictMock&lt; MockClass &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(StrictMock)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::StrictMock::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1StrictMock" kindref="compound">StrictMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="364" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MockClass</label>
+      </node>
+      <node id="1">
+        <label>testing::StrictMock&lt; MockClass &gt;</label>
+        <link refid="classtesting_1_1StrictMock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MockClass</label>
+      </node>
+      <node id="1">
+        <label>testing::StrictMock&lt; MockClass &gt;</label>
+        <link refid="classtesting_1_1StrictMock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="272" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="272" bodyend="365"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1StrictMock_1af8425a436acea9e665a223971bac8a71" prot="private" virt="non-virtual"><scope>testing::StrictMock</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1StrictMock_1af8425a436acea9e665a223971bac8a71" prot="private" virt="non-virtual"><scope>testing::StrictMock</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1StrictMock_1ad609d745db75306dd3b360b5410923fe" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a42db27ba0af29804db8589676817aff8" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a345933f3f1a10de381a508f93e680c6b" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1acc25729cd85a3a412106863894a30fe7" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a6b42ef1460901ea91a2a09f44ae8fba2" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a2019f4e86224b2adbb9e9326bc175c50" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a17b452e1e2f57d7d10f7209587376eef" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4af48752fc22815250369292b9c064bc" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1aac6eaaad3e94491ada7bb43ee6149775" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4129f247ae087d586fdb04f450422d3e" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4936b0a5622b39e974deae12ecb1430b" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1ad609d745db75306dd3b360b5410923fe" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a42db27ba0af29804db8589676817aff8" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a345933f3f1a10de381a508f93e680c6b" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1acc25729cd85a3a412106863894a30fe7" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a6b42ef1460901ea91a2a09f44ae8fba2" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a2019f4e86224b2adbb9e9326bc175c50" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a17b452e1e2f57d7d10f7209587376eef" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4af48752fc22815250369292b9c064bc" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1aac6eaaad3e94491ada7bb43ee6149775" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4129f247ae087d586fdb04f450422d3e" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1a4936b0a5622b39e974deae12ecb1430b" prot="public" virt="non-virtual"><scope>testing::StrictMock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1ae22ba62955775b26c88937ee225db528" prot="public" virt="virtual"><scope>testing::StrictMock</scope><name>~StrictMock</name></member>
+      <member refid="classtesting_1_1StrictMock_1ae22ba62955775b26c88937ee225db528" prot="public" virt="virtual"><scope>testing::StrictMock</scope><name>~StrictMock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

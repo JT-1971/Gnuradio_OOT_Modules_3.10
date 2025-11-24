@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gtest_2src_2gtest-internal-inl_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gtest/src/gtest-internal-inl.h</compoundname>
+    <includes local="no">errno.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">gtest/internal/gtest-port.h</includes>
+    <includes local="yes">gtest/gtest.h</includes>
+    <includes local="yes">gtest/gtest-spi.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-internal-inl.h</label>
+        <link refid="dsd_2test_2gtest_2src_2gtest-internal-inl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>algorithm</label>
+      </node>
+      <node id="2">
+        <label>errno.h</label>
+      </node>
+      <node id="11">
+        <label>gtest/gtest-spi.h</label>
+      </node>
+      <node id="10">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="9">
+        <label>gtest/internal/gtest-port.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1GTestFlagSaver" prot="public">testing::internal::GTestFlagSaver</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TestPropertyKeyIs" prot="public">testing::internal::TestPropertyKeyIs</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnitTestOptions" prot="public">testing::internal::UnitTestOptions</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1OsStackTraceGetterInterface" prot="public">testing::internal::OsStackTraceGetterInterface</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1OsStackTraceGetter" prot="public">testing::internal::OsStackTraceGetter</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1TraceInfo" prot="public">testing::internal::TraceInfo</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter" prot="public">testing::internal::DefaultGlobalTestPartResultReporter</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter" prot="public">testing::internal::DefaultPerThreadTestPartResultReporter</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnitTestImpl" prot="public">testing::internal::UnitTestImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TestResultAccessor" prot="public">testing::internal::TestResultAccessor</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/src/gtest-internal-inl.h"/>
+  </compounddef>
+</doxygen>

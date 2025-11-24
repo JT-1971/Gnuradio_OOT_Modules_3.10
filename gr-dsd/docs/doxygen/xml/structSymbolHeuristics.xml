@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structSymbolHeuristics" kind="struct" language="C++" prot="public">
+    <compoundname>SymbolHeuristics</compoundname>
+    <includes refid="p25p1__heuristics_8h" local="no">p25p1_heuristics.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSymbolHeuristics_1adf83490f44a2002b7cac4e239b47df56" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SymbolHeuristics::values[HEURISTICS_SIZE]</definition>
+        <argsstring>[HEURISTICS_SIZE]</argsstring>
+        <name>values</name>
+        <qualifiedname>SymbolHeuristics::values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="8" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSymbolHeuristics_1a18cb237d94c3056b2b3bac4744039e94" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SymbolHeuristics::means[HEURISTICS_SIZE]</definition>
+        <argsstring>[HEURISTICS_SIZE]</argsstring>
+        <name>means</name>
+        <qualifiedname>SymbolHeuristics::means</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="9" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSymbolHeuristics_1a103b2718c2c202ce39450b62e68979e4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SymbolHeuristics::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>SymbolHeuristics::index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="10" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSymbolHeuristics_1a72f7a59f66103ad6e349dca2e3d04e7d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SymbolHeuristics::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>SymbolHeuristics::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="11" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSymbolHeuristics_1af4b84850a94dd4411af0fd5e8ec21743" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SymbolHeuristics::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <qualifiedname>SymbolHeuristics::sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="12" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSymbolHeuristics_1a9c501532e65c5c6b0537e73f6b3fad17" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SymbolHeuristics::var_sum</definition>
+        <argsstring></argsstring>
+        <name>var_sum</name>
+        <qualifiedname>SymbolHeuristics::var_sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="13" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="6" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structSymbolHeuristics_1a72f7a59f66103ad6e349dca2e3d04e7d" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>count</name></member>
+      <member refid="structSymbolHeuristics_1a103b2718c2c202ce39450b62e68979e4" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>index</name></member>
+      <member refid="structSymbolHeuristics_1a18cb237d94c3056b2b3bac4744039e94" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>means</name></member>
+      <member refid="structSymbolHeuristics_1af4b84850a94dd4411af0fd5e8ec21743" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>sum</name></member>
+      <member refid="structSymbolHeuristics_1adf83490f44a2002b7cac4e239b47df56" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>values</name></member>
+      <member refid="structSymbolHeuristics_1a9c501532e65c5c6b0537e73f6b3fad17" prot="public" virt="non-virtual"><scope>SymbolHeuristics</scope><name>var_sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

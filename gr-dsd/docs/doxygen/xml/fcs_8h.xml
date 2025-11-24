@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fcs_8h" kind="file" language="C++">
+    <compoundname>fcs.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>fcs.h</label>
+        <link refid="fcs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="fcs_8h_1ad0d0b0110ccf0c528cf3ebd5da044a98" prot="public" static="yes" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short ccittTab[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ccittTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/fcs.h" line="27" column="29" bodyfile="/home/dr/Code/gr-dsd/dsd/include/fcs.h" bodystart="27" bodyend="59"/>
+        <referencedby refid="fcs_8h_1acf9d1a4e4bf7c9bf73bd7dd9001f2af3" compoundref="fcs_8h" startline="62" endline="89">calc_fcs</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="fcs_8h_1acf9d1a4e4bf7c9bf73bd7dd9001f2af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t calc_fcs</definition>
+        <argsstring>(unsigned char *dvstartframe, int size)</argsstring>
+        <name>calc_fcs</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>dvstartframe</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/fcs.h" line="62" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/include/fcs.h" bodystart="62" bodyend="89"/>
+        <references refid="fcs_8h_1ad0d0b0110ccf0c528cf3ebd5da044a98" compoundref="fcs_8h" startline="27" endline="59">ccittTab</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/fcs.h"/>
+  </compounddef>
+</doxygen>

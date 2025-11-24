@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gtest_2include_2gtest_2gtest-death-test_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gtest/include/gtest/gtest-death-test.h</compoundname>
+    <includes local="yes">gtest/internal/gtest-death-test-internal.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-death-test.h</label>
+        <link refid="mbelib_2test_2gtest_2include_2gtest_2gtest-death-test_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest/internal/gtest-death-test-internal.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest-death-test_8h_1a8564de0e012dd0898949c513d1571f8b" prot="public" static="no">
+        <name>EXPECT_DEATH_IF_SUPPORTED</name>
+        <param><defname>statement</defname></param>
+        <param><defname>regex</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h_1a29a145cda8bd2d0c6a78b0ac1d670d18" kindref="member">GTEST_UNSUPPORTED_DEATH_TEST_</ref>(statement, regex, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-death-test.h" line="286" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-death-test.h" bodystart="286" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest-death-test_8h_1ab2f0f25b46353767179a49ebd15b7345" prot="public" static="no">
+        <name>ASSERT_DEATH_IF_SUPPORTED</name>
+        <param><defname>statement</defname></param>
+        <param><defname>regex</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h_1a29a145cda8bd2d0c6a78b0ac1d670d18" kindref="member">GTEST_UNSUPPORTED_DEATH_TEST_</ref>(statement, regex, return)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-death-test.h" line="288" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-death-test.h" bodystart="288" bodyend="289"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-death-test.h"/>
+  </compounddef>
+</doxygen>

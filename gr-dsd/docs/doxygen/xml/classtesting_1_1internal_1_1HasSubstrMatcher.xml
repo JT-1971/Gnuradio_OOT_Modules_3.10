@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1HasSubstrMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::HasSubstrMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename StringType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1HasSubstrMatcher_1ac15185527d4f52eda4574c8b845a52f3" prot="private" static="no" mutable="no">
+        <type>const StringType</type>
+        <definition>const StringType testing::internal::HasSubstrMatcher&lt; StringType &gt;::substring_</definition>
+        <argsstring></argsstring>
+        <name>substring_</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::substring_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1163" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1163" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a395efacb13a89e5010b9ec4a00a16f00" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasSubstrMatcher&lt; StringType &gt;::HasSubstrMatcher</definition>
+        <argsstring>(const StringType &amp;substring)</argsstring>
+        <name>HasSubstrMatcher</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::HasSubstrMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1127" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1127" bodyend="1128"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1136" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1136" bodyend="1138"/>
+        <references refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1136" endline="1138">testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</references>
+        <referencedby refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1136" endline="1138">testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a11629040f168cefaaad4ecdbde17a0dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1145" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1145" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a278f177d2cbdfed29f6755ee0739a521" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::HasSubstrMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1152" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1152" bodyend="1155"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1aa79638f9d3a0c2eb67bc76432f35be1f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::HasSubstrMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1157" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1157" bodyend="1160"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a395efacb13a89e5010b9ec4a00a16f00" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasSubstrMatcher&lt; StringType &gt;::HasSubstrMatcher</definition>
+        <argsstring>(const StringType &amp;substring)</argsstring>
+        <name>HasSubstrMatcher</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::HasSubstrMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1127" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1127" bodyend="1128"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1136" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1136" bodyend="1138"/>
+        <references refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1136" endline="1138">testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a11629040f168cefaaad4ecdbde17a0dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::HasSubstrMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1145" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1145" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a278f177d2cbdfed29f6755ee0739a521" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::HasSubstrMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1152" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1152" bodyend="1155"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1aa79638f9d3a0c2eb67bc76432f35be1f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::HasSubstrMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1157" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1157" bodyend="1160"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a05fa9d568e67101a865c9e92cf28b385" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasSubstrMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(HasSubstrMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1HasSubstrMatcher" kindref="compound">HasSubstrMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1165" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasSubstrMatcher_1a05fa9d568e67101a865c9e92cf28b385" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasSubstrMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(HasSubstrMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::HasSubstrMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1HasSubstrMatcher" kindref="compound">HasSubstrMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1165" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1125" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1125" bodyend="1166"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1aa79638f9d3a0c2eb67bc76432f35be1f" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1aa79638f9d3a0c2eb67bc76432f35be1f" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a278f177d2cbdfed29f6755ee0739a521" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a278f177d2cbdfed29f6755ee0739a521" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a05fa9d568e67101a865c9e92cf28b385" prot="private" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a05fa9d568e67101a865c9e92cf28b385" prot="private" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a395efacb13a89e5010b9ec4a00a16f00" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>HasSubstrMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a395efacb13a89e5010b9ec4a00a16f00" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>HasSubstrMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a11629040f168cefaaad4ecdbde17a0dc" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a68e0f4e2814c3c80c61011e66ad73839" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1a11629040f168cefaaad4ecdbde17a0dc" prot="public" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1HasSubstrMatcher_1ac15185527d4f52eda4574c8b845a52f3" prot="private" virt="non-virtual"><scope>testing::internal::HasSubstrMatcher</scope><name>substring_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

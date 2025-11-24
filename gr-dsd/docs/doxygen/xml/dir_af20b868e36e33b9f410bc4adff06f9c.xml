@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_af20b868e36e33b9f410bc4adff06f9c" kind="dir">
+    <compoundname>mbelib</compoundname>
+    <innerdir refid="dir_92b20656afc35942839ccf56a61affb8">test</innerdir>
+    <innerfile refid="ambe3600x2400__const_8h">ambe3600x2400_const.h</innerfile>
+    <innerfile refid="ambe3600x2450__const_8h">ambe3600x2450_const.h</innerfile>
+    <innerfile refid="mbelib_2config_8h">mbelib/config.h</innerfile>
+    <innerfile refid="ecc__const_8h">ecc_const.h</innerfile>
+    <innerfile refid="imbe7200x4400__const_8h">imbe7200x4400_const.h</innerfile>
+    <innerfile refid="mbelib_8h">mbelib.h</innerfile>
+    <innerfile refid="mbelib__const_8h">mbelib_const.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/"/>
+  </compounddef>
+</doxygen>

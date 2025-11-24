@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gmock_2include_2gmock_2gmock_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gmock/include/gmock/gmock.h</compoundname>
+    <includes local="yes">gmock/gmock-actions.h</includes>
+    <includes local="yes">gmock/gmock-cardinalities.h</includes>
+    <includes local="yes">gmock/gmock-generated-actions.h</includes>
+    <includes local="yes">gmock/gmock-generated-function-mockers.h</includes>
+    <includes local="yes">gmock/gmock-generated-nice-strict.h</includes>
+    <includes local="yes">gmock/gmock-generated-matchers.h</includes>
+    <includes local="yes">gmock/gmock-matchers.h</includes>
+    <includes local="yes">gmock/gmock-more-actions.h</includes>
+    <includes local="yes">gmock/gmock-more-matchers.h</includes>
+    <includes local="yes">gmock/internal/gmock-internal-utils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock.h</label>
+        <link refid="dsd_2test_2gmock_2include_2gmock_2gmock_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gmock/gmock-actions.h</label>
+      </node>
+      <node id="3">
+        <label>gmock/gmock-cardinalities.h</label>
+      </node>
+      <node id="4">
+        <label>gmock/gmock-generated-actions.h</label>
+      </node>
+      <node id="5">
+        <label>gmock/gmock-generated-function-mockers.h</label>
+      </node>
+      <node id="7">
+        <label>gmock/gmock-generated-matchers.h</label>
+      </node>
+      <node id="6">
+        <label>gmock/gmock-generated-nice-strict.h</label>
+      </node>
+      <node id="8">
+        <label>gmock/gmock-matchers.h</label>
+      </node>
+      <node id="9">
+        <label>gmock/gmock-more-actions.h</label>
+      </node>
+      <node id="10">
+        <label>gmock/gmock-more-matchers.h</label>
+      </node>
+      <node id="11">
+        <label>gmock/internal/gmock-internal-utils.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock.h"/>
+  </compounddef>
+</doxygen>

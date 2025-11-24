@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1MatcherCastImpl" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::MatcherCastImpl</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename M</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1a4b7a962e8852c294d4d57925ccf23c9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::Cast</definition>
+        <argsstring>(M polymorphic_matcher_or_value)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="492" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="492" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1a4b7a962e8852c294d4d57925ccf23c9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::Cast</definition>
+        <argsstring>(M polymorphic_matcher_or_value)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="492" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="492" bodyend="510"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1aec80b3a0c87f01c5c3d34cc2fcbd3a03" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::CastImpl</definition>
+        <argsstring>(M value, BooleanConstant&lt; false &gt;)</argsstring>
+        <name>CastImpl</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::CastImpl</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1BooleanConstant" kindref="compound">BooleanConstant</ref>&lt; false &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="513" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="513" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1a14e3428afffa187e75ffad37625d0391" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::CastImpl</definition>
+        <argsstring>(M polymorphic_matcher_or_value, BooleanConstant&lt; true &gt;)</argsstring>
+        <name>CastImpl</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::CastImpl</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1BooleanConstant" kindref="compound">BooleanConstant</ref>&lt; true &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="520" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="520" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1aec80b3a0c87f01c5c3d34cc2fcbd3a03" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::CastImpl</definition>
+        <argsstring>(M value, BooleanConstant&lt; false &gt;)</argsstring>
+        <name>CastImpl</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::CastImpl</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1BooleanConstant" kindref="compound">BooleanConstant</ref>&lt; false &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="513" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="513" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_1a14e3428afffa187e75ffad37625d0391" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, M &gt;::CastImpl</definition>
+        <argsstring>(M polymorphic_matcher_or_value, BooleanConstant&lt; true &gt;)</argsstring>
+        <name>CastImpl</name>
+        <qualifiedname>testing::internal::MatcherCastImpl::CastImpl</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1BooleanConstant" kindref="compound">BooleanConstant</ref>&lt; true &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="520" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="520" bodyend="531"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="490" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="490" bodyend="532"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1a4b7a962e8852c294d4d57925ccf23c9f" prot="public" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1a4b7a962e8852c294d4d57925ccf23c9f" prot="public" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1aec80b3a0c87f01c5c3d34cc2fcbd3a03" prot="private" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>CastImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1a14e3428afffa187e75ffad37625d0391" prot="private" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>CastImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1aec80b3a0c87f01c5c3d34cc2fcbd3a03" prot="private" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>CastImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_1a14e3428afffa187e75ffad37625d0391" prot="private" virt="non-virtual"><scope>testing::internal::MatcherCastImpl</scope><name>CastImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

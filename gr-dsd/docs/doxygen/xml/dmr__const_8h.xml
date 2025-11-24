@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dmr__const_8h" kind="file" language="C++">
+    <compoundname>dmr_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dmr__const_8h_1a943116e74d0826ddd0897078b48d3129" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int rW[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>rW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" line="19" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" declline="19" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="dmr__const_8h_1ad3b1bb9f212b2639f5f3460914c1a114" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int rX[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>rX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" line="20" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" declline="20" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="dmr__const_8h_1a6fc9bddc7209f253bbfb4abb23f465e8" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int rY[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>rY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" line="21" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" declline="21" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="dmr__const_8h_1ab368ec62fe3d6223e93e4b0b779238dd" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int rZ[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>rZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" line="22" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h" declline="22" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/dmr_const.h"/>
+  </compounddef>
+</doxygen>

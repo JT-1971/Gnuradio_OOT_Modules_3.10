@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structstd_1_1tr1_1_1tuple__size_3_01GTEST__8__TUPLE___07T_08_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>std::tr1::tuple_size&lt; GTEST_8_TUPLE_(T) &gt;</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" local="no">gtest-tuple.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a671a16a68d7f67df1677740fe451b3ba" kindref="member">GTEST_8_TYPENAMES_</ref>(T)</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structstd_1_1tr1_1_1tuple__size_3_01GTEST__8__TUPLE___07T_08_01_4_1a22bf7896455cda240d07e3661b2f102e" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>static const int std::tr1::tuple_size&lt; GTEST_8_TUPLE_(T) &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>std::tr1::tuple_size&lt; GTEST_8_TUPLE_(T) &gt;::value</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="774" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="774" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="773" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="773" bodyend="775"/>
+    <listofallmembers>
+      <member refid="structstd_1_1tr1_1_1tuple__size_3_01GTEST__8__TUPLE___07T_08_01_4_1a22bf7896455cda240d07e3661b2f102e" prot="public" virt="non-virtual"><scope>std::tr1::tuple_size&lt; GTEST_8_TUPLE_(T) &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

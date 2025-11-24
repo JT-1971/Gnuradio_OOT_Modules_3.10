@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::MockFunction&lt; R(A0, A1)&gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h" local="no">gmock-generated-function-mockers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+      <param>
+        <type>typename A0</type>
+      </param>
+      <param>
+        <type>typename A1</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a6a2575d43e9ec4f5d51cd53edbec7f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::MockFunction</definition>
+        <argsstring>()</argsstring>
+        <name>MockFunction</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::MockFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="886" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="886" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a5a4d673a3252cab866f0a4fa97486190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::MOCK_METHOD2_T</definition>
+        <argsstring>(Call, R(A0, A1))</argsstring>
+        <name>MOCK_METHOD2_T</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::MOCK_METHOD2_T</qualifiedname>
+        <param>
+          <type>Call</type>
+        </param>
+        <param>
+          <type>R(A0, A1)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="888" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a6a2575d43e9ec4f5d51cd53edbec7f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::MockFunction</definition>
+        <argsstring>()</argsstring>
+        <name>MockFunction</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::MockFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="886" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="886" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a5a4d673a3252cab866f0a4fa97486190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::MOCK_METHOD2_T</definition>
+        <argsstring>(Call, R(A0, A1))</argsstring>
+        <name>MOCK_METHOD2_T</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::MOCK_METHOD2_T</qualifiedname>
+        <param>
+          <type>Call</type>
+        </param>
+        <param>
+          <type>R(A0, A1)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="888" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a4d66c78f85fd2c438bdf3ccdd61e6edb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(MockFunction)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1MockFunction" kindref="compound">MockFunction</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="891" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a4d66c78f85fd2c438bdf3ccdd61e6edb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MockFunction&lt; R(A0, A1)&gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(MockFunction)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::MockFunction&lt; R(A0, A1)&gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1MockFunction" kindref="compound">MockFunction</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="891" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="884" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="884" bodyend="892"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a4d66c78f85fd2c438bdf3ccdd61e6edb" prot="private" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a4d66c78f85fd2c438bdf3ccdd61e6edb" prot="private" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a5a4d673a3252cab866f0a4fa97486190" prot="public" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>MOCK_METHOD2_T</name></member>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a5a4d673a3252cab866f0a4fa97486190" prot="public" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>MOCK_METHOD2_T</name></member>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a6a2575d43e9ec4f5d51cd53edbec7f82" prot="public" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>MockFunction</name></member>
+      <member refid="classtesting_1_1MockFunction_3_01R_07A0_00_01A1_08_4_1a6a2575d43e9ec4f5d51cd53edbec7f82" prot="public" virt="non-virtual"><scope>testing::MockFunction&lt; R(A0, A1)&gt;</scope><name>MockFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

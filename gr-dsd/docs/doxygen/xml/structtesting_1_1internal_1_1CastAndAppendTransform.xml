@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1CastAndAppendTransform" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::CastAndAppendTransform</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Target</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1internal_1_1CastAndAppendTransform_1a01bcb9d103ea66654c5a76d5d70cfd34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Arg</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; Target &gt;</type>
+        <definition>Matcher&lt; Target &gt; testing::internal::CastAndAppendTransform&lt; Target &gt;::operator()</definition>
+        <argsstring>(const Arg &amp;a) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::CastAndAppendTransform::operator()</qualifiedname>
+        <param>
+          <type>const Arg &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3203" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3203" bodyend="3205"/>
+      </memberdef>
+      <memberdef kind="function" id="structtesting_1_1internal_1_1CastAndAppendTransform_1a01bcb9d103ea66654c5a76d5d70cfd34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Arg</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; Target &gt;</type>
+        <definition>Matcher&lt; Target &gt; testing::internal::CastAndAppendTransform&lt; Target &gt;::operator()</definition>
+        <argsstring>(const Arg &amp;a) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::CastAndAppendTransform::operator()</qualifiedname>
+        <param>
+          <type>const Arg &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3203" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3203" bodyend="3205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3201" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3201" bodyend="3206"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1CastAndAppendTransform_1a01bcb9d103ea66654c5a76d5d70cfd34" prot="public" virt="non-virtual"><scope>testing::internal::CastAndAppendTransform</scope><name>operator()</name></member>
+      <member refid="structtesting_1_1internal_1_1CastAndAppendTransform_1a01bcb9d103ea66654c5a76d5d70cfd34" prot="public" virt="non-virtual"><scope>testing::internal::CastAndAppendTransform</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

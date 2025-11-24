@@ -1,0 +1,1257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1NaggyMock" kind="class" language="C++" prot="public">
+    <compoundname>testing::NaggyMock</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MockClass</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MockClass</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-nice-strict_8h" local="no">gmock-generated-nice-strict.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class MockClass</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1acb769f78b93eb60b04db21250f416f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>()</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="180" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ae43ea6c6a6b66fe31cb14f93e0be5718" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="188" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a4241363ab2ca3a2e7baa5ead980175e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="193" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1abd9eea0573bf39f4b41504b2d1df5311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="199" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aa7d63f62600171db931c6bbb4c2a6d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="205" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="205" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ac751c8a708935bd8558c9665160f7144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="212" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aac4c0986e917a5d6e515f8dc0e7bf644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="220" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="220" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ad1edac1991dd20514e822c90d6896c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="228" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a63b30506f56b792ffbdc5792a9630d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="237" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="237" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a786f31ade7b8b9f6e78e07f51cc0e14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="246" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aa40a39806b939f423696f9380de3172b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9, const A10 &amp;a10)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>const A10 &amp;</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="255" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="255" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a4d314aa583c985502eaec875440394ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::NaggyMock&lt; MockClass &gt;::~NaggyMock</definition>
+        <argsstring>()</argsstring>
+        <name>~NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::~NaggyMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="262" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="262" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1acb769f78b93eb60b04db21250f416f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>()</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="180" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ae43ea6c6a6b66fe31cb14f93e0be5718" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="188" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a4241363ab2ca3a2e7baa5ead980175e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="193" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1abd9eea0573bf39f4b41504b2d1df5311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="199" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aa7d63f62600171db931c6bbb4c2a6d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="205" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="205" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ac751c8a708935bd8558c9665160f7144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="212" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aac4c0986e917a5d6e515f8dc0e7bf644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="220" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="220" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1ad1edac1991dd20514e822c90d6896c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="228" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a63b30506f56b792ffbdc5792a9630d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="237" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="237" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a786f31ade7b8b9f6e78e07f51cc0e14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="246" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1aa40a39806b939f423696f9380de3172b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::NaggyMock</definition>
+        <argsstring>(const A1 &amp;a1, const A2 &amp;a2, const A3 &amp;a3, const A4 &amp;a4, const A5 &amp;a5, const A6 &amp;a6, const A7 &amp;a7, const A8 &amp;a8, const A9 &amp;a9, const A10 &amp;a10)</argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::NaggyMock</qualifiedname>
+        <param>
+          <type>const A1 &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>const A2 &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>const A3 &amp;</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>const A4 &amp;</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>const A5 &amp;</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>const A6 &amp;</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>const A7 &amp;</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>const A8 &amp;</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>const A9 &amp;</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>const A10 &amp;</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="255" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="255" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1a4d314aa583c985502eaec875440394ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::NaggyMock&lt; MockClass &gt;::~NaggyMock</definition>
+        <argsstring>()</argsstring>
+        <name>~NaggyMock</name>
+        <qualifiedname>testing::NaggyMock::~NaggyMock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="262" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="262" bodyend="265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1af3b39b4a100fa43787c647fd9dbf30a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(NaggyMock)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::NaggyMock::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NaggyMock" kindref="compound">NaggyMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="268" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1NaggyMock_1af3b39b4a100fa43787c647fd9dbf30a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::NaggyMock&lt; MockClass &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(NaggyMock)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::NaggyMock::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NaggyMock" kindref="compound">NaggyMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="268" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MockClass</label>
+      </node>
+      <node id="1">
+        <label>testing::NaggyMock&lt; MockClass &gt;</label>
+        <link refid="classtesting_1_1NaggyMock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MockClass</label>
+      </node>
+      <node id="1">
+        <label>testing::NaggyMock&lt; MockClass &gt;</label>
+        <link refid="classtesting_1_1NaggyMock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" line="176" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-nice-strict.h" bodystart="176" bodyend="269"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1NaggyMock_1af3b39b4a100fa43787c647fd9dbf30a8" prot="private" virt="non-virtual"><scope>testing::NaggyMock</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1NaggyMock_1af3b39b4a100fa43787c647fd9dbf30a8" prot="private" virt="non-virtual"><scope>testing::NaggyMock</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1NaggyMock_1acb769f78b93eb60b04db21250f416f70" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ae43ea6c6a6b66fe31cb14f93e0be5718" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a4241363ab2ca3a2e7baa5ead980175e6" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1abd9eea0573bf39f4b41504b2d1df5311" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aa7d63f62600171db931c6bbb4c2a6d52" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ac751c8a708935bd8558c9665160f7144" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aac4c0986e917a5d6e515f8dc0e7bf644" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ad1edac1991dd20514e822c90d6896c74" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a63b30506f56b792ffbdc5792a9630d5e" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a786f31ade7b8b9f6e78e07f51cc0e14b" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aa40a39806b939f423696f9380de3172b" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1acb769f78b93eb60b04db21250f416f70" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ae43ea6c6a6b66fe31cb14f93e0be5718" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a4241363ab2ca3a2e7baa5ead980175e6" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1abd9eea0573bf39f4b41504b2d1df5311" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aa7d63f62600171db931c6bbb4c2a6d52" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ac751c8a708935bd8558c9665160f7144" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aac4c0986e917a5d6e515f8dc0e7bf644" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1ad1edac1991dd20514e822c90d6896c74" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a63b30506f56b792ffbdc5792a9630d5e" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a786f31ade7b8b9f6e78e07f51cc0e14b" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1aa40a39806b939f423696f9380de3172b" prot="public" virt="non-virtual"><scope>testing::NaggyMock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a4d314aa583c985502eaec875440394ca" prot="public" virt="virtual"><scope>testing::NaggyMock</scope><name>~NaggyMock</name></member>
+      <member refid="classtesting_1_1NaggyMock_1a4d314aa583c985502eaec875440394ca" prot="public" virt="virtual"><scope>testing::NaggyMock</scope><name>~NaggyMock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

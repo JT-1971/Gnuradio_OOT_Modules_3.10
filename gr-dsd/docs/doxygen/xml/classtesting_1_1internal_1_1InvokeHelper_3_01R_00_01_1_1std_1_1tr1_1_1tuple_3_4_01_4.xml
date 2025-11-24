@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a8c5437021d82f5b54aeb26c6c31b48dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::Invoke</definition>
+        <argsstring>(Function function, const ::std::tr1::tuple&lt;&gt; &amp;)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::Invoke</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="57" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a3370b93b96c5d5a0f93e41afdd42b5e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Class</type>
+          </param>
+          <param>
+            <type>typename MethodPtr</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::InvokeMethod</definition>
+        <argsstring>(Class *obj_ptr, MethodPtr method_ptr, const ::std::tr1::tuple&lt;&gt; &amp;)</argsstring>
+        <name>InvokeMethod</name>
+        <qualifiedname>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::InvokeMethod</qualifiedname>
+        <param>
+          <type>Class *</type>
+          <declname>obj_ptr</declname>
+        </param>
+        <param>
+          <type>MethodPtr</type>
+          <declname>method_ptr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="62" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a8c5437021d82f5b54aeb26c6c31b48dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::Invoke</definition>
+        <argsstring>(Function function, const ::std::tr1::tuple&lt;&gt; &amp;)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::Invoke</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="57" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a3370b93b96c5d5a0f93e41afdd42b5e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Class</type>
+          </param>
+          <param>
+            <type>typename MethodPtr</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::InvokeMethod</definition>
+        <argsstring>(Class *obj_ptr, MethodPtr method_ptr, const ::std::tr1::tuple&lt;&gt; &amp;)</argsstring>
+        <name>InvokeMethod</name>
+        <qualifiedname>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;::InvokeMethod</qualifiedname>
+        <param>
+          <type>Class *</type>
+          <declname>obj_ptr</declname>
+        </param>
+        <param>
+          <type>MethodPtr</type>
+          <declname>method_ptr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="62" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="62" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="54" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="54" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a8c5437021d82f5b54aeb26c6c31b48dc" prot="public" virt="non-virtual"><scope>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;</scope><name>Invoke</name></member>
+      <member refid="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a8c5437021d82f5b54aeb26c6c31b48dc" prot="public" virt="non-virtual"><scope>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;</scope><name>Invoke</name></member>
+      <member refid="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a3370b93b96c5d5a0f93e41afdd42b5e0" prot="public" virt="non-virtual"><scope>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;</scope><name>InvokeMethod</name></member>
+      <member refid="classtesting_1_1internal_1_1InvokeHelper_3_01R_00_01_1_1std_1_1tr1_1_1tuple_3_4_01_4_1a3370b93b96c5d5a0f93e41afdd42b5e0" prot="public" virt="non-virtual"><scope>testing::internal::InvokeHelper&lt; R, ::std::tr1::tuple&lt;&gt; &gt;</scope><name>InvokeMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

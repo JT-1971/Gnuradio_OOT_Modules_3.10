@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1Cardinality" kind="class" language="C++" prot="public">
+    <compoundname>testing::Cardinality</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-cardinalities_8h" local="no">gmock-cardinalities.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1Cardinality_1acb21a5367149675039d3e0df7546fa96" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; const <ref refid="classtesting_1_1CardinalityInterface" kindref="compound">CardinalityInterface</ref> &gt;</type>
+        <definition>internal::linked_ptr&lt; const CardinalityInterface &gt; testing::Cardinality::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>testing::Cardinality::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="122" column="24" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1ab4b4066d7f5e9e3c7f851e49ab892cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Cardinality::Cardinality</definition>
+        <argsstring>()</argsstring>
+        <name>Cardinality</name>
+        <qualifiedname>testing::Cardinality::Cardinality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="87" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a10aed768b8a22d27110587444733771f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Cardinality::Cardinality</definition>
+        <argsstring>(const CardinalityInterface *impl)</argsstring>
+        <name>Cardinality</name>
+        <qualifiedname>testing::Cardinality::Cardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1CardinalityInterface" kindref="compound">CardinalityInterface</ref> *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="90" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1ac1785ee5c466c2524f36b9ffb5f46c79" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::Cardinality::ConservativeLowerBound</definition>
+        <argsstring>() const</argsstring>
+        <name>ConservativeLowerBound</name>
+        <qualifiedname>testing::Cardinality::ConservativeLowerBound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="94" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1acb42e3683f99b986f3ac538b5eefbc31" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::Cardinality::ConservativeUpperBound</definition>
+        <argsstring>() const</argsstring>
+        <name>ConservativeUpperBound</name>
+        <qualifiedname>testing::Cardinality::ConservativeUpperBound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="95" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a6c5e2bd2887ff06e20e6fcc4255a0c1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsSatisfiedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsSatisfiedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsSatisfiedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="98" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a57128ba46931e24a2b39af177e3346f8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsSaturatedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsSaturatedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsSaturatedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="103" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a9b6a55179f6dcc8fadec26e6d93f3e88" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsOverSaturatedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsOverSaturatedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsOverSaturatedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="109" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a2955f4b65022c422f56e79b767c4fa71" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::Cardinality::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::Cardinality::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="115" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1ab4b4066d7f5e9e3c7f851e49ab892cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Cardinality::Cardinality</definition>
+        <argsstring>()</argsstring>
+        <name>Cardinality</name>
+        <qualifiedname>testing::Cardinality::Cardinality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="87" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a10aed768b8a22d27110587444733771f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Cardinality::Cardinality</definition>
+        <argsstring>(const CardinalityInterface *impl)</argsstring>
+        <name>Cardinality</name>
+        <qualifiedname>testing::Cardinality::Cardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1CardinalityInterface" kindref="compound">CardinalityInterface</ref> *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="90" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1ac1785ee5c466c2524f36b9ffb5f46c79" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::Cardinality::ConservativeLowerBound</definition>
+        <argsstring>() const</argsstring>
+        <name>ConservativeLowerBound</name>
+        <qualifiedname>testing::Cardinality::ConservativeLowerBound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="94" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1acb42e3683f99b986f3ac538b5eefbc31" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::Cardinality::ConservativeUpperBound</definition>
+        <argsstring>() const</argsstring>
+        <name>ConservativeUpperBound</name>
+        <qualifiedname>testing::Cardinality::ConservativeUpperBound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="95" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a6c5e2bd2887ff06e20e6fcc4255a0c1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsSatisfiedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsSatisfiedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsSatisfiedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="98" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a57128ba46931e24a2b39af177e3346f8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsSaturatedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsSaturatedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsSaturatedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="103" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a9b6a55179f6dcc8fadec26e6d93f3e88" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Cardinality::IsOverSaturatedByCallCount</definition>
+        <argsstring>(int call_count) const</argsstring>
+        <name>IsOverSaturatedByCallCount</name>
+        <qualifiedname>testing::Cardinality::IsOverSaturatedByCallCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>call_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="109" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a2955f4b65022c422f56e79b767c4fa71" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::Cardinality::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::Cardinality::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="115" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a42b3b7d280eee6607dac2e91ab6b20fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::Cardinality::DescribeActualCallCountTo</definition>
+        <argsstring>(int actual_call_count, ::std::ostream *os)</argsstring>
+        <name>DescribeActualCallCountTo</name>
+        <qualifiedname>testing::Cardinality::DescribeActualCallCountTo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>actual_call_count</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="118" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Cardinality_1a42b3b7d280eee6607dac2e91ab6b20fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::Cardinality::DescribeActualCallCountTo</definition>
+        <argsstring>(int actual_call_count, ::std::ostream *os)</argsstring>
+        <name>DescribeActualCallCountTo</name>
+        <qualifiedname>testing::Cardinality::DescribeActualCallCountTo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>actual_call_count</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h" line="118" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" line="83" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-cardinalities.h" bodystart="83" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1Cardinality_1ab4b4066d7f5e9e3c7f851e49ab892cd9" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>Cardinality</name></member>
+      <member refid="classtesting_1_1Cardinality_1a10aed768b8a22d27110587444733771f" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>Cardinality</name></member>
+      <member refid="classtesting_1_1Cardinality_1ab4b4066d7f5e9e3c7f851e49ab892cd9" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>Cardinality</name></member>
+      <member refid="classtesting_1_1Cardinality_1a10aed768b8a22d27110587444733771f" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>Cardinality</name></member>
+      <member refid="classtesting_1_1Cardinality_1ac1785ee5c466c2524f36b9ffb5f46c79" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>ConservativeLowerBound</name></member>
+      <member refid="classtesting_1_1Cardinality_1ac1785ee5c466c2524f36b9ffb5f46c79" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>ConservativeLowerBound</name></member>
+      <member refid="classtesting_1_1Cardinality_1acb42e3683f99b986f3ac538b5eefbc31" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>ConservativeUpperBound</name></member>
+      <member refid="classtesting_1_1Cardinality_1acb42e3683f99b986f3ac538b5eefbc31" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>ConservativeUpperBound</name></member>
+      <member refid="classtesting_1_1Cardinality_1a42b3b7d280eee6607dac2e91ab6b20fd" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>DescribeActualCallCountTo</name></member>
+      <member refid="classtesting_1_1Cardinality_1a42b3b7d280eee6607dac2e91ab6b20fd" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>DescribeActualCallCountTo</name></member>
+      <member refid="classtesting_1_1Cardinality_1a2955f4b65022c422f56e79b767c4fa71" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1Cardinality_1a2955f4b65022c422f56e79b767c4fa71" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1Cardinality_1acb21a5367149675039d3e0df7546fa96" prot="private" virt="non-virtual"><scope>testing::Cardinality</scope><name>impl_</name></member>
+      <member refid="classtesting_1_1Cardinality_1a9b6a55179f6dcc8fadec26e6d93f3e88" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsOverSaturatedByCallCount</name></member>
+      <member refid="classtesting_1_1Cardinality_1a9b6a55179f6dcc8fadec26e6d93f3e88" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsOverSaturatedByCallCount</name></member>
+      <member refid="classtesting_1_1Cardinality_1a6c5e2bd2887ff06e20e6fcc4255a0c1c" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsSatisfiedByCallCount</name></member>
+      <member refid="classtesting_1_1Cardinality_1a6c5e2bd2887ff06e20e6fcc4255a0c1c" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsSatisfiedByCallCount</name></member>
+      <member refid="classtesting_1_1Cardinality_1a57128ba46931e24a2b39af177e3346f8" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsSaturatedByCallCount</name></member>
+      <member refid="classtesting_1_1Cardinality_1a57128ba46931e24a2b39af177e3346f8" prot="public" virt="non-virtual"><scope>testing::Cardinality</scope><name>IsSaturatedByCallCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

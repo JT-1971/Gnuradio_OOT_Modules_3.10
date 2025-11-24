@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1SetErrnoAndReturnAction" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::SetErrnoAndReturnAction</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1ac4f5ce108de323f1f76654c38aa883a3" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int testing::internal::SetErrnoAndReturnAction&lt; T &gt;::errno_</definition>
+        <argsstring></argsstring>
+        <name>errno_</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::errno_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="673" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a271f5a3b41aa3a7f06fbd69ad19b1c77" prot="private" static="no" mutable="no">
+        <type>const T</type>
+        <definition>const T testing::internal::SetErrnoAndReturnAction&lt; T &gt;::result_</definition>
+        <argsstring></argsstring>
+        <name>result_</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::result_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="674" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1abfe5a194a9b8f2b303c635ad99b3a257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetErrnoAndReturnAction&lt; T &gt;::SetErrnoAndReturnAction</definition>
+        <argsstring>(int errno_value, T result)</argsstring>
+        <name>SetErrnoAndReturnAction</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::SetErrnoAndReturnAction</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>errno_value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="663" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="663" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a44025d0d124cab72878bf6bdb12c3693" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Result</type>
+          </param>
+          <param>
+            <type>typename ArgumentTuple</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>Result testing::internal::SetErrnoAndReturnAction&lt; T &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="667" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="667" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1abfe5a194a9b8f2b303c635ad99b3a257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetErrnoAndReturnAction&lt; T &gt;::SetErrnoAndReturnAction</definition>
+        <argsstring>(int errno_value, T result)</argsstring>
+        <name>SetErrnoAndReturnAction</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::SetErrnoAndReturnAction</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>errno_value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="663" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="663" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a44025d0d124cab72878bf6bdb12c3693" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Result</type>
+          </param>
+          <param>
+            <type>typename ArgumentTuple</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>Result testing::internal::SetErrnoAndReturnAction&lt; T &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="667" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="667" bodyend="670"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a18906b36848b148a809907d105823ccc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetErrnoAndReturnAction&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(SetErrnoAndReturnAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>SetErrnoAndReturnAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="676" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a18906b36848b148a809907d105823ccc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetErrnoAndReturnAction&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(SetErrnoAndReturnAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::SetErrnoAndReturnAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>SetErrnoAndReturnAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="676" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="661" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="661" bodyend="677"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1ac4f5ce108de323f1f76654c38aa883a3" prot="private" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>errno_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a18906b36848b148a809907d105823ccc" prot="private" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a18906b36848b148a809907d105823ccc" prot="private" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a44025d0d124cab72878bf6bdb12c3693" prot="public" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a44025d0d124cab72878bf6bdb12c3693" prot="public" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1a271f5a3b41aa3a7f06fbd69ad19b1c77" prot="private" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>result_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1abfe5a194a9b8f2b303c635ad99b3a257" prot="public" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>SetErrnoAndReturnAction</name></member>
+      <member refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction_1abfe5a194a9b8f2b303c635ad99b3a257" prot="public" virt="non-virtual"><scope>testing::internal::SetErrnoAndReturnAction</scope><name>SetErrnoAndReturnAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

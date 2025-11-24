@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9626e68484db7a09292abadb3a6ed74a" kind="dir">
+    <compoundname>dsd</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="dsd__block__ff_8h">dsd_block_ff.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/include/dsd/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1AnyOfResult5" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::AnyOfResult5</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h" local="no">gmock-generated-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename M1</type>
+      </param>
+      <param>
+        <type>typename M2</type>
+      </param>
+      <param>
+        <type>typename M3</type>
+      </param>
+      <param>
+        <type>typename M4</type>
+      </param>
+      <param>
+        <type>typename M5</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1AnyOfResult5_1a459a06dc5791313dce942668714f0c99" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1EitherOfMatcher" kindref="compound">EitherOfMatcher</ref>&lt; typename <ref refid="structtesting_1_1internal_1_1AnyOfResult2" kindref="compound">AnyOfResult2</ref>&lt; M1, M2 &gt;::type, typename <ref refid="structtesting_1_1internal_1_1AnyOfResult3" kindref="compound">AnyOfResult3</ref>&lt; M3, M4, M5 &gt;::type &gt;</type>
+        <definition>typedef EitherOfMatcher&lt; typename AnyOfResult2&lt;M1, M2&gt;::type, typename AnyOfResult3&lt;M3, M4, M5&gt;::type &gt; testing::internal::AnyOfResult5&lt; M1, M2, M3, M4, M5 &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::AnyOfResult5::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="437" column="2" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1AnyOfResult5_1a459a06dc5791313dce942668714f0c99" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1EitherOfMatcher" kindref="compound">EitherOfMatcher</ref>&lt; typename <ref refid="structtesting_1_1internal_1_1AnyOfResult2" kindref="compound">AnyOfResult2</ref>&lt; M1, M2 &gt;::type, typename <ref refid="structtesting_1_1internal_1_1AnyOfResult3" kindref="compound">AnyOfResult3</ref>&lt; M3, M4, M5 &gt;::type &gt;</type>
+        <definition>typedef EitherOfMatcher&lt; typename AnyOfResult2&lt;M1, M2&gt;::type, typename AnyOfResult3&lt;M3, M4, M5&gt;::type &gt; testing::internal::AnyOfResult5&lt; M1, M2, M3, M4, M5 &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::AnyOfResult5::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="437" column="2" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="433" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="433" bodyend="438"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1AnyOfResult5_1a459a06dc5791313dce942668714f0c99" prot="public" virt="non-virtual"><scope>testing::internal::AnyOfResult5</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1AnyOfResult5_1a459a06dc5791313dce942668714f0c99" prot="public" virt="non-virtual"><scope>testing::internal::AnyOfResult5</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

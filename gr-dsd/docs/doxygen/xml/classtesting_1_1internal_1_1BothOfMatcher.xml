@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1BothOfMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::BothOfMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Matcher1</type>
+      </param>
+      <param>
+        <type>typename Matcher2</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1BothOfMatcher_1a7aeed14276f48d927300a3e2ab23f702" prot="private" static="no" mutable="no">
+        <type>Matcher1</type>
+        <definition>Matcher1 testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::matcher1_</definition>
+        <argsstring></argsstring>
+        <name>matcher1_</name>
+        <qualifiedname>testing::internal::BothOfMatcher::matcher1_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1578" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1BothOfMatcher_1a531d417ec0480876070ce9da6e0f71ae" prot="private" static="no" mutable="no">
+        <type>Matcher2</type>
+        <definition>Matcher2 testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::matcher2_</definition>
+        <argsstring></argsstring>
+        <name>matcher2_</name>
+        <qualifiedname>testing::internal::BothOfMatcher::matcher2_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1579" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1579" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1ab7941deda1965521f72d58b0dd429d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::BothOfMatcher</definition>
+        <argsstring>(Matcher1 matcher1, Matcher2 matcher2)</argsstring>
+        <name>BothOfMatcher</name>
+        <qualifiedname>testing::internal::BothOfMatcher::BothOfMatcher</qualifiedname>
+        <param>
+          <type>Matcher1</type>
+          <declname>matcher1</declname>
+        </param>
+        <param>
+          <type>Matcher2</type>
+          <declname>matcher2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1565" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1565" bodyend="1566"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1a5846390364b763fbe31fb11f8c2e3180" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::BothOfMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1572" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1572" bodyend="1575"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1ab7941deda1965521f72d58b0dd429d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::BothOfMatcher</definition>
+        <argsstring>(Matcher1 matcher1, Matcher2 matcher2)</argsstring>
+        <name>BothOfMatcher</name>
+        <qualifiedname>testing::internal::BothOfMatcher::BothOfMatcher</qualifiedname>
+        <param>
+          <type>Matcher1</type>
+          <declname>matcher1</declname>
+        </param>
+        <param>
+          <type>Matcher2</type>
+          <declname>matcher2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1565" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1565" bodyend="1566"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1a5846390364b763fbe31fb11f8c2e3180" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::BothOfMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1572" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1572" bodyend="1575"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1a8d1c93372fdecb93eb2413e29f8424f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(BothOfMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::BothOfMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1BothOfMatcher" kindref="compound">BothOfMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1581" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1BothOfMatcher_1a8d1c93372fdecb93eb2413e29f8424f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::BothOfMatcher&lt; Matcher1, Matcher2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(BothOfMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::BothOfMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1BothOfMatcher" kindref="compound">BothOfMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1581" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1563" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1563" bodyend="1582"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1ab7941deda1965521f72d58b0dd429d6a" prot="public" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>BothOfMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1ab7941deda1965521f72d58b0dd429d6a" prot="public" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>BothOfMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a8d1c93372fdecb93eb2413e29f8424f6" prot="private" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a8d1c93372fdecb93eb2413e29f8424f6" prot="private" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a7aeed14276f48d927300a3e2ab23f702" prot="private" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>matcher1_</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a531d417ec0480876070ce9da6e0f71ae" prot="private" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>matcher2_</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a5846390364b763fbe31fb11f8c2e3180" prot="public" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1BothOfMatcher_1a5846390364b763fbe31fb11f8c2e3180" prot="public" virt="non-virtual"><scope>testing::internal::BothOfMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

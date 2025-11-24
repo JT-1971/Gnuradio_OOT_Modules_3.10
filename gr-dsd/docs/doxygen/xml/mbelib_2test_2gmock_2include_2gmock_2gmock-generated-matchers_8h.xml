@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/gmock-generated-matchers.h</compoundname>
+    <includes local="no">iterator</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">gmock/gmock-matchers.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-generated-matchers.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gmock/gmock-matchers.h</label>
+      </node>
+      <node id="2">
+        <label>iterator</label>
+      </node>
+      <node id="3">
+        <label>sstream</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields" prot="public">testing::internal::TupleFields</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01-1_00_01-1_00_01-1_00_01-1_00_01-1_00_01-e023d39d312048e71832a898e9e07f70" prot="public">testing::internal::TupleFields&lt; Tuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01-1_00_01-1_00_01-1_00_01-1_00_01-d80da5b2d6dff94ddefe7f2fc2de778d" prot="public">testing::internal::TupleFields&lt; Tuple, k0, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01-1_00_01-1_00_01-1_00_01-fb5812c507091ce72ac353453b83394d" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01-1_00_01-1_00_01-d40fb0064dd627afc9c2b7f6513ffcb3" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, -1, -1, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01-1_00_01-5ce285d726b58f03354f318c4712939e" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, -1, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01k4_00_01-111caa1fee55a41736499c292bb1a612" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, k4, -1, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01k4_00_01k15c11b8436218f7eb1523adb30f3f284" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, k4, k5, -1, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01k4_00_01keabdf503bd0192bc35ddb795df95316f" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, k4, k5, k6, -1, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01k4_00_01kb66bdb5aa3faae197a495470a1b8e9d1" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, k4, k5, k6, k7, -1, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TupleFields_3_01Tuple_00_01k0_00_01k1_00_01k2_00_01k3_00_01k4_00_01k478398ee7a3c50306b8ce1483964573e" prot="public">testing::internal::TupleFields&lt; Tuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, -1 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ArgsMatcherImpl" prot="public">testing::internal::ArgsMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ArgsMatcher" prot="public">testing::internal::ArgsMatcher</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult1" prot="public">testing::internal::AllOfResult1</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult2" prot="public">testing::internal::AllOfResult2</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult3" prot="public">testing::internal::AllOfResult3</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult4" prot="public">testing::internal::AllOfResult4</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult5" prot="public">testing::internal::AllOfResult5</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult6" prot="public">testing::internal::AllOfResult6</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult7" prot="public">testing::internal::AllOfResult7</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult8" prot="public">testing::internal::AllOfResult8</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult9" prot="public">testing::internal::AllOfResult9</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AllOfResult10" prot="public">testing::internal::AllOfResult10</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult1" prot="public">testing::internal::AnyOfResult1</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult2" prot="public">testing::internal::AnyOfResult2</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult3" prot="public">testing::internal::AnyOfResult3</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult4" prot="public">testing::internal::AnyOfResult4</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult5" prot="public">testing::internal::AnyOfResult5</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult6" prot="public">testing::internal::AnyOfResult6</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult7" prot="public">testing::internal::AnyOfResult7</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult8" prot="public">testing::internal::AnyOfResult8</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult9" prot="public">testing::internal::AnyOfResult9</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1AnyOfResult10" prot="public">testing::internal::AnyOfResult10</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1acf3e27de83a73f0d873da1cd471e505b" prot="public" static="no">
+        <name>GMOCK_FIELD_TYPE_</name>
+        <param><defname>Tuple</defname></param>
+        <param><defname>i</defname></param>
+        <initializer>    typename <ref refid="structstd_1_1tr1_1_1tuple__element" kindref="compound">::std::tr1::tuple_element</ref>&lt;i, Tuple&gt;::type</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="51" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="51" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1af4fe73ff8e2b0494f4970b575b65ddff" prot="public" static="no">
+        <name>MATCHER</name>
+        <param><defname>name</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+<para>&lt;&lt; DiffStrings(str, arg); </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1392" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1392" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1acb7ae915efa2fd8d3f6ea7313198afb6" prot="public" static="no">
+        <name>MATCHER_P</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1439" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1439" bodyend="1489"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a78efce3ad21c8f68223f5c2d09f2e79d" prot="public" static="no">
+        <name>MATCHER_P2</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1491" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1491" bodyend="1546"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a507103c6251f8bf4393ec119d9e34d34" prot="public" static="no">
+        <name>MATCHER_P3</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1548" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1548" bodyend="1606"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a6ec420ed6bc3ad073f19a4e32dd1f38f" prot="public" static="no">
+        <name>MATCHER_P4</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1608" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1608" bodyend="1675"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a3a9589cd79e2dbdb4e09981510c9c42e" prot="public" static="no">
+        <name>MATCHER_P5</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1677" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1677" bodyend="1748"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1aceda758bb064965b2b9a7e0e96085861" prot="public" static="no">
+        <name>MATCHER_P6</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1750" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1750" bodyend="1823"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a2948ce54387a83c33fa98ba0c73eb11f" prot="public" static="no">
+        <name>MATCHER_P7</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>p6</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1825" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1825" bodyend="1907"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1ad86c95b03df37fada38e18d8eb9e53bc" prot="public" static="no">
+        <name>MATCHER_P8</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>p6</defname></param>
+        <param><defname>p7</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1909" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1909" bodyend="1996"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1a2dc1db146d4112c9fde1c2708807e43e" prot="public" static="no">
+        <name>MATCHER_P9</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>p6</defname></param>
+        <param><defname>p7</defname></param>
+        <param><defname>p8</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="1998" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="1998" bodyend="2089"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h_1aa6a3925eeb8bcb4b6b3465cc4ff26650" prot="public" static="no">
+        <name>MATCHER_P10</name>
+        <param><defname>name</defname></param>
+        <param><defname>p0</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>p6</defname></param>
+        <param><defname>p7</defname></param>
+        <param><defname>p8</defname></param>
+        <param><defname>p9</defname></param>
+        <param><defname>description</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="2091" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="2091" bodyend="2188"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h"/>
+  </compounddef>
+</doxygen>

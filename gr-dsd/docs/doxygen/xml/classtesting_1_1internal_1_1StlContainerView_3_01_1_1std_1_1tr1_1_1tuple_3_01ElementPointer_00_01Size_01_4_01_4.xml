@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" local="no">gmock-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ElementPointer</type>
+      </param>
+      <param>
+        <type>typename Size</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">internal::NativeArray</ref>&lt; RawElement &gt;</type>
+        <definition>typedef internal::NativeArray&lt;RawElement&gt; testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="458" column="33" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" prot="public" static="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">type</ref></type>
+        <definition>typedef const type testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::const_reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="459" column="22" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">internal::NativeArray</ref>&lt; RawElement &gt;</type>
+        <definition>typedef internal::NativeArray&lt;RawElement&gt; testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="458" column="33" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" prot="public" static="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">type</ref></type>
+        <definition>typedef const type testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::const_reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="459" column="22" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ac2ee2e58ecb48345758591eebaeff609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::GTEST_REMOVE_CONST_</definition>
+        <argsstring>(typename internal::PointeeOf&lt; ElementPointer &gt;::type) RawElement</argsstring>
+        <name>GTEST_REMOVE_CONST_</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::GTEST_REMOVE_CONST_</qualifiedname>
+        <param>
+          <type>typename <ref refid="structtesting_1_1internal_1_1PointeeOf" kindref="compound">internal::PointeeOf</ref>&lt; ElementPointer &gt;<ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">::type</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="456" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ac2ee2e58ecb48345758591eebaeff609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::GTEST_REMOVE_CONST_</definition>
+        <argsstring>(typename internal::PointeeOf&lt; ElementPointer &gt;::type) RawElement</argsstring>
+        <name>GTEST_REMOVE_CONST_</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::GTEST_REMOVE_CONST_</qualifiedname>
+        <param>
+          <type>typename <ref refid="structtesting_1_1internal_1_1PointeeOf" kindref="compound">internal::PointeeOf</ref>&lt; ElementPointer &gt;<ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">::type</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="456" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a5a71ffa2cb084b0caf73791f7d6c5ed6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" kindref="member">const_reference</ref></type>
+        <definition>static const_reference testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::ConstReference</definition>
+        <argsstring>(const ::std::tr1::tuple&lt; ElementPointer, Size &gt; &amp;array)</argsstring>
+        <name>ConstReference</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::ConstReference</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; ElementPointer, Size &gt; &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="461" column="26" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="461" bodyend="465"/>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bba2e7b032679dff6576dd260b01e8f6baa" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="950">testing::internal::kReference</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a0087edb33b1d1037466b84dc1dd60ca6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">type</ref></type>
+        <definition>static type testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::Copy</definition>
+        <argsstring>(const ::std::tr1::tuple&lt; ElementPointer, Size &gt; &amp;array)</argsstring>
+        <name>Copy</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::Copy</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; ElementPointer, Size &gt; &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="466" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="466" bodyend="469"/>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bbabb3df1d7eb03f12dabecbfc4f81cdcaf" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="951">testing::internal::kCopy</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a5a71ffa2cb084b0caf73791f7d6c5ed6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" kindref="member">const_reference</ref></type>
+        <definition>static const_reference testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::ConstReference</definition>
+        <argsstring>(const ::std::tr1::tuple&lt; ElementPointer, Size &gt; &amp;array)</argsstring>
+        <name>ConstReference</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::ConstReference</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; ElementPointer, Size &gt; &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="461" column="26" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="461" bodyend="465"/>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bba2e7b032679dff6576dd260b01e8f6baa" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="950">testing::internal::kReference</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a0087edb33b1d1037466b84dc1dd60ca6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" kindref="member">type</ref></type>
+        <definition>static type testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::Copy</definition>
+        <argsstring>(const ::std::tr1::tuple&lt; ElementPointer, Size &gt; &amp;array)</argsstring>
+        <name>Copy</name>
+        <qualifiedname>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;::Copy</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; ElementPointer, Size &gt; &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="466" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="466" bodyend="469"/>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bbabb3df1d7eb03f12dabecbfc4f81cdcaf" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="951">testing::internal::kCopy</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="454" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="454" bodyend="470"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>const_reference</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a74d50bb0c0e2faad79aabb8face38c01" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>const_reference</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a5a71ffa2cb084b0caf73791f7d6c5ed6" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>ConstReference</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a5a71ffa2cb084b0caf73791f7d6c5ed6" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>ConstReference</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a0087edb33b1d1037466b84dc1dd60ca6" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>Copy</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1a0087edb33b1d1037466b84dc1dd60ca6" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>Copy</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ac2ee2e58ecb48345758591eebaeff609" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>GTEST_REMOVE_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ac2ee2e58ecb48345758591eebaeff609" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>GTEST_REMOVE_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>type</name></member>
+      <member refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4_1ad6779e6231f07178e460d1e444ad89c1" prot="public" virt="non-virtual"><scope>testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

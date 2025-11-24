@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a68ae186804bf5afdcf6a2ac40af00a2" kind="dir">
+    <compoundname>internal</compoundname>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-generated-internal-utils_8h">mbelib/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h">mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h">mbelib/test/gmock/include/gmock/internal/gmock-port.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/"/>
+  </compounddef>
+</doxygen>

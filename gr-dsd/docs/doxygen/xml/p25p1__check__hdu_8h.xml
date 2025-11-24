@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="p25p1__check__hdu_8h" kind="file" language="C++">
+    <compoundname>p25p1_check_hdu.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1a6dda31ff9cd59eb7df7c75360524618e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_golay_24_6</definition>
+        <argsstring>(char *hex, char *parity, int *fixed_errors)</argsstring>
+        <name>check_and_fix_golay_24_6</name>
+        <param>
+          <type>char *</type>
+          <declname>hex</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>fixed_errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to correct an hex (6-bit) word using the Golay(24,12,8) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 6-bit word to error correct, given as a char array of 6 elements, one bit each. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 12-bit word with the Golay parity data, given as a char array of 12 elements. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fixed_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output. Filled with the number of errors fixed in the input. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if there were uncorrectable errors in the input, 0 otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="16" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1a6f908a62300c2af55e90a91d37017ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_golay_24_12</definition>
+        <argsstring>(char *dodeca, char *parity, int *fixed_errors)</argsstring>
+        <name>check_and_fix_golay_24_12</name>
+        <param>
+          <type>char *</type>
+          <declname>dodeca</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>fixed_errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to correct a 12-bit word using the Golay(24,12,8) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dodeca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 12-bit word to error correct, given as a char array of 12 elements, one bit each. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 12-bit word with the Golay parity data, given as a char array of 12 elements. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fixed_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output. Filled with the number of errors fixed in the input. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if there were uncorrectable errors in the input, 0 otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="25" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="25" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1ac7aa089f6c8ab2588acc17cc0f82f0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_golay_24_6</definition>
+        <argsstring>(char *hex, char *out_parity)</argsstring>
+        <name>encode_golay_24_6</name>
+        <param>
+          <type>char *</type>
+          <declname>hex</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes an hex word using the Golay(24,12,8) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 6-bit word to encode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address to be filled with the calculated Golay parity. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="32" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1a1ef57f8e392d18c9e7b572eaa920cc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_golay_24_12</definition>
+        <argsstring>(char *dodeca, char *out_parity)</argsstring>
+        <name>encode_golay_24_12</name>
+        <param>
+          <type>char *</type>
+          <declname>dodeca</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes an 12-bitword using the Golay(24,12,8) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dodeca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A 12-bit word to encode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address to be filled with the calculated Golay parity. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="39" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1a015299625ab8a28583cb04fed0f99668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_redsolomon_36_20_17</definition>
+        <argsstring>(char *data, char *parity)</argsstring>
+        <name>check_and_fix_redsolomon_36_20_17</name>
+        <param>
+          <type>char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to correct 20 hex words using the Reed-Solomon(36,20,17) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packed hex words, each of 6 chars, one after the other. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corresponding 16 hex words with the parity information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if irrecoverable errors have been detected, 0 otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="47" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="47" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__hdu_8h_1a2ba7849059e92a9435b692659d0b2d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_reedsolomon_36_20_17</definition>
+        <argsstring>(char *hex_data, char *fixed_parity)</argsstring>
+        <name>encode_reedsolomon_36_20_17</name>
+        <param>
+          <type>char *</type>
+          <declname>hex_data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>fixed_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the Reed-Solomon parity of 20 words of 6 bits each. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address with the words whose parity we want to calculate. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fixed_parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address to be filled with the calculated parity. 16 words of 6 bits are produced. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" line="54" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h" declline="54" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_hdu.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1DoBothAction" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::DoBothAction</compoundname>
+    <innerclass refid="classtesting_1_1internal_1_1DoBothAction_1_1Impl" prot="private">testing::internal::DoBothAction::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Action1</type>
+      </param>
+      <param>
+        <type>typename Action2</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1DoBothAction_1af747366f4d0117d1058c6288bb152122" prot="private" static="no" mutable="no">
+        <type>Action1</type>
+        <definition>Action1 testing::internal::DoBothAction&lt; Action1, Action2 &gt;::action1_</definition>
+        <argsstring></argsstring>
+        <name>action1_</name>
+        <qualifiedname>testing::internal::DoBothAction::action1_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="890" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1DoBothAction_1a414a3fe2381da32b235524338bbb592e" prot="private" static="no" mutable="no">
+        <type>Action2</type>
+        <definition>Action2 testing::internal::DoBothAction&lt; Action1, Action2 &gt;::action2_</definition>
+        <argsstring></argsstring>
+        <name>action2_</name>
+        <qualifiedname>testing::internal::DoBothAction::action2_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="891" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="891" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a55727c4dbdc1816ba6f1fe124e96088b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::DoBothAction</definition>
+        <argsstring>(Action1 action1, Action2 action2)</argsstring>
+        <name>DoBothAction</name>
+        <qualifiedname>testing::internal::DoBothAction::DoBothAction</qualifiedname>
+        <param>
+          <type>Action1</type>
+          <declname>action1</declname>
+        </param>
+        <param>
+          <type>Action2</type>
+          <declname>action2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="856" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="856" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a35733e2f117daad110bfbd3de84634a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::DoBothAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="862" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="862" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a55727c4dbdc1816ba6f1fe124e96088b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::DoBothAction</definition>
+        <argsstring>(Action1 action1, Action2 action2)</argsstring>
+        <name>DoBothAction</name>
+        <qualifiedname>testing::internal::DoBothAction::DoBothAction</qualifiedname>
+        <param>
+          <type>Action1</type>
+          <declname>action1</declname>
+        </param>
+        <param>
+          <type>Action2</type>
+          <declname>action2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="856" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="856" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a35733e2f117daad110bfbd3de84634a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::DoBothAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="862" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="862" bodyend="864"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a3428a1598ba58759f1a3f7d4443d6490" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(DoBothAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::DoBothAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>DoBothAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="893" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1DoBothAction_1a3428a1598ba58759f1a3f7d4443d6490" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::DoBothAction&lt; Action1, Action2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(DoBothAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::DoBothAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>DoBothAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="893" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="854" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="854" bodyend="894"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1af747366f4d0117d1058c6288bb152122" prot="private" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>action1_</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a414a3fe2381da32b235524338bbb592e" prot="private" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>action2_</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a55727c4dbdc1816ba6f1fe124e96088b" prot="public" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>DoBothAction</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a55727c4dbdc1816ba6f1fe124e96088b" prot="public" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>DoBothAction</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a3428a1598ba58759f1a3f7d4443d6490" prot="private" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a3428a1598ba58759f1a3f7d4443d6490" prot="private" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a35733e2f117daad110bfbd3de84634a6" prot="public" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1DoBothAction_1a35733e2f117daad110bfbd3de84634a6" prot="public" virt="non-virtual"><scope>testing::internal::DoBothAction</scope><name>operator Action&lt; F &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

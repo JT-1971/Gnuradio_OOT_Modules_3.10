@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structP25Heuristics" kind="struct" language="C++" prot="public">
+    <compoundname>P25Heuristics</compoundname>
+    <includes refid="p25p1__heuristics_8h" local="no">p25p1_heuristics.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structP25Heuristics_1a4bb13d01c9a7e5b68d30dbe43165eb67" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int P25Heuristics::bit_count</definition>
+        <argsstring></argsstring>
+        <name>bit_count</name>
+        <qualifiedname>P25Heuristics::bit_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="18" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structP25Heuristics_1a91c792b00d67845eda97e549f9aba430" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int P25Heuristics::bit_error_count</definition>
+        <argsstring></argsstring>
+        <name>bit_error_count</name>
+        <qualifiedname>P25Heuristics::bit_error_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="19" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structP25Heuristics_1a4ab8d899466c33746837086733588bbd" prot="public" static="no" mutable="no">
+        <type><ref refid="structSymbolHeuristics" kindref="compound">SymbolHeuristics</ref></type>
+        <definition>SymbolHeuristics P25Heuristics::symbols[4][4]</definition>
+        <argsstring>[4][4]</argsstring>
+        <name>symbols</name>
+        <qualifiedname>P25Heuristics::symbols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="20" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>P25Heuristics</label>
+        <link refid="structP25Heuristics"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>symbols</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SymbolHeuristics</label>
+        <link refid="structSymbolHeuristics"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" line="16" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_heuristics.h" bodystart="17" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structP25Heuristics_1a4bb13d01c9a7e5b68d30dbe43165eb67" prot="public" virt="non-virtual"><scope>P25Heuristics</scope><name>bit_count</name></member>
+      <member refid="structP25Heuristics_1a91c792b00d67845eda97e549f9aba430" prot="public" virt="non-virtual"><scope>P25Heuristics</scope><name>bit_error_count</name></member>
+      <member refid="structP25Heuristics_1a4ab8d899466c33746837086733588bbd" prot="public" virt="non-virtual"><scope>P25Heuristics</scope><name>symbols</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

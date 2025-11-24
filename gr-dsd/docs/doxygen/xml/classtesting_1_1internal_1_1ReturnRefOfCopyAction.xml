@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ReturnRefOfCopyAction" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::ReturnRefOfCopyAction</compoundname>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1_1Impl" prot="private">testing::internal::ReturnRefOfCopyAction::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a41fdd44b2021e01db916c6d5afcbf73f" prot="private" static="no" mutable="no">
+        <type>const T</type>
+        <definition>const T testing::internal::ReturnRefOfCopyAction&lt; T &gt;::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="623" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="623" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a073c18a8b50423b08f6603e860622839" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::ReturnRefOfCopyAction</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>ReturnRefOfCopyAction</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::ReturnRefOfCopyAction</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="587" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="587" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a8b4829fbb46c3ca6468f3eb5c5b42493" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="592" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="592" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a073c18a8b50423b08f6603e860622839" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::ReturnRefOfCopyAction</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>ReturnRefOfCopyAction</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::ReturnRefOfCopyAction</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="587" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="587" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a8b4829fbb46c3ca6468f3eb5c5b42493" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="592" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="592" bodyend="601"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a767fa5d48c046e472eaf2353c2e7544c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ReturnRefOfCopyAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ReturnRefOfCopyAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="625" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a767fa5d48c046e472eaf2353c2e7544c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnRefOfCopyAction&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ReturnRefOfCopyAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ReturnRefOfCopyAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ReturnRefOfCopyAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="625" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="583" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="583" bodyend="626"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a767fa5d48c046e472eaf2353c2e7544c" prot="private" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a767fa5d48c046e472eaf2353c2e7544c" prot="private" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a8b4829fbb46c3ca6468f3eb5c5b42493" prot="public" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a8b4829fbb46c3ca6468f3eb5c5b42493" prot="public" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a073c18a8b50423b08f6603e860622839" prot="public" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>ReturnRefOfCopyAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a073c18a8b50423b08f6603e860622839" prot="public" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>ReturnRefOfCopyAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1a41fdd44b2021e01db916c6d5afcbf73f" prot="private" virt="non-virtual"><scope>testing::internal::ReturnRefOfCopyAction</scope><name>value_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

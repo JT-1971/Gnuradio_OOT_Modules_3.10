@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Result</type>
+      </param>
+      <param>
+        <type>typename ArgumentTuple</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" prot="public" static="no">
+        <type>Result</type>
+        <definition>typedef Result testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::type()</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="432" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" kindref="member">type</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;type&gt;::ArgumentTuple testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="433" column="45" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" prot="public" static="no">
+        <type>Result</type>
+        <definition>typedef Result testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::type()</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="432" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" kindref="member">type</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;type&gt;::ArgumentTuple testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="433" column="45" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="433" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a3006d06399412a67f576dca100f3a830" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::Select</definition>
+        <argsstring>(const ArgumentTuple &amp;)</argsstring>
+        <name>Select</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::Select</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="434" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="434" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a3006d06399412a67f576dca100f3a830" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::Select</definition>
+        <argsstring>(const ArgumentTuple &amp;)</argsstring>
+        <name>Select</name>
+        <qualifiedname>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;::Select</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="434" column="23" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="434" bodyend="437"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="429" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="430" bodyend="438"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a3006d06399412a67f576dca100f3a830" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>Select</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a3006d06399412a67f576dca100f3a830" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>Select</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a51990aecfbd69bd557cabd6798fae384" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>type</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_3_01Result_00_01ArgumentTuple_00_01-1_00_01-1_00_01-1_00_d26521468f85209f6b4c61eca65baf5d_1a1630336a54c2407c1046bd1158a19569" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs&lt; Result, ArgumentTuple, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

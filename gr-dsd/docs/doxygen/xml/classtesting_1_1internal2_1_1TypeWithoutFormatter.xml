@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal2_1_1TypeWithoutFormatter" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal2::TypeWithoutFormatter</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" local="no">gtest-printers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type><ref refid="namespacetesting_1_1internal2_1aeb8161b0b3ee503347b0662d7028fd57" kindref="member">TypeKind</ref></type>
+        <declname>kTypeKind</declname>
+        <defname>kTypeKind</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal2_1_1TypeWithoutFormatter_1a6651f6f7be2c0f899729eeb6038f76d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal2::TypeWithoutFormatter&lt; T, kTypeKind &gt;::PrintValue</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>PrintValue</name>
+        <qualifiedname>testing::internal2::TypeWithoutFormatter::PrintValue</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="135" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="135" bodyend="138"/>
+        <references refid="namespacetesting_1_1internal2_1a9fbf8e07c0f94dc74d6ef5e56cd3c553">testing::internal2::PrintBytesInObjectTo</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal2_1_1TypeWithoutFormatter_1a6651f6f7be2c0f899729eeb6038f76d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal2::TypeWithoutFormatter&lt; T, kTypeKind &gt;::PrintValue</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>PrintValue</name>
+        <qualifiedname>testing::internal2::TypeWithoutFormatter::PrintValue</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" line="135" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" bodystart="135" bodyend="138"/>
+        <references refid="namespacetesting_1_1internal2_1a9fbf8e07c0f94dc74d6ef5e56cd3c553">testing::internal2::PrintBytesInObjectTo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="132" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="132" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_1a6651f6f7be2c0f899729eeb6038f76d3" prot="public" virt="non-virtual"><scope>testing::internal2::TypeWithoutFormatter</scope><name>PrintValue</name></member>
+      <member refid="classtesting_1_1internal2_1_1TypeWithoutFormatter_1a6651f6f7be2c0f899729eeb6038f76d3" prot="public" virt="non-virtual"><scope>testing::internal2::TypeWithoutFormatter</scope><name>PrintValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

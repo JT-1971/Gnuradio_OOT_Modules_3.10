@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</compoundname>
+    <basecompoundref refid="classtesting_1_1internal_1_1FunctionMockerBase" prot="public" virt="non-virtual">testing::internal::FunctionMockerBase&lt; R(A1, A2, A3, A4, A5, A6)&gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1internal_1_1FunctionMockerBase" prot="public" virt="non-virtual">testing::internal::FunctionMockerBase&lt; R(A1, A2, A3, A4, A5, A6)&gt;</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h" local="no">gmock-generated-function-mockers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+      <param>
+        <type>typename A1</type>
+      </param>
+      <param>
+        <type>typename A2</type>
+      </param>
+      <param>
+        <type>typename A3</type>
+      </param>
+      <param>
+        <type>typename A4</type>
+      </param>
+      <param>
+        <type>typename A5</type>
+      </param>
+      <param>
+        <type>typename A6</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" prot="public" static="no">
+        <type>R</type>
+        <definition>typedef R testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::F(A1, A2, A3, A4, A5, A6)</definition>
+        <argsstring>(A1, A2, A3, A4, A5, A6)</argsstring>
+        <name>F</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::F</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="195" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a0c8bc671adc8e67e8a49a01432407139" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" kindref="member">F</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="196" column="55" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" prot="public" static="no">
+        <type>R</type>
+        <definition>typedef R testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::F(A1, A2, A3, A4, A5, A6)</definition>
+        <argsstring>(A1, A2, A3, A4, A5, A6)</argsstring>
+        <name>F</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::F</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="195" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a0c8bc671adc8e67e8a49a01432407139" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" kindref="member">F</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="196" column="55" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a18cee916f9205f3af8a111f95f7be67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1FunctionMockerBase_1ae72aeee91c93e8ae5e1ed7f726a766b2" kindref="member">MockSpec</ref>&lt; <ref refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" kindref="member">F</ref> &gt; &amp;</type>
+        <definition>MockSpec&lt; F &gt; &amp; testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::With</definition>
+        <argsstring>(const Matcher&lt; A1 &gt; &amp;m1, const Matcher&lt; A2 &gt; &amp;m2, const Matcher&lt; A3 &gt; &amp;m3, const Matcher&lt; A4 &gt; &amp;m4, const Matcher&lt; A5 &gt; &amp;m5, const Matcher&lt; A6 &gt; &amp;m6)</argsstring>
+        <name>With</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::With</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A1 &gt; &amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A2 &gt; &amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A3 &gt; &amp;</type>
+          <declname>m3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A4 &gt; &amp;</type>
+          <declname>m4</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A5 &gt; &amp;</type>
+          <declname>m5</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A6 &gt; &amp;</type>
+          <declname>m6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="198" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="198" bodyend="204"/>
+        <references refid="namespacestd_1_1tr1_1af7e12a0f5b5791b5b7c49a5a17b85359" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="667" endline="667">std::tr1::make_tuple</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a8499277f15101fefacbb0c9d93b8153b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>R</type>
+        <definition>R testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::Invoke</definition>
+        <argsstring>(A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::Invoke</qualifiedname>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="206" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="206" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a18cee916f9205f3af8a111f95f7be67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1FunctionMockerBase_1ae72aeee91c93e8ae5e1ed7f726a766b2" kindref="member">MockSpec</ref>&lt; <ref refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" kindref="member">F</ref> &gt; &amp;</type>
+        <definition>MockSpec&lt; F &gt; &amp; testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::With</definition>
+        <argsstring>(const Matcher&lt; A1 &gt; &amp;m1, const Matcher&lt; A2 &gt; &amp;m2, const Matcher&lt; A3 &gt; &amp;m3, const Matcher&lt; A4 &gt; &amp;m4, const Matcher&lt; A5 &gt; &amp;m5, const Matcher&lt; A6 &gt; &amp;m6)</argsstring>
+        <name>With</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::With</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A1 &gt; &amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A2 &gt; &amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A3 &gt; &amp;</type>
+          <declname>m3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A4 &gt; &amp;</type>
+          <declname>m4</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A5 &gt; &amp;</type>
+          <declname>m5</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A6 &gt; &amp;</type>
+          <declname>m6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="198" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="198" bodyend="204"/>
+        <references refid="namespacestd_1_1tr1_1af7e12a0f5b5791b5b7c49a5a17b85359" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="667" endline="667">std::tr1::make_tuple</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a8499277f15101fefacbb0c9d93b8153b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>R</type>
+        <definition>R testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::Invoke</definition>
+        <argsstring>(A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;::Invoke</qualifiedname>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="206" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="206" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::internal::FunctionMockerBase&lt; R(A1, A2, A3, A4, A5, A6)&gt;</label>
+        <link refid="classtesting_1_1internal_1_1FunctionMockerBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</label>
+        <link refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::internal::UntypedFunctionMockerBase</label>
+        <link refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::internal::FunctionMockerBase&lt; R(A1, A2, A3, A4, A5, A6)&gt;</label>
+        <link refid="classtesting_1_1internal_1_1FunctionMockerBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>testing::internal::linked_ptr&lt; ExpectationBase &gt;</label>
+        <link refid="classtesting_1_1internal_1_1linked__ptr"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</label>
+        <link refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::internal::UntypedFunctionMockerBase</label>
+        <link refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>untyped_on_call_specs_</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>untyped_expectations_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; const void * &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; internal::linked_ptr&lt; ExpectationBase &gt; &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" line="192" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-function-mockers.h" bodystart="193" bodyend="213"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a4af80487f55b9f1d49eb887ae8627595" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>AddNewExpectation</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a4af80487f55b9f1d49eb887ae8627595" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>AddNewExpectation</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a21cd1573358dfebe35436eb6b92c2bf5" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>AddNewOnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a21cd1573358dfebe35436eb6b92c2bf5" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>AddNewOnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ab790bcb1dcf57fa6659365386723ae5a" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ArgumentMatcherTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ab790bcb1dcf57fa6659365386723ae5a" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ArgumentMatcherTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a0c8bc671adc8e67e8a49a01432407139" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a0c8bc671adc8e67e8a49a01432407139" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ada818fcb2b892f21bb939def386599e7" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ClearDefaultActionsLocked</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ada818fcb2b892f21bb939def386599e7" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ClearDefaultActionsLocked</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a0b87a2425585ededad75a67c1f6bf213" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>current_spec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a0b87a2425585ededad75a67c1f6bf213" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>current_spec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>F</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a5373cd66051f0a54e83b0497004df058" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>F</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ae938313e7b8bb17e8945f91c8aa70411" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>FindOnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ae938313e7b8bb17e8945f91c8aa70411" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>FindOnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a2206d80aad533ba6bf1f5e09c909aee0" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a2206d80aad533ba6bf1f5e09c909aee0" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a7705611c4a63df16cddb0674878c403a" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>GetHandleOf</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a7705611c4a63df16cddb0674878c403a" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>GetHandleOf</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a8499277f15101fefacbb0c9d93b8153b" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Invoke</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a8499277f15101fefacbb0c9d93b8153b" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Invoke</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a869ec713f000b4e7829c660efc25e8cd" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>InvokeWith</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a869ec713f000b4e7829c660efc25e8cd" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>InvokeWith</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a4eb6661d78c7b3f0fc9af3ad85523d69" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>mock_obj_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a71863dd67193a7082078d5b366d5ce51" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>MockObject</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a71863dd67193a7082078d5b366d5ce51" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>MockObject</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1ae90a5b5d48db1e99634bc6ff39ded335" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Name</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1ae90a5b5d48db1e99634bc6ff39ded335" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Name</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a542c016ebf21dd87006465e8b535c428" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>name_</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1adbef6e1af840c9c14c3a6acee01007b2" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>PerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1adbef6e1af840c9c14c3a6acee01007b2" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>PerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a0cd3dd14b92c714eab690c9597f32ffd" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>RegisterOwner</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a0cd3dd14b92c714eab690c9597f32ffd" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>RegisterOwner</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1aa50abc4055b4d3a14ad64c317bccec8d" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Result</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1aa50abc4055b4d3a14ad64c317bccec8d" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>Result</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1aa4e1b2ee217676c9e70c3006b19a8074" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ResultHolder</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1aa4e1b2ee217676c9e70c3006b19a8074" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>ResultHolder</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a287bcacee639b7d123cec29e0614fe96" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>SetOwnerAndName</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a287bcacee639b7d123cec29e0614fe96" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>SetOwnerAndName</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aae4a42a4bace1fcb0cd4bdf1ddd40277" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>untyped_expectations_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aed2a1913f6c03fd47c8900039556be34" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>untyped_on_call_specs_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a36480bd395e110b4eae5b0d0402de966" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedExpectations</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a36480bd395e110b4eae5b0d0402de966" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedExpectations</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aedfa95e65d80936e4dff040140513b36" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aedfa95e65d80936e4dff040140513b36" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a239e69c5cfc4398bb9a0f8e29b7ef7af" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedInvokeWith</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a239e69c5cfc4398bb9a0f8e29b7ef7af" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedInvokeWith</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a29cc87ed60ad0218432aa777abba7dbb" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedOnCallSpecs</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a29cc87ed60ad0218432aa777abba7dbb" prot="protected" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedOnCallSpecs</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ac8ba3570a7364dd2ca74de0d0e33b1ad" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedPerformAction</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1ac8ba3570a7364dd2ca74de0d0e33b1ad" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedPerformAction</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1af07d0248e1fd320d74d00b997d8cb00e" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedPerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1af07d0248e1fd320d74d00b997d8cb00e" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>UntypedPerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a3f1d62a1662a3daa2895b3af963be269" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>VerifyAndClearExpectationsLocked</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1a3f1d62a1662a3daa2895b3af963be269" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>VerifyAndClearExpectationsLocked</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a18cee916f9205f3af8a111f95f7be67c" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>With</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMocker_3_01R_07A1_00_01A2_00_01A3_00_01A4_00_01A5_00_01A6_08_4_1a18cee916f9205f3af8a111f95f7be67c" prot="public" virt="non-virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>With</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a3c33e7b4aa0e28e5bd46eb072f511068" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>~FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1FunctionMockerBase_1a3c33e7b4aa0e28e5bd46eb072f511068" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>~FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aa76d5fc60c58e65dabab970b5153d294" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>~UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase_1aa76d5fc60c58e65dabab970b5153d294" prot="public" virt="virtual"><scope>testing::internal::FunctionMocker&lt; R(A1, A2, A3, A4, A5, A6)&gt;</scope><name>~UntypedFunctionMockerBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1GTestLog" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::GTestLog</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" local="no">gtest-port.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1GTestLog_1ad8f75f5845900d0d2fd3cbb048a861be" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespacetesting_1_1internal_1aa6255ef3b023c5b4e1a2198d887fb977" kindref="member">GTestLogSeverity</ref></type>
+        <definition>const GTestLogSeverity testing::internal::GTestLog::severity_</definition>
+        <argsstring></argsstring>
+        <name>severity_</name>
+        <qualifiedname>testing::internal::GTestLog::severity_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1034" column="26" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1034" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a364691bf972983a59cfa2891062a64af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::GTestLog</definition>
+        <argsstring>(GTestLogSeverity severity, const char *file, int line)</argsstring>
+        <name>GTestLog</name>
+        <qualifiedname>testing::internal::GTestLog::GTestLog</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aa6255ef3b023c5b4e1a2198d887fb977" kindref="member">GTestLogSeverity</ref></type>
+          <declname>severity</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1026" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a978a099703bbaa0f380216e8d7ee03d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::~GTestLog</definition>
+        <argsstring>()</argsstring>
+        <name>~GTestLog</name>
+        <qualifiedname>testing::internal::GTestLog::~GTestLog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1029" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a74935e7a0b424c4a6312fb73dafab6b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>::std::ostream &amp;</type>
+        <definition>::std::ostream &amp; testing::internal::GTestLog::GetStream</definition>
+        <argsstring>()</argsstring>
+        <name>GetStream</name>
+        <qualifiedname>testing::internal::GTestLog::GetStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1031" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1031" bodyend="1031"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a364691bf972983a59cfa2891062a64af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::GTestLog</definition>
+        <argsstring>(GTestLogSeverity severity, const char *file, int line)</argsstring>
+        <name>GTestLog</name>
+        <qualifiedname>testing::internal::GTestLog::GTestLog</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aa6255ef3b023c5b4e1a2198d887fb977" kindref="member">GTestLogSeverity</ref></type>
+          <declname>severity</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="1026" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a978a099703bbaa0f380216e8d7ee03d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::~GTestLog</definition>
+        <argsstring>()</argsstring>
+        <name>~GTestLog</name>
+        <qualifiedname>testing::internal::GTestLog::~GTestLog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="1029" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1a74935e7a0b424c4a6312fb73dafab6b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>::std::ostream &amp;</type>
+        <definition>::std::ostream &amp; testing::internal::GTestLog::GetStream</definition>
+        <argsstring>()</argsstring>
+        <name>GetStream</name>
+        <qualifiedname>testing::internal::GTestLog::GetStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="1031" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1031" bodyend="1031"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1ab6032a126d36a80163fdcd406fce3aad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(GTestLog)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::GTestLog::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1GTestLog" kindref="compound">GTestLog</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1036" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1GTestLog_1ab6032a126d36a80163fdcd406fce3aad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::GTestLog::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(GTestLog)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::GTestLog::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1GTestLog" kindref="compound">GTestLog</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="1036" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1024" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1024" bodyend="1037"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a74935e7a0b424c4a6312fb73dafab6b5" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GetStream</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a74935e7a0b424c4a6312fb73dafab6b5" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GetStream</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1ab6032a126d36a80163fdcd406fce3aad" prot="private" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1ab6032a126d36a80163fdcd406fce3aad" prot="private" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a364691bf972983a59cfa2891062a64af" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GTestLog</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a364691bf972983a59cfa2891062a64af" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>GTestLog</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1ad8f75f5845900d0d2fd3cbb048a861be" prot="private" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>severity_</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a978a099703bbaa0f380216e8d7ee03d3" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>~GTestLog</name></member>
+      <member refid="classtesting_1_1internal_1_1GTestLog_1a978a099703bbaa0f380216e8d7ee03d3" prot="public" virt="non-virtual"><scope>testing::internal::GTestLog</scope><name>~GTestLog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

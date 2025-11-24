@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ReturnAction" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::ReturnAction</compoundname>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnAction_1_1Impl" prot="private">testing::internal::ReturnAction::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ReturnAction_1afddf55af218c9e3aff50a152ce669852" prot="private" static="no" mutable="no">
+        <type>R</type>
+        <definition>R testing::internal::ReturnAction&lt; R &gt;::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>testing::internal::ReturnAction::value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="505" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1af65344e503dae3ab36b4fd6d1ede6fb7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::ReturnAction</definition>
+        <argsstring>(R value)</argsstring>
+        <name>ReturnAction</name>
+        <qualifiedname>testing::internal::ReturnAction::ReturnAction</qualifiedname>
+        <param>
+          <type>R</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="456" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="456" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1a1aab69c4ea104e76e70ba209763f61d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::ReturnAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="461" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="461" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1af65344e503dae3ab36b4fd6d1ede6fb7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::ReturnAction</definition>
+        <argsstring>(R value)</argsstring>
+        <name>ReturnAction</name>
+        <qualifiedname>testing::internal::ReturnAction::ReturnAction</qualifiedname>
+        <param>
+          <type>R</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="456" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="456" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1a1aab69c4ea104e76e70ba209763f61d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::ReturnAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="461" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="461" bodyend="475"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1a213aa7089e1caf147a736aa283789045" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ReturnAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ReturnAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ReturnAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="507" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReturnAction_1a213aa7089e1caf147a736aa283789045" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReturnAction&lt; R &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ReturnAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ReturnAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ReturnAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="507" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="451" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="451" bodyend="508"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1a213aa7089e1caf147a736aa283789045" prot="private" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1a213aa7089e1caf147a736aa283789045" prot="private" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1a1aab69c4ea104e76e70ba209763f61d5" prot="public" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1a1aab69c4ea104e76e70ba209763f61d5" prot="public" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1af65344e503dae3ab36b4fd6d1ede6fb7" prot="public" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>ReturnAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1af65344e503dae3ab36b4fd6d1ede6fb7" prot="public" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>ReturnAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ReturnAction_1afddf55af218c9e3aff50a152ce669852" prot="private" virt="non-virtual"><scope>testing::internal::ReturnAction</scope><name>value_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

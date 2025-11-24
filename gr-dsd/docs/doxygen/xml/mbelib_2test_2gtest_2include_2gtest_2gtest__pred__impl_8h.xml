@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gtest/include/gtest/gtest_pred_impl.h</compoundname>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" prot="public" static="no">
+        <name>GTEST_ASSERT_</name>
+        <param><defname>expression</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1a00b3684a621ce1422b55a0e7e8a6aecb" kindref="member">GTEST_AMBIGUOUS_ELSE_BLOCKER_</ref> \
+  if (const <ref refid="classtesting_1_1AssertionResult" kindref="compound">::testing::AssertionResult</ref> gtest_ar = (expression)) \
+    ; \
+  else \
+    on_failure(gtest_ar.failure_message())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="75" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa3e3bfe04bb0e54d7f0e57e2f991d1eb" prot="public" static="no">
+        <name>GTEST_PRED_FORMAT1_</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(pred_format(#v1, v1), \
+                on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="100" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ad44cf322952076d85305bbdf39769ac1" prot="public" static="no">
+        <name>GTEST_PRED1_</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(<ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a41d32b74fac585ac04cc9ba037c9fed4" kindref="member">::testing::AssertPred1Helper</ref>(#pred, \
+                                             #v1, \
+                                             pred, \
+                                             v1), on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="106" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a07132aa62cf4902e50e68d0265f573b6" prot="public" static="no">
+        <name>EXPECT_PRED_FORMAT1</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa3e3bfe04bb0e54d7f0e57e2f991d1eb" kindref="member">GTEST_PRED_FORMAT1_</ref>(pred_format, v1, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="113" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="113" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a6d09aa83f8d297481380c7c073c9f070" prot="public" static="no">
+        <name>EXPECT_PRED1</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ad44cf322952076d85305bbdf39769ac1" kindref="member">GTEST_PRED1_</ref>(pred, v1, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="115" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="115" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a3771ca0d1a72013aebc3d66e046491ed" prot="public" static="no">
+        <name>ASSERT_PRED_FORMAT1</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa3e3bfe04bb0e54d7f0e57e2f991d1eb" kindref="member">GTEST_PRED_FORMAT1_</ref>(pred_format, v1, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="117" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="117" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a7d72f779b7d39b8f73a563ebc6d0604b" prot="public" static="no">
+        <name>ASSERT_PRED1</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ad44cf322952076d85305bbdf39769ac1" kindref="member">GTEST_PRED1_</ref>(pred, v1, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="119" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a115c18d1f752b7f091d577fb69cac372" prot="public" static="no">
+        <name>GTEST_PRED_FORMAT2_</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(pred_format(#v1, #v2, v1, v2), \
+                on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="146" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ac560264104bd030b64034505d294a7b6" prot="public" static="no">
+        <name>GTEST_PRED2_</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(<ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa21b5175030ef2d76837bde68459effe" kindref="member">::testing::AssertPred2Helper</ref>(#pred, \
+                                             #v1, \
+                                             #v2, \
+                                             pred, \
+                                             v1, \
+                                             v2), on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="152" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1af0141918615a5e2d5247e9cda8324dae" prot="public" static="no">
+        <name>EXPECT_PRED_FORMAT2</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a115c18d1f752b7f091d577fb69cac372" kindref="member">GTEST_PRED_FORMAT2_</ref>(pred_format, v1, v2, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="161" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="161" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a14e74e655e502914d3d07e083145ac91" prot="public" static="no">
+        <name>EXPECT_PRED2</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ac560264104bd030b64034505d294a7b6" kindref="member">GTEST_PRED2_</ref>(pred, v1, v2, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="163" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="163" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ac452685a1a98ea3d96eb956a062ee210" prot="public" static="no">
+        <name>ASSERT_PRED_FORMAT2</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a115c18d1f752b7f091d577fb69cac372" kindref="member">GTEST_PRED_FORMAT2_</ref>(pred_format, v1, v2, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="165" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="165" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a4e9b777cce4e5423f4c2e491be7aa818" prot="public" static="no">
+        <name>ASSERT_PRED2</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ac560264104bd030b64034505d294a7b6" kindref="member">GTEST_PRED2_</ref>(pred, v1, v2, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="167" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="167" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a49cdf8707268ee932bb772d879a226cc" prot="public" static="no">
+        <name>GTEST_PRED_FORMAT3_</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(pred_format(#v1, #v2, #v3, v1, v2, v3), \
+                on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="199" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="199" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1af30518f03233bc4486b55284b0827eb8" prot="public" static="no">
+        <name>GTEST_PRED3_</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(<ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ae48a4ec033f85849b47bcbd2aa94baab" kindref="member">::testing::AssertPred3Helper</ref>(#pred, \
+                                             #v1, \
+                                             #v2, \
+                                             #v3, \
+                                             pred, \
+                                             v1, \
+                                             v2, \
+                                             v3), on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="205" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="205" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a7285708fa5d37d6d8ed5b5e59da08bae" prot="public" static="no">
+        <name>EXPECT_PRED_FORMAT3</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a49cdf8707268ee932bb772d879a226cc" kindref="member">GTEST_PRED_FORMAT3_</ref>(pred_format, v1, v2, v3, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="216" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="216" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a0a0aff2564ea84c7eb3517ac8eda04da" prot="public" static="no">
+        <name>EXPECT_PRED3</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1af30518f03233bc4486b55284b0827eb8" kindref="member">GTEST_PRED3_</ref>(pred, v1, v2, v3, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="218" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="218" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a494e3b8dc22f4765f7e041f16c930e3d" prot="public" static="no">
+        <name>ASSERT_PRED_FORMAT3</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a49cdf8707268ee932bb772d879a226cc" kindref="member">GTEST_PRED_FORMAT3_</ref>(pred_format, v1, v2, v3, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="220" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="220" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa7688f3ab9f09a2c1dbf13bd1f29d8fd" prot="public" static="no">
+        <name>ASSERT_PRED3</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1af30518f03233bc4486b55284b0827eb8" kindref="member">GTEST_PRED3_</ref>(pred, v1, v2, v3, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="222" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="222" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1abd207ed869491ba4bba29f8df37b7355" prot="public" static="no">
+        <name>GTEST_PRED_FORMAT4_</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(pred_format(#v1, #v2, #v3, #v4, v1, v2, v3, v4), \
+                on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="259" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="259" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a14e8c70455104fac032efec097ef668b" prot="public" static="no">
+        <name>GTEST_PRED4_</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(<ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a22f4e27e6b18091281c45d4395c98517" kindref="member">::testing::AssertPred4Helper</ref>(#pred, \
+                                             #v1, \
+                                             #v2, \
+                                             #v3, \
+                                             #v4, \
+                                             pred, \
+                                             v1, \
+                                             v2, \
+                                             v3, \
+                                             v4), on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="265" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="265" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a3354347de0f2445400b509cf39dce1dc" prot="public" static="no">
+        <name>EXPECT_PRED_FORMAT4</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1abd207ed869491ba4bba29f8df37b7355" kindref="member">GTEST_PRED_FORMAT4_</ref>(pred_format, v1, v2, v3, v4, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="278" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="278" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a4fd2b1bad63eb752bc2ff2b6bb3f4569" prot="public" static="no">
+        <name>EXPECT_PRED4</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a14e8c70455104fac032efec097ef668b" kindref="member">GTEST_PRED4_</ref>(pred, v1, v2, v3, v4, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="280" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="280" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a1842593c1dfb13c9a4b33b01540a8b40" prot="public" static="no">
+        <name>ASSERT_PRED_FORMAT4</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1abd207ed869491ba4bba29f8df37b7355" kindref="member">GTEST_PRED_FORMAT4_</ref>(pred_format, v1, v2, v3, v4, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="282" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="282" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1addc030c521775610e4619a01541a2167" prot="public" static="no">
+        <name>ASSERT_PRED4</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a14e8c70455104fac032efec097ef668b" kindref="member">GTEST_PRED4_</ref>(pred, v1, v2, v3, v4, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="284" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="284" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a107623ee191560f703a3fdc983803c8e" prot="public" static="no">
+        <name>GTEST_PRED_FORMAT5_</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(pred_format(#v1, #v2, #v3, #v4, #v5, v1, v2, v3, v4, v5), \
+                on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="326" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="326" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a2c42692f7d910dc2fe57869883190e6c" prot="public" static="no">
+        <name>GTEST_PRED5_</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <param><defname>on_failure</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a8c09939dd67f1bb5b68c9f6a44ea75db" kindref="member">GTEST_ASSERT_</ref>(<ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a1012d0b317e600d13b1a74712f0d8a48" kindref="member">::testing::AssertPred5Helper</ref>(#pred, \
+                                             #v1, \
+                                             #v2, \
+                                             #v3, \
+                                             #v4, \
+                                             #v5, \
+                                             pred, \
+                                             v1, \
+                                             v2, \
+                                             v3, \
+                                             v4, \
+                                             v5), on_failure)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="332" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="332" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a74beddf9661e4460f9969fe211b9e80e" prot="public" static="no">
+        <name>EXPECT_PRED_FORMAT5</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a107623ee191560f703a3fdc983803c8e" kindref="member">GTEST_PRED_FORMAT5_</ref>(pred_format, v1, v2, v3, v4, v5, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="347" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="347" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1adbfcc13f3b3d14c42a7fbd41573932bf" prot="public" static="no">
+        <name>EXPECT_PRED5</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a2c42692f7d910dc2fe57869883190e6c" kindref="member">GTEST_PRED5_</ref>(pred, v1, v2, v3, v4, v5, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a6cb7482cfa03661a91c698eb5895f642" kindref="member">GTEST_NONFATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="349" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="349" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1abd7cb4f36d6aa2cb346ab3ac812568f3" prot="public" static="no">
+        <name>ASSERT_PRED_FORMAT5</name>
+        <param><defname>pred_format</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a107623ee191560f703a3fdc983803c8e" kindref="member">GTEST_PRED_FORMAT5_</ref>(pred_format, v1, v2, v3, v4, v5, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="351" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="351" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1af8e510af2b4a14d90eef66ace17d1c30" prot="public" static="no">
+        <name>ASSERT_PRED5</name>
+        <param><defname>pred</defname></param>
+        <param><defname>v1</defname></param>
+        <param><defname>v2</defname></param>
+        <param><defname>v3</defname></param>
+        <param><defname>v4</defname></param>
+        <param><defname>v5</defname></param>
+        <initializer>  <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a2c42692f7d910dc2fe57869883190e6c" kindref="member">GTEST_PRED5_</ref>(pred, v1, v2, v3, v4, v5, <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a0f9a4c3ea82cc7bf4478eaffdc168358" kindref="member">GTEST_FATAL_FAILURE_</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="353" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="353" bodyend="354"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a41d32b74fac585ac04cc9ba037c9fed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+          <param>
+            <type>typename T1</type>
+          </param>
+        </templateparamlist>
+        <type>AssertionResult</type>
+        <definition>AssertionResult AssertPred1Helper</definition>
+        <argsstring>(const char *pred_text, const char *e1, Pred pred, const T1 &amp;v1)</argsstring>
+        <name>AssertPred1Helper</name>
+        <param>
+          <type>const char *</type>
+          <declname>pred_text</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e1</declname>
+        </param>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>const T1 &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="87" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="87" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1aa21b5175030ef2d76837bde68459effe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>AssertionResult</type>
+        <definition>AssertionResult AssertPred2Helper</definition>
+        <argsstring>(const char *pred_text, const char *e1, const char *e2, Pred pred, const T1 &amp;v1, const T2 &amp;v2)</argsstring>
+        <name>AssertPred2Helper</name>
+        <param>
+          <type>const char *</type>
+          <declname>pred_text</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e2</declname>
+        </param>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>const T1 &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const T2 &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="129" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="129" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1ae48a4ec033f85849b47bcbd2aa94baab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename T3</type>
+          </param>
+        </templateparamlist>
+        <type>AssertionResult</type>
+        <definition>AssertionResult AssertPred3Helper</definition>
+        <argsstring>(const char *pred_text, const char *e1, const char *e2, const char *e3, Pred pred, const T1 &amp;v1, const T2 &amp;v2, const T3 &amp;v3)</argsstring>
+        <name>AssertPred3Helper</name>
+        <param>
+          <type>const char *</type>
+          <declname>pred_text</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e2</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e3</declname>
+        </param>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>const T1 &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const T2 &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>const T3 &amp;</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="178" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="178" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a22f4e27e6b18091281c45d4395c98517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename T3</type>
+          </param>
+          <param>
+            <type>typename T4</type>
+          </param>
+        </templateparamlist>
+        <type>AssertionResult</type>
+        <definition>AssertionResult AssertPred4Helper</definition>
+        <argsstring>(const char *pred_text, const char *e1, const char *e2, const char *e3, const char *e4, Pred pred, const T1 &amp;v1, const T2 &amp;v2, const T3 &amp;v3, const T4 &amp;v4)</argsstring>
+        <name>AssertPred4Helper</name>
+        <param>
+          <type>const char *</type>
+          <declname>pred_text</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e2</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e3</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e4</declname>
+        </param>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>const T1 &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const T2 &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>const T3 &amp;</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>const T4 &amp;</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="234" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="234" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a1012d0b317e600d13b1a74712f0d8a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename T3</type>
+          </param>
+          <param>
+            <type>typename T4</type>
+          </param>
+          <param>
+            <type>typename T5</type>
+          </param>
+        </templateparamlist>
+        <type>AssertionResult</type>
+        <definition>AssertionResult AssertPred5Helper</definition>
+        <argsstring>(const char *pred_text, const char *e1, const char *e2, const char *e3, const char *e4, const char *e5, Pred pred, const T1 &amp;v1, const T2 &amp;v2, const T3 &amp;v3, const T4 &amp;v4, const T5 &amp;v5)</argsstring>
+        <name>AssertPred5Helper</name>
+        <param>
+          <type>const char *</type>
+          <declname>pred_text</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e2</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e3</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e4</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>e5</declname>
+        </param>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>const T1 &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const T2 &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>const T3 &amp;</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>const T4 &amp;</type>
+          <declname>v4</declname>
+        </param>
+        <param>
+          <type>const T5 &amp;</type>
+          <declname>v5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" line="297" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h" bodystart="297" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest_pred_impl.h"/>
+  </compounddef>
+</doxygen>

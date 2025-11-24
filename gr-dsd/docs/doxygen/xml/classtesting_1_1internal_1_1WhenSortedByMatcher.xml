@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1WhenSortedByMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::WhenSortedByMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <innerclass refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl" prot="public">testing::internal::WhenSortedByMatcher::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Comparator</type>
+      </param>
+      <param>
+        <type>typename ContainerMatcher</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1adea7dca9b0e3b5d2ab198cc9c29b1c2d" prot="private" static="no" mutable="no">
+        <type>const Comparator</type>
+        <definition>const Comparator testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::comparator_</definition>
+        <argsstring></argsstring>
+        <name>comparator_</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::comparator_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2441" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1ab873ba633a5f7dfc46440e8f2c9d5611" prot="private" static="no" mutable="no">
+        <type>const ContainerMatcher</type>
+        <definition>const ContainerMatcher testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::matcher_</definition>
+        <argsstring></argsstring>
+        <name>matcher_</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2442" column="26" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2442" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1a5c5e625b3f0be9f7380f5be744f61b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::WhenSortedByMatcher</definition>
+        <argsstring>(const Comparator &amp;comparator, const ContainerMatcher &amp;matcher)</argsstring>
+        <name>WhenSortedByMatcher</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::WhenSortedByMatcher</qualifiedname>
+        <param>
+          <type>const Comparator &amp;</type>
+          <declname>comparator</declname>
+        </param>
+        <param>
+          <type>const ContainerMatcher &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2374" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2374" bodyend="2376"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1ae76285fee36055ffde63492102d3c67f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename LhsContainer</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::operator Matcher&lt; LhsContainer &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; LhsContainer &gt;</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::operator Matcher&lt; LhsContainer &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2379" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2379" bodyend="2381"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1a5c5e625b3f0be9f7380f5be744f61b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::WhenSortedByMatcher</definition>
+        <argsstring>(const Comparator &amp;comparator, const ContainerMatcher &amp;matcher)</argsstring>
+        <name>WhenSortedByMatcher</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::WhenSortedByMatcher</qualifiedname>
+        <param>
+          <type>const Comparator &amp;</type>
+          <declname>comparator</declname>
+        </param>
+        <param>
+          <type>const ContainerMatcher &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2374" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2374" bodyend="2376"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1ae76285fee36055ffde63492102d3c67f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename LhsContainer</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::operator Matcher&lt; LhsContainer &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; LhsContainer &gt;</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::operator Matcher&lt; LhsContainer &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2379" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2379" bodyend="2381"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1a123a50e78beca9a4a4f7b7cb4c9e18d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(WhenSortedByMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1WhenSortedByMatcher" kindref="compound">WhenSortedByMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2444" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WhenSortedByMatcher_1a123a50e78beca9a4a4f7b7cb4c9e18d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(WhenSortedByMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::WhenSortedByMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1WhenSortedByMatcher" kindref="compound">WhenSortedByMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2444" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2372" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2372" bodyend="2445"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1adea7dca9b0e3b5d2ab198cc9c29b1c2d" prot="private" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>comparator_</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1a123a50e78beca9a4a4f7b7cb4c9e18d5" prot="private" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1a123a50e78beca9a4a4f7b7cb4c9e18d5" prot="private" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1ab873ba633a5f7dfc46440e8f2c9d5611" prot="private" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1ae76285fee36055ffde63492102d3c67f" prot="public" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>operator Matcher&lt; LhsContainer &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1ae76285fee36055ffde63492102d3c67f" prot="public" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>operator Matcher&lt; LhsContainer &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1a5c5e625b3f0be9f7380f5be744f61b1c" prot="public" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>WhenSortedByMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1a5c5e625b3f0be9f7380f5be744f61b1c" prot="public" virt="non-virtual"><scope>testing::internal::WhenSortedByMatcher</scope><name>WhenSortedByMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

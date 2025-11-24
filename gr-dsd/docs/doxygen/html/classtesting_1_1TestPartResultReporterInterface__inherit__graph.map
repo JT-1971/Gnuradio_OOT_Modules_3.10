@@ -1,0 +1,15 @@
+<map id="testing::TestPartResultReporterInterface" name="testing::TestPartResultReporterInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,117,228,157"/>
+<area shape="rect" id="Node000002" href="$classtesting_1_1ScopedFakeTestPartResultReporter.html" title=" " alt="" coords="289,5,491,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,109,275,67,348,43,349,48,277,72,185,114"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="149,107,207,74,275,43,287,38,289,43,277,48,209,79,151,112"/>
+<area shape="rect" id="Node000003" href="$classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter.html" title=" " alt="" coords="288,70,492,125"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="241,125,287,118,288,124,242,131"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="210,112,287,101,288,106,211,118"/>
+<area shape="rect" id="Node000004" href="$classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter.html" title=" " alt="" coords="276,149,504,203"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="214,157,276,166,275,171,213,162"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="242,143,276,148,275,154,241,149"/>
+<area shape="rect" id="Node000005" href="$classtesting_1_1internal_1_1HasNewFatalFailureHelper.html" title=" " alt="" coords="293,228,487,268"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="153,163,210,194,277,224,294,230,292,235,275,229,208,199,150,167"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="188,161,277,200,351,225,350,230,275,205,186,166"/>
+</map>

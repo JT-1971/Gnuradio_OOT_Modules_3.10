@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1MatchResultListener" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>testing::MatchResultListener</compoundname>
+    <derivedcompoundref refid="classtesting_1_1StringMatchResultListener" prot="public" virt="non-virtual">testing::StringMatchResultListener</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1StringMatchResultListener" prot="public" virt="non-virtual">testing::StringMatchResultListener</derivedcompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1MatchResultListener_1a357b75fe4799e491f8cacc32ab22350f" prot="private" static="no" mutable="no">
+        <type>::std::ostream *const</type>
+        <definition>std::ostream *const testing::MatchResultListener::stream_</definition>
+        <argsstring></argsstring>
+        <name>stream_</name>
+        <qualifiedname>testing::MatchResultListener::stream_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="107" column="24" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::MatchResultListener::MatchResultListener</definition>
+        <argsstring>(::std::ostream *os)</argsstring>
+        <name>MatchResultListener</name>
+        <qualifiedname>testing::MatchResultListener::MatchResultListener</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="85" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1aa29f43f7b2ffd850c721a8a33ccbba92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="pure-virtual">
+        <type></type>
+        <definition>testing::MatchResultListener::~MatchResultListener</definition>
+        <argsstring>()=0</argsstring>
+        <name>~MatchResultListener</name>
+        <qualifiedname>testing::MatchResultListener::~MatchResultListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="86" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="112" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> &amp;</type>
+        <definition>MatchResultListener &amp; testing::MatchResultListener::operator&lt;&lt;</definition>
+        <argsstring>(const T &amp;x)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>testing::MatchResultListener::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="91" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="91" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>::std::ostream *</type>
+        <definition>::std::ostream * testing::MatchResultListener::stream</definition>
+        <argsstring>()</argsstring>
+        <name>stream</name>
+        <qualifiedname>testing::MatchResultListener::stream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="98" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="98" bodyend="98"/>
+        <referencedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h" startline="234" endline="248">testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1ContainerEqMatcher_1a348c6139776dd7d713d100e406ee38f4" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2306" endline="2356">testing::internal::ContainerEqMatcher&lt; Container &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a5180472f5a18b8c0314ed835c52e09d4" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2249" endline="2258">testing::internal::SizeIsMatcher&lt; SizeMatcher &gt;::Impl&lt; Container &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2920" endline="2998">testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a9d8f57c729df8c041f2fd7febbc950da" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2408" endline="2431">testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::Impl&lt; LhsContainer &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a4253946989f3743c4dd983909f2d062b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2508" endline="2541">testing::internal::PointwiseMatcher&lt; TupleMatcher, RhsContainer &gt;::Impl&lt; LhsContainer &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a1bba47f97cbf50a1f6331d3f7bfd47a1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2792" endline="2817">testing::internal::PairMatcherImpl&lt; PairType &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1QuantifierMatcherImpl_1ab8f64532b70f47fc60f7983ebe5cbfc6" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2575" endline="2593">testing::internal::QuantifierMatcherImpl&lt; Container &gt;::MatchAndExplainImpl</referencedby>
+        <referencedby refid="namespacetesting_1_1internal_1a0821df2611d54c79bac990719ad8a2dd" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="676" endline="696">testing::internal::MatchPrintAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::MatchResultListener::IsInterested</definition>
+        <argsstring>() const</argsstring>
+        <name>IsInterested</name>
+        <qualifiedname>testing::MatchResultListener::IsInterested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="104" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="104" bodyend="104"/>
+        <referencedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h" startline="234" endline="248">testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2920" endline="2998">testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a4031291eef9be8c1e9e1effdd02c4334" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3135" endline="3162">testing::internal::UnorderedElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a9d8f57c729df8c041f2fd7febbc950da" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2408" endline="2431">testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::Impl&lt; LhsContainer &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a4253946989f3743c4dd983909f2d062b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2508" endline="2541">testing::internal::PointwiseMatcher&lt; TupleMatcher, RhsContainer &gt;::Impl&lt; LhsContainer &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a1bba47f97cbf50a1f6331d3f7bfd47a1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2792" endline="2817">testing::internal::PairMatcherImpl&lt; PairType &gt;::MatchAndExplain</referencedby>
+        <referencedby refid="namespacetesting_1_1internal_1a0821df2611d54c79bac990719ad8a2dd" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="676" endline="696">testing::internal::MatchPrintAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::MatchResultListener::MatchResultListener</definition>
+        <argsstring>(::std::ostream *os)</argsstring>
+        <name>MatchResultListener</name>
+        <qualifiedname>testing::MatchResultListener::MatchResultListener</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="85" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a8f11d668de95192079f014f64d1f10d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type></type>
+        <definition>virtual testing::MatchResultListener::~MatchResultListener</definition>
+        <argsstring>()=0</argsstring>
+        <name>~MatchResultListener</name>
+        <qualifiedname>testing::MatchResultListener::~MatchResultListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="86" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> &amp;</type>
+        <definition>MatchResultListener &amp; testing::MatchResultListener::operator&lt;&lt;</definition>
+        <argsstring>(const T &amp;x)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>testing::MatchResultListener::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="91" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="91" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>::std::ostream *</type>
+        <definition>::std::ostream * testing::MatchResultListener::stream</definition>
+        <argsstring>()</argsstring>
+        <name>stream</name>
+        <qualifiedname>testing::MatchResultListener::stream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="98" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::MatchResultListener::IsInterested</definition>
+        <argsstring>() const</argsstring>
+        <name>IsInterested</name>
+        <qualifiedname>testing::MatchResultListener::IsInterested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="104" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1ad41af985b372f2d8394e01fd52a1e53d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(MatchResultListener)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::MatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="109" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatchResultListener_1ad41af985b372f2d8394e01fd52a1e53d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::MatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(MatchResultListener)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::MatchResultListener::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="109" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::MatchResultListener</label>
+        <link refid="classtesting_1_1MatchResultListener"/>
+      </node>
+      <node id="2">
+        <label>testing::StringMatchResultListener</label>
+        <link refid="classtesting_1_1StringMatchResultListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="80" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="80" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1MatchResultListener_1ad41af985b372f2d8394e01fd52a1e53d" prot="private" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1ad41af985b372f2d8394e01fd52a1e53d" prot="private" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>IsInterested</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>IsInterested</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a245c360286cd0496d22a4d2fde80eb0b" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a928c89c85da05cb484b2abd3aa1a9d29" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>stream</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" prot="public" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>stream</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a357b75fe4799e491f8cacc32ab22350f" prot="private" virt="non-virtual"><scope>testing::MatchResultListener</scope><name>stream_</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1aa29f43f7b2ffd850c721a8a33ccbba92" prot="public" virt="pure-virtual"><scope>testing::MatchResultListener</scope><name>~MatchResultListener</name></member>
+      <member refid="classtesting_1_1MatchResultListener_1a8f11d668de95192079f014f64d1f10d6" prot="public" virt="pure-virtual"><scope>testing::MatchResultListener</scope><name>~MatchResultListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

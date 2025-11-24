@@ -1,0 +1,1670 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ExpectationBase" kind="class" language="C++" prot="private" abstract="yes">
+    <compoundname>testing::internal::ExpectationBase</compoundname>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1TypedExpectation" prot="public" virt="non-virtual">testing::internal::TypedExpectation&lt; F &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1TypedExpectation" prot="public" virt="non-virtual">testing::internal::TypedExpectation&lt; F &gt;</derivedcompoundref>
+    <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2" prot="protected" static="no" strong="no">
+        <type></type>
+        <name>Clause</name>
+        <qualifiedname>testing::internal::ExpectationBase::Clause</qualifiedname>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a2ca64e42e6117730a43b8589a287ffa0" prot="protected">
+          <name>kNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a949653484f4faeae842cdce17cb94e31" prot="protected">
+          <name>kWith</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac27d1175fac223b4fd5c0b98f85fc832" prot="protected">
+          <name>kTimes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac93ac9f3b185fa5657a9db6c60f118bd" prot="protected">
+          <name>kInSequence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a508dc524a0d55269894c501e419ee320" prot="protected">
+          <name>kAfter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ab6286be394c86dfd8db4f6933749d279" prot="protected">
+          <name>kWillOnce</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a4d7bd5b6a469392d965066b062557dc8" prot="protected">
+          <name>kWillRepeatedly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a332295996174b8cc660a360a9e3691b7" prot="protected">
+          <name>kRetiresOnSaturation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a2ca64e42e6117730a43b8589a287ffa0" prot="protected">
+          <name>kNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a949653484f4faeae842cdce17cb94e31" prot="protected">
+          <name>kWith</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac27d1175fac223b4fd5c0b98f85fc832" prot="protected">
+          <name>kTimes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac93ac9f3b185fa5657a9db6c60f118bd" prot="protected">
+          <name>kInSequence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a508dc524a0d55269894c501e419ee320" prot="protected">
+          <name>kAfter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ab6286be394c86dfd8db4f6933749d279" prot="protected">
+          <name>kWillOnce</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a4d7bd5b6a469392d965066b062557dc8" prot="protected">
+          <name>kWillRepeatedly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a332295996174b8cc660a360a9e3691b7" prot="protected">
+          <name>kRetiresOnSaturation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="722" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="722" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="enum" id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2" prot="protected" static="no" strong="no">
+        <type></type>
+        <name>Clause</name>
+        <qualifiedname>testing::internal::ExpectationBase::Clause</qualifiedname>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a2ca64e42e6117730a43b8589a287ffa0" prot="protected">
+          <name>kNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a949653484f4faeae842cdce17cb94e31" prot="protected">
+          <name>kWith</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac27d1175fac223b4fd5c0b98f85fc832" prot="protected">
+          <name>kTimes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac93ac9f3b185fa5657a9db6c60f118bd" prot="protected">
+          <name>kInSequence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a508dc524a0d55269894c501e419ee320" prot="protected">
+          <name>kAfter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ab6286be394c86dfd8db4f6933749d279" prot="protected">
+          <name>kWillOnce</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a4d7bd5b6a469392d965066b062557dc8" prot="protected">
+          <name>kWillRepeatedly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a332295996174b8cc660a360a9e3691b7" prot="protected">
+          <name>kRetiresOnSaturation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a2ca64e42e6117730a43b8589a287ffa0" prot="protected">
+          <name>kNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a949653484f4faeae842cdce17cb94e31" prot="protected">
+          <name>kWith</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac27d1175fac223b4fd5c0b98f85fc832" prot="protected">
+          <name>kTimes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac93ac9f3b185fa5657a9db6c60f118bd" prot="protected">
+          <name>kInSequence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a508dc524a0d55269894c501e419ee320" prot="protected">
+          <name>kAfter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ab6286be394c86dfd8db4f6933749d279" prot="protected">
+          <name>kWillOnce</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a4d7bd5b6a469392d965066b062557dc8" prot="protected">
+          <name>kWillRepeatedly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a332295996174b8cc660a360a9e3691b7" prot="protected">
+          <name>kRetiresOnSaturation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="722" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="722" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ExpectationBase_1a9b21e82059961b9f1198d3f5d518254f" prot="protected" static="no">
+        <type>std::vector&lt; const void * &gt;</type>
+        <definition>typedef std::vector&lt;const void*&gt; testing::internal::ExpectationBase::UntypedActions</definition>
+        <argsstring></argsstring>
+        <name>UntypedActions</name>
+        <qualifiedname>testing::internal::ExpectationBase::UntypedActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="734" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ExpectationBase_1a9b21e82059961b9f1198d3f5d518254f" prot="protected" static="no">
+        <type>std::vector&lt; const void * &gt;</type>
+        <definition>typedef std::vector&lt;const void*&gt; testing::internal::ExpectationBase::UntypedActions</definition>
+        <argsstring></argsstring>
+        <name>UntypedActions</name>
+        <qualifiedname>testing::internal::ExpectationBase::UntypedActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="734" column="23" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="734" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1a86fa3dccdc465d897ee321b74e4ce915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ::testing::Expectation</definition>
+        <argsstring></argsstring>
+        <name>::testing::Expectation</name>
+        <qualifiedname>testing::internal::ExpectationBase::Expectation</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1Expectation" kindref="compound">::testing::Expectation</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="719" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1a774e8b2bdd7b699265eba2c048401760" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>UntypedFunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>UntypedFunctionMockerBase</name>
+        <qualifiedname>testing::internal::ExpectationBase::UntypedFunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase" kindref="compound">UntypedFunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="720" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1aeaf43a487a21c0ac1135b094a1561056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ::testing::Sequence</definition>
+        <argsstring></argsstring>
+        <name>::testing::Sequence</name>
+        <qualifiedname>testing::internal::ExpectationBase::Sequence</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1Sequence" kindref="compound">::testing::Sequence</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="835" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1a83859ffda7f75bb8b447063eb53cb8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ::testing::internal::ExpectationTester</definition>
+        <argsstring></argsstring>
+        <name>::testing::internal::ExpectationTester</name>
+        <qualifiedname>testing::internal::ExpectationBase::ExpectationTester</qualifiedname>
+        <param>
+          <type>::testing::internal::ExpectationTester</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="836" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1a4f17de55396a8ef740d5ad2b1380a851" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class TypedExpectation</definition>
+        <argsstring></argsstring>
+        <name>TypedExpectation</name>
+        <qualifiedname>testing::internal::ExpectationBase::TypedExpectation</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1TypedExpectation" kindref="compound">TypedExpectation</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="839" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1internal_1_1ExpectationBase_1a8d8292a1456f0c0d85e45d1f38568fed" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class TypedExpectation</definition>
+        <argsstring></argsstring>
+        <name>TypedExpectation</name>
+        <qualifiedname>testing::internal::ExpectationBase::TypedExpectation</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1TypedExpectation" kindref="compound">TypedExpectation</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="839" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="839" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1ae87a8b98409c83741435ef569c85f019" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char * testing::internal::ExpectationBase::file_</definition>
+        <argsstring></argsstring>
+        <name>file_</name>
+        <qualifiedname>testing::internal::ExpectationBase::file_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="846" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1ab8143119e4b686ff1bb6c985924da57a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::line_</definition>
+        <argsstring></argsstring>
+        <name>line_</name>
+        <qualifiedname>testing::internal::ExpectationBase::line_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="847" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a8803b5fa8354205a6b57e21a704acbef" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref></type>
+        <definition>const string testing::internal::ExpectationBase::source_text_</definition>
+        <argsstring></argsstring>
+        <name>source_text_</name>
+        <qualifiedname>testing::internal::ExpectationBase::source_text_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="848" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1ad2ca7220ed1a395bd850ff06c500a402" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::cardinality_specified_</definition>
+        <argsstring></argsstring>
+        <name>cardinality_specified_</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality_specified_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="850" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1ad0aedcc01c0c9a998952a2b2f486595c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref></type>
+        <definition>Cardinality testing::internal::ExpectationBase::cardinality_</definition>
+        <argsstring></argsstring>
+        <name>cardinality_</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="851" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a186eff0fdcacc8c1e1a2becdec11d3cd" prot="protected" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1ExpectationSet" kindref="compound">ExpectationSet</ref></type>
+        <definition>ExpectationSet testing::internal::ExpectationBase::immediate_prerequisites_</definition>
+        <argsstring></argsstring>
+        <name>immediate_prerequisites_</name>
+        <qualifiedname>testing::internal::ExpectationBase::immediate_prerequisites_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="858" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1aea95d46f7583566e3f7a081b0668ad4c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::call_count_</definition>
+        <argsstring></argsstring>
+        <name>call_count_</name>
+        <qualifiedname>testing::internal::ExpectationBase::call_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="862" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a0afd852f5d7863effc3d304dac6a44cf" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::retired_</definition>
+        <argsstring></argsstring>
+        <name>retired_</name>
+        <qualifiedname>testing::internal::ExpectationBase::retired_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="863" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a9558ff6b8b1b7e3a99fac1f93d1826da" prot="protected" static="no" mutable="no">
+        <type>UntypedActions</type>
+        <definition>UntypedActions testing::internal::ExpectationBase::untyped_actions_</definition>
+        <argsstring></argsstring>
+        <name>untyped_actions_</name>
+        <qualifiedname>testing::internal::ExpectationBase::untyped_actions_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="864" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a34f599ac7ae4f1fb7567e0d4c9fadcba" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::extra_matcher_specified_</definition>
+        <argsstring></argsstring>
+        <name>extra_matcher_specified_</name>
+        <qualifiedname>testing::internal::ExpectationBase::extra_matcher_specified_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="865" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="865" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1abecd382b79252ffc0779d51e058b681c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::repeated_action_specified_</definition>
+        <argsstring></argsstring>
+        <name>repeated_action_specified_</name>
+        <qualifiedname>testing::internal::ExpectationBase::repeated_action_specified_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="866" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a74802f3bedf4ab023b30ee6bb275a4d8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::retires_on_saturation_</definition>
+        <argsstring></argsstring>
+        <name>retires_on_saturation_</name>
+        <qualifiedname>testing::internal::ExpectationBase::retires_on_saturation_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="867" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a584f296e53b4cc002ddf5e65e44d72d9" prot="protected" static="no" mutable="no">
+        <type>Clause</type>
+        <definition>Clause testing::internal::ExpectationBase::last_clause_</definition>
+        <argsstring></argsstring>
+        <name>last_clause_</name>
+        <qualifiedname>testing::internal::ExpectationBase::last_clause_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="868" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a19933e346f6493005437bdd6812c7a29" prot="protected" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::action_count_checked_</definition>
+        <argsstring></argsstring>
+        <name>action_count_checked_</name>
+        <qualifiedname>testing::internal::ExpectationBase::action_count_checked_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="869" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ExpectationBase_1a364f5473591d08d0ac03595c9050c13e" prot="protected" static="no" mutable="yes">
+        <type><ref refid="classtesting_1_1internal_1_1Mutex" kindref="compound">Mutex</ref></type>
+        <definition>Mutex testing::internal::ExpectationBase::mutex_</definition>
+        <argsstring></argsstring>
+        <name>mutex_</name>
+        <qualifiedname>testing::internal::ExpectationBase::mutex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="870" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="870" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a8c82a7ecad5831a3ce5ce8cc56ae172d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ExpectationBase::ExpectationBase</definition>
+        <argsstring>(const char *file, int line, const string &amp;source_text)</argsstring>
+        <name>ExpectationBase</name>
+        <qualifiedname>testing::internal::ExpectationBase::ExpectationBase</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>source_text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="693" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a544672ef49efc3ccd4ff23c75abd7604" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::ExpectationBase::~ExpectationBase</definition>
+        <argsstring>()</argsstring>
+        <name>~ExpectationBase</name>
+        <qualifiedname>testing::internal::ExpectationBase::~ExpectationBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="695" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a4e6c2bf337d2213652dbe630be7fdcc7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * testing::internal::ExpectationBase::file</definition>
+        <argsstring>() const</argsstring>
+        <name>file</name>
+        <qualifiedname>testing::internal::ExpectationBase::file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="698" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="698" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a6a44d831449d31e0e46d0070625b452c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::line</definition>
+        <argsstring>() const</argsstring>
+        <name>line</name>
+        <qualifiedname>testing::internal::ExpectationBase::line</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="699" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="699" bodyend="699"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a30c6f21bc67833c1f313b2148603b22b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * testing::internal::ExpectationBase::source_text</definition>
+        <argsstring>() const</argsstring>
+        <name>source_text</name>
+        <qualifiedname>testing::internal::ExpectationBase::source_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="700" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="700" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1add89b0324797a421a1df77898528cbb7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+        <definition>const Cardinality &amp; testing::internal::ExpectationBase::cardinality</definition>
+        <argsstring>() const</argsstring>
+        <name>cardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="702" column="21" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="702" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a666e7f8fb2412e78f090244e6bfd4493" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::DescribeLocationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeLocationTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::DescribeLocationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="705" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="705" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a2beebed3ade29077bcf294b449bb8b9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::DescribeCallCountTo</definition>
+        <argsstring>(::std::ostream *os) const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>DescribeCallCountTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::DescribeCallCountTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="711" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a5ce4f648c7b112d27b798711d1e3ff5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ExpectationBase::MaybeDescribeExtraMatcherTo</definition>
+        <argsstring>(::std::ostream *os)=0</argsstring>
+        <name>MaybeDescribeExtraMatcherTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::MaybeDescribeExtraMatcherTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="716" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a8c82a7ecad5831a3ce5ce8cc56ae172d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ExpectationBase::ExpectationBase</definition>
+        <argsstring>(const char *file, int line, const string &amp;source_text)</argsstring>
+        <name>ExpectationBase</name>
+        <qualifiedname>testing::internal::ExpectationBase::ExpectationBase</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>source_text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="693" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a544672ef49efc3ccd4ff23c75abd7604" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::ExpectationBase::~ExpectationBase</definition>
+        <argsstring>()</argsstring>
+        <name>~ExpectationBase</name>
+        <qualifiedname>testing::internal::ExpectationBase::~ExpectationBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="695" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a4e6c2bf337d2213652dbe630be7fdcc7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * testing::internal::ExpectationBase::file</definition>
+        <argsstring>() const</argsstring>
+        <name>file</name>
+        <qualifiedname>testing::internal::ExpectationBase::file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="698" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="698" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a6a44d831449d31e0e46d0070625b452c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::line</definition>
+        <argsstring>() const</argsstring>
+        <name>line</name>
+        <qualifiedname>testing::internal::ExpectationBase::line</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="699" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="699" bodyend="699"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a30c6f21bc67833c1f313b2148603b22b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * testing::internal::ExpectationBase::source_text</definition>
+        <argsstring>() const</argsstring>
+        <name>source_text</name>
+        <qualifiedname>testing::internal::ExpectationBase::source_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="700" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="700" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1add89b0324797a421a1df77898528cbb7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+        <definition>const Cardinality &amp; testing::internal::ExpectationBase::cardinality</definition>
+        <argsstring>() const</argsstring>
+        <name>cardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="702" column="21" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="702" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a666e7f8fb2412e78f090244e6bfd4493" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::DescribeLocationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeLocationTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::DescribeLocationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="705" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="705" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a2beebed3ade29077bcf294b449bb8b9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::DescribeCallCountTo</definition>
+        <argsstring>(::std::ostream *os) const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>DescribeCallCountTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::DescribeCallCountTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="711" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a5ce4f648c7b112d27b798711d1e3ff5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ExpectationBase::MaybeDescribeExtraMatcherTo</definition>
+        <argsstring>(::std::ostream *os)=0</argsstring>
+        <name>MaybeDescribeExtraMatcherTo</name>
+        <qualifiedname>testing::internal::ExpectationBase::MaybeDescribeExtraMatcherTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="716" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a678f6fc24742ab0236ebc9a8128e7bfe" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref></type>
+        <definition>virtual Expectation testing::internal::ExpectationBase::GetHandle</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetHandle</name>
+        <qualifiedname>testing::internal::ExpectationBase::GetHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="738" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a2644117ae8b59bd19aa526549a11d84e" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::AssertSpecProperty</definition>
+        <argsstring>(bool property, const string &amp;failure_message) const</argsstring>
+        <name>AssertSpecProperty</name>
+        <qualifiedname>testing::internal::ExpectationBase::AssertSpecProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>failure_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="741" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="741" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a652adbe3fcca2950175e3859d59af268" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::ExpectSpecProperty</definition>
+        <argsstring>(bool property, const string &amp;failure_message) const</argsstring>
+        <name>ExpectSpecProperty</name>
+        <qualifiedname>testing::internal::ExpectationBase::ExpectSpecProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>failure_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="746" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="746" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a3d1d08542b32239d9b5738e3e32e2217" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::SpecifyCardinality</definition>
+        <argsstring>(const Cardinality &amp;cardinality)</argsstring>
+        <name>SpecifyCardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::SpecifyCardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="752" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a8c3715b0c44d29eb53148036d9366940" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::cardinality_specified</definition>
+        <argsstring>() const</argsstring>
+        <name>cardinality_specified</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality_specified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="756" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="756" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a6d416ffd4546ae84de79afb67ad05ada" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::set_cardinality</definition>
+        <argsstring>(const Cardinality &amp;a_cardinality)</argsstring>
+        <name>set_cardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::set_cardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>a_cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="759" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="759" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1afb623801e8de31fcd7b352e200649f7d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::RetireAllPreRequisites</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>RetireAllPreRequisites</name>
+        <qualifiedname>testing::internal::ExpectationBase::RetireAllPreRequisites</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="768" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1afe539dbc5b29d9635403767a4708c476" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::is_retired</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>is_retired</name>
+        <qualifiedname>testing::internal::ExpectationBase::is_retired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="772" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="772" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a0aeeb4c1e66c2f2aa0853c267ad3e781" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::Retire</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>Retire</name>
+        <qualifiedname>testing::internal::ExpectationBase::Retire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="779" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="779" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1ae629adc2dd9aee0ac62e50314f1a6449" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsSatisfied</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsSatisfied</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsSatisfied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="786" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="786" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1ad3e4340cedefdc24fce1478a8d6cab93" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsSaturated</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsSaturated</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsSaturated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="793" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="793" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a080dab35ecc6c57096f50758a0e8123d" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsOverSaturated</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsOverSaturated</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsOverSaturated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="800" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="800" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a82ba68cdd71a8b5aff5a5be24c23a637" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>AllPrerequisitesAreSatisfied</name>
+        <qualifiedname>testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="807" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a9eb518c079f950a59c67e8012d3371c0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites</definition>
+        <argsstring>(ExpectationSet *result) const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>FindUnsatisfiedPrerequisites</name>
+        <qualifiedname>testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1ExpectationSet" kindref="compound">ExpectationSet</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="811" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aacc0399271907194ac1627439f65047a" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::call_count</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>call_count</name>
+        <qualifiedname>testing::internal::ExpectationBase::call_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="815" column="7" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="815" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aef1766c39ad6478f9041e0f5c5000532" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::IncrementCallCount</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IncrementCallCount</name>
+        <qualifiedname>testing::internal::ExpectationBase::IncrementCallCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="822" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="822" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aaeb143b6f8676e9a6fb9b17678344f03" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::CheckActionCountIfNotDone</definition>
+        <argsstring>() const GTEST_LOCK_EXCLUDED_(mutex_)</argsstring>
+        <name>CheckActionCountIfNotDone</name>
+        <qualifiedname>testing::internal::ExpectationBase::CheckActionCountIfNotDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="832" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a05bbd7fea6ea3c740ea095ea7462bc07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::UntypedTimes</definition>
+        <argsstring>(const Cardinality &amp;a_cardinality)</argsstring>
+        <name>UntypedTimes</name>
+        <qualifiedname>testing::internal::ExpectationBase::UntypedTimes</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>a_cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="842" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a9a28e2f508571a0d68d9f964f3634022" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ExpectationBase::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ExpectationBase)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ExpectationBase::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ExpectationBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="872" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a678f6fc24742ab0236ebc9a8128e7bfe" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref></type>
+        <definition>virtual Expectation testing::internal::ExpectationBase::GetHandle</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetHandle</name>
+        <qualifiedname>testing::internal::ExpectationBase::GetHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="738" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a2644117ae8b59bd19aa526549a11d84e" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::AssertSpecProperty</definition>
+        <argsstring>(bool property, const string &amp;failure_message) const</argsstring>
+        <name>AssertSpecProperty</name>
+        <qualifiedname>testing::internal::ExpectationBase::AssertSpecProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>failure_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="741" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="741" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a652adbe3fcca2950175e3859d59af268" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::ExpectSpecProperty</definition>
+        <argsstring>(bool property, const string &amp;failure_message) const</argsstring>
+        <name>ExpectSpecProperty</name>
+        <qualifiedname>testing::internal::ExpectationBase::ExpectSpecProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>failure_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="746" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="746" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a3d1d08542b32239d9b5738e3e32e2217" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::SpecifyCardinality</definition>
+        <argsstring>(const Cardinality &amp;cardinality)</argsstring>
+        <name>SpecifyCardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::SpecifyCardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="752" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a8c3715b0c44d29eb53148036d9366940" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::cardinality_specified</definition>
+        <argsstring>() const</argsstring>
+        <name>cardinality_specified</name>
+        <qualifiedname>testing::internal::ExpectationBase::cardinality_specified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="756" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="756" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a6d416ffd4546ae84de79afb67ad05ada" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::set_cardinality</definition>
+        <argsstring>(const Cardinality &amp;a_cardinality)</argsstring>
+        <name>set_cardinality</name>
+        <qualifiedname>testing::internal::ExpectationBase::set_cardinality</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>a_cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="759" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="759" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1afb623801e8de31fcd7b352e200649f7d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::RetireAllPreRequisites</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>RetireAllPreRequisites</name>
+        <qualifiedname>testing::internal::ExpectationBase::RetireAllPreRequisites</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="768" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1afe539dbc5b29d9635403767a4708c476" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::is_retired</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>is_retired</name>
+        <qualifiedname>testing::internal::ExpectationBase::is_retired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="772" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="772" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a0aeeb4c1e66c2f2aa0853c267ad3e781" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::Retire</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>Retire</name>
+        <qualifiedname>testing::internal::ExpectationBase::Retire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="779" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="779" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1ae629adc2dd9aee0ac62e50314f1a6449" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsSatisfied</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsSatisfied</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsSatisfied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="786" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="786" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1ad3e4340cedefdc24fce1478a8d6cab93" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsSaturated</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsSaturated</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsSaturated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="793" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="793" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a080dab35ecc6c57096f50758a0e8123d" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::IsOverSaturated</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IsOverSaturated</name>
+        <qualifiedname>testing::internal::ExpectationBase::IsOverSaturated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="800" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="800" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a82ba68cdd71a8b5aff5a5be24c23a637" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>AllPrerequisitesAreSatisfied</name>
+        <qualifiedname>testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="807" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a9eb518c079f950a59c67e8012d3371c0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites</definition>
+        <argsstring>(ExpectationSet *result) const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>FindUnsatisfiedPrerequisites</name>
+        <qualifiedname>testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1ExpectationSet" kindref="compound">ExpectationSet</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="811" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aacc0399271907194ac1627439f65047a" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int testing::internal::ExpectationBase::call_count</definition>
+        <argsstring>() const GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>call_count</name>
+        <qualifiedname>testing::internal::ExpectationBase::call_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="815" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="815" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aef1766c39ad6478f9041e0f5c5000532" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::IncrementCallCount</definition>
+        <argsstring>() GTEST_EXCLUSIVE_LOCK_REQUIRED_(g_gmock_mutex)</argsstring>
+        <name>IncrementCallCount</name>
+        <qualifiedname>testing::internal::ExpectationBase::IncrementCallCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="822" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="822" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1aaeb143b6f8676e9a6fb9b17678344f03" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::CheckActionCountIfNotDone</definition>
+        <argsstring>() const GTEST_LOCK_EXCLUDED_(mutex_)</argsstring>
+        <name>CheckActionCountIfNotDone</name>
+        <qualifiedname>testing::internal::ExpectationBase::CheckActionCountIfNotDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="832" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a05bbd7fea6ea3c740ea095ea7462bc07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::ExpectationBase::UntypedTimes</definition>
+        <argsstring>(const Cardinality &amp;a_cardinality)</argsstring>
+        <name>UntypedTimes</name>
+        <qualifiedname>testing::internal::ExpectationBase::UntypedTimes</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Cardinality" kindref="compound">Cardinality</ref> &amp;</type>
+          <declname>a_cardinality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="842" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ExpectationBase_1a9a28e2f508571a0d68d9f964f3634022" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ExpectationBase::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ExpectationBase)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ExpectationBase::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ExpectationBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="872" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::internal::ExpectationBase</label>
+      </node>
+      <node id="2">
+        <label>testing::internal::TypedExpectation&lt; F &gt;</label>
+        <link refid="classtesting_1_1internal_1_1TypedExpectation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>testing::Cardinality</label>
+        <link refid="classtesting_1_1Cardinality"/>
+      </node>
+      <node id="5">
+        <label>testing::ExpectationSet</label>
+        <link refid="classtesting_1_1ExpectationSet"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ExpectationBase</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>source_text_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cardinality_</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>immediate_prerequisites_</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>untyped_actions_</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>mutex_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>testing::internal::Mutex</label>
+        <link refid="classtesting_1_1internal_1_1Mutex"/>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; const void * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="690" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="690" bodyend="873"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a86fa3dccdc465d897ee321b74e4ce915" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>::testing::Expectation</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a83859ffda7f75bb8b447063eb53cb8b8" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>::testing::internal::ExpectationTester</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aeaf43a487a21c0ac1135b094a1561056" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>::testing::Sequence</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a19933e346f6493005437bdd6812c7a29" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>action_count_checked_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a82ba68cdd71a8b5aff5a5be24c23a637" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>AllPrerequisitesAreSatisfied</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a82ba68cdd71a8b5aff5a5be24c23a637" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>AllPrerequisitesAreSatisfied</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a2644117ae8b59bd19aa526549a11d84e" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>AssertSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a2644117ae8b59bd19aa526549a11d84e" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>AssertSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aacc0399271907194ac1627439f65047a" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>call_count</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aacc0399271907194ac1627439f65047a" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>call_count</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aea95d46f7583566e3f7a081b0668ad4c" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>call_count_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1add89b0324797a421a1df77898528cbb7" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1add89b0324797a421a1df77898528cbb7" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ad0aedcc01c0c9a998952a2b2f486595c" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8c3715b0c44d29eb53148036d9366940" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality_specified</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8c3715b0c44d29eb53148036d9366940" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality_specified</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ad2ca7220ed1a395bd850ff06c500a402" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>cardinality_specified_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aaeb143b6f8676e9a6fb9b17678344f03" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>CheckActionCountIfNotDone</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aaeb143b6f8676e9a6fb9b17678344f03" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>CheckActionCountIfNotDone</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>Clause</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>Clause</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a2beebed3ade29077bcf294b449bb8b9d" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>DescribeCallCountTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a2beebed3ade29077bcf294b449bb8b9d" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>DescribeCallCountTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a666e7f8fb2412e78f090244e6bfd4493" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>DescribeLocationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a666e7f8fb2412e78f090244e6bfd4493" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>DescribeLocationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8c82a7ecad5831a3ce5ce8cc56ae172d" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>ExpectationBase</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8c82a7ecad5831a3ce5ce8cc56ae172d" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>ExpectationBase</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a652adbe3fcca2950175e3859d59af268" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>ExpectSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a652adbe3fcca2950175e3859d59af268" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>ExpectSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a34f599ac7ae4f1fb7567e0d4c9fadcba" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>extra_matcher_specified_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a4e6c2bf337d2213652dbe630be7fdcc7" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>file</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a4e6c2bf337d2213652dbe630be7fdcc7" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>file</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ae87a8b98409c83741435ef569c85f019" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>file_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9eb518c079f950a59c67e8012d3371c0" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>FindUnsatisfiedPrerequisites</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9eb518c079f950a59c67e8012d3371c0" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>FindUnsatisfiedPrerequisites</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a678f6fc24742ab0236ebc9a8128e7bfe" prot="protected" virt="pure-virtual"><scope>testing::internal::ExpectationBase</scope><name>GetHandle</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a678f6fc24742ab0236ebc9a8128e7bfe" prot="protected" virt="pure-virtual"><scope>testing::internal::ExpectationBase</scope><name>GetHandle</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9a28e2f508571a0d68d9f964f3634022" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9a28e2f508571a0d68d9f964f3634022" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a186eff0fdcacc8c1e1a2becdec11d3cd" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>immediate_prerequisites_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aef1766c39ad6478f9041e0f5c5000532" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IncrementCallCount</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1aef1766c39ad6478f9041e0f5c5000532" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IncrementCallCount</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1afe539dbc5b29d9635403767a4708c476" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>is_retired</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1afe539dbc5b29d9635403767a4708c476" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>is_retired</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a080dab35ecc6c57096f50758a0e8123d" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsOverSaturated</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a080dab35ecc6c57096f50758a0e8123d" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsOverSaturated</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ae629adc2dd9aee0ac62e50314f1a6449" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsSatisfied</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ae629adc2dd9aee0ac62e50314f1a6449" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsSatisfied</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ad3e4340cedefdc24fce1478a8d6cab93" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsSaturated</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ad3e4340cedefdc24fce1478a8d6cab93" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>IsSaturated</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a508dc524a0d55269894c501e419ee320" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kAfter</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac93ac9f3b185fa5657a9db6c60f118bd" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kInSequence</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a2ca64e42e6117730a43b8589a287ffa0" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kNone</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a332295996174b8cc660a360a9e3691b7" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kRetiresOnSaturation</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ac27d1175fac223b4fd5c0b98f85fc832" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kTimes</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2ab6286be394c86dfd8db4f6933749d279" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kWillOnce</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a4d7bd5b6a469392d965066b062557dc8" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kWillRepeatedly</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a450f34b979ec5814c91d4eab6b78cfc2a949653484f4faeae842cdce17cb94e31" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>kWith</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a584f296e53b4cc002ddf5e65e44d72d9" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>last_clause_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a6a44d831449d31e0e46d0070625b452c" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>line</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a6a44d831449d31e0e46d0070625b452c" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>line</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1ab8143119e4b686ff1bb6c985924da57a" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>line_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a5ce4f648c7b112d27b798711d1e3ff5b" prot="public" virt="pure-virtual"><scope>testing::internal::ExpectationBase</scope><name>MaybeDescribeExtraMatcherTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a5ce4f648c7b112d27b798711d1e3ff5b" prot="public" virt="pure-virtual"><scope>testing::internal::ExpectationBase</scope><name>MaybeDescribeExtraMatcherTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a364f5473591d08d0ac03595c9050c13e" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>mutex_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1abecd382b79252ffc0779d51e058b681c" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>repeated_action_specified_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a0aeeb4c1e66c2f2aa0853c267ad3e781" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>Retire</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a0aeeb4c1e66c2f2aa0853c267ad3e781" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>Retire</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1afb623801e8de31fcd7b352e200649f7d" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>RetireAllPreRequisites</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1afb623801e8de31fcd7b352e200649f7d" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>RetireAllPreRequisites</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a0afd852f5d7863effc3d304dac6a44cf" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>retired_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a74802f3bedf4ab023b30ee6bb275a4d8" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>retires_on_saturation_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a6d416ffd4546ae84de79afb67ad05ada" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>set_cardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a6d416ffd4546ae84de79afb67ad05ada" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>set_cardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a30c6f21bc67833c1f313b2148603b22b" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>source_text</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a30c6f21bc67833c1f313b2148603b22b" prot="public" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>source_text</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8803b5fa8354205a6b57e21a704acbef" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>source_text_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a3d1d08542b32239d9b5738e3e32e2217" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>SpecifyCardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a3d1d08542b32239d9b5738e3e32e2217" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>SpecifyCardinality</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a4f17de55396a8ef740d5ad2b1380a851" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>TypedExpectation</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a8d8292a1456f0c0d85e45d1f38568fed" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>TypedExpectation</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9558ff6b8b1b7e3a99fac1f93d1826da" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>untyped_actions_</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9b21e82059961b9f1198d3f5d518254f" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>UntypedActions</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a9b21e82059961b9f1198d3f5d518254f" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>UntypedActions</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a774e8b2bdd7b699265eba2c048401760" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a05bbd7fea6ea3c740ea095ea7462bc07" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>UntypedTimes</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a05bbd7fea6ea3c740ea095ea7462bc07" prot="protected" virt="non-virtual"><scope>testing::internal::ExpectationBase</scope><name>UntypedTimes</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a544672ef49efc3ccd4ff23c75abd7604" prot="public" virt="virtual"><scope>testing::internal::ExpectationBase</scope><name>~ExpectationBase</name></member>
+      <member refid="classtesting_1_1internal_1_1ExpectationBase_1a544672ef49efc3ccd4ff23c75abd7604" prot="public" virt="virtual"><scope>testing::internal::ExpectationBase</scope><name>~ExpectationBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

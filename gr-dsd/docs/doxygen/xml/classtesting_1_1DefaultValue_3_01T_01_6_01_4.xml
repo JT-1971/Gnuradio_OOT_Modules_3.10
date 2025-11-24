@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1DefaultValue_3_01T_01_6_01_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::DefaultValue&lt; T &amp; &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" local="no">gmock-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a49d846b827b1a35b60e2eaad98de5c04" prot="private" static="yes" mutable="no">
+        <type>T *</type>
+        <definition>T * testing::DefaultValue&lt; T &amp; &gt;::address_</definition>
+        <argsstring></argsstring>
+        <name>address_</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::address_</qualifiedname>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="230" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a9863abf3d311ce5007d7e57dfce2f252" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::DefaultValue&lt; T &amp; &gt;::Set</definition>
+        <argsstring>(T &amp;x)</argsstring>
+        <name>Set</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Set</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="203" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3c8f9f81e591370f9b33798f58ca1a10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::DefaultValue&lt; T &amp; &gt;::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="208" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="208" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3e61547c2f0141cc8004385f3a9c817d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::DefaultValue&lt; T &amp; &gt;::IsSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsSet</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::IsSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="213" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a38420499e17d2fb4146ae6c4265f0d55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::DefaultValue&lt; T &amp; &gt;::Exists</definition>
+        <argsstring>()</argsstring>
+        <name>Exists</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Exists</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="217" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="217" bodyend="219"/>
+        <references refid="classtesting_1_1internal_1_1BuiltInDefaultValue_1a35207bc20a493b0efb3980eb9a08dd2f" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="74" endline="74">testing::internal::BuiltInDefaultValue&lt; T &gt;::Exists</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a2736bfb0ee3c987419c78eef54b76539" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>static T &amp; testing::DefaultValue&lt; T &amp; &gt;::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="224" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="224" bodyend="227"/>
+        <references refid="classtesting_1_1internal_1_1BuiltInDefaultValue_1a7e26c1df14a887c8f393b29d6ea162e6" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="75" endline="81">testing::internal::BuiltInDefaultValue&lt; T &gt;::Get</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a9863abf3d311ce5007d7e57dfce2f252" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::DefaultValue&lt; T &amp; &gt;::Set</definition>
+        <argsstring>(T &amp;x)</argsstring>
+        <name>Set</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Set</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="203" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3c8f9f81e591370f9b33798f58ca1a10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::DefaultValue&lt; T &amp; &gt;::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="208" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="208" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3e61547c2f0141cc8004385f3a9c817d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::DefaultValue&lt; T &amp; &gt;::IsSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsSet</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::IsSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="213" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a38420499e17d2fb4146ae6c4265f0d55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::DefaultValue&lt; T &amp; &gt;::Exists</definition>
+        <argsstring>()</argsstring>
+        <name>Exists</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Exists</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="217" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="217" bodyend="219"/>
+        <references refid="classtesting_1_1internal_1_1BuiltInDefaultValue_1a35207bc20a493b0efb3980eb9a08dd2f" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="74" endline="74">testing::internal::BuiltInDefaultValue&lt; T &gt;::Exists</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a2736bfb0ee3c987419c78eef54b76539" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>static T &amp; testing::DefaultValue&lt; T &amp; &gt;::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>testing::DefaultValue&lt; T &amp; &gt;::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="224" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="224" bodyend="227"/>
+        <references refid="classtesting_1_1internal_1_1BuiltInDefaultValue_1a7e26c1df14a887c8f393b29d6ea162e6" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="75" endline="81">testing::internal::BuiltInDefaultValue&lt; T &gt;::Get</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="200" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="200" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a49d846b827b1a35b60e2eaad98de5c04" prot="private" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>address_</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3c8f9f81e591370f9b33798f58ca1a10" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Clear</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3c8f9f81e591370f9b33798f58ca1a10" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Clear</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a38420499e17d2fb4146ae6c4265f0d55" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Exists</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a38420499e17d2fb4146ae6c4265f0d55" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Exists</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a2736bfb0ee3c987419c78eef54b76539" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Get</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a2736bfb0ee3c987419c78eef54b76539" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Get</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3e61547c2f0141cc8004385f3a9c817d" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>IsSet</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a3e61547c2f0141cc8004385f3a9c817d" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>IsSet</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a9863abf3d311ce5007d7e57dfce2f252" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Set</name></member>
+      <member refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4_1a9863abf3d311ce5007d7e57dfce2f252" prot="public" virt="non-virtual"><scope>testing::DefaultValue&lt; T &amp; &gt;</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

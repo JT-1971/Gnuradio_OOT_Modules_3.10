@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1SingleFailureChecker" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::SingleFailureChecker</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest-spi_8h" local="no">gtest-spi.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SingleFailureChecker_1af526ba543d7d10795b99b4bca5edc551" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1TestPartResultArray" kindref="compound">TestPartResultArray</ref> *const</type>
+        <definition>const TestPartResultArray *const testing::internal::SingleFailureChecker::results_</definition>
+        <argsstring></argsstring>
+        <name>results_</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::results_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="104" column="35" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SingleFailureChecker_1a8fc33138c357b2a6ede3698eb57548a7" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1TestPartResult_1a65ae656b33fdfdfffaf34858778a52d5" kindref="member">TestPartResult::Type</ref></type>
+        <definition>const TestPartResult::Type testing::internal::SingleFailureChecker::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="105" column="30" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SingleFailureChecker_1a2003215f5f3147726e0b3bb4c8954d71" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref></type>
+        <definition>const string testing::internal::SingleFailureChecker::substr_</definition>
+        <argsstring></argsstring>
+        <name>substr_</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::substr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="106" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a6d350d385526c97c9982e928f5f8fb56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::SingleFailureChecker</definition>
+        <argsstring>(const TestPartResultArray *results, TestPartResult::Type type, const string &amp;substr)</argsstring>
+        <name>SingleFailureChecker</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::SingleFailureChecker</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResultArray" kindref="compound">TestPartResultArray</ref> *</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1TestPartResult_1a65ae656b33fdfdfffaf34858778a52d5" kindref="member">TestPartResult::Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>substr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="99" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a4b0a907c9c1b350c79d70af138e9f0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::~SingleFailureChecker</definition>
+        <argsstring>()</argsstring>
+        <name>~SingleFailureChecker</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::~SingleFailureChecker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="102" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a6d350d385526c97c9982e928f5f8fb56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::SingleFailureChecker</definition>
+        <argsstring>(const TestPartResultArray *results, TestPartResult::Type type, const string &amp;substr)</argsstring>
+        <name>SingleFailureChecker</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::SingleFailureChecker</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResultArray" kindref="compound">TestPartResultArray</ref> *</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1TestPartResult_1a65ae656b33fdfdfffaf34858778a52d5" kindref="member">TestPartResult::Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>substr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-spi.h" line="99" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a4b0a907c9c1b350c79d70af138e9f0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::~SingleFailureChecker</definition>
+        <argsstring>()</argsstring>
+        <name>~SingleFailureChecker</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::~SingleFailureChecker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-spi.h" line="102" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a381cef530568cc08d07dfa2a5dcfc233" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(SingleFailureChecker)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1SingleFailureChecker" kindref="compound">SingleFailureChecker</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="108" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SingleFailureChecker_1a381cef530568cc08d07dfa2a5dcfc233" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SingleFailureChecker::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(SingleFailureChecker)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::SingleFailureChecker::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1SingleFailureChecker" kindref="compound">SingleFailureChecker</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-spi.h" line="108" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" line="96" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-spi.h" bodystart="96" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a381cef530568cc08d07dfa2a5dcfc233" prot="private" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a381cef530568cc08d07dfa2a5dcfc233" prot="private" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1af526ba543d7d10795b99b4bca5edc551" prot="private" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>results_</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a6d350d385526c97c9982e928f5f8fb56" prot="public" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>SingleFailureChecker</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a6d350d385526c97c9982e928f5f8fb56" prot="public" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>SingleFailureChecker</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a2003215f5f3147726e0b3bb4c8954d71" prot="private" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>substr_</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a8fc33138c357b2a6ede3698eb57548a7" prot="private" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>type_</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a4b0a907c9c1b350c79d70af138e9f0bf" prot="public" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>~SingleFailureChecker</name></member>
+      <member refid="classtesting_1_1internal_1_1SingleFailureChecker_1a4b0a907c9c1b350c79d70af138e9f0bf" prot="public" virt="non-virtual"><scope>testing::internal::SingleFailureChecker</scope><name>~SingleFailureChecker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

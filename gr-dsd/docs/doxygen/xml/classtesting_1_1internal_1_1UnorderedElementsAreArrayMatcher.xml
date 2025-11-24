@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::UnorderedElementsAreArrayMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1adaab64101605776d5db90ddc7b502841" prot="private" static="no" mutable="no">
+        <type>::std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt; T &gt; testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::matchers_</definition>
+        <argsstring></argsstring>
+        <name>matchers_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3277" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3277" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a2a732fdc8ba5918a5337b11df3c556f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::UnorderedElementsAreArrayMatcher</definition>
+        <argsstring>()</argsstring>
+        <name>UnorderedElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::UnorderedElementsAreArrayMatcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3263" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3263" bodyend="3263"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a5a91694cf5088cb0b7f4b1bb57dee957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::UnorderedElementsAreArrayMatcher</definition>
+        <argsstring>(Iter first, Iter last)</argsstring>
+        <name>UnorderedElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::UnorderedElementsAreArrayMatcher</qualifiedname>
+        <param>
+          <type>Iter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Iter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3266" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3266" bodyend="3267"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab09b91c39147c51f9c970fd155f2da77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3270" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3270" bodyend="3274"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a2a732fdc8ba5918a5337b11df3c556f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::UnorderedElementsAreArrayMatcher</definition>
+        <argsstring>()</argsstring>
+        <name>UnorderedElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::UnorderedElementsAreArrayMatcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3263" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3263" bodyend="3263"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a5a91694cf5088cb0b7f4b1bb57dee957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::UnorderedElementsAreArrayMatcher</definition>
+        <argsstring>(Iter first, Iter last)</argsstring>
+        <name>UnorderedElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::UnorderedElementsAreArrayMatcher</qualifiedname>
+        <param>
+          <type>Iter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Iter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3266" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3266" bodyend="3267"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab09b91c39147c51f9c970fd155f2da77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3270" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3270" bodyend="3274"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab8e795d461910e9d4e10b4360afd6d80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(UnorderedElementsAreArrayMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher" kindref="compound">UnorderedElementsAreArrayMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3279" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab8e795d461910e9d4e10b4360afd6d80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreArrayMatcher&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(UnorderedElementsAreArrayMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreArrayMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher" kindref="compound">UnorderedElementsAreArrayMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3279" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3261" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3261" bodyend="3280"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab8e795d461910e9d4e10b4360afd6d80" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab8e795d461910e9d4e10b4360afd6d80" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1adaab64101605776d5db90ddc7b502841" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab09b91c39147c51f9c970fd155f2da77" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1ab09b91c39147c51f9c970fd155f2da77" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a2a732fdc8ba5918a5337b11df3c556f3" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>UnorderedElementsAreArrayMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a5a91694cf5088cb0b7f4b1bb57dee957" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>UnorderedElementsAreArrayMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a2a732fdc8ba5918a5337b11df3c556f3" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>UnorderedElementsAreArrayMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher_1a5a91694cf5088cb0b7f4b1bb57dee957" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreArrayMatcher</scope><name>UnorderedElementsAreArrayMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

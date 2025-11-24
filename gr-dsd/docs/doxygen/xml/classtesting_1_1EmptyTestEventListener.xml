@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1EmptyTestEventListener" kind="class" language="C++" prot="public">
+    <compoundname>testing::EmptyTestEventListener</compoundname>
+    <basecompoundref refid="classtesting_1_1TestEventListener" prot="public" virt="non-virtual">testing::TestEventListener</basecompoundref>
+    <basecompoundref refid="classtesting_1_1TestEventListener" prot="public" virt="non-virtual">testing::TestEventListener</basecompoundref>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest_8h" local="no">gtest.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1aa3847c8a3c22d8d69a6006dfdd6589fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestProgramStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnTestProgramStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestProgramStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a5f6c84f39851e8a603a2d2e10063816b">OnTestProgramStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1014" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1014" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a836f05829855dc60d13ba99ad712c0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestIterationStart</definition>
+        <argsstring>(const UnitTest &amp;, int)</argsstring>
+        <name>OnTestIterationStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestIterationStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a60cc09b7907cb329d152eb5e7133bdeb">OnTestIterationStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1015" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1015" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a156d1965248fbdced6aabacadfa2d63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsSetUpStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsSetUpStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsSetUpStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1aa6502e534919605be45f26a6daf9a40c">OnEnvironmentsSetUpStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1017" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1017" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1abc481c6648d15d4242245195a06f5aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsSetUpEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsSetUpEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsSetUpEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1aaa1021d75f5dbf3f05c829c1cc520341">OnEnvironmentsSetUpEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1018" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1018" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1ae4707ed9cc7ace5241bc8ccc4051209b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestCaseStart</definition>
+        <argsstring>(const TestCase &amp;)</argsstring>
+        <name>OnTestCaseStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestCaseStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ab4ed885d63f5bbff8076c1329b3dfe36">OnTestCaseStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestCase" kindref="compound">TestCase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1019" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1019" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a84fa74cc9ba742f9f847ea405ca84e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestStart</definition>
+        <argsstring>(const TestInfo &amp;)</argsstring>
+        <name>OnTestStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ab4f6a0ca16ae75daf385b3b5914e1048">OnTestStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestInfo" kindref="compound">TestInfo</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1020" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1020" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a59e7f7d9f2e2d089a6e8c1e2577f4718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;)</argsstring>
+        <name>OnTestPartResult</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestPartResult</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a054f8705c883fa120b91473aff38f2ee">OnTestPartResult</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1021" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1021" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1afd58d21005f0d0d0399fb114627545d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestEnd</definition>
+        <argsstring>(const TestInfo &amp;)</argsstring>
+        <name>OnTestEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1abb1c44525ef038500608b5dc2f17099b">OnTestEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestInfo" kindref="compound">TestInfo</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1022" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1022" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a6bec703158283104c4298f7d8a528515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestCaseEnd</definition>
+        <argsstring>(const TestCase &amp;)</argsstring>
+        <name>OnTestCaseEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestCaseEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ae61985e2ef76ac78379b077be57a9c36">OnTestCaseEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestCase" kindref="compound">TestCase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1023" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1023" bodyend="1023"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a00fa1a4ea5831e20746188414268e7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsTearDownStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsTearDownStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsTearDownStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a468b5e6701bcb86cb2c956caadbba5e4">OnEnvironmentsTearDownStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1024" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1024" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1aea64c83c415b33a4c0b0239bafd1438d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsTearDownEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsTearDownEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsTearDownEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a9ea04fa7f447865ba76df35e12ba2092">OnEnvironmentsTearDownEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1025" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1025" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a2253e5a18b3cf7bccd349567a252209d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestIterationEnd</definition>
+        <argsstring>(const UnitTest &amp;, int)</argsstring>
+        <name>OnTestIterationEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestIterationEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a550fdb3e55726e4cefa09f5697941425">OnTestIterationEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1026" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1026" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a0abcc02bd2331a2e29ad6f4d9daf2a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestProgramEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnTestProgramEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestProgramEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ad15b6246d94c268e233487a86463ef3d">OnTestProgramEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1028" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1028" bodyend="1028"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1aa3847c8a3c22d8d69a6006dfdd6589fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestProgramStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnTestProgramStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestProgramStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a5f6c84f39851e8a603a2d2e10063816b">OnTestProgramStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1014" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1014" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a836f05829855dc60d13ba99ad712c0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestIterationStart</definition>
+        <argsstring>(const UnitTest &amp;, int)</argsstring>
+        <name>OnTestIterationStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestIterationStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a60cc09b7907cb329d152eb5e7133bdeb">OnTestIterationStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1015" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1015" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a156d1965248fbdced6aabacadfa2d63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsSetUpStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsSetUpStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsSetUpStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1aa6502e534919605be45f26a6daf9a40c">OnEnvironmentsSetUpStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1017" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1017" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1abc481c6648d15d4242245195a06f5aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsSetUpEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsSetUpEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsSetUpEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1aaa1021d75f5dbf3f05c829c1cc520341">OnEnvironmentsSetUpEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1018" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1018" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1ae4707ed9cc7ace5241bc8ccc4051209b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestCaseStart</definition>
+        <argsstring>(const TestCase &amp;)</argsstring>
+        <name>OnTestCaseStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestCaseStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ab4ed885d63f5bbff8076c1329b3dfe36">OnTestCaseStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestCase" kindref="compound">TestCase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1019" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1019" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a84fa74cc9ba742f9f847ea405ca84e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestStart</definition>
+        <argsstring>(const TestInfo &amp;)</argsstring>
+        <name>OnTestStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ab4f6a0ca16ae75daf385b3b5914e1048">OnTestStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestInfo" kindref="compound">TestInfo</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1020" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1020" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a59e7f7d9f2e2d089a6e8c1e2577f4718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;)</argsstring>
+        <name>OnTestPartResult</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestPartResult</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a054f8705c883fa120b91473aff38f2ee">OnTestPartResult</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1021" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1021" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1afd58d21005f0d0d0399fb114627545d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestEnd</definition>
+        <argsstring>(const TestInfo &amp;)</argsstring>
+        <name>OnTestEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1abb1c44525ef038500608b5dc2f17099b">OnTestEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestInfo" kindref="compound">TestInfo</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1022" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1022" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a6bec703158283104c4298f7d8a528515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestCaseEnd</definition>
+        <argsstring>(const TestCase &amp;)</argsstring>
+        <name>OnTestCaseEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestCaseEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ae61985e2ef76ac78379b077be57a9c36">OnTestCaseEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestCase" kindref="compound">TestCase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1023" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1023" bodyend="1023"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a00fa1a4ea5831e20746188414268e7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsTearDownStart</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsTearDownStart</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsTearDownStart</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a468b5e6701bcb86cb2c956caadbba5e4">OnEnvironmentsTearDownStart</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1024" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1024" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1aea64c83c415b33a4c0b0239bafd1438d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnEnvironmentsTearDownEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnEnvironmentsTearDownEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnEnvironmentsTearDownEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a9ea04fa7f447865ba76df35e12ba2092">OnEnvironmentsTearDownEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1025" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1025" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a2253e5a18b3cf7bccd349567a252209d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestIterationEnd</definition>
+        <argsstring>(const UnitTest &amp;, int)</argsstring>
+        <name>OnTestIterationEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestIterationEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1a550fdb3e55726e4cefa09f5697941425">OnTestIterationEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1026" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1026" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1EmptyTestEventListener_1a0abcc02bd2331a2e29ad6f4d9daf2a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::EmptyTestEventListener::OnTestProgramEnd</definition>
+        <argsstring>(const UnitTest &amp;)</argsstring>
+        <name>OnTestProgramEnd</name>
+        <qualifiedname>testing::EmptyTestEventListener::OnTestProgramEnd</qualifiedname>
+        <reimplements refid="classtesting_1_1TestEventListener_1ad15b6246d94c268e233487a86463ef3d">OnTestProgramEnd</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1UnitTest" kindref="compound">UnitTest</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" line="1028" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest.h" bodystart="1028" bodyend="1028"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::EmptyTestEventListener</label>
+        <link refid="classtesting_1_1EmptyTestEventListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::TestEventListener</label>
+        <link refid="classtesting_1_1TestEventListener"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>testing::EmptyTestEventListener</label>
+        <link refid="classtesting_1_1EmptyTestEventListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::TestEventListener</label>
+        <link refid="classtesting_1_1TestEventListener"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" line="1012" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest.h" bodystart="1012" bodyend="1029"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1EmptyTestEventListener_1abc481c6648d15d4242245195a06f5aa0" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsSetUpEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1abc481c6648d15d4242245195a06f5aa0" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsSetUpEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a156d1965248fbdced6aabacadfa2d63f" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsSetUpStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a156d1965248fbdced6aabacadfa2d63f" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsSetUpStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1aea64c83c415b33a4c0b0239bafd1438d" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsTearDownEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1aea64c83c415b33a4c0b0239bafd1438d" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsTearDownEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a00fa1a4ea5831e20746188414268e7c6" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsTearDownStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a00fa1a4ea5831e20746188414268e7c6" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnEnvironmentsTearDownStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a6bec703158283104c4298f7d8a528515" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestCaseEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a6bec703158283104c4298f7d8a528515" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestCaseEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1ae4707ed9cc7ace5241bc8ccc4051209b" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestCaseStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1ae4707ed9cc7ace5241bc8ccc4051209b" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestCaseStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1afd58d21005f0d0d0399fb114627545d3" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1afd58d21005f0d0d0399fb114627545d3" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a2253e5a18b3cf7bccd349567a252209d" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestIterationEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a2253e5a18b3cf7bccd349567a252209d" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestIterationEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a836f05829855dc60d13ba99ad712c0dd" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestIterationStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a836f05829855dc60d13ba99ad712c0dd" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestIterationStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a59e7f7d9f2e2d089a6e8c1e2577f4718" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestPartResult</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a59e7f7d9f2e2d089a6e8c1e2577f4718" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestPartResult</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a0abcc02bd2331a2e29ad6f4d9daf2a32" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestProgramEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a0abcc02bd2331a2e29ad6f4d9daf2a32" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestProgramEnd</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1aa3847c8a3c22d8d69a6006dfdd6589fc" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestProgramStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1aa3847c8a3c22d8d69a6006dfdd6589fc" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestProgramStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a84fa74cc9ba742f9f847ea405ca84e5e" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestStart</name></member>
+      <member refid="classtesting_1_1EmptyTestEventListener_1a84fa74cc9ba742f9f847ea405ca84e5e" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>OnTestStart</name></member>
+      <member refid="classtesting_1_1TestEventListener_1a4512d19e7a108ec4926239ec1ea85d63" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>~TestEventListener</name></member>
+      <member refid="classtesting_1_1TestEventListener_1a4512d19e7a108ec4926239ec1ea85d63" prot="public" virt="virtual"><scope>testing::EmptyTestEventListener</scope><name>~TestEventListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

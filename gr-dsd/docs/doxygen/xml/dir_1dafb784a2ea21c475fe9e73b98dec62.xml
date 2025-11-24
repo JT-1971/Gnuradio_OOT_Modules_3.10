@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1dafb784a2ea21c475fe9e73b98dec62" kind="dir">
+    <compoundname>gtest</compoundname>
+    <innerdir refid="dir_736366840e1e0b6bf04f331ef049db0c">internal</innerdir>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-death-test_8h">mbelib/test/gtest/include/gtest/gtest-death-test.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-message_8h">mbelib/test/gtest/include/gtest/gtest-message.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-param-test_8h">mbelib/test/gtest/include/gtest/gtest-param-test.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-printers_8h">mbelib/test/gtest/include/gtest/gtest-printers.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-spi_8h">mbelib/test/gtest/include/gtest/gtest-spi.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-test-part_8h">mbelib/test/gtest/include/gtest/gtest-test-part.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest-typed-test_8h">mbelib/test/gtest/include/gtest/gtest-typed-test.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest_8h">mbelib/test/gtest/include/gtest/gtest.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h">mbelib/test/gtest/include/gtest/gtest_pred_impl.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2gtest__prod_8h">mbelib/test/gtest/include/gtest/gtest_prod.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/"/>
+  </compounddef>
+</doxygen>

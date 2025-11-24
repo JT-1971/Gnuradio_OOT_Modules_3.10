@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::PredicateFormatterFromMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename M</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a487a5e8a5f082947d060b1e07112b38d" prot="private" static="no" mutable="no">
+        <type>const M</type>
+        <definition>const M testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::matcher_</definition>
+        <argsstring></argsstring>
+        <name>matcher_</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1793" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1793" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a3999f76dfb1eeb24401acbb71f51919d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::PredicateFormatterFromMatcher</definition>
+        <argsstring>(const M &amp;m)</argsstring>
+        <name>PredicateFormatterFromMatcher</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::PredicateFormatterFromMatcher</qualifiedname>
+        <param>
+          <type>const M &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1761" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1761" bodyend="1761"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a51d28bee5f86347ea34b7a0f2758b599" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1AssertionResult" kindref="compound">AssertionResult</ref></type>
+        <definition>AssertionResult testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::operator()</definition>
+        <argsstring>(const char *value_text, const T &amp;x) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::operator()</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>value_text</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1767" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1767" bodyend="1790"/>
+        <references refid="namespacetesting_1a8d91083190a5914bfe8c5666e2dbca9b">testing::AssertionFailure</references>
+        <references refid="namespacetesting_1a74a3d26c1286bd4d7c189c5dff2483ab">testing::AssertionSuccess</references>
+        <references refid="namespacetesting_1_1internal_1a0821df2611d54c79bac990719ad8a2dd" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="676" endline="696">testing::internal::MatchPrintAndExplain</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a3999f76dfb1eeb24401acbb71f51919d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::PredicateFormatterFromMatcher</definition>
+        <argsstring>(const M &amp;m)</argsstring>
+        <name>PredicateFormatterFromMatcher</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::PredicateFormatterFromMatcher</qualifiedname>
+        <param>
+          <type>const M &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1761" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1761" bodyend="1761"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a51d28bee5f86347ea34b7a0f2758b599" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1AssertionResult" kindref="compound">AssertionResult</ref></type>
+        <definition>AssertionResult testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::operator()</definition>
+        <argsstring>(const char *value_text, const T &amp;x) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::operator()</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>value_text</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1767" column="19" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1767" bodyend="1790"/>
+        <references refid="namespacetesting_1a8d91083190a5914bfe8c5666e2dbca9b">testing::AssertionFailure</references>
+        <references refid="namespacetesting_1a74a3d26c1286bd4d7c189c5dff2483ab">testing::AssertionSuccess</references>
+        <references refid="namespacetesting_1_1internal_1a0821df2611d54c79bac990719ad8a2dd" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="676" endline="696">testing::internal::MatchPrintAndExplain</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1adf90dc6428d22a7fce463606d495ee9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PredicateFormatterFromMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher" kindref="compound">PredicateFormatterFromMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1795" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1adf90dc6428d22a7fce463606d495ee9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PredicateFormatterFromMatcher&lt; M &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PredicateFormatterFromMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PredicateFormatterFromMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher" kindref="compound">PredicateFormatterFromMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1795" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1759" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1759" bodyend="1796"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1adf90dc6428d22a7fce463606d495ee9c" prot="private" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1adf90dc6428d22a7fce463606d495ee9c" prot="private" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a487a5e8a5f082947d060b1e07112b38d" prot="private" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a51d28bee5f86347ea34b7a0f2758b599" prot="public" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>operator()</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a51d28bee5f86347ea34b7a0f2758b599" prot="public" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>operator()</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a3999f76dfb1eeb24401acbb71f51919d" prot="public" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>PredicateFormatterFromMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher_1a3999f76dfb1eeb24401acbb71f51919d" prot="public" virt="non-virtual"><scope>testing::internal::PredicateFormatterFromMatcher</scope><name>PredicateFormatterFromMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

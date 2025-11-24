@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gmock/include/gmock/gmock-spec-builders.h</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">set</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">gmock/gmock-actions.h</includes>
+    <includes local="yes">gmock/gmock-cardinalities.h</includes>
+    <includes local="yes">gmock/gmock-matchers.h</includes>
+    <includes local="yes">gmock/internal/gmock-internal-utils.h</includes>
+    <includes local="yes">gmock/internal/gmock-port.h</includes>
+    <includes local="yes">gtest/gtest.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-spec-builders.h</label>
+        <link refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gmock/gmock-actions.h</label>
+      </node>
+      <node id="8">
+        <label>gmock/gmock-cardinalities.h</label>
+      </node>
+      <node id="9">
+        <label>gmock/gmock-matchers.h</label>
+      </node>
+      <node id="10">
+        <label>gmock/internal/gmock-internal-utils.h</label>
+      </node>
+      <node id="11">
+        <label>gmock/internal/gmock-port.h</label>
+      </node>
+      <node id="12">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="2">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>set</label>
+      </node>
+      <node id="4">
+        <label>sstream</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase" prot="public">testing::internal::UntypedFunctionMockerBase</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase" prot="public">testing::internal::UntypedOnCallSpecBase</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1OnCallSpec" prot="public">testing::internal::OnCallSpec</innerclass>
+    <innerclass refid="classtesting_1_1Mock" prot="public">testing::Mock</innerclass>
+    <innerclass refid="classtesting_1_1Expectation" prot="public">testing::Expectation</innerclass>
+    <innerclass refid="classtesting_1_1Expectation_1_1Less" prot="private">testing::Expectation::Less</innerclass>
+    <innerclass refid="classtesting_1_1ExpectationSet" prot="public">testing::ExpectationSet</innerclass>
+    <innerclass refid="classtesting_1_1Sequence" prot="public">testing::Sequence</innerclass>
+    <innerclass refid="classtesting_1_1InSequence" prot="public">testing::InSequence</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ExpectationBase" prot="private">testing::internal::ExpectationBase</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TypedExpectation" prot="public">testing::internal::TypedExpectation</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MockSpec" prot="private">testing::internal::MockSpec</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase" prot="private">testing::internal::UntypedActionResultHolderBase</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ActionResultHolder" prot="private">testing::internal::ActionResultHolder</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ActionResultHolder_3_01void_01_4" prot="private">testing::internal::ActionResultHolder&lt; void &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FunctionMockerBase" prot="public">testing::internal::FunctionMockerBase</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1a7c47d936dcf489ac84c046740aea777e" prot="public" static="no">
+        <name>GMOCK_ON_CALL_IMPL_</name>
+        <param><defname>obj</defname></param>
+        <param><defname>call</defname></param>
+        <initializer>    ((obj).gmock_##call).InternalDefaultActionSetAt(__FILE__, __LINE__, \
+                                                    #obj, #call)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1782" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1782" bodyend="1784"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1a5b12ae6cf84f0a544ca811b380c37334" prot="public" static="no">
+        <name>ON_CALL</name>
+        <param><defname>obj</defname></param>
+        <param><defname>call</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1a7c47d936dcf489ac84c046740aea777e" kindref="member">GMOCK_ON_CALL_IMPL_</ref>(obj, call)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1785" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1785" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1ae261d723ebfab24d5831030d320f526c" prot="public" static="no">
+        <name>GMOCK_EXPECT_CALL_IMPL_</name>
+        <param><defname>obj</defname></param>
+        <param><defname>call</defname></param>
+        <initializer>    ((obj).gmock_##call).InternalExpectedAt(__FILE__, __LINE__, #obj, #call)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1787" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1787" bodyend="1788"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1a535a6156de72c1a2e25a127e38ee5232" prot="public" static="no">
+        <name>EXPECT_CALL</name>
+        <param><defname>obj</defname></param>
+        <param><defname>call</defname></param>
+        <initializer><ref refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h_1ae261d723ebfab24d5831030d320f526c" kindref="member">GMOCK_EXPECT_CALL_IMPL_</ref>(obj, call)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1789" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1789" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h"/>
+  </compounddef>
+</doxygen>

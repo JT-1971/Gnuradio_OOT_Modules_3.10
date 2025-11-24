@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ElementsAreArrayMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ElementsAreArrayMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1a430c9d22cacef7d0a5d00963c8bae410" prot="private" static="no" mutable="no">
+        <type>const ::std::vector&lt; T &gt;</type>
+        <definition>const ::std::vector&lt; T &gt; testing::internal::ElementsAreArrayMatcher&lt; T &gt;::matchers_</definition>
+        <argsstring></argsstring>
+        <name>matchers_</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3296" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3296" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa076a0583c29dc7da6107775bba73be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::ElementsAreArrayMatcher</definition>
+        <argsstring>(Iter first, Iter last)</argsstring>
+        <name>ElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::ElementsAreArrayMatcher</qualifiedname>
+        <param>
+          <type>Iter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Iter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3287" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3287" bodyend="3287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1ac776db6072208f39f3eced25fb353f75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3290" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3290" bodyend="3293"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa076a0583c29dc7da6107775bba73be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::ElementsAreArrayMatcher</definition>
+        <argsstring>(Iter first, Iter last)</argsstring>
+        <name>ElementsAreArrayMatcher</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::ElementsAreArrayMatcher</qualifiedname>
+        <param>
+          <type>Iter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Iter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3287" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3287" bodyend="3287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1ac776db6072208f39f3eced25fb353f75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3290" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3290" bodyend="3293"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa8d3686a9b297a93fa0ada490a7501f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ElementsAreArrayMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher" kindref="compound">ElementsAreArrayMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3298" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa8d3686a9b297a93fa0ada490a7501f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ElementsAreArrayMatcher&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ElementsAreArrayMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ElementsAreArrayMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher" kindref="compound">ElementsAreArrayMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3298" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3284" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3284" bodyend="3299"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa076a0583c29dc7da6107775bba73be8" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>ElementsAreArrayMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa076a0583c29dc7da6107775bba73be8" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>ElementsAreArrayMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa8d3686a9b297a93fa0ada490a7501f6" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1aa8d3686a9b297a93fa0ada490a7501f6" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1a430c9d22cacef7d0a5d00963c8bae410" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1ac776db6072208f39f3eced25fb353f75" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher_1ac776db6072208f39f3eced25fb353f75" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreArrayMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

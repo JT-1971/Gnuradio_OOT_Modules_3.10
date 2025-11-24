@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ReferenceWrapper" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::ReferenceWrapper</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ReferenceWrapper_1a319c9251846622488e07c413a76d7084" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T * testing::internal::ReferenceWrapper&lt; T &gt;::pointer_</definition>
+        <argsstring></argsstring>
+        <name>pointer_</name>
+        <qualifiedname>testing::internal::ReferenceWrapper::pointer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="841" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="841" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReferenceWrapper_1ad33597ffc478c3af9190d1a288a76d39" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReferenceWrapper&lt; T &gt;::ReferenceWrapper</definition>
+        <argsstring>(T &amp;l_value)</argsstring>
+        <name>ReferenceWrapper</name>
+        <qualifiedname>testing::internal::ReferenceWrapper::ReferenceWrapper</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>l_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="835" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="835" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReferenceWrapper_1ac58ddddd6888be6c6560c2c88458dc02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReferenceWrapper&lt; T &gt;::operator T&amp;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T&amp;</name>
+        <qualifiedname>testing::internal::ReferenceWrapper::operator T&amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="839" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="839" bodyend="839"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReferenceWrapper_1ad33597ffc478c3af9190d1a288a76d39" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReferenceWrapper&lt; T &gt;::ReferenceWrapper</definition>
+        <argsstring>(T &amp;l_value)</argsstring>
+        <name>ReferenceWrapper</name>
+        <qualifiedname>testing::internal::ReferenceWrapper::ReferenceWrapper</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>l_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="835" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="835" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ReferenceWrapper_1ac58ddddd6888be6c6560c2c88458dc02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ReferenceWrapper&lt; T &gt;::operator T&amp;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T&amp;</name>
+        <qualifiedname>testing::internal::ReferenceWrapper::operator T&amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="839" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="839" bodyend="839"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="832" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="832" bodyend="842"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ReferenceWrapper_1ac58ddddd6888be6c6560c2c88458dc02" prot="public" virt="non-virtual"><scope>testing::internal::ReferenceWrapper</scope><name>operator T&amp;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReferenceWrapper_1ac58ddddd6888be6c6560c2c88458dc02" prot="public" virt="non-virtual"><scope>testing::internal::ReferenceWrapper</scope><name>operator T&amp;</name></member>
+      <member refid="classtesting_1_1internal_1_1ReferenceWrapper_1a319c9251846622488e07c413a76d7084" prot="private" virt="non-virtual"><scope>testing::internal::ReferenceWrapper</scope><name>pointer_</name></member>
+      <member refid="classtesting_1_1internal_1_1ReferenceWrapper_1ad33597ffc478c3af9190d1a288a76d39" prot="public" virt="non-virtual"><scope>testing::internal::ReferenceWrapper</scope><name>ReferenceWrapper</name></member>
+      <member refid="classtesting_1_1internal_1_1ReferenceWrapper_1ad33597ffc478c3af9190d1a288a76d39" prot="public" virt="non-virtual"><scope>testing::internal::ReferenceWrapper</scope><name>ReferenceWrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

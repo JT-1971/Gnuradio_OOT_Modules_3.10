@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1PolymorphicMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::PolymorphicMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <innerclass refid="classtesting_1_1PolymorphicMatcher_1_1MonomorphicImpl" prot="private">testing::PolymorphicMatcher::MonomorphicImpl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class Impl</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1PolymorphicMatcher_1adadea4f2c7b639586ed2f21b27303382" prot="private" static="no" mutable="no">
+        <type>Impl</type>
+        <definition>Impl testing::PolymorphicMatcher&lt; Impl &gt;::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>testing::PolymorphicMatcher::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="446" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a04c23972b2dcc6e036b00006d7689712" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::PolymorphicMatcher</definition>
+        <argsstring>(const Impl &amp;an_impl)</argsstring>
+        <name>PolymorphicMatcher</name>
+        <qualifiedname>testing::PolymorphicMatcher::PolymorphicMatcher</qualifiedname>
+        <param>
+          <type>const Impl &amp;</type>
+          <declname>an_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="407" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="407" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a438fc664f162b98bb6a74423c927e75c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Impl &amp;</type>
+        <definition>Impl &amp; testing::PolymorphicMatcher&lt; Impl &gt;::mutable_impl</definition>
+        <argsstring>()</argsstring>
+        <name>mutable_impl</name>
+        <qualifiedname>testing::PolymorphicMatcher::mutable_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="411" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="411" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1ab77d3e7a241f281672df10bf42729a19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Impl &amp;</type>
+        <definition>const Impl &amp; testing::PolymorphicMatcher&lt; Impl &gt;::impl</definition>
+        <argsstring>() const</argsstring>
+        <name>impl</name>
+        <qualifiedname>testing::PolymorphicMatcher::impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="415" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="415" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a6280c1485ca41a48c858c38828c1e04e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::PolymorphicMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="418" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="418" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a04c23972b2dcc6e036b00006d7689712" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::PolymorphicMatcher</definition>
+        <argsstring>(const Impl &amp;an_impl)</argsstring>
+        <name>PolymorphicMatcher</name>
+        <qualifiedname>testing::PolymorphicMatcher::PolymorphicMatcher</qualifiedname>
+        <param>
+          <type>const Impl &amp;</type>
+          <declname>an_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="407" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="407" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a438fc664f162b98bb6a74423c927e75c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Impl &amp;</type>
+        <definition>Impl &amp; testing::PolymorphicMatcher&lt; Impl &gt;::mutable_impl</definition>
+        <argsstring>()</argsstring>
+        <name>mutable_impl</name>
+        <qualifiedname>testing::PolymorphicMatcher::mutable_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="411" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="411" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1ab77d3e7a241f281672df10bf42729a19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Impl &amp;</type>
+        <definition>const Impl &amp; testing::PolymorphicMatcher&lt; Impl &gt;::impl</definition>
+        <argsstring>() const</argsstring>
+        <name>impl</name>
+        <qualifiedname>testing::PolymorphicMatcher::impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="415" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="415" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a6280c1485ca41a48c858c38828c1e04e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::PolymorphicMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="418" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="418" bodyend="420"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a008970faa86ba4970cf4633ecfe8e46c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PolymorphicMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::PolymorphicMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1PolymorphicMatcher" kindref="compound">PolymorphicMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="448" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicMatcher_1a008970faa86ba4970cf4633ecfe8e46c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicMatcher&lt; Impl &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PolymorphicMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::PolymorphicMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1PolymorphicMatcher" kindref="compound">PolymorphicMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="448" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="405" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="405" bodyend="449"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a008970faa86ba4970cf4633ecfe8e46c" prot="private" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a008970faa86ba4970cf4633ecfe8e46c" prot="private" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1ab77d3e7a241f281672df10bf42729a19" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>impl</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1ab77d3e7a241f281672df10bf42729a19" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>impl</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1adadea4f2c7b639586ed2f21b27303382" prot="private" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>impl_</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a438fc664f162b98bb6a74423c927e75c" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>mutable_impl</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a438fc664f162b98bb6a74423c927e75c" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>mutable_impl</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a6280c1485ca41a48c858c38828c1e04e" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a6280c1485ca41a48c858c38828c1e04e" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a04c23972b2dcc6e036b00006d7689712" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>PolymorphicMatcher</name></member>
+      <member refid="classtesting_1_1PolymorphicMatcher_1a04c23972b2dcc6e036b00006d7689712" prot="public" virt="non-virtual"><scope>testing::PolymorphicMatcher</scope><name>PolymorphicMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl" kind="class" language="C++" prot="private">
+    <compoundname>testing::PolymorphicAction::MonomorphicImpl</compoundname>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a7989da669c4c7a2da978ed78743815cb" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F&gt;::Result testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="365" column="50" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a2d6ef64336f1d5cdac893fb040048c8c" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="366" column="57" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a7989da669c4c7a2da978ed78743815cb" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F&gt;::Result testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="365" column="50" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a2d6ef64336f1d5cdac893fb040048c8c" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="366" column="57" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a77375e13255f50b45498e0d9c2395d72" prot="private" static="no" mutable="no">
+        <type>Impl</type>
+        <definition>Impl testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="375" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a0f87e4646298d9fd8e7eda04a09fc6d0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::MonomorphicImpl</definition>
+        <argsstring>(const Impl &amp;impl)</argsstring>
+        <name>MonomorphicImpl</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::MonomorphicImpl</qualifiedname>
+        <param>
+          <type>const Impl &amp;</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="368" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="368" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af657293ae1ac638802c0fd2486ee5f5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Result</type>
+        <definition>virtual Result testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="370" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a0f87e4646298d9fd8e7eda04a09fc6d0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::MonomorphicImpl</definition>
+        <argsstring>(const Impl &amp;impl)</argsstring>
+        <name>MonomorphicImpl</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::MonomorphicImpl</qualifiedname>
+        <param>
+          <type>const Impl &amp;</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="368" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="368" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af657293ae1ac638802c0fd2486ee5f5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Result</type>
+        <definition>virtual Result testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="370" column="20" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="370" bodyend="372"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af7b6ce4640aac3dcf7126c4b1e86f277" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(MonomorphicImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>MonomorphicImpl</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="377" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af7b6ce4640aac3dcf7126c4b1e86f277" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(MonomorphicImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::PolymorphicAction::MonomorphicImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>MonomorphicImpl</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="377" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::PolymorphicAction&lt; Impl &gt;::MonomorphicImpl&lt; F &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="363" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="363" bodyend="378"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a2d6ef64336f1d5cdac893fb040048c8c" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a2d6ef64336f1d5cdac893fb040048c8c" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af7b6ce4640aac3dcf7126c4b1e86f277" prot="private" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af7b6ce4640aac3dcf7126c4b1e86f277" prot="private" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a77375e13255f50b45498e0d9c2395d72" prot="private" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>impl_</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a0f87e4646298d9fd8e7eda04a09fc6d0" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>MonomorphicImpl</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a0f87e4646298d9fd8e7eda04a09fc6d0" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>MonomorphicImpl</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af657293ae1ac638802c0fd2486ee5f5b" prot="public" virt="virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1af657293ae1ac638802c0fd2486ee5f5b" prot="public" virt="virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a7989da669c4c7a2da978ed78743815cb" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>Result</name></member>
+      <member refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl_1a7989da669c4c7a2da978ed78743815cb" prot="public" virt="non-virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>Result</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>~ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::PolymorphicAction::MonomorphicImpl</scope><name>~ActionInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

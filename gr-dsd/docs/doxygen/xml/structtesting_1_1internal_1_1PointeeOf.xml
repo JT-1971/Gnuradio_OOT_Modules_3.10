@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1PointeeOf" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::PointeeOf</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" local="no">gmock-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Pointer</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1PointeeOf_1aca4d92c8f978e47a8695e82cffc11837" prot="public" static="no">
+        <type>Pointer::element_type</type>
+        <definition>typedef Pointer::element_type testing::internal::PointeeOf&lt; Pointer &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::PointeeOf::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="66" column="42" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1PointeeOf_1aca4d92c8f978e47a8695e82cffc11837" prot="public" static="no">
+        <type>Pointer::element_type</type>
+        <definition>typedef Pointer::element_type testing::internal::PointeeOf&lt; Pointer &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::PointeeOf::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="66" column="42" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="63" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="63" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1PointeeOf_1aca4d92c8f978e47a8695e82cffc11837" prot="public" virt="non-virtual"><scope>testing::internal::PointeeOf</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1PointeeOf_1aca4d92c8f978e47a8695e82cffc11837" prot="public" virt="non-virtual"><scope>testing::internal::PointeeOf</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

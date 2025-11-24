@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ecc__const_8h" kind="file" language="C++">
+    <compoundname>ecc_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ecc__const_8h_1a0f0db96c1a23fbdc77c05b0b3329017a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int hammingGenerator[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>hammingGenerator</name>
+        <initializer>= {
+  0x7f08, 0x78e4, 0x66d2, 0x55b1
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" line="24" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="ecc__const_8h_1a756d7bb37887d686ae5f35a9eed7a14d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int imbe7100x4400hammingGenerator[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>imbe7100x4400hammingGenerator</name>
+        <initializer>= {
+  0x7ac8, 0x3d64, 0x1eb2, 0x7591
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" line="28" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="ecc__const_8h_1ae71743bb98bd1c606e2738b17df8d212" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int hammingMatrix[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>hammingMatrix</name>
+        <initializer>= {
+  0x0, 0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x80, 0x100, 0x200, 0x400, 0x800, 0x1000, 0x2000, 0x4000
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" line="32" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="ecc__const_8h_1a8c0fef61ef01e994f4cd30369f48e15a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int golayGenerator[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>golayGenerator</name>
+        <initializer>= {
+  0x63a, 0x31d, 0x7b4, 0x3da, 0x1ed, 0x6cc, 0x366, 0x1b3, 0x6e3, 0x54b, 0x49f, 0x475
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" line="36" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="ecc__const_8h_1a8cb498cab81bac1c1e11308c53fc8c93" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int golayMatrix[2048]</definition>
+        <argsstring>[2048]</argsstring>
+        <name>golayMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" line="40" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/ecc_const.h" bodystart="40" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/ecc_const.h"/>
+  </compounddef>
+</doxygen>

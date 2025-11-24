@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4_1a8ffb8b14bd4312fee4a7d70b0b6e5ac7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;::Cast</definition>
+        <argsstring>(const Matcher&lt; T &gt; &amp;matcher)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;::Cast</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="575" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="575" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4_1a8ffb8b14bd4312fee4a7d70b0b6e5ac7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;::Cast</definition>
+        <argsstring>(const Matcher&lt; T &gt; &amp;matcher)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;::Cast</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="575" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="575" bodyend="575"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="573" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="573" bodyend="576"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4_1a8ffb8b14bd4312fee4a7d70b0b6e5ac7" prot="public" virt="non-virtual"><scope>testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4_1a8ffb8b14bd4312fee4a7d70b0b6e5ac7" prot="public" virt="non-virtual"><scope>testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;</scope><name>Cast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

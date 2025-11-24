@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1EndsWithMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::EndsWithMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename StringType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1EndsWithMatcher_1a66f75082cf1041cd328c01b47acf8350" prot="private" static="no" mutable="no">
+        <type>const StringType</type>
+        <definition>const StringType testing::internal::EndsWithMatcher&lt; StringType &gt;::suffix_</definition>
+        <argsstring></argsstring>
+        <name>suffix_</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::suffix_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1256" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1256" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1a38726091c8767c2d8a15abf2a8c2018a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::EndsWithMatcher&lt; StringType &gt;::EndsWithMatcher</definition>
+        <argsstring>(const StringType &amp;suffix)</argsstring>
+        <name>EndsWithMatcher</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::EndsWithMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1221" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1221" bodyend="1221"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1229" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1229" bodyend="1231"/>
+        <references refid="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1229" endline="1231">testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</references>
+        <referencedby refid="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1229" endline="1231">testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1a0d3b4f762a3172bb378671a9e6863891" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1238" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1238" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1aec33451ab09428a97ab0793e332416d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::EndsWithMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1245" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1245" bodyend="1248"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1af5dd55c6c3a2ce57bd85f12e07cb604a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::EndsWithMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1250" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1250" bodyend="1253"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1a38726091c8767c2d8a15abf2a8c2018a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::EndsWithMatcher&lt; StringType &gt;::EndsWithMatcher</definition>
+        <argsstring>(const StringType &amp;suffix)</argsstring>
+        <name>EndsWithMatcher</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::EndsWithMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1221" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1221" bodyend="1221"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1229" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1229" bodyend="1231"/>
+        <references refid="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1229" endline="1231">testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1a0d3b4f762a3172bb378671a9e6863891" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::EndsWithMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1238" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1238" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1aec33451ab09428a97ab0793e332416d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::EndsWithMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1245" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1245" bodyend="1248"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1af5dd55c6c3a2ce57bd85f12e07cb604a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::EndsWithMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1250" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1250" bodyend="1253"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1ac220c32e72e0dec1b9d65dc52241acd2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::EndsWithMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(EndsWithMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1EndsWithMatcher" kindref="compound">EndsWithMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1258" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1EndsWithMatcher_1ac220c32e72e0dec1b9d65dc52241acd2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::EndsWithMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(EndsWithMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::EndsWithMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1EndsWithMatcher" kindref="compound">EndsWithMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1258" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1219" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1219" bodyend="1259"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1af5dd55c6c3a2ce57bd85f12e07cb604a" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1af5dd55c6c3a2ce57bd85f12e07cb604a" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1aec33451ab09428a97ab0793e332416d8" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1aec33451ab09428a97ab0793e332416d8" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1a38726091c8767c2d8a15abf2a8c2018a" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>EndsWithMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1a38726091c8767c2d8a15abf2a8c2018a" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>EndsWithMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1ac220c32e72e0dec1b9d65dc52241acd2" prot="private" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1ac220c32e72e0dec1b9d65dc52241acd2" prot="private" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1a0d3b4f762a3172bb378671a9e6863891" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1aadb9ad4734e0a3540b1674b1716c22e2" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1a0d3b4f762a3172bb378671a9e6863891" prot="public" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1EndsWithMatcher_1a66f75082cf1041cd328c01b47acf8350" prot="private" virt="non-virtual"><scope>testing::internal::EndsWithMatcher</scope><name>suffix_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

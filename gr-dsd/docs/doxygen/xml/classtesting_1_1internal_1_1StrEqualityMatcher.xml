@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1StrEqualityMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::StrEqualityMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename StringType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1StrEqualityMatcher_1af6967de4d57d461f3e7c98bece4d1f48" prot="private" static="no" mutable="no">
+        <type>const StringType</type>
+        <definition>const StringType testing::internal::StrEqualityMatcher&lt; StringType &gt;::string_</definition>
+        <argsstring></argsstring>
+        <name>string_</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::string_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1114" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a95f7c07612ee34d8ebd1dc97c707901d" prot="private" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::expect_eq_</definition>
+        <argsstring></argsstring>
+        <name>expect_eq_</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::expect_eq_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1115" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1StrEqualityMatcher_1adabf80fed2710950dd44b2a08fa5930c" prot="private" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::case_sensitive_</definition>
+        <argsstring></argsstring>
+        <name>case_sensitive_</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::case_sensitive_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1116" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a613006d82018b18ef8fded721f70f860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::StrEqualityMatcher&lt; StringType &gt;::StrEqualityMatcher</definition>
+        <argsstring>(const StringType &amp;str, bool expect_eq, bool case_sensitive)</argsstring>
+        <name>StrEqualityMatcher</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::StrEqualityMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expect_eq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>case_sensitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1066" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1066" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1076" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1076" bodyend="1081"/>
+        <references refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1076" endline="1081">testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</references>
+        <referencedby refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1076" endline="1081">testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1aedb1ac6fc8c15b318dfd8e99927aa2e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1088" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1088" bodyend="1094"/>
+        <references refid="namespacetesting_1_1internal_1a383de24b1cca6648c14b03964c0ed843" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1040" endline="1058">testing::internal::CaseInsensitiveStringEquals</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a18c05a02da6b1df1c3dbfe4870aaa3c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1096" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1096" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1af595c0c79e9e550496fe62bc6bbdd4f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1100" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1100" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a613006d82018b18ef8fded721f70f860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::StrEqualityMatcher&lt; StringType &gt;::StrEqualityMatcher</definition>
+        <argsstring>(const StringType &amp;str, bool expect_eq, bool case_sensitive)</argsstring>
+        <name>StrEqualityMatcher</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::StrEqualityMatcher</qualifiedname>
+        <param>
+          <type>const StringType &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expect_eq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>case_sensitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1066" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1066" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CharType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(CharType *s, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>CharType *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1076" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1076" bodyend="1081"/>
+        <references refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1076" endline="1081">testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1aedb1ac6fc8c15b318dfd8e99927aa2e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MatcheeStringType</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::StrEqualityMatcher&lt; StringType &gt;::MatchAndExplain</definition>
+        <argsstring>(const MatcheeStringType &amp;s, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const MatcheeStringType &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1088" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1088" bodyend="1094"/>
+        <references refid="namespacetesting_1_1internal_1a383de24b1cca6648c14b03964c0ed843" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="1040" endline="1058">testing::internal::CaseInsensitiveStringEquals</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a18c05a02da6b1df1c3dbfe4870aaa3c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1096" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1096" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1af595c0c79e9e550496fe62bc6bbdd4f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1100" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1100" bodyend="1102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1accddf33055803fee7ff0ef7988204474" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeToHelper</definition>
+        <argsstring>(bool expect_eq, ::std::ostream *os) const</argsstring>
+        <name>DescribeToHelper</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeToHelper</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>expect_eq</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1105" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1105" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a6d3c1bff5de614e105f93c5d05d49a80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::StrEqualityMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(StrEqualityMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1StrEqualityMatcher" kindref="compound">StrEqualityMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1118" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1accddf33055803fee7ff0ef7988204474" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::StrEqualityMatcher&lt; StringType &gt;::DescribeToHelper</definition>
+        <argsstring>(bool expect_eq, ::std::ostream *os) const</argsstring>
+        <name>DescribeToHelper</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::DescribeToHelper</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>expect_eq</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1105" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1105" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1StrEqualityMatcher_1a6d3c1bff5de614e105f93c5d05d49a80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::StrEqualityMatcher&lt; StringType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(StrEqualityMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::StrEqualityMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1StrEqualityMatcher" kindref="compound">StrEqualityMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1118" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1064" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1064" bodyend="1119"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1adabf80fed2710950dd44b2a08fa5930c" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>case_sensitive_</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1af595c0c79e9e550496fe62bc6bbdd4f3" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1af595c0c79e9e550496fe62bc6bbdd4f3" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a18c05a02da6b1df1c3dbfe4870aaa3c2" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a18c05a02da6b1df1c3dbfe4870aaa3c2" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1accddf33055803fee7ff0ef7988204474" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeToHelper</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1accddf33055803fee7ff0ef7988204474" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>DescribeToHelper</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a95f7c07612ee34d8ebd1dc97c707901d" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>expect_eq_</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a6d3c1bff5de614e105f93c5d05d49a80" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a6d3c1bff5de614e105f93c5d05d49a80" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1aedb1ac6fc8c15b318dfd8e99927aa2e1" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a72b8373d619e29ce27ed3ecdc6089b0b" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1aedb1ac6fc8c15b318dfd8e99927aa2e1" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a613006d82018b18ef8fded721f70f860" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>StrEqualityMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1a613006d82018b18ef8fded721f70f860" prot="public" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>StrEqualityMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1StrEqualityMatcher_1af6967de4d57d461f3e7c98bece4d1f48" prot="private" virt="non-virtual"><scope>testing::internal::StrEqualityMatcher</scope><name>string_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

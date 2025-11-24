@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1InSequence" kind="class" language="C++" prot="public">
+    <compoundname>testing::InSequence</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" local="no">gmock-spec-builders.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1InSequence_1ae8a5805923f65001454a83f344f9292c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::InSequence::sequence_created_</definition>
+        <argsstring></argsstring>
+        <name>sequence_created_</name>
+        <qualifiedname>testing::InSequence::sequence_created_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="665" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1InSequence_1ac40a4ac3e4f26e088ebc09e543514b6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::InSequence</definition>
+        <argsstring>()</argsstring>
+        <name>InSequence</name>
+        <qualifiedname>testing::InSequence::InSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="662" column="3"/>
+        <referencedby refid="classtesting_1_1internal_1_1TypedExpectation_1aef4632d929986ddf624534a4f7202777" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="946" endline="948">testing::internal::TypedExpectation&lt; F &gt;::InSequence</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1TypedExpectation_1a5082bfa573bad6a6aefa98c82f833792" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="949" endline="952">testing::internal::TypedExpectation&lt; F &gt;::InSequence</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1TypedExpectation_1a03a8406f9f841438a375983a4a04b0e1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="953" endline="956">testing::internal::TypedExpectation&lt; F &gt;::InSequence</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1TypedExpectation_1a9fc51aca763dab66e9b2340b7d564d36" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="957" endline="961">testing::internal::TypedExpectation&lt; F &gt;::InSequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1InSequence_1afe11b11ccb5f55daea5f1e0a9a1af48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::~InSequence</definition>
+        <argsstring>()</argsstring>
+        <name>~InSequence</name>
+        <qualifiedname>testing::InSequence::~InSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="663" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1InSequence_1ac40a4ac3e4f26e088ebc09e543514b6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::InSequence</definition>
+        <argsstring>()</argsstring>
+        <name>InSequence</name>
+        <qualifiedname>testing::InSequence::InSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="662" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1InSequence_1afe11b11ccb5f55daea5f1e0a9a1af48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::~InSequence</definition>
+        <argsstring>()</argsstring>
+        <name>~InSequence</name>
+        <qualifiedname>testing::InSequence::~InSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="663" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1InSequence_1a9c39af86c33e18340f50136eefd7b694" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(InSequence)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::InSequence::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1InSequence" kindref="compound">InSequence</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="667" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1InSequence_1a9c39af86c33e18340f50136eefd7b694" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::InSequence::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(InSequence)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::InSequence::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1InSequence" kindref="compound">InSequence</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="667" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="660" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="660" bodyend="668"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1InSequence_1a9c39af86c33e18340f50136eefd7b694" prot="private" virt="non-virtual"><scope>testing::InSequence</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1InSequence_1a9c39af86c33e18340f50136eefd7b694" prot="private" virt="non-virtual"><scope>testing::InSequence</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1InSequence_1ac40a4ac3e4f26e088ebc09e543514b6b" prot="public" virt="non-virtual"><scope>testing::InSequence</scope><name>InSequence</name></member>
+      <member refid="classtesting_1_1InSequence_1ac40a4ac3e4f26e088ebc09e543514b6b" prot="public" virt="non-virtual"><scope>testing::InSequence</scope><name>InSequence</name></member>
+      <member refid="classtesting_1_1InSequence_1ae8a5805923f65001454a83f344f9292c" prot="private" virt="non-virtual"><scope>testing::InSequence</scope><name>sequence_created_</name></member>
+      <member refid="classtesting_1_1InSequence_1afe11b11ccb5f55daea5f1e0a9a1af48f" prot="public" virt="non-virtual"><scope>testing::InSequence</scope><name>~InSequence</name></member>
+      <member refid="classtesting_1_1InSequence_1afe11b11ccb5f55daea5f1e0a9a1af48f" prot="public" virt="non-virtual"><scope>testing::InSequence</scope><name>~InSequence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

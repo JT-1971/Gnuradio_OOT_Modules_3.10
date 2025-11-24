@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classstd_1_1tr1_1_1tuple" kind="class" language="C++" prot="public">
+    <compoundname>std::tr1::tuple</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" local="no">gtest-tuple.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(T)</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classstd_1_1tr1_1_1tuple_1aeeed38755abdaa78587dd1eac9ccc950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>k</declname>
+            <defname>k</defname>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class gtest_internal::Get</definition>
+        <argsstring></argsstring>
+        <name>gtest_internal::Get</name>
+        <qualifiedname>std::tr1::tuple::Get</qualifiedname>
+        <param>
+          <type><ref refid="classstd_1_1tr1_1_1gtest__internal_1_1Get" kindref="compound">gtest_internal::Get</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="606" column="28" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classstd_1_1tr1_1_1tuple_1a266bb701b0bf866007d5865d36f87bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>k</declname>
+            <defname>k</defname>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class gtest_internal::Get</definition>
+        <argsstring></argsstring>
+        <name>gtest_internal::Get</name>
+        <qualifiedname>std::tr1::tuple::Get</qualifiedname>
+        <param>
+          <type><ref refid="classstd_1_1tr1_1_1gtest__internal_1_1Get" kindref="compound">gtest_internal::Get</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="606" column="28" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a771b1d99e8800fb284acd04bca838cbb" prot="public" static="no" mutable="no">
+        <type>T0</type>
+        <definition>T0 std::tr1::tuple&lt;&gt;::f0_</definition>
+        <argsstring></argsstring>
+        <name>f0_</name>
+        <qualifiedname>std::tr1::tuple::f0_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="649" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="649" bodyend="-1"/>
+        <referencedby refid="classstd_1_1tr1_1_1tuple_1aa48c44b4ed65dbedc93ff33da8a822ee" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="635" endline="647">std::tr1::tuple&lt;&gt;::CopyFrom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a7cccf899dedc626c51fa4f6921d0ac52" prot="public" static="no" mutable="no">
+        <type>T1</type>
+        <definition>T1 std::tr1::tuple&lt;&gt;::f1_</definition>
+        <argsstring></argsstring>
+        <name>f1_</name>
+        <qualifiedname>std::tr1::tuple::f1_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="650" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1aaec06c27366502dc332ef96878628f84" prot="public" static="no" mutable="no">
+        <type>T2</type>
+        <definition>T2 std::tr1::tuple&lt;&gt;::f2_</definition>
+        <argsstring></argsstring>
+        <name>f2_</name>
+        <qualifiedname>std::tr1::tuple::f2_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="651" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1ad4d3673e0d5c07c392c02e335fe978ff" prot="public" static="no" mutable="no">
+        <type>T3</type>
+        <definition>T3 std::tr1::tuple&lt;&gt;::f3_</definition>
+        <argsstring></argsstring>
+        <name>f3_</name>
+        <qualifiedname>std::tr1::tuple::f3_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="652" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1ab662f1051c2302d065796383848db6c4" prot="public" static="no" mutable="no">
+        <type>T4</type>
+        <definition>T4 std::tr1::tuple&lt;&gt;::f4_</definition>
+        <argsstring></argsstring>
+        <name>f4_</name>
+        <qualifiedname>std::tr1::tuple::f4_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="653" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a32d8cd6f180c0a77d83733fc65423657" prot="public" static="no" mutable="no">
+        <type>T5</type>
+        <definition>T5 std::tr1::tuple&lt;&gt;::f5_</definition>
+        <argsstring></argsstring>
+        <name>f5_</name>
+        <qualifiedname>std::tr1::tuple::f5_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="654" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a597beab3af3f95c84408491ab14632b0" prot="public" static="no" mutable="no">
+        <type>T6</type>
+        <definition>T6 std::tr1::tuple&lt;&gt;::f6_</definition>
+        <argsstring></argsstring>
+        <name>f6_</name>
+        <qualifiedname>std::tr1::tuple::f6_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="655" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a7c28780e616d382833e844f62672c6bc" prot="public" static="no" mutable="no">
+        <type>T7</type>
+        <definition>T7 std::tr1::tuple&lt;&gt;::f7_</definition>
+        <argsstring></argsstring>
+        <name>f7_</name>
+        <qualifiedname>std::tr1::tuple::f7_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="656" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1ae859012c83943e54e035a4a32089ccb6" prot="public" static="no" mutable="no">
+        <type>T8</type>
+        <definition>T8 std::tr1::tuple&lt;&gt;::f8_</definition>
+        <argsstring></argsstring>
+        <name>f8_</name>
+        <qualifiedname>std::tr1::tuple::f8_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="657" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstd_1_1tr1_1_1tuple_1a336d5e582fd34e45ec88c78d473671dd" prot="public" static="no" mutable="no">
+        <type>T9</type>
+        <definition>T9 std::tr1::tuple&lt;&gt;::f9_</definition>
+        <argsstring></argsstring>
+        <name>f9_</name>
+        <qualifiedname>std::tr1::tuple::f9_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="658" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1adcea1a41d0521157971339d279aad469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>()</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="608" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="608" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a349b7948d183b7f05c1a5fd6aa4eaeb8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(GTEST_BY_REF_(T0) f0, GTEST_BY_REF_(T1) f1, GTEST_BY_REF_(T2) f2, GTEST_BY_REF_(T3) f3, GTEST_BY_REF_(T4) f4, GTEST_BY_REF_(T5) f5, GTEST_BY_REF_(T6) f6, GTEST_BY_REF_(T7) f7, GTEST_BY_REF_(T8) f8, GTEST_BY_REF_(T9) f9)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T0)</type>
+          <declname>f0</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T1)</type>
+          <declname>f1</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T2)</type>
+          <declname>f2</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T3)</type>
+          <declname>f3</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T4)</type>
+          <declname>f4</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T5)</type>
+          <declname>f5</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T6)</type>
+          <declname>f6</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T7)</type>
+          <declname>f7</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T8)</type>
+          <declname>f8</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T9)</type>
+          <declname>f9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="611" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="611" bodyend="615"/>
+        <references refid="namespacestd_1_1tr1_1a9c0fa65b105f8e2f58ba59ecf75fd000" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="675">std::tr1::f1</references>
+        <references refid="namespacestd_1_1tr1_1a87dd9e009868361317f587126dba63d4" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="680">std::tr1::f2</references>
+        <references refid="namespacestd_1_1tr1_1a0f7c3b47d27d42d82d1a333ea420ce4e" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="686">std::tr1::f3</references>
+        <references refid="namespacestd_1_1tr1_1adc796e02b7385d526aff708189564f67" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="692">std::tr1::f4</references>
+        <references refid="namespacestd_1_1tr1_1a9c1eb66b2b2fa321942af95405232a0d" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="698">std::tr1::f5</references>
+        <references refid="namespacestd_1_1tr1_1a6b62f32e1e3e21bceb94eb46c4cbfd56" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="704">std::tr1::f6</references>
+        <references refid="namespacestd_1_1tr1_1a2185f3a1c07f2df072c39cb91ffa89a4" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="710">std::tr1::f7</references>
+        <references refid="namespacestd_1_1tr1_1ab998afa41cea8d6d26d7e4288b0bf974" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="717">std::tr1::f8</references>
+        <references refid="namespacestd_1_1tr1_1a5a31905861d0f793ee32942d6e3f5d72" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="724">std::tr1::f9</references>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1ade1807f6e6b36daa6387c3b00dbd3be6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(const tuple &amp;t)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="617" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="617" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a7ff289d5c5a605e4a4f8fb56913f7370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="621" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="621" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1ac84a0311770a99f782bc13b63a89e826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>tuple &amp; std::tr1::tuple&lt;&gt;::operator=</definition>
+        <argsstring>(const tuple &amp;t)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>std::tr1::tuple::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="625" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="625" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a6e6084dbb6951dd84fa2695e630eaae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>tuple &amp; std::tr1::tuple&lt;&gt;::operator=</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>std::tr1::tuple::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="628" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="628" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1aa48c44b4ed65dbedc93ff33da8a822ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a2b20671273f514a88a6e9b8328e5f257" kindref="member">GTEST_DECLARE_TUPLE_AS_FRIEND_</ref> <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>GTEST_DECLARE_TUPLE_AS_FRIEND_ tuple &amp; std::tr1::tuple&lt;&gt;::CopyFrom</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>CopyFrom</name>
+        <qualifiedname>std::tr1::tuple::CopyFrom</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" line="635" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="635" bodyend="647"/>
+        <references refid="classstd_1_1tr1_1_1tuple_1a771b1d99e8800fb284acd04bca838cbb" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="649">std::tr1::tuple&lt;&gt;::f0_</references>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1adcea1a41d0521157971339d279aad469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>()</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="608" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="608" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a349b7948d183b7f05c1a5fd6aa4eaeb8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(GTEST_BY_REF_(T0) f0, GTEST_BY_REF_(T1) f1, GTEST_BY_REF_(T2) f2, GTEST_BY_REF_(T3) f3, GTEST_BY_REF_(T4) f4, GTEST_BY_REF_(T5) f5, GTEST_BY_REF_(T6) f6, GTEST_BY_REF_(T7) f7, GTEST_BY_REF_(T8) f8, GTEST_BY_REF_(T9) f9)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T0)</type>
+          <declname>f0</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T1)</type>
+          <declname>f1</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T2)</type>
+          <declname>f2</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T3)</type>
+          <declname>f3</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T4)</type>
+          <declname>f4</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T5)</type>
+          <declname>f5</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T6)</type>
+          <declname>f6</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T7)</type>
+          <declname>f7</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T8)</type>
+          <declname>f8</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacestd_1_1tr1_1ae7b5ea477ac34a3eef5c4c15c42b76ed" kindref="member">GTEST_BY_REF_</ref>(T9)</type>
+          <declname>f9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="611" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="611" bodyend="615"/>
+        <references refid="namespacestd_1_1tr1_1a9c0fa65b105f8e2f58ba59ecf75fd000" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="675">std::tr1::f1</references>
+        <references refid="namespacestd_1_1tr1_1a87dd9e009868361317f587126dba63d4" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="680">std::tr1::f2</references>
+        <references refid="namespacestd_1_1tr1_1a0f7c3b47d27d42d82d1a333ea420ce4e" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="686">std::tr1::f3</references>
+        <references refid="namespacestd_1_1tr1_1adc796e02b7385d526aff708189564f67" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="692">std::tr1::f4</references>
+        <references refid="namespacestd_1_1tr1_1a9c1eb66b2b2fa321942af95405232a0d" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="698">std::tr1::f5</references>
+        <references refid="namespacestd_1_1tr1_1a6b62f32e1e3e21bceb94eb46c4cbfd56" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="704">std::tr1::f6</references>
+        <references refid="namespacestd_1_1tr1_1a2185f3a1c07f2df072c39cb91ffa89a4" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="710">std::tr1::f7</references>
+        <references refid="namespacestd_1_1tr1_1ab998afa41cea8d6d26d7e4288b0bf974" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="717">std::tr1::f8</references>
+        <references refid="namespacestd_1_1tr1_1a5a31905861d0f793ee32942d6e3f5d72" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="724">std::tr1::f9</references>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1ade1807f6e6b36daa6387c3b00dbd3be6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(const tuple &amp;t)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="617" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="617" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a7ff289d5c5a605e4a4f8fb56913f7370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>std::tr1::tuple&lt;&gt;::tuple</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>tuple</name>
+        <qualifiedname>std::tr1::tuple::tuple</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="621" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="621" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1ac84a0311770a99f782bc13b63a89e826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>tuple &amp; std::tr1::tuple&lt;&gt;::operator=</definition>
+        <argsstring>(const tuple &amp;t)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>std::tr1::tuple::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="625" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="625" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1a6e6084dbb6951dd84fa2695e630eaae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>tuple &amp; std::tr1::tuple&lt;&gt;::operator=</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>std::tr1::tuple::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="628" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="628" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classstd_1_1tr1_1_1tuple_1aa48c44b4ed65dbedc93ff33da8a822ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a35f7cff9ee700bdb34a0582aad09c3ab" kindref="member">GTEST_10_TYPENAMES_</ref>(U)</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h_1a2b20671273f514a88a6e9b8328e5f257" kindref="member">GTEST_DECLARE_TUPLE_AS_FRIEND_</ref> <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+        <definition>GTEST_DECLARE_TUPLE_AS_FRIEND_ tuple &amp; std::tr1::tuple&lt;&gt;::CopyFrom</definition>
+        <argsstring>(const GTEST_10_TUPLE_(U)&amp;t)</argsstring>
+        <name>CopyFrom</name>
+        <qualifiedname>std::tr1::tuple::CopyFrom</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacestd_1_1tr1_1aa636d3269bf1f368a7bc09ff158bc482" kindref="member">GTEST_10_TUPLE_</ref>(U)&amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="635" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="635" bodyend="647"/>
+        <references refid="classstd_1_1tr1_1_1tuple_1a771b1d99e8800fb284acd04bca838cbb" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h" startline="649">std::tr1::tuple&lt;&gt;::f0_</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" line="604" column="1" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-tuple.h" bodystart="604" bodyend="659"/>
+    <listofallmembers>
+      <member refid="classstd_1_1tr1_1_1tuple_1aa48c44b4ed65dbedc93ff33da8a822ee" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>CopyFrom</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1aa48c44b4ed65dbedc93ff33da8a822ee" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>CopyFrom</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a771b1d99e8800fb284acd04bca838cbb" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f0_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a7cccf899dedc626c51fa4f6921d0ac52" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f1_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1aaec06c27366502dc332ef96878628f84" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f2_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ad4d3673e0d5c07c392c02e335fe978ff" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f3_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ab662f1051c2302d065796383848db6c4" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f4_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a32d8cd6f180c0a77d83733fc65423657" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f5_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a597beab3af3f95c84408491ab14632b0" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f6_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a7c28780e616d382833e844f62672c6bc" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f7_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ae859012c83943e54e035a4a32089ccb6" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f8_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a336d5e582fd34e45ec88c78d473671dd" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>f9_</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1aeeed38755abdaa78587dd1eac9ccc950" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>gtest_internal::Get</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a266bb701b0bf866007d5865d36f87bd1" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>gtest_internal::Get</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ac84a0311770a99f782bc13b63a89e826" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>operator=</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a6e6084dbb6951dd84fa2695e630eaae9" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>operator=</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ac84a0311770a99f782bc13b63a89e826" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>operator=</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a6e6084dbb6951dd84fa2695e630eaae9" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>operator=</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1adcea1a41d0521157971339d279aad469" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a349b7948d183b7f05c1a5fd6aa4eaeb8" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ade1807f6e6b36daa6387c3b00dbd3be6" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a7ff289d5c5a605e4a4f8fb56913f7370" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1adcea1a41d0521157971339d279aad469" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a349b7948d183b7f05c1a5fd6aa4eaeb8" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1ade1807f6e6b36daa6387c3b00dbd3be6" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+      <member refid="classstd_1_1tr1_1_1tuple_1a7ff289d5c5a605e4a4f8fb56913f7370" prot="public" virt="non-virtual"><scope>std::tr1::tuple</scope><name>tuple</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

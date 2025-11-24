@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1KeyMatcherImpl" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::KeyMatcherImpl</compoundname>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; PairType &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; PairType &gt;</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename PairType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a9bd63b699518bd9868ba24766547667a" prot="public" static="no">
+        <type>RawPairType::first_type</type>
+        <definition>typedef RawPairType::first_type testing::internal::KeyMatcherImpl&lt; PairType &gt;::KeyType</definition>
+        <argsstring></argsstring>
+        <name>KeyType</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::KeyType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2701" column="44" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a9bd63b699518bd9868ba24766547667a" prot="public" static="no">
+        <type>RawPairType::first_type</type>
+        <definition>typedef RawPairType::first_type testing::internal::KeyMatcherImpl&lt; PairType &gt;::KeyType</definition>
+        <argsstring></argsstring>
+        <name>KeyType</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::KeyType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2701" column="44" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2701" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a0a009203071e98aba21a4869447bc51d" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a9bd63b699518bd9868ba24766547667a" kindref="member">KeyType</ref> &amp; &gt;</type>
+        <definition>const Matcher&lt; const KeyType &amp; &gt; testing::internal::KeyMatcherImpl&lt; PairType &gt;::inner_matcher_</definition>
+        <argsstring></argsstring>
+        <name>inner_matcher_</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::inner_matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2735" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2735" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a006551fc32e5aef0d319a304ddc5f383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::KeyMatcherImpl&lt; PairType &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(PairType) RawPairType</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>PairType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2700" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a9ad2a218b0366cae9fb09e82347bd8e7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InnerMatcher</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::KeyMatcherImpl&lt; PairType &gt;::KeyMatcherImpl</definition>
+        <argsstring>(InnerMatcher inner_matcher)</argsstring>
+        <name>KeyMatcherImpl</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::KeyMatcherImpl</qualifiedname>
+        <param>
+          <type>InnerMatcher</type>
+          <declname>inner_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2704" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2704" bodyend="2707"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1ae821c96473c6400defbb21eb9eca8d4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::KeyMatcherImpl&lt; PairType &gt;::MatchAndExplain</definition>
+        <argsstring>(PairType key_value, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>PairType</type>
+          <declname>key_value</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2710" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2710" bodyend="2720"/>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::KeyMatcherImpl&lt; PairType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2723" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2723" bodyend="2726"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::KeyMatcherImpl&lt; PairType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2729" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2729" bodyend="2732"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a006551fc32e5aef0d319a304ddc5f383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::KeyMatcherImpl&lt; PairType &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(PairType) RawPairType</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>PairType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2700" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a9ad2a218b0366cae9fb09e82347bd8e7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InnerMatcher</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::KeyMatcherImpl&lt; PairType &gt;::KeyMatcherImpl</definition>
+        <argsstring>(InnerMatcher inner_matcher)</argsstring>
+        <name>KeyMatcherImpl</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::KeyMatcherImpl</qualifiedname>
+        <param>
+          <type>InnerMatcher</type>
+          <declname>inner_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2704" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2704" bodyend="2707"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1ae821c96473c6400defbb21eb9eca8d4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::KeyMatcherImpl&lt; PairType &gt;::MatchAndExplain</definition>
+        <argsstring>(PairType key_value, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>PairType</type>
+          <declname>key_value</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2710" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2710" bodyend="2720"/>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::KeyMatcherImpl&lt; PairType &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2723" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2723" bodyend="2726"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::KeyMatcherImpl&lt; PairType &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2729" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2729" bodyend="2732"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1ae5d4d320962433b59e5518b4ede98e67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::KeyMatcherImpl&lt; PairType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(KeyMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1KeyMatcherImpl" kindref="compound">KeyMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2737" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1KeyMatcherImpl_1ae5d4d320962433b59e5518b4ede98e67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::KeyMatcherImpl&lt; PairType &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(KeyMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::KeyMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1KeyMatcherImpl" kindref="compound">KeyMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2737" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::KeyMatcherImpl&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1KeyMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::KeyMatcherImpl&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1KeyMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2698" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2698" bodyend="2738"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1ae5d4d320962433b59e5518b4ede98e67" prot="private" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1ae5d4d320962433b59e5518b4ede98e67" prot="private" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a006551fc32e5aef0d319a304ddc5f383" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a006551fc32e5aef0d319a304ddc5f383" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a0a009203071e98aba21a4869447bc51d" prot="private" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>inner_matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a9ad2a218b0366cae9fb09e82347bd8e7" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>KeyMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a9ad2a218b0366cae9fb09e82347bd8e7" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>KeyMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a9bd63b699518bd9868ba24766547667a" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>KeyType</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a9bd63b699518bd9868ba24766547667a" prot="public" virt="non-virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>KeyType</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1ae821c96473c6400defbb21eb9eca8d4c" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1KeyMatcherImpl_1ae821c96473c6400defbb21eb9eca8d4c" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::KeyMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

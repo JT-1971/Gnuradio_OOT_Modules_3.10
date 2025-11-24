@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1UniversalTersePrinter" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::UniversalTersePrinter</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" local="no">gtest-printers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UniversalTersePrinter_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::UniversalTersePrinter&lt; T &gt;::Print</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>Print</name>
+        <qualifiedname>testing::internal::UniversalTersePrinter::Print</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="683" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="683" bodyend="685"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+        <referencedby refid="classtesting_1_1internal_1_1UniversalTersePrinter_3_01char_01_5_01_4_1aa9ef95587c1461fe33e254af52401a43" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="715" endline="717">testing::internal::UniversalTersePrinter&lt; char * &gt;::Print</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1UniversalTersePrinter_3_01wchar__t_01_5_01_4_1a9cdf673b44d19e6879253f30f11cd740" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="737" endline="739">testing::internal::UniversalTersePrinter&lt; wchar_t * &gt;::Print</referencedby>
+        <referencedby refid="namespacetesting_1aa5717bb1144edd1d262d310ba70c82ed" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="847" endline="851">testing::PrintToString</referencedby>
+        <referencedby refid="namespacetesting_1_1internal_1afa92f5a284929dc3723e654a25feb7b9" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="743" endline="745">testing::internal::UniversalTersePrint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UniversalTersePrinter_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::UniversalTersePrinter&lt; T &gt;::Print</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>Print</name>
+        <qualifiedname>testing::internal::UniversalTersePrinter::Print</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" line="683" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-printers.h" bodystart="683" bodyend="685"/>
+        <references refid="namespacetesting_1_1internal_1a30708fa2bacf11895b03bdb21eb72309" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="752" endline="757">testing::internal::UniversalPrint</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="681" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="681" bodyend="686"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1UniversalTersePrinter_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" virt="non-virtual"><scope>testing::internal::UniversalTersePrinter</scope><name>Print</name></member>
+      <member refid="classtesting_1_1internal_1_1UniversalTersePrinter_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" virt="non-virtual"><scope>testing::internal::UniversalTersePrinter</scope><name>Print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

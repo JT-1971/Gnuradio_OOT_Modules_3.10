@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</compoundname>
+    <basecompoundref refid="structtesting_1_1internal_1_1bool__constant" prot="public" virt="non-virtual">testing::internal::bool_constant&lt; false &gt;</basecompoundref>
+    <basecompoundref refid="structtesting_1_1internal_1_1bool__constant" prot="public" virt="non-virtual">testing::internal::bool_constant&lt; false &gt;</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" local="no">gmock-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename From</type>
+      </param>
+      <param>
+        <type>typename To</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structtesting_1_1internal_1_1bool__constant"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>false_type</label>
+        <link refid="structtesting_1_1internal_1_1bool__constant"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="235" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="236" bodyend="236"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1a499fba6576296b04d99690a486424b32" prot="public" virt="non-virtual"><scope>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

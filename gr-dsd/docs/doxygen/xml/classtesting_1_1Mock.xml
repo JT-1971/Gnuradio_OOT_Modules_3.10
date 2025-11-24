@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1Mock" kind="class" language="C++" prot="public">
+    <compoundname>testing::Mock</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" local="no">gmock-spec-builders.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classtesting_1_1Mock_1ab16ee720dcf0523adfd9556aec9ab69b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>internal::UntypedFunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>internal::UntypedFunctionMockerBase</name>
+        <qualifiedname>testing::Mock::UntypedFunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase" kindref="compound">internal::UntypedFunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="393" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1a1945aea400fdb50639e5cdf43c583687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class internal::FunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>internal::FunctionMockerBase</name>
+        <qualifiedname>testing::Mock::FunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1FunctionMockerBase" kindref="compound">internal::FunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="398" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1a9e796f79d4c876398f83aa7678dddc46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class NiceMock</definition>
+        <argsstring></argsstring>
+        <name>NiceMock</name>
+        <qualifiedname>testing::Mock::NiceMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NiceMock" kindref="compound">NiceMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="401" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1aee2e427ecb34e6662477add3bb5f8819" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class NaggyMock</definition>
+        <argsstring></argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::Mock::NaggyMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NaggyMock" kindref="compound">NaggyMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="404" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1a88b3d71476c27b82c88bd49e8297e20e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class StrictMock</definition>
+        <argsstring></argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::Mock::StrictMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1StrictMock" kindref="compound">StrictMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="407" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1a01f9061057e0ccd3e65c5d2ea423cf18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class internal::FunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>internal::FunctionMockerBase</name>
+        <qualifiedname>testing::Mock::FunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1FunctionMockerBase" kindref="compound">internal::FunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="398" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1ae841c3d03cb3e1cf70f809325f70b23a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class NiceMock</definition>
+        <argsstring></argsstring>
+        <name>NiceMock</name>
+        <qualifiedname>testing::Mock::NiceMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NiceMock" kindref="compound">NiceMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="401" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1adf300691867938edc80ab1b4b96b8fca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class NaggyMock</definition>
+        <argsstring></argsstring>
+        <name>NaggyMock</name>
+        <qualifiedname>testing::Mock::NaggyMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1NaggyMock" kindref="compound">NaggyMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="404" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Mock_1a9638aa427f726a354ae88abbc5f3d8cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class StrictMock</definition>
+        <argsstring></argsstring>
+        <name>StrictMock</name>
+        <qualifiedname>testing::Mock::StrictMock</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1StrictMock" kindref="compound">StrictMock</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="407" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="371" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="371" bodyend="464"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1Mock_1a1945aea400fdb50639e5cdf43c583687" prot="public" virt="non-virtual"><scope>testing::Mock</scope><name>internal::FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1Mock_1a01f9061057e0ccd3e65c5d2ea423cf18" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>internal::FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1Mock_1ab16ee720dcf0523adfd9556aec9ab69b" prot="public" virt="non-virtual"><scope>testing::Mock</scope><name>internal::UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1Mock_1aee2e427ecb34e6662477add3bb5f8819" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1Mock_1adf300691867938edc80ab1b4b96b8fca" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>NaggyMock</name></member>
+      <member refid="classtesting_1_1Mock_1a9e796f79d4c876398f83aa7678dddc46" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>NiceMock</name></member>
+      <member refid="classtesting_1_1Mock_1ae841c3d03cb3e1cf70f809325f70b23a" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>NiceMock</name></member>
+      <member refid="classtesting_1_1Mock_1a88b3d71476c27b82c88bd49e8297e20e" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>StrictMock</name></member>
+      <member refid="classtesting_1_1Mock_1a9638aa427f726a354ae88abbc5f3d8cb" prot="private" virt="non-virtual"><scope>testing::Mock</scope><name>StrictMock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

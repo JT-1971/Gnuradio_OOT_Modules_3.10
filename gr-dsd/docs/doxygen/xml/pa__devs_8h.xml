@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="pa__devs_8h" kind="file" language="C++">
+    <compoundname>pa_devs.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="pa__devs_8h_1a028248ddb0b8cf4777aea8541a2e65f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printPortAudioDevices</definition>
+        <argsstring>()</argsstring>
+        <name>printPortAudioDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/pa_devs.h" line="4" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/pa_devs.h" declline="4" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/pa_devs.h"/>
+  </compounddef>
+</doxygen>

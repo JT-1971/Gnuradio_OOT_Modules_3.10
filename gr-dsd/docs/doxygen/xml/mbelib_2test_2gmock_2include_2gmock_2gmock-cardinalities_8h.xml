@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2gmock-cardinalities_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/gmock-cardinalities.h</compoundname>
+    <includes local="no">limits.h</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">gmock/internal/gmock-port.h</includes>
+    <includes local="yes">gtest/gtest.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-cardinalities.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2gmock-cardinalities_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gmock/internal/gmock-port.h</label>
+      </node>
+      <node id="5">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="2">
+        <label>limits.h</label>
+      </node>
+      <node id="3">
+        <label>ostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1CardinalityInterface" prot="public">testing::CardinalityInterface</innerclass>
+    <innerclass refid="classtesting_1_1Cardinality" prot="public">testing::Cardinality</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-cardinalities.h"/>
+  </compounddef>
+</doxygen>

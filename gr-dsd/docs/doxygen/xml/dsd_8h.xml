@@ -1,0 +1,1637 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_8h" kind="file" language="C++">
+    <compoundname>dsd.h</compoundname>
+    <includes refid="dsd_2include_2config_8h" local="yes">config.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">signal.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">sys/time.h</includes>
+    <includes local="no">sys/types.h</includes>
+    <includes local="no">sys/stat.h</includes>
+    <includes local="no">sys/ioctl.h</includes>
+    <includes local="no">fcntl.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">sys/soundcard.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="mbelib_8h" local="no">mbelib.h</includes>
+    <includes local="no">sndfile.h</includes>
+    <includes refid="p25p1__heuristics_8h" local="yes">p25p1_heuristics.h</includes>
+    <includedby refid="dsd__block__ff__impl_8h" local="no">dsd_block_ff_impl.h</includedby>
+    <includedby refid="p25p1__ldu_8h" local="yes">p25p1_ldu.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>config.h</label>
+        <link refid="dsd_2include_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>dsd.h</label>
+        <link refid="dsd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>p25p1_heuristics.h</label>
+        <link refid="p25p1__heuristics_8h"/>
+      </node>
+      <node id="16">
+        <label>mbelib.h</label>
+        <link refid="mbelib_8h"/>
+      </node>
+      <node id="12">
+        <label>fcntl.h</label>
+      </node>
+      <node id="15">
+        <label>math.h</label>
+      </node>
+      <node id="5">
+        <label>signal.h</label>
+      </node>
+      <node id="17">
+        <label>sndfile.h</label>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="11">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="14">
+        <label>sys/soundcard.h</label>
+      </node>
+      <node id="10">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="8">
+        <label>sys/time.h</label>
+      </node>
+      <node id="9">
+        <label>sys/types.h</label>
+      </node>
+      <node id="7">
+        <label>time.h</label>
+      </node>
+      <node id="13">
+        <label>unistd.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>dsd.h</label>
+        <link refid="dsd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>p25p1_ldu.h</label>
+        <link refid="p25p1__ldu_8h"/>
+      </node>
+      <node id="2">
+        <label>dsd_block_ff_impl.h</label>
+        <link refid="dsd__block__ff__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structdsd__opts" prot="public">dsd_opts</innerclass>
+    <innerclass refid="structdsd__state" prot="public">dsd_state</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dsd_8h_1a8773045a81f883f2ab00761f45e8642c" prot="public" static="no">
+        <name>__USE_XOPEN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="25" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ac897709423b93a273f0bbcaf89c4a6e4" prot="public" static="no">
+        <name>SAMPLE_RATE_IN</name>
+        <initializer>48000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="46" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a3ae4685b1a11d92223e5ed48e62a78da" prot="public" static="no">
+        <name>SAMPLE_RATE_OUT</name>
+        <initializer>8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="47" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1aabd35f909fb3735383638431b94ffcbe" prot="public" static="no">
+        <name>INV_P25P1_SYNC</name>
+        <initializer>&quot;333331331133111131311111&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="243" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a9b8faea44b9a892c5ed9a21264eb98d1" prot="public" static="no">
+        <name>P25P1_SYNC</name>
+        <initializer>&quot;111113113311333313133333&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="244" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a2fc251435f5257c232fe257ce129a64d" prot="public" static="no">
+        <name>X2TDMA_BS_VOICE_SYNC</name>
+        <initializer>&quot;113131333331313331113311&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="246" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a774c179e135ecea0811927a5fadd1391" prot="public" static="no">
+        <name>X2TDMA_BS_DATA_SYNC</name>
+        <initializer>&quot;331313111113131113331133&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="247" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ad68f55d00595694e0aac83fd8a9fc324" prot="public" static="no">
+        <name>X2TDMA_MS_DATA_SYNC</name>
+        <initializer>&quot;313113333111111133333313&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="248" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1af5632035632ebf9b38a0a30ccdceb26e" prot="public" static="no">
+        <name>X2TDMA_MS_VOICE_SYNC</name>
+        <initializer>&quot;131331111333333311111131&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="249" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1abfc31c69ed308d9743e7c58f49c5a0ca" prot="public" static="no">
+        <name>DSTAR_HD</name>
+        <initializer>&quot;131313131333133113131111&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="251" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a35bb5d689b635bb31168d226bcd05d71" prot="public" static="no">
+        <name>INV_DSTAR_HD</name>
+        <initializer>&quot;313131313111311331313333&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="252" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a73a7b00924c0d2e3c76b8965742203ed" prot="public" static="no">
+        <name>DSTAR_SYNC</name>
+        <initializer>&quot;313131313133131113313111&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="253" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1aa204df7d91821c7a8c13ea7999994471" prot="public" static="no">
+        <name>INV_DSTAR_SYNC</name>
+        <initializer>&quot;131313131311313331131333&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="254" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a60f9aaf763eddcf5943d516759e235bc" prot="public" static="no">
+        <name>NXDN_MS_DATA_SYNC</name>
+        <initializer>&quot;313133113131111333&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="256" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a7cef5a0f036a2662e360aedb5c3a7d94" prot="public" static="no">
+        <name>INV_NXDN_MS_DATA_SYNC</name>
+        <initializer>&quot;131311331313333111&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="257" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ac2d81bb070cf159d995f70ab57932bd2" prot="public" static="no">
+        <name>NXDN_MS_VOICE_SYNC</name>
+        <initializer>&quot;313133113131113133&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="258" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a802c424b504169782e98052685687593" prot="public" static="no">
+        <name>INV_NXDN_MS_VOICE_SYNC</name>
+        <initializer>&quot;131311331313331311&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="259" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a5b3bdfbabd4d09613d882a9fa073e613" prot="public" static="no">
+        <name>INV_NXDN_BS_DATA_SYNC</name>
+        <initializer>&quot;131311331313333131&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="260" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a79f1a3a6f0033406b3eda212f4c28e1e" prot="public" static="no">
+        <name>NXDN_BS_DATA_SYNC</name>
+        <initializer>&quot;313133113131111313&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="261" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ae0a24a36b4d6c5a2bdb2ee539321a5ab" prot="public" static="no">
+        <name>INV_NXDN_BS_VOICE_SYNC</name>
+        <initializer>&quot;131311331313331331&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="262" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a8b7244b7b53fe505102e7f28656b5d74" prot="public" static="no">
+        <name>NXDN_BS_VOICE_SYNC</name>
+        <initializer>&quot;313133113131113113&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="263" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a48499593efeeed6bfb2f76209e2458bd" prot="public" static="no">
+        <name>DMR_BS_DATA_SYNC</name>
+        <initializer>&quot;313333111331131131331131&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="265" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ae3203d0ddded6e7151eba33f81d6657e" prot="public" static="no">
+        <name>DMR_BS_VOICE_SYNC</name>
+        <initializer>&quot;131111333113313313113313&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="266" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a78824c31583ae53fa96d4b1ee7970221" prot="public" static="no">
+        <name>DMR_MS_DATA_SYNC</name>
+        <initializer>&quot;311131133313133331131113&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="267" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1ab99b802a31a9f7424ffc56dabcc3391b" prot="public" static="no">
+        <name>DMR_MS_VOICE_SYNC</name>
+        <initializer>&quot;133313311131311113313331&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="268" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a9712d3387427777fea3de027a78fabed" prot="public" static="no">
+        <name>INV_PROVOICE_SYNC</name>
+        <initializer>&quot;31313111333133133311331133113311&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="270" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1acffec41d1a6d9923ffb99c36850d8c1f" prot="public" static="no">
+        <name>PROVOICE_SYNC</name>
+        <initializer>&quot;13131333111311311133113311331133&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="271" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a4c8c0e1dddf80f4f808c9e05d60019cb" prot="public" static="no">
+        <name>INV_PROVOICE_EA_SYNC</name>
+        <initializer>&quot;13313133113113333311313133133311&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="272" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsd_8h_1a10e748003b4184df418b522a172cc498" prot="public" static="no">
+        <name>PROVOICE_EA_SYNC</name>
+        <initializer>&quot;31131311331331111133131311311133&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="273" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dsd_8h_1af9fcd148589128b32b6ffddb27a29e30" prot="public" static="no" extern="yes" mutable="no">
+        <type>int</type>
+        <definition>int exitflag</definition>
+        <argsstring></argsstring>
+        <name>exitflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="64" column="12" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="64" declcolumn="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dsd_8h_1a5014ebef3373f4ed9460d14f1a603a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processDMRdata</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processDMRdata</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="278" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="278" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a72e7b71f7224f029ae52b13afdcdeeae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processDMRvoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processDMRvoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="279" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="279" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a12e3916ad1c0e3258e5b6e49fdaf3c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processAudio</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processAudio</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="280" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="280" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab15245ef3a802b0d21d1475e5a8fedfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeSynthesizedVoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>writeSynthesizedVoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="281" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="281" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab20fabf2432c1b0e781af9f70125ba90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void playSynthesizedVoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>playSynthesizedVoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="282" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="282" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a9e227cb252792cb9ce11b99d86a4cc05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openAudioOutDevice</definition>
+        <argsstring>(dsd_opts *opts, int speed)</argsstring>
+        <name>openAudioOutDevice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="283" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="283" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a109d19145954f037d6feba522ef7eac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openAudioInDevice</definition>
+        <argsstring>(dsd_opts *opts)</argsstring>
+        <name>openAudioInDevice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="284" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="284" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a4fafa5a5206517d3995f7d0c997613bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int getDibit</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>getDibit</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="286" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="286" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aecfa976c038b80043f5b10c3fb734770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_dibit_and_analog_signal</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, int *out_analog_signal)</argsstring>
+        <name>get_dibit_and_analog_signal</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>out_analog_signal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="287" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="287" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a2baec2d6baa3d553bd6781454eafbe80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void skipDibit</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, int count)</argsstring>
+        <name>skipDibit</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="289" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="289" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a08da140d0f0dab1ce85a4b71d6ac78dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void saveImbe4400Data</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *imbe_d)</argsstring>
+        <name>saveImbe4400Data</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="290" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="290" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a49fa4c02963d1ec5816e0d401bd6b9cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void saveAmbe2450Data</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *ambe_d)</argsstring>
+        <name>saveAmbe2450Data</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="291" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="291" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1acf12047b7cdeb42a1d561a22620245c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int readImbe4400Data</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *imbe_d)</argsstring>
+        <name>readImbe4400Data</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="292" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="292" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a2b68d0923fe47ecd38fca2f050a155dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int readAmbe2450Data</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *ambe_d)</argsstring>
+        <name>readAmbe2450Data</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="293" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="293" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a211d5fc79e3c005e0789da9363aee506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openMbeInFile</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>openMbeInFile</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="294" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="294" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a0a8c82409cbaa69660e6a2efdd37ed67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void closeMbeOutFile</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>closeMbeOutFile</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="295" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="295" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a0d5b54690a520b472e3694f7e42a08f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openMbeOutFile</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>openMbeOutFile</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="296" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="296" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ae07c647b9d5c746657c278e34be41cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openWavOutFile</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>openWavOutFile</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="297" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="297" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a8e81ab039173074c9fe133f2fdba042d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void closeWavOutFile</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>closeWavOutFile</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="298" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="298" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a2c2c57e8789f459eca85b58890e98530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printFrameInfo</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>printFrameInfo</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="299" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="299" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a28919ac4e71494e9a3f917336438c5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processFrame</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processFrame</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="300" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="300" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1afa263df8d2881e2ffa9b14ae0ee326b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printFrameSync</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *frametype, int offset, char *modulation)</argsstring>
+        <name>printFrameSync</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>frametype</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>modulation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="301" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="301" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a7c6d2d60c4b79c50e0dd5f86dee41c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int getFrameSync</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>getFrameSync</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="302" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="302" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab143465e855981ccbba866dafb403919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int comp</definition>
+        <argsstring>(const void *a, const void *b)</argsstring>
+        <name>comp</name>
+        <param>
+          <type>const void *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="303" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="303" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a8bc9b009aa5e77582a672db19467031f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void noCarrier</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>noCarrier</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="304" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="304" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1af4730324dd0ba77d5c3ecc6357706ef7" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initOpts</definition>
+        <argsstring>(dsd_opts *opts)</argsstring>
+        <name>initOpts</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="305" column="13" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="305" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a8c8a918d215ab5da8463e88fb139f14f" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initState</definition>
+        <argsstring>(dsd_state *state)</argsstring>
+        <name>initState</name>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="306" column="13" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="306" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a2ef30c42cbc289d899a8be5d2d8f77d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usage</definition>
+        <argsstring>()</argsstring>
+        <name>usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="307" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="307" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a041ee9105594de1815be4899cd67d429" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void liveScanner</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>liveScanner</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="308" column="13" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="308" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a531645c751c25d861f541a0ef013dd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cleanupAndExit</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>cleanupAndExit</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="309" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="309" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a4dbfde3ae658b404dac5a881ab3c70c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sigfun</definition>
+        <argsstring>(int sig)</argsstring>
+        <name>sigfun</name>
+        <param>
+          <type>int</type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="310" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="310" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="311" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="311" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a2b95cc01126c69a883f9f58e63d12b9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void playMbeFiles</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, int argc, char **argv)</argsstring>
+        <name>playMbeFiles</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="312" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="312" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a911a3028265442c12108e3a68a4d7ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processMbeFrame</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char imbe_fr[8][23], char ambe_fr[4][24], char imbe7100_fr[7][24])</argsstring>
+        <name>processMbeFrame</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe7100_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="313" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="313" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aa7a9c30dfd2f6ec665d7f074ab3e4801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openSerial</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>openSerial</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="314" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="314" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1af01d7bc459163825a43d69e3459616cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void resumeScan</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>resumeScan</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="315" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="315" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a80dcdad703381848e05e1cdae2b6e73c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int getSymbol</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, int have_sync)</argsstring>
+        <name>getSymbol</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>have_sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="316" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="316" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a5fa5a146206caad87559b6ea999cedb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void upsample</definition>
+        <argsstring>(dsd_state *state, float invalue)</argsstring>
+        <name>upsample</name>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>invalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="317" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="317" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a8c795afd8efe95394359b8ce5b9c3df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processDSTAR</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processDSTAR</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="318" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="318" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1abdbac446d054e2ba22f71df1175c9fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processNXDNVoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processNXDNVoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="319" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="319" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab6221a9a098a0a697f812066658768e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processNXDNData</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processNXDNData</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="320" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="320" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a0e5b8b7a01d017002bde4583216ea8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processP25lcw</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *lcformat, char *mfid, char *lcinfo)</argsstring>
+        <name>processP25lcw</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>lcformat</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>mfid</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>lcinfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="321" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="321" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a1276749c78dbed3b28a3021e2240fd01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processHDU</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processHDU</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="322" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="322" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1af2deb6a8120fddeb0298e2ae80cc1930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processLDU1</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processLDU1</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="323" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="323" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab1e9259af7521a430d0bceee52f60d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processLDU2</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processLDU2</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="324" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="324" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1a60370601dbda6deb72d56ac16f2c8175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processTDU</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processTDU</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="325" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="325" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1abda67441578719d6574012fcdc30c221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processTDULC</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processTDULC</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="326" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="326" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aa232d16dbd24ea1c226bf2ce343e2231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processProVoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processProVoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="327" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="327" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ae12c848d4b081f191ff88eabdbbf0fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processX2TDMAdata</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processX2TDMAdata</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="328" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="328" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aec17d4279833faa595854abcf930880e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processX2TDMAvoice</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processX2TDMAvoice</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="329" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="329" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1ab1f5b5f2ced3cbf25fc88dd8bbb2fe9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void processDSTAR_HD</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state)</argsstring>
+        <name>processDSTAR_HD</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="330" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="330" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aed26990508e72ef7ff18f900281398ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>short</type>
+        <definition>short dmr_filter</definition>
+        <argsstring>(short sample)</argsstring>
+        <name>dmr_filter</name>
+        <param>
+          <type>short</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="331" column="7" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="331" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="dsd_8h_1aed1905004ed05465b426d351dfd890ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>short</type>
+        <definition>short nxdn_filter</definition>
+        <argsstring>(short sample)</argsstring>
+        <name>nxdn_filter</name>
+        <param>
+          <type>short</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h" line="332" column="7" declfile="/home/dr/Code/gr-dsd/dsd/include/dsd.h" declline="332" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/dsd.h"/>
+  </compounddef>
+</doxygen>

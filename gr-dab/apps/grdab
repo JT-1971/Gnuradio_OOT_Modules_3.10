@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+#
+# Copyright 2018 by Ruben Undheim
+#
+# This is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3, or (at your option)
+# any later version.
+#
+# This software is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this software; see the file COPYING.  If not, write to
+# the Free Software Foundation, Inc., 51 Franklin Street,
+# Boston, MA 02110-1301, USA.
+
+
+import argparse
+import sys
+
+import gnuradio.dab.app
+import os
+
+extra_module_path = os.path.dirname(gnuradio.dab.app.__file__)
+
+sys.path.append(extra_module_path)
+
+parser = argparse.ArgumentParser(description='DAB radio (grdab)')
+subparsers = parser.add_subparsers()
+parser.add_argument("-z","--zeromq", help="Use zeromq", action="store_true")
+parser.add_argument("--server", help="Address to ZeroMQ", default="tcp://127.0.0.1:10444")
+parser.add_argument("--server_control", help="Address to ZeroMQ control server", default="tcp://127.0.0.1:10445")
+parser.add_argument("--file", help="Run with complex input from file", default=None)
+parser.add_argument("--file-repeat", help="Repeat file over and over again", action="store_true")
+
+parser_receive = subparsers.add_parser('receive', help='Receive DAB+ audio')
+parser_receive.add_argument("-f","--freq", help="Frequency in MHz", type=float, default=220.352)
+parser_receive.add_argument("-a","--audiorate", help="Audio sample rate in Hz", type=int, default=48000)
+parser_receive.add_argument("--bit_rate", help="", type=int, default=64)
+parser_receive.add_argument("--address", help="", type=int, default=304)
+parser_receive.add_argument("--subch_size", help="", type=int, default=64)
+parser_receive.add_argument("--protect_level", help="", type=int, default=1)
+parser_receive.add_argument("--classic", help="Not DAB+", action="store_true")
+parser_receive.add_argument("--skip-xrun-monitor", help="Run without throttle and xrun_buffer", action="store_true")
+
+parser_info = subparsers.add_parser('info', help='Get channel details')
+parser_info.add_argument("-f","--freq", help="Frequency in MHz", type=float, default=220.352)
+
+parser_adjust = subparsers.add_parser('adjust', help='Find optimum gain and freq error ppm settings')
+parser_adjust.add_argument("-f","--freq", help="Frequency in MHz", type=float, default=220.352)
+
+parser_curses = subparsers.add_parser('curses', help='Run the ncurses listening app')
+parser_curses.add_argument("--skip-xrun-monitor", help="Run without throttle and xrun_buffer", action="store_true")
+
+import gnuradio.dab.app.config
+import os
+cfg_dir = "".join([os.getenv("HOME"),"/.grdab"])
+cfg = gnuradio.dab.app.config.Configuration(cfg_dir)
+
+rf_gain = 50
+if_gain = 0
+bb_gain = 0
+ppm = 0
+
+if "gain" in cfg.adjust_config:
+  rf_gain = cfg.adjust_config["gain"]["gain_rf"]
+  if_gain = cfg.adjust_config["gain"]["gain_if"]
+  bb_gain = cfg.adjust_config["gain"]["gain_bb"]
+
+if "ppm" in cfg.adjust_config:
+  ppm     = cfg.adjust_config["ppm"]
+
+def receive_handler(res):
+  print("receive handler")
+  gnuradio.dab.app.receive_dabplus(frequency=(res.freq*1e6), rf_gain=rf_gain, if_gain=if_gain, bb_gain=bb_gain, ppm=ppm, audio_sample_rate=res.audiorate, dab_bit_rate=res.bit_rate, dab_address=res.address, dab_subch_size=res.subch_size, dab_protect_level=res.protect_level, use_zeromq=res.zeromq, dabplus=not res.classic, server=res.server, server_control=res.server_control, from_file=res.file, from_file_repeat=res.file_repeat, skip_xrun_monitor=res.skip_xrun_monitor)
+
+def info_handler(res):
+  print("info handler")
+  gnuradio.dab.app.get_channels(frequency=(res.freq*1e6), rf_gain=rf_gain, if_gain=if_gain, bb_gain=bb_gain, ppm=ppm, use_zeromq=res.zeromq, server=res.server, server_control=res.server_control, from_file=res.file, from_file_repeat=res.file_repeat)
+
+def adjust_handler(res):
+  import gnuradio.dab.app.adjustment_gui
+  print("will open GUI to adjust gain and ppm")
+
+  class SubClass(gnuradio.dab.app.adjustment_gui.top_block):
+
+    def __init__(self):
+      super(SubClass, self).__init__(frequency_id_default=26, gain_rf_default=rf_gain, gain_if_default=if_gain, gain_bb_default=bb_gain, ppm_default=ppm, zeromq=res.zeromq, server=res.server, server_control=res.server_control, from_file=res.file, from_file_repeat=res.file_repeat)
+
+    def set_variable_qtgui_push_button_0(self, val):
+      self.variable_qtgui_push_button_0 = val
+      if val == 1:
+        import gnuradio.dab.app.config
+        import os
+        cfg_dir = "".join([os.getenv("HOME"),"/.grdab"])
+        cfg = gnuradio.dab.app.config.Configuration(cfg_dir)
+        cfg.adjust_config = {"gain" : {"gain_rf" : self.get_gain_slider(), "gain_if" : self.get_gain_if(), "gain_bb" : self.get_gain_bb()}, "ppm" : self.get_ppm()}
+        cfg.save()
+
+  tp = SubClass
+
+  sys.argv = [sys.argv[0]] # Hack since the next function call also parses argv
+  gnuradio.dab.app.adjustment_gui.main(tp, options=None)
+
+def curses_handler(res):
+  import gnuradio.dab.app.curses_app
+  gnuradio.dab.app.curses_app.main(rf_gain=rf_gain, if_gain=if_gain, bb_gain=bb_gain, ppm=ppm, use_zeromq_in=res.zeromq, server=res.server, server_control=res.server_control, from_file=res.file, from_file_repeat=res.file_repeat, skip_xrun_monitor=res.skip_xrun_monitor)
+
+parser_receive.set_defaults(func=receive_handler)
+parser_info.set_defaults(func=info_handler)
+parser_adjust.set_defaults(func=adjust_handler)
+parser_curses.set_defaults(func=curses_handler)
+args = parser.parse_args()
+
+try:
+  func = args.func
+except AttributeError:
+  parser.error("Too few arguments")
+
+func(args)
+

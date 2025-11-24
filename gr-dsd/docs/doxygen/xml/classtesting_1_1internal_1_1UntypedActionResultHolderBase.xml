@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1UntypedActionResultHolderBase" kind="class" language="C++" prot="private" abstract="yes">
+    <compoundname>testing::internal::UntypedActionResultHolderBase</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::UntypedActionResultHolderBase::~UntypedActionResultHolderBase</definition>
+        <argsstring>()</argsstring>
+        <name>~UntypedActionResultHolderBase</name>
+        <qualifiedname>testing::internal::UntypedActionResultHolderBase::~UntypedActionResultHolderBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1313" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1313" bodyend="1313"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a4b4a558fcb1d3b02c0fec34f186d3b90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::UntypedActionResultHolderBase::PrintAsActionResult</definition>
+        <argsstring>(::std::ostream *os) const =0</argsstring>
+        <name>PrintAsActionResult</name>
+        <qualifiedname>testing::internal::UntypedActionResultHolderBase::PrintAsActionResult</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1316" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::UntypedActionResultHolderBase::~UntypedActionResultHolderBase</definition>
+        <argsstring>()</argsstring>
+        <name>~UntypedActionResultHolderBase</name>
+        <qualifiedname>testing::internal::UntypedActionResultHolderBase::~UntypedActionResultHolderBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1313" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1313" bodyend="1313"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a4b4a558fcb1d3b02c0fec34f186d3b90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::UntypedActionResultHolderBase::PrintAsActionResult</definition>
+        <argsstring>(::std::ostream *os) const =0</argsstring>
+        <name>PrintAsActionResult</name>
+        <qualifiedname>testing::internal::UntypedActionResultHolderBase::PrintAsActionResult</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1316" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1311" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1311" bodyend="1317"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a4b4a558fcb1d3b02c0fec34f186d3b90" prot="public" virt="pure-virtual"><scope>testing::internal::UntypedActionResultHolderBase</scope><name>PrintAsActionResult</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a4b4a558fcb1d3b02c0fec34f186d3b90" prot="public" virt="pure-virtual"><scope>testing::internal::UntypedActionResultHolderBase</scope><name>PrintAsActionResult</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" virt="virtual"><scope>testing::internal::UntypedActionResultHolderBase</scope><name>~UntypedActionResultHolderBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" virt="virtual"><scope>testing::internal::UntypedActionResultHolderBase</scope><name>~UntypedActionResultHolderBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

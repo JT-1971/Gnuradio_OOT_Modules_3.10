@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1SelectArgs" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::SelectArgs</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Result</type>
+      </param>
+      <param>
+        <type>typename ArgumentTuple</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k1</declname>
+        <defname>k1</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k2</declname>
+        <defname>k2</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k3</declname>
+        <defname>k3</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k4</declname>
+        <defname>k4</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k5</declname>
+        <defname>k5</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k6</declname>
+        <defname>k6</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k7</declname>
+        <defname>k7</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k8</declname>
+        <defname>k8</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k9</declname>
+        <defname>k9</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k10</declname>
+        <defname>k10</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" prot="public" static="no">
+        <type>Result</type>
+        <definition>typedef Result testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::type(GMOCK_FIELD_(ArgumentTuple, k1), GMOCK_FIELD_(ArgumentTuple, k2), GMOCK_FIELD_(ArgumentTuple, k3), GMOCK_FIELD_(ArgumentTuple, k4), GMOCK_FIELD_(ArgumentTuple, k5), GMOCK_FIELD_(ArgumentTuple, k6), GMOCK_FIELD_(ArgumentTuple, k7), GMOCK_FIELD_(ArgumentTuple, k8), GMOCK_FIELD_(ArgumentTuple, k9), GMOCK_FIELD_(ArgumentTuple, k10))</definition>
+        <argsstring>(GMOCK_FIELD_(ArgumentTuple, k1), GMOCK_FIELD_(ArgumentTuple, k2), GMOCK_FIELD_(ArgumentTuple, k3), GMOCK_FIELD_(ArgumentTuple, k4), GMOCK_FIELD_(ArgumentTuple, k5), GMOCK_FIELD_(ArgumentTuple, k6), GMOCK_FIELD_(ArgumentTuple, k7), GMOCK_FIELD_(ArgumentTuple, k8), GMOCK_FIELD_(ArgumentTuple, k9), GMOCK_FIELD_(ArgumentTuple, k10))</argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::SelectArgs::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="413" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" kindref="member">type</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;type&gt;::ArgumentTuple testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::SelectArgs::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="419" column="45" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" prot="public" static="no">
+        <type>Result</type>
+        <definition>typedef Result testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::type(GMOCK_FIELD_(ArgumentTuple, k1), GMOCK_FIELD_(ArgumentTuple, k2), GMOCK_FIELD_(ArgumentTuple, k3), GMOCK_FIELD_(ArgumentTuple, k4), GMOCK_FIELD_(ArgumentTuple, k5), GMOCK_FIELD_(ArgumentTuple, k6), GMOCK_FIELD_(ArgumentTuple, k7), GMOCK_FIELD_(ArgumentTuple, k8), GMOCK_FIELD_(ArgumentTuple, k9), GMOCK_FIELD_(ArgumentTuple, k10))</definition>
+        <argsstring>(GMOCK_FIELD_(ArgumentTuple, k1), GMOCK_FIELD_(ArgumentTuple, k2), GMOCK_FIELD_(ArgumentTuple, k3), GMOCK_FIELD_(ArgumentTuple, k4), GMOCK_FIELD_(ArgumentTuple, k5), GMOCK_FIELD_(ArgumentTuple, k6), GMOCK_FIELD_(ArgumentTuple, k7), GMOCK_FIELD_(ArgumentTuple, k8), GMOCK_FIELD_(ArgumentTuple, k9), GMOCK_FIELD_(ArgumentTuple, k10))</argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::SelectArgs::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="413" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; <ref refid="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" kindref="member">type</ref> &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;type&gt;::ArgumentTuple testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::SelectArgs::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="419" column="45" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SelectArgs_1a372c597a96263b29d59fdb08183bc2e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Select</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Select</name>
+        <qualifiedname>testing::internal::SelectArgs::Select</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="420" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="420" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SelectArgs_1a372c597a96263b29d59fdb08183bc2e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::SelectArgs&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Select</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Select</name>
+        <qualifiedname>testing::internal::SelectArgs::Select</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="420" column="23" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="420" bodyend="425"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="411" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="411" bodyend="426"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1a372c597a96263b29d59fdb08183bc2e1" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>Select</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1a372c597a96263b29d59fdb08183bc2e1" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>Select</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1ad1eaa794653b3f4cefdb5c2285b418a7" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>type</name></member>
+      <member refid="classtesting_1_1internal_1_1SelectArgs_1a9e8d3a748637b91376acab2330d87749" prot="public" virt="non-virtual"><scope>testing::internal::SelectArgs</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

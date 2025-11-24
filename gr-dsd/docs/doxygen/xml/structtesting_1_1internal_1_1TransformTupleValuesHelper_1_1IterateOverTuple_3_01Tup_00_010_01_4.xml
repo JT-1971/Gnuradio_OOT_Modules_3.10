@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4" kind="struct" language="C++" prot="private">
+    <compoundname>testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Tup</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4_1ae045ff24334765553981b7dc25771128" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>OutIter</type>
+        <definition>OutIter testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::IterateOverTuple&lt; Tup, 0 &gt;::operator()</definition>
+        <argsstring>(Func, const Tup &amp;, OutIter out) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;::operator()</qualifiedname>
+        <param>
+          <type>Func</type>
+        </param>
+        <param>
+          <type>const Tup &amp;</type>
+        </param>
+        <param>
+          <type>OutIter</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="824" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="824" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4_1ae045ff24334765553981b7dc25771128" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>OutIter</type>
+        <definition>OutIter testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::IterateOverTuple&lt; Tup, 0 &gt;::operator()</definition>
+        <argsstring>(Func, const Tup &amp;, OutIter out) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;::operator()</qualifiedname>
+        <param>
+          <type>Func</type>
+        </param>
+        <param>
+          <type>const Tup &amp;</type>
+        </param>
+        <param>
+          <type>OutIter</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="824" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="824" bodyend="826"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="823" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="823" bodyend="827"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4_1ae045ff24334765553981b7dc25771128" prot="public" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;</scope><name>operator()</name></member>
+      <member refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4_1ae045ff24334765553981b7dc25771128" prot="public" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

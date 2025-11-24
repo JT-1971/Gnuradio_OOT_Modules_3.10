@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1HasNewFatalFailureHelper" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::HasNewFatalFailureHelper</compoundname>
+    <basecompoundref refid="classtesting_1_1TestPartResultReporterInterface" prot="public" virt="non-virtual">testing::TestPartResultReporterInterface</basecompoundref>
+    <basecompoundref refid="classtesting_1_1TestPartResultReporterInterface" prot="public" virt="non-virtual">testing::TestPartResultReporterInterface</basecompoundref>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest-test-part_8h" local="no">gtest-test-part.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a172103f6aefee8c387a44679888fee30" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure_</definition>
+        <argsstring></argsstring>
+        <name>has_new_fatal_failure_</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="169" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ad2e9a8294e86486bade80a710f0adb76" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1TestPartResultReporterInterface" kindref="compound">TestPartResultReporterInterface</ref> *</type>
+        <definition>TestPartResultReporterInterface * testing::internal::HasNewFatalFailureHelper::original_reporter_</definition>
+        <argsstring></argsstring>
+        <name>original_reporter_</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::original_reporter_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="170" column="35" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a59190a7188db558c00b4c6bf9251859a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasNewFatalFailureHelper::HasNewFatalFailureHelper</definition>
+        <argsstring>()</argsstring>
+        <name>HasNewFatalFailureHelper</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::HasNewFatalFailureHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="164" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ae9207df58c9ca17b8243b6b664b402fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::HasNewFatalFailureHelper::~HasNewFatalFailureHelper</definition>
+        <argsstring>()</argsstring>
+        <name>~HasNewFatalFailureHelper</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::~HasNewFatalFailureHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="165" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::HasNewFatalFailureHelper::ReportTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;result)</argsstring>
+        <name>ReportTestPartResult</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::ReportTestPartResult</qualifiedname>
+        <reimplements refid="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22">ReportTestPartResult</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="166" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a91b7bac47f09076db4be0304a2110a9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure</definition>
+        <argsstring>() const</argsstring>
+        <name>has_new_fatal_failure</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="167" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a59190a7188db558c00b4c6bf9251859a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasNewFatalFailureHelper::HasNewFatalFailureHelper</definition>
+        <argsstring>()</argsstring>
+        <name>HasNewFatalFailureHelper</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::HasNewFatalFailureHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="164" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ae9207df58c9ca17b8243b6b664b402fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual testing::internal::HasNewFatalFailureHelper::~HasNewFatalFailureHelper</definition>
+        <argsstring>()</argsstring>
+        <name>~HasNewFatalFailureHelper</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::~HasNewFatalFailureHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="165" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::HasNewFatalFailureHelper::ReportTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;result)</argsstring>
+        <name>ReportTestPartResult</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::ReportTestPartResult</qualifiedname>
+        <reimplements refid="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22">ReportTestPartResult</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="166" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a91b7bac47f09076db4be0304a2110a9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure</definition>
+        <argsstring>() const</argsstring>
+        <name>has_new_fatal_failure</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::has_new_fatal_failure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="167" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a1412aefd53134f35ce1689f56c35a10d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasNewFatalFailureHelper::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(HasNewFatalFailureHelper)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper" kindref="compound">HasNewFatalFailureHelper</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="172" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a1412aefd53134f35ce1689f56c35a10d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::HasNewFatalFailureHelper::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(HasNewFatalFailureHelper)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::HasNewFatalFailureHelper::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper" kindref="compound">HasNewFatalFailureHelper</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="172" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::TestPartResultReporterInterface</label>
+        <link refid="classtesting_1_1TestPartResultReporterInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::HasNewFatalFailureHelper</label>
+        <link refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::TestPartResultReporterInterface</label>
+        <link refid="classtesting_1_1TestPartResultReporterInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::HasNewFatalFailureHelper</label>
+        <link refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="161" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="162" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a1412aefd53134f35ce1689f56c35a10d" prot="private" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a1412aefd53134f35ce1689f56c35a10d" prot="private" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a91b7bac47f09076db4be0304a2110a9e" prot="public" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>has_new_fatal_failure</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a91b7bac47f09076db4be0304a2110a9e" prot="public" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>has_new_fatal_failure</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a172103f6aefee8c387a44679888fee30" prot="private" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>has_new_fatal_failure_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a59190a7188db558c00b4c6bf9251859a" prot="public" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>HasNewFatalFailureHelper</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1a59190a7188db558c00b4c6bf9251859a" prot="public" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>HasNewFatalFailureHelper</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ad2e9a8294e86486bade80a710f0adb76" prot="private" virt="non-virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>original_reporter_</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>ReportTestPartResult</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>ReportTestPartResult</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ae9207df58c9ca17b8243b6b664b402fa" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>~HasNewFatalFailureHelper</name></member>
+      <member refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ae9207df58c9ca17b8243b6b664b402fa" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>~HasNewFatalFailureHelper</name></member>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>~TestPartResultReporterInterface</name></member>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" virt="virtual"><scope>testing::internal::HasNewFatalFailureHelper</scope><name>~TestPartResultReporterInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

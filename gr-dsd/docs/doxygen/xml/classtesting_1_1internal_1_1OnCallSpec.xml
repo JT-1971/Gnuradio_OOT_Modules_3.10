@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1OnCallSpec" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::OnCallSpec</compoundname>
+    <basecompoundref refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase" prot="public" virt="non-virtual">testing::internal::UntypedOnCallSpecBase</basecompoundref>
+    <basecompoundref refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase" prot="public" virt="non-virtual">testing::internal::UntypedOnCallSpecBase</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" local="no">gmock-spec-builders.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentTuple testing::internal::OnCallSpec&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::OnCallSpec::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="287" column="45" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentMatcherTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentMatcherTuple testing::internal::OnCallSpec&lt; F &gt;::ArgumentMatcherTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentMatcherTuple</name>
+        <qualifiedname>testing::internal::OnCallSpec::ArgumentMatcherTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="288" column="52" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentTuple testing::internal::OnCallSpec&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::OnCallSpec::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="287" column="45" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentMatcherTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentMatcherTuple testing::internal::OnCallSpec&lt; F &gt;::ArgumentMatcherTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentMatcherTuple</name>
+        <qualifiedname>testing::internal::OnCallSpec::ArgumentMatcherTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="288" column="52" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1OnCallSpec_1a3938ebe6cb9bc385956358e354a67673" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" kindref="member">ArgumentMatcherTuple</ref></type>
+        <definition>ArgumentMatcherTuple testing::internal::OnCallSpec&lt; F &gt;::matchers_</definition>
+        <argsstring></argsstring>
+        <name>matchers_</name>
+        <qualifiedname>testing::internal::OnCallSpec::matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="355" column="24" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1OnCallSpec_1ad343f1f26df51125d80d5ab791bff508" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" kindref="member">ArgumentTuple</ref> &amp; &gt;</type>
+        <definition>Matcher&lt; const ArgumentTuple &amp; &gt; testing::internal::OnCallSpec&lt; F &gt;::extra_matcher_</definition>
+        <argsstring></argsstring>
+        <name>extra_matcher_</name>
+        <qualifiedname>testing::internal::OnCallSpec::extra_matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="356" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1OnCallSpec_1af23da9f7dfa2856aee6ce8f24de768e2" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt;</type>
+        <definition>Action&lt; F &gt; testing::internal::OnCallSpec&lt; F &gt;::action_</definition>
+        <argsstring></argsstring>
+        <name>action_</name>
+        <qualifiedname>testing::internal::OnCallSpec::action_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="357" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1ac7077e8162a10714e463b64a3cc7d054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::OnCallSpec&lt; F &gt;::OnCallSpec</definition>
+        <argsstring>(const char *a_file, int a_line, const ArgumentMatcherTuple &amp;matchers)</argsstring>
+        <name>OnCallSpec</name>
+        <qualifiedname>testing::internal::OnCallSpec::OnCallSpec</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>a_file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a_line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" kindref="member">ArgumentMatcherTuple</ref> &amp;</type>
+          <declname>matchers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="292" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="292" bodyend="301"/>
+        <references refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3415" endline="3415">testing::A</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a765dea7a179f23ae293535282500c0b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1OnCallSpec" kindref="compound">OnCallSpec</ref> &amp;</type>
+        <definition>OnCallSpec &amp; testing::internal::OnCallSpec&lt; F &gt;::With</definition>
+        <argsstring>(const Matcher&lt; const ArgumentTuple &amp; &gt; &amp;m)</argsstring>
+        <name>With</name>
+        <qualifiedname>testing::internal::OnCallSpec::With</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" kindref="member">ArgumentTuple</ref> &amp; &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="304" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="304" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a97b582bc0995afb01162eb9a458ed514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1OnCallSpec" kindref="compound">OnCallSpec</ref> &amp;</type>
+        <definition>OnCallSpec &amp; testing::internal::OnCallSpec&lt; F &gt;::WillByDefault</definition>
+        <argsstring>(const Action&lt; F &gt; &amp;action)</argsstring>
+        <name>WillByDefault</name>
+        <qualifiedname>testing::internal::OnCallSpec::WillByDefault</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="316" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="316" bodyend="326"/>
+        <references refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="304" endline="304">testing::Action&lt; F &gt;::IsDoDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a8113d1ec5775715637a87875dee6cc68" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::OnCallSpec&lt; F &gt;::Matches</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Matches</name>
+        <qualifiedname>testing::internal::OnCallSpec::Matches</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="329" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="329" bodyend="331"/>
+        <references refid="namespacetesting_1_1internal_1a10095d1e1c99369200072b39d657ebc4" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="775" endline="785">testing::internal::TupleMatches</references>
+        <referencedby refid="classtesting_1_1internal_1_1FunctionMockerBase_1ae938313e7b8bb17e8945f91c8aa70411" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="1423" endline="1434">testing::internal::FunctionMockerBase&lt; F &gt;::FindOnCallSpec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1aabeb138ff46267d28a2c284c6f5f5ad5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+        <definition>const Action&lt; F &gt; &amp; testing::internal::OnCallSpec&lt; F &gt;::GetAction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAction</name>
+        <qualifiedname>testing::internal::OnCallSpec::GetAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="334" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="334" bodyend="339"/>
+        <referencedby refid="classtesting_1_1internal_1_1FunctionMockerBase_1adbef6e1af840c9c14c3a6acee01007b2" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="1443" endline="1461">testing::internal::FunctionMockerBase&lt; F &gt;::PerformDefaultAction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1ac7077e8162a10714e463b64a3cc7d054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::OnCallSpec&lt; F &gt;::OnCallSpec</definition>
+        <argsstring>(const char *a_file, int a_line, const ArgumentMatcherTuple &amp;matchers)</argsstring>
+        <name>OnCallSpec</name>
+        <qualifiedname>testing::internal::OnCallSpec::OnCallSpec</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>a_file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a_line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" kindref="member">ArgumentMatcherTuple</ref> &amp;</type>
+          <declname>matchers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="292" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="292" bodyend="301"/>
+        <references refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3415" endline="3415">testing::A</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a765dea7a179f23ae293535282500c0b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1OnCallSpec" kindref="compound">OnCallSpec</ref> &amp;</type>
+        <definition>OnCallSpec &amp; testing::internal::OnCallSpec&lt; F &gt;::With</definition>
+        <argsstring>(const Matcher&lt; const ArgumentTuple &amp; &gt; &amp;m)</argsstring>
+        <name>With</name>
+        <qualifiedname>testing::internal::OnCallSpec::With</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" kindref="member">ArgumentTuple</ref> &amp; &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="304" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="304" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a97b582bc0995afb01162eb9a458ed514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1OnCallSpec" kindref="compound">OnCallSpec</ref> &amp;</type>
+        <definition>OnCallSpec &amp; testing::internal::OnCallSpec&lt; F &gt;::WillByDefault</definition>
+        <argsstring>(const Action&lt; F &gt; &amp;action)</argsstring>
+        <name>WillByDefault</name>
+        <qualifiedname>testing::internal::OnCallSpec::WillByDefault</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="316" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="316" bodyend="326"/>
+        <references refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="304" endline="304">testing::Action&lt; F &gt;::IsDoDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1a8113d1ec5775715637a87875dee6cc68" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::OnCallSpec&lt; F &gt;::Matches</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Matches</name>
+        <qualifiedname>testing::internal::OnCallSpec::Matches</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="329" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="329" bodyend="331"/>
+        <references refid="namespacetesting_1_1internal_1a10095d1e1c99369200072b39d657ebc4" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="775" endline="785">testing::internal::TupleMatches</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1OnCallSpec_1aabeb138ff46267d28a2c284c6f5f5ad5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+        <definition>const Action&lt; F &gt; &amp; testing::internal::OnCallSpec&lt; F &gt;::GetAction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAction</name>
+        <qualifiedname>testing::internal::OnCallSpec::GetAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="334" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="334" bodyend="339"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::internal::OnCallSpec&lt; F &gt;</label>
+        <link refid="classtesting_1_1internal_1_1OnCallSpec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::UntypedOnCallSpecBase</label>
+        <link refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>testing::internal::OnCallSpec&lt; F &gt;</label>
+        <link refid="classtesting_1_1internal_1_1OnCallSpec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::UntypedOnCallSpecBase</label>
+        <link refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="285" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="285" bodyend="358"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1af23da9f7dfa2856aee6ce8f24de768e2" prot="private" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>action_</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ArgumentMatcherTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a3240f159f0a9d8cda208bc256da35074" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ArgumentMatcherTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a70ffab8b915b7b48a90f5ce256da806f" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a83d223cf0e48fadc872a7b4062948df4" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>AssertSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a83d223cf0e48fadc872a7b4062948df4" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>AssertSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a78ebf16bfee40375e33a983f3100f354" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>Clause</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a78ebf16bfee40375e33a983f3100f354" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>Clause</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a7eeba49b7b2968ebb4859c04684828b2" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ExpectSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a7eeba49b7b2968ebb4859c04684828b2" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>ExpectSpecProperty</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1ad343f1f26df51125d80d5ab791bff508" prot="private" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>extra_matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a7f38a9661b49f992e744dfa446bf07e7" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>file</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a7f38a9661b49f992e744dfa446bf07e7" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>file</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1ad684fd2500777b57b37d6d48a3924d75" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>file_</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1aabeb138ff46267d28a2c284c6f5f5ad5" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>GetAction</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1aabeb138ff46267d28a2c284c6f5f5ad5" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>GetAction</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a78ebf16bfee40375e33a983f3100f354a65dcef242bf3d5a6af8c69745778e2da" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>kNone</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a78ebf16bfee40375e33a983f3100f354ab350f726ad344f021da1dac3eb509903" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>kWillByDefault</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a78ebf16bfee40375e33a983f3100f354ae3dc7c9f260f9e255faafbed55ea4f24" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>kWith</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1adb6d19adfeb5fde535d854aedbc5fb0f" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>last_clause_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a18e9eb7155380b3e124bccc0d8115b5e" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>line</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a18e9eb7155380b3e124bccc0d8115b5e" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>line</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1a1dfa0dafaae6697f17adf5d837ca77c7" prot="protected" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>line_</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a3938ebe6cb9bc385956358e354a67673" prot="private" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a8113d1ec5775715637a87875dee6cc68" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>Matches</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a8113d1ec5775715637a87875dee6cc68" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>Matches</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1ac7077e8162a10714e463b64a3cc7d054" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>OnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1ac7077e8162a10714e463b64a3cc7d054" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>OnCallSpec</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1afc5da72d536ad61e2d66de87b2b9bc50" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>UntypedOnCallSpecBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedOnCallSpecBase_1afc5da72d536ad61e2d66de87b2b9bc50" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>UntypedOnCallSpecBase</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a97b582bc0995afb01162eb9a458ed514" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>WillByDefault</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a97b582bc0995afb01162eb9a458ed514" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>WillByDefault</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a765dea7a179f23ae293535282500c0b3" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>With</name></member>
+      <member refid="classtesting_1_1internal_1_1OnCallSpec_1a765dea7a179f23ae293535282500c0b3" prot="public" virt="non-virtual"><scope>testing::internal::OnCallSpec</scope><name>With</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

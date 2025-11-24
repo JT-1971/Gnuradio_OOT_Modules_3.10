@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-linked__ptr_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="yes">gtest/internal/gtest-port.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-linked_ptr.h</label>
+        <link refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-linked__ptr_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>assert.h</label>
+      </node>
+      <node id="4">
+        <label>gtest/internal/gtest-port.h</label>
+      </node>
+      <node id="2">
+        <label>stdlib.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1linked__ptr__internal" prot="public">testing::internal::linked_ptr_internal</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1linked__ptr" prot="public">testing::internal::linked_ptr</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h"/>
+  </compounddef>
+</doxygen>

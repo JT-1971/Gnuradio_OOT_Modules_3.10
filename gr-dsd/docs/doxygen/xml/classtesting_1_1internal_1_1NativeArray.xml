@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1NativeArray" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::NativeArray</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" local="no">gtest-internal.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Element</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1a12216d686e16e4cc63d952fada5b2ba9" prot="public" static="no">
+        <type>Element</type>
+        <definition>typedef Element testing::internal::NativeArray&lt; Element &gt;::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>testing::internal::NativeArray::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="967" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1ac1301a57977b57a1ad013e4e25fc2a72" prot="public" static="no">
+        <type>Element *</type>
+        <definition>typedef Element* testing::internal::NativeArray&lt; Element &gt;::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>testing::internal::NativeArray::iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="968" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="968" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" prot="public" static="no">
+        <type>const Element *</type>
+        <definition>typedef const Element* testing::internal::NativeArray&lt; Element &gt;::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>testing::internal::NativeArray::const_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="969" column="25" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1a12216d686e16e4cc63d952fada5b2ba9" prot="public" static="no">
+        <type>Element</type>
+        <definition>typedef Element testing::internal::NativeArray&lt; Element &gt;::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>testing::internal::NativeArray::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="967" column="19" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1ac1301a57977b57a1ad013e4e25fc2a72" prot="public" static="no">
+        <type>Element *</type>
+        <definition>typedef Element* testing::internal::NativeArray&lt; Element &gt;::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>testing::internal::NativeArray::iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="968" column="19" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="968" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" prot="public" static="no">
+        <type>const Element *</type>
+        <definition>typedef const Element* testing::internal::NativeArray&lt; Element &gt;::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>testing::internal::NativeArray::const_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="969" column="25" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="969" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1NativeArray_1acf61ba53a7fe308f1fa9e51aad43116b" prot="private" static="no" mutable="no">
+        <type>const Element *</type>
+        <definition>const Element * testing::internal::NativeArray&lt; Element &gt;::array_</definition>
+        <argsstring></argsstring>
+        <name>array_</name>
+        <qualifiedname>testing::internal::NativeArray::array_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="1014" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1NativeArray_1aa7e4251de39aaa75f697f0eaeedbf06e" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t testing::internal::NativeArray&lt; Element &gt;::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>testing::internal::NativeArray::size_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="1015" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1NativeArray_1a0b049bda351a94f4d1b9aa4e1fbed4d5" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bb" kindref="member">RelationToSource</ref></type>
+        <definition>RelationToSource testing::internal::NativeArray&lt; Element &gt;::relation_to_source_</definition>
+        <argsstring></argsstring>
+        <name>relation_to_source_</name>
+        <qualifiedname>testing::internal::NativeArray::relation_to_source_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="1016" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a568de999aca0fc0c2cc574fac2405872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::NativeArray</definition>
+        <argsstring>(const Element *array, size_t count, RelationToSource relation)</argsstring>
+        <name>NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::NativeArray</qualifiedname>
+        <param>
+          <type>const Element *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bb" kindref="member">RelationToSource</ref></type>
+          <declname>relation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="972" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="972" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1abb346ac3040f5da733f594cc2d5958bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::NativeArray</definition>
+        <argsstring>(const NativeArray &amp;rhs)</argsstring>
+        <name>NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::NativeArray</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="977" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="977" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a55ab5948d473a487303dcf6e02ad1f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::~NativeArray</definition>
+        <argsstring>()</argsstring>
+        <name>~NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::~NativeArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="981" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="981" bodyend="988"/>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bbabb3df1d7eb03f12dabecbfc4f81cdcaf" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="951">testing::internal::kCopy</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::NativeArray&lt; Element &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>testing::internal::NativeArray::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="991" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="991" bodyend="991"/>
+        <referencedby refid="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="994" endline="997">testing::internal::NativeArray&lt; Element &gt;::operator==</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator testing::internal::NativeArray&lt; Element &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>testing::internal::NativeArray::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="992" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="992" bodyend="992"/>
+        <referencedby refid="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="994" endline="997">testing::internal::NativeArray&lt; Element &gt;::operator==</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1ae1cda748e49c6906421c6183c4d07c5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator testing::internal::NativeArray&lt; Element &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>testing::internal::NativeArray::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="993" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="993" bodyend="993"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::NativeArray&lt; Element &gt;::operator==</definition>
+        <argsstring>(const NativeArray &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>testing::internal::NativeArray::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="994" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="994" bodyend="997"/>
+        <references refid="namespacetesting_1_1internal_1af4bebf36baf0b0a5b26d051dde55fa47" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="901" endline="907">testing::internal::ArrayEq</references>
+        <references refid="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="992" endline="992">testing::internal::NativeArray&lt; Element &gt;::begin</references>
+        <references refid="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="991" endline="991">testing::internal::NativeArray&lt; Element &gt;::size</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a568de999aca0fc0c2cc574fac2405872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::NativeArray</definition>
+        <argsstring>(const Element *array, size_t count, RelationToSource relation)</argsstring>
+        <name>NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::NativeArray</qualifiedname>
+        <param>
+          <type>const Element *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bb" kindref="member">RelationToSource</ref></type>
+          <declname>relation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="972" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="972" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1abb346ac3040f5da733f594cc2d5958bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::NativeArray</definition>
+        <argsstring>(const NativeArray &amp;rhs)</argsstring>
+        <name>NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::NativeArray</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="977" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="977" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a55ab5948d473a487303dcf6e02ad1f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::~NativeArray</definition>
+        <argsstring>()</argsstring>
+        <name>~NativeArray</name>
+        <qualifiedname>testing::internal::NativeArray::~NativeArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="981" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="981" bodyend="988"/>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bbabb3df1d7eb03f12dabecbfc4f81cdcaf" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="951">testing::internal::kCopy</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::NativeArray&lt; Element &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>testing::internal::NativeArray::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="991" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="991" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator testing::internal::NativeArray&lt; Element &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>testing::internal::NativeArray::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="992" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="992" bodyend="992"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1ae1cda748e49c6906421c6183c4d07c5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator testing::internal::NativeArray&lt; Element &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>testing::internal::NativeArray::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="993" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="993" bodyend="993"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::NativeArray&lt; Element &gt;::operator==</definition>
+        <argsstring>(const NativeArray &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>testing::internal::NativeArray::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="994" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="994" bodyend="997"/>
+        <references refid="namespacetesting_1_1internal_1af4bebf36baf0b0a5b26d051dde55fa47" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="901" endline="907">testing::internal::ArrayEq</references>
+        <references refid="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="992" endline="992">testing::internal::NativeArray&lt; Element &gt;::begin</references>
+        <references refid="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="991" endline="991">testing::internal::NativeArray&lt; Element &gt;::size</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1af00d4432fa60b7d8999c95d496e72cff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::NativeArray&lt; Element &gt;::Init</definition>
+        <argsstring>(const Element *array, size_t a_size, RelationToSource relation)</argsstring>
+        <name>Init</name>
+        <qualifiedname>testing::internal::NativeArray::Init</qualifiedname>
+        <param>
+          <type>const Element *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>a_size</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bb" kindref="member">RelationToSource</ref></type>
+          <declname>relation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="1002" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="1002" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a6633f3eab6947d4502fb1c69f95be66e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(NativeArray)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::NativeArray::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="1018" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1af00d4432fa60b7d8999c95d496e72cff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::NativeArray&lt; Element &gt;::Init</definition>
+        <argsstring>(const Element *array, size_t a_size, RelationToSource relation)</argsstring>
+        <name>Init</name>
+        <qualifiedname>testing::internal::NativeArray::Init</qualifiedname>
+        <param>
+          <type>const Element *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>a_size</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1aec4f0eeb60b6b8af8dcf979578bbf3bb" kindref="member">RelationToSource</ref></type>
+          <declname>relation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="1002" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="1002" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NativeArray_1a6633f3eab6947d4502fb1c69f95be66e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NativeArray&lt; Element &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(NativeArray)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::NativeArray::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1NativeArray" kindref="compound">NativeArray</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="1018" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="964" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="964" bodyend="1019"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1acf61ba53a7fe308f1fa9e51aad43116b" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>array_</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>begin</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a3046d93cfa23097e7b7c91f5f982dc78" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>begin</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>const_iterator</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a9ce7c8408460d7158a2870456d134557" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>const_iterator</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1ae1cda748e49c6906421c6183c4d07c5a" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>end</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1ae1cda748e49c6906421c6183c4d07c5a" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>end</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a6633f3eab6947d4502fb1c69f95be66e" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a6633f3eab6947d4502fb1c69f95be66e" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1af00d4432fa60b7d8999c95d496e72cff" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>Init</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1af00d4432fa60b7d8999c95d496e72cff" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>Init</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1ac1301a57977b57a1ad013e4e25fc2a72" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>iterator</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1ac1301a57977b57a1ad013e4e25fc2a72" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>iterator</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a568de999aca0fc0c2cc574fac2405872" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>NativeArray</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1abb346ac3040f5da733f594cc2d5958bc" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>NativeArray</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a568de999aca0fc0c2cc574fac2405872" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>NativeArray</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1abb346ac3040f5da733f594cc2d5958bc" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>NativeArray</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>operator==</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a81b90f5739ed812610e68dc34c9e3850" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>operator==</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a0b049bda351a94f4d1b9aa4e1fbed4d5" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>relation_to_source_</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>size</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1af96a4a5ca0cdd5d163c47a081f08bd89" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>size</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1aa7e4251de39aaa75f697f0eaeedbf06e" prot="private" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>size_</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a12216d686e16e4cc63d952fada5b2ba9" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>value_type</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a12216d686e16e4cc63d952fada5b2ba9" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>value_type</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a55ab5948d473a487303dcf6e02ad1f60" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>~NativeArray</name></member>
+      <member refid="classtesting_1_1internal_1_1NativeArray_1a55ab5948d473a487303dcf6e02ad1f60" prot="public" virt="non-virtual"><scope>testing::internal::NativeArray</scope><name>~NativeArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

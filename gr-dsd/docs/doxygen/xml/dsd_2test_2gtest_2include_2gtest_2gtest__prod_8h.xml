@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gtest_2include_2gtest_2gtest__prod_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gtest/include/gtest/gtest_prod.h</compoundname>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dsd_2test_2gtest_2include_2gtest_2gtest__prod_8h_1a8d443b4cc1d87a7a17943b8fbdbf3910" prot="public" static="no">
+        <name>FRIEND_TEST</name>
+        <param><defname>test_case_name</defname></param>
+        <param><defname>test_name</defname></param>
+        <initializer>friend class test_case_name##_##test_name##_Test</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest_prod.h" line="55" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest_prod.h" bodystart="55" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest_prod.h"/>
+  </compounddef>
+</doxygen>

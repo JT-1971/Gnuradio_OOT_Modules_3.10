@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="p25p1__check__nid_8h" kind="file" language="C++">
+    <compoundname>p25p1_check_nid.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="p25p1__check__nid_8h_1a963b7363c7d546671e13d0882f6d330d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_NID</definition>
+        <argsstring>(char *bch_code, int *new_nac, char *new_duid, unsigned char parity)</argsstring>
+        <name>check_NID</name>
+        <param>
+          <type>char *</type>
+          <declname>bch_code</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>new_nac</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>new_duid</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks a NID value, returns the fixed NAC, DUID and also an indication if it failed to decode the NID. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bch_code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input. An array to the 63 bytes, each containing one bit of the NID. This includes the NAC (12 bits), DUID (4 bits) and 47 bits of BCH parity. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_nac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output. An address where to store the calculated NAC value after error correction. Should be large enough to accommodate for an integer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_duid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output. An address where to store the calculated DUID value after error correction. Should be able to accommodate 3 chars. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input. The parity value read. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if there were errors processing the NID. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_nid.h" line="20" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_nid.h" declline="20" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_nid.h"/>
+  </compounddef>
+</doxygen>

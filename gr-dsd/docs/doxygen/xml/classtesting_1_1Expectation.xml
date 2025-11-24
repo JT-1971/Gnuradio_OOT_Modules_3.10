@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1Expectation" kind="class" language="C++" prot="public">
+    <compoundname>testing::Expectation</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" local="no">gmock-spec-builders.h</includes>
+    <innerclass refid="classtesting_1_1Expectation_1_1Less" prot="private">testing::Expectation::Less</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classtesting_1_1Expectation_1a775955d57763c85daa8fda4b28ee2393" prot="private" static="no">
+        <type>::std::set&lt; <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref>, Less &gt;</type>
+        <definition>typedef ::std::set&lt;Expectation, Less&gt; testing::Expectation::Set</definition>
+        <argsstring></argsstring>
+        <name>Set</name>
+        <qualifiedname>testing::Expectation::Set</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="535" column="22" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1Expectation_1a775955d57763c85daa8fda4b28ee2393" prot="private" static="no">
+        <type>::std::set&lt; <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref>, Less &gt;</type>
+        <definition>typedef ::std::set&lt;Expectation, Less&gt; testing::Expectation::Set</definition>
+        <argsstring></argsstring>
+        <name>Set</name>
+        <qualifiedname>testing::Expectation::Set</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="535" column="22" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1adbd92b35eb751cd1a7ee8cd98843c849" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>ExpectationSet</definition>
+        <argsstring></argsstring>
+        <name>ExpectationSet</name>
+        <qualifiedname>testing::Expectation::ExpectationSet</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1ExpectationSet" kindref="compound">ExpectationSet</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="516" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1a7c6cee88be47642de240c7ed39a34ed3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>Sequence</definition>
+        <argsstring></argsstring>
+        <name>Sequence</name>
+        <qualifiedname>testing::Expectation::Sequence</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1Sequence" kindref="compound">Sequence</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="517" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1a9a45d4d807ed262ab76ab842b8d33761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ::testing::internal::ExpectationBase</definition>
+        <argsstring></argsstring>
+        <name>::testing::internal::ExpectationBase</name>
+        <qualifiedname>testing::Expectation::ExpectationBase</qualifiedname>
+        <param>
+          <type>::testing::internal::ExpectationBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="518" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1a709c2d6bee1223cfbcadc58e884cdb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ::testing::internal::UntypedFunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>::testing::internal::UntypedFunctionMockerBase</name>
+        <qualifiedname>testing::Expectation::UntypedFunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UntypedFunctionMockerBase" kindref="compound">::testing::internal::UntypedFunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="519" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1a92066c162835b0d3d2317c9643a87e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class ::testing::internal::FunctionMockerBase</definition>
+        <argsstring></argsstring>
+        <name>::testing::internal::FunctionMockerBase</name>
+        <qualifiedname>testing::Expectation::FunctionMockerBase</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1FunctionMockerBase" kindref="compound">::testing::internal::FunctionMockerBase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="522" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Expectation_1a86c4872d3edbede5e8ac148525bc8893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class ::testing::internal::TypedExpectation</definition>
+        <argsstring></argsstring>
+        <name>::testing::internal::TypedExpectation</name>
+        <qualifiedname>testing::Expectation::TypedExpectation</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1TypedExpectation" kindref="compound">::testing::internal::TypedExpectation</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="525" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1Expectation_1afa092e4fed1f1adfe4c912580cc79063" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; internal::ExpectationBase &gt;</type>
+        <definition>internal::linked_ptr&lt; internal::ExpectationBase &gt; testing::Expectation::expectation_base_</definition>
+        <argsstring></argsstring>
+        <name>expectation_base_</name>
+        <qualifiedname>testing::Expectation::expectation_base_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="547" column="24" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="547" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a10b4bb1252356ec9224ca93124827184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>()</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="490" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a7a5c0a19222bb2f1eaff1906f853eed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::~Expectation</definition>
+        <argsstring>()</argsstring>
+        <name>~Expectation</name>
+        <qualifiedname>testing::Expectation::~Expectation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="492" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a58e0c78b0f47365ac058be117fea655c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>(internal::ExpectationBase &amp;exp)</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <param>
+          <type>internal::ExpectationBase &amp;</type>
+          <declname>exp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="503" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1773" bodyend="1774"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a319f0eea03bd4e6dd0000306fb2ed6ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::operator==</definition>
+        <argsstring>(const Expectation &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>testing::Expectation::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="509" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="509" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a65d348ba9164e204feed37be93f655b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::operator!=</definition>
+        <argsstring>(const Expectation &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>testing::Expectation::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="513" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="513" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a10b4bb1252356ec9224ca93124827184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>()</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="490" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a7a5c0a19222bb2f1eaff1906f853eed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::~Expectation</definition>
+        <argsstring>()</argsstring>
+        <name>~Expectation</name>
+        <qualifiedname>testing::Expectation::~Expectation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="492" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a58e0c78b0f47365ac058be117fea655c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>(internal::ExpectationBase &amp;exp)</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <param>
+          <type>internal::ExpectationBase &amp;</type>
+          <declname>exp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="503" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a319f0eea03bd4e6dd0000306fb2ed6ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::operator==</definition>
+        <argsstring>(const Expectation &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>testing::Expectation::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="509" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="509" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a65d348ba9164e204feed37be93f655b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Expectation::operator!=</definition>
+        <argsstring>(const Expectation &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>testing::Expectation::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Expectation" kindref="compound">Expectation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="513" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="513" bodyend="513"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a26385861205f24dc78b66d9ba59663b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>(const internal::linked_ptr&lt; internal::ExpectationBase &gt; &amp;expectation_base)</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; internal::ExpectationBase &gt; &amp;</type>
+          <declname>expectation_base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="537" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1aaa6aa0ea59d1f81a7777795605a9f684" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; internal::ExpectationBase &gt; &amp;</type>
+        <definition>const internal::linked_ptr&lt; internal::ExpectationBase &gt; &amp; testing::Expectation::expectation_base</definition>
+        <argsstring>() const</argsstring>
+        <name>expectation_base</name>
+        <qualifiedname>testing::Expectation::expectation_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="542" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="542" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1a26385861205f24dc78b66d9ba59663b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::Expectation::Expectation</definition>
+        <argsstring>(const internal::linked_ptr&lt; internal::ExpectationBase &gt; &amp;expectation_base)</argsstring>
+        <name>Expectation</name>
+        <qualifiedname>testing::Expectation::Expectation</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; internal::ExpectationBase &gt; &amp;</type>
+          <declname>expectation_base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="537" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Expectation_1aaa6aa0ea59d1f81a7777795605a9f684" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; internal::ExpectationBase &gt; &amp;</type>
+        <definition>const internal::linked_ptr&lt; internal::ExpectationBase &gt; &amp; testing::Expectation::expectation_base</definition>
+        <argsstring>() const</argsstring>
+        <name>expectation_base</name>
+        <qualifiedname>testing::Expectation::expectation_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="542" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="542" bodyend="544"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="487" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="487" bodyend="548"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1Expectation_1a9a45d4d807ed262ab76ab842b8d33761" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>::testing::internal::ExpectationBase</name></member>
+      <member refid="classtesting_1_1Expectation_1a92066c162835b0d3d2317c9643a87e7e" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>::testing::internal::FunctionMockerBase</name></member>
+      <member refid="classtesting_1_1Expectation_1a86c4872d3edbede5e8ac148525bc8893" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>::testing::internal::TypedExpectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a709c2d6bee1223cfbcadc58e884cdb4b" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>::testing::internal::UntypedFunctionMockerBase</name></member>
+      <member refid="classtesting_1_1Expectation_1a10b4bb1252356ec9224ca93124827184" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a58e0c78b0f47365ac058be117fea655c" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a26385861205f24dc78b66d9ba59663b0" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a10b4bb1252356ec9224ca93124827184" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a58e0c78b0f47365ac058be117fea655c" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a26385861205f24dc78b66d9ba59663b0" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1aaa6aa0ea59d1f81a7777795605a9f684" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>expectation_base</name></member>
+      <member refid="classtesting_1_1Expectation_1aaa6aa0ea59d1f81a7777795605a9f684" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>expectation_base</name></member>
+      <member refid="classtesting_1_1Expectation_1afa092e4fed1f1adfe4c912580cc79063" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>expectation_base_</name></member>
+      <member refid="classtesting_1_1Expectation_1adbd92b35eb751cd1a7ee8cd98843c849" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>ExpectationSet</name></member>
+      <member refid="classtesting_1_1Expectation_1a65d348ba9164e204feed37be93f655b0" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>operator!=</name></member>
+      <member refid="classtesting_1_1Expectation_1a65d348ba9164e204feed37be93f655b0" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>operator!=</name></member>
+      <member refid="classtesting_1_1Expectation_1a319f0eea03bd4e6dd0000306fb2ed6ca" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>operator==</name></member>
+      <member refid="classtesting_1_1Expectation_1a319f0eea03bd4e6dd0000306fb2ed6ca" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>operator==</name></member>
+      <member refid="classtesting_1_1Expectation_1a7c6cee88be47642de240c7ed39a34ed3" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>Sequence</name></member>
+      <member refid="classtesting_1_1Expectation_1a775955d57763c85daa8fda4b28ee2393" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>Set</name></member>
+      <member refid="classtesting_1_1Expectation_1a775955d57763c85daa8fda4b28ee2393" prot="private" virt="non-virtual"><scope>testing::Expectation</scope><name>Set</name></member>
+      <member refid="classtesting_1_1Expectation_1a7a5c0a19222bb2f1eaff1906f853eed4" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>~Expectation</name></member>
+      <member refid="classtesting_1_1Expectation_1a7a5c0a19222bb2f1eaff1906f853eed4" prot="public" virt="non-virtual"><scope>testing::Expectation</scope><name>~Expectation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

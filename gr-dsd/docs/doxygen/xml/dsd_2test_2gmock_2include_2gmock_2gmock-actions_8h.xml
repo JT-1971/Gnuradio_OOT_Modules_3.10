@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gmock/include/gmock/gmock-actions.h</compoundname>
+    <includes local="no">errno.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">string</includes>
+    <includes local="yes">gmock/internal/gmock-internal-utils.h</includes>
+    <includes local="yes">gmock/internal/gmock-port.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-actions.h</label>
+        <link refid="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>algorithm</label>
+      </node>
+      <node id="2">
+        <label>errno.h</label>
+      </node>
+      <node id="5">
+        <label>gmock/internal/gmock-internal-utils.h</label>
+      </node>
+      <node id="6">
+        <label>gmock/internal/gmock-port.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1BuiltInDefaultValue" prot="public">testing::internal::BuiltInDefaultValue</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1BuiltInDefaultValue_3_01const_01T_01_4" prot="public">testing::internal::BuiltInDefaultValue&lt; const T &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1BuiltInDefaultValue_3_01T_01_5_01_4" prot="public">testing::internal::BuiltInDefaultValue&lt; T * &gt;</innerclass>
+    <innerclass refid="classtesting_1_1DefaultValue" prot="public">testing::DefaultValue</innerclass>
+    <innerclass refid="classtesting_1_1DefaultValue_3_01T_01_6_01_4" prot="public">testing::DefaultValue&lt; T &amp; &gt;</innerclass>
+    <innerclass refid="classtesting_1_1DefaultValue_3_01void_01_4" prot="public">testing::DefaultValue&lt; void &gt;</innerclass>
+    <innerclass refid="classtesting_1_1ActionInterface" prot="public">testing::ActionInterface</innerclass>
+    <innerclass refid="classtesting_1_1Action" prot="public">testing::Action</innerclass>
+    <innerclass refid="classtesting_1_1PolymorphicAction" prot="public">testing::PolymorphicAction</innerclass>
+    <innerclass refid="classtesting_1_1PolymorphicAction_1_1MonomorphicImpl" prot="private">testing::PolymorphicAction::MonomorphicImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ActionAdaptor" prot="public">testing::internal::ActionAdaptor</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnAction" prot="private">testing::internal::ReturnAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnAction_1_1Impl" prot="private">testing::internal::ReturnAction::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnNullAction" prot="private">testing::internal::ReturnNullAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnVoidAction" prot="private">testing::internal::ReturnVoidAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnRefAction" prot="private">testing::internal::ReturnRefAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnRefAction_1_1Impl" prot="private">testing::internal::ReturnRefAction::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction" prot="private">testing::internal::ReturnRefOfCopyAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReturnRefOfCopyAction_1_1Impl" prot="private">testing::internal::ReturnRefOfCopyAction::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DoDefaultAction" prot="private">testing::internal::DoDefaultAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1AssignAction" prot="private">testing::internal::AssignAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1SetErrnoAndReturnAction" prot="private">testing::internal::SetErrnoAndReturnAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1SetArgumentPointeeAction" prot="private">testing::internal::SetArgumentPointeeAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4" prot="private">testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1InvokeWithoutArgsAction" prot="private">testing::internal::InvokeWithoutArgsAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1InvokeMethodWithoutArgsAction" prot="private">testing::internal::InvokeMethodWithoutArgsAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1IgnoreResultAction" prot="private">testing::internal::IgnoreResultAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1IgnoreResultAction_1_1Impl" prot="private">testing::internal::IgnoreResultAction::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ReferenceWrapper" prot="private">testing::internal::ReferenceWrapper</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DoBothAction" prot="private">testing::internal::DoBothAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DoBothAction_1_1Impl" prot="private">testing::internal::DoBothAction::Impl</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h_1a06b1e6cd1145acf7849e4a112976016b" prot="public" static="no">
+        <name>GMOCK_DEFINE_DEFAULT_ACTION_FOR_RETURN_TYPE_</name>
+        <param><defname>type</defname></param>
+        <param><defname>value</defname></param>
+        <initializer>  template &lt;&gt; \
+  class BuiltInDefaultValue&lt;type&gt; { \
+   public: \
+    static bool Exists() { return true; } \
+    static type Get() { return value; } \
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="104" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="104" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h"/>
+  </compounddef>
+</doxygen>

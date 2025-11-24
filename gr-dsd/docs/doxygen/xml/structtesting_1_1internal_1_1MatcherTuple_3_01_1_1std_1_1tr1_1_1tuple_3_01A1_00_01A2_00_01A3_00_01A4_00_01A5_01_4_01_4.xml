@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1MatcherTuple_3_01_1_1std_1_1tr1_1_1tuple_3_01A1_00_01A2_00_01A3_00_01A4_00_01A5_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-generated-internal-utils_8h" local="no">gmock-generated-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename A1</type>
+      </param>
+      <param>
+        <type>typename A2</type>
+      </param>
+      <param>
+        <type>typename A3</type>
+      </param>
+      <param>
+        <type>typename A4</type>
+      </param>
+      <param>
+        <type>typename A5</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1MatcherTuple_3_01_1_1std_1_1tr1_1_1tuple_3_01A1_00_01A2_00_01A3_00_01A4_00_01A5_01_4_01_4_1a38684b97eb5266d2e96f602082a2152d" prot="public" static="no">
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A1 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A2 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A3 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A4 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A5 &gt; &gt;</type>
+        <definition>typedef ::std::tr1::tuple&lt;Matcher&lt;A1&gt;, Matcher&lt;A2&gt;, Matcher&lt;A3&gt;, Matcher&lt;A4&gt;, Matcher&lt;A5&gt; &gt; testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="100" column="2" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1MatcherTuple_3_01_1_1std_1_1tr1_1_1tuple_3_01A1_00_01A2_00_01A3_00_01A4_00_01A5_01_4_01_4_1a38684b97eb5266d2e96f602082a2152d" prot="public" static="no">
+        <type><ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A1 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A2 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A3 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A4 &gt;, <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; A5 &gt; &gt;</type>
+        <definition>typedef ::std::tr1::tuple&lt;Matcher&lt;A1&gt;, Matcher&lt;A2&gt;, Matcher&lt;A3&gt;, Matcher&lt;A4&gt;, Matcher&lt;A5&gt; &gt; testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="100" column="2" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="98" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="98" bodyend="101"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1MatcherTuple_3_01_1_1std_1_1tr1_1_1tuple_3_01A1_00_01A2_00_01A3_00_01A4_00_01A5_01_4_01_4_1a38684b97eb5266d2e96f602082a2152d" prot="public" virt="non-virtual"><scope>testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1MatcherTuple_3_01_1_1std_1_1tr1_1_1tuple_3_01A1_00_01A2_00_01A3_00_01A4_00_01A5_01_4_01_4_1a38684b97eb5266d2e96f602082a2152d" prot="public" virt="non-virtual"><scope>testing::internal::MatcherTuple&lt; ::std::tr1::tuple&lt; A1, A2, A3, A4, A5 &gt; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

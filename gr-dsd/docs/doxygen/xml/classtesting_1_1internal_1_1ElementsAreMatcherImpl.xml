@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ElementsAreMatcherImpl" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ElementsAreMatcherImpl</compoundname>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Container &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Container &gt;</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Container</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a68c37c6cc56c047323543044445a5022" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView" kindref="compound">internal::StlContainerView</ref>&lt; RawContainer &gt;</type>
+        <definition>typedef internal::StlContainerView&lt;RawContainer&gt; testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::View</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2870" column="38" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a5897abb9a1dcf88afe04e14986ebe46f" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_1a2b2c63a6dcdbfe63fb0ee121ebf463ba" kindref="member">View::type</ref></type>
+        <definition>typedef View::type testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::StlContainer</definition>
+        <argsstring></argsstring>
+        <name>StlContainer</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::StlContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2871" column="31" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ad5d20c1aa6e8c06c82fe3ac4d68c2278" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_1a9cd4f6ed689b3938cdb7b3c4cbf1b36b" kindref="member">View::const_reference</ref></type>
+        <definition>typedef View::const_reference testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::StlContainerReference</definition>
+        <argsstring></argsstring>
+        <name>StlContainerReference</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::StlContainerReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2872" column="42" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab2ae88256ac950b69cd2af67b9820c87" prot="public" static="no">
+        <type>StlContainer::value_type</type>
+        <definition>typedef StlContainer::value_type testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2873" column="45" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a68c37c6cc56c047323543044445a5022" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView" kindref="compound">internal::StlContainerView</ref>&lt; RawContainer &gt;</type>
+        <definition>typedef internal::StlContainerView&lt;RawContainer&gt; testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::View</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2870" column="38" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a5897abb9a1dcf88afe04e14986ebe46f" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_1a2b2c63a6dcdbfe63fb0ee121ebf463ba" kindref="member">View::type</ref></type>
+        <definition>typedef View::type testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::StlContainer</definition>
+        <argsstring></argsstring>
+        <name>StlContainer</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::StlContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2871" column="31" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ad5d20c1aa6e8c06c82fe3ac4d68c2278" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1StlContainerView_1a9cd4f6ed689b3938cdb7b3c4cbf1b36b" kindref="member">View::const_reference</ref></type>
+        <definition>typedef View::const_reference testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::StlContainerReference</definition>
+        <argsstring></argsstring>
+        <name>StlContainerReference</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::StlContainerReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2872" column="42" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab2ae88256ac950b69cd2af67b9820c87" prot="public" static="no">
+        <type>StlContainer::value_type</type>
+        <definition>typedef StlContainer::value_type testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2873" column="45" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2873" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a30461d2bce0844bd3e7dd8f798c6d913" prot="private" static="no" mutable="no">
+        <type>::std::vector&lt; <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab2ae88256ac950b69cd2af67b9820c87" kindref="member">Element</ref> &amp; &gt; &gt;</type>
+        <definition>std::vector&lt; Matcher&lt; const Element &amp; &gt; &gt; testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::matchers_</definition>
+        <argsstring></argsstring>
+        <name>matchers_</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3007" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3007" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a9492f6be7fe09e26eb7c5c00ff18062b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(Container) RawContainer</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>Container</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2869" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1abfe21bd90e0c085d4a171e22f1e2cc09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InputIter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::ElementsAreMatcherImpl</definition>
+        <argsstring>(InputIter first, InputIter last)</argsstring>
+        <name>ElementsAreMatcherImpl</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::ElementsAreMatcherImpl</qualifiedname>
+        <param>
+          <type>InputIter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>InputIter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2878" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2878" bodyend="2882"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2885" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2885" bodyend="2901"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2904" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2904" bodyend="2918"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</definition>
+        <argsstring>(Container container, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>Container</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2920" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2920" bodyend="2998"/>
+        <references refid="classtesting_1_1internal_1_1StlContainerView_1a36eccf53329730f6e55c12002128bf25" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="398" endline="403">testing::internal::StlContainerView&lt; RawContainer &gt;::ConstReference</references>
+        <references refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="104" endline="104">testing::MatchResultListener::IsInterested</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+        <references refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="98" endline="98">testing::MatchResultListener::stream</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a9492f6be7fe09e26eb7c5c00ff18062b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(Container) RawContainer</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>Container</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2869" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1abfe21bd90e0c085d4a171e22f1e2cc09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InputIter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::ElementsAreMatcherImpl</definition>
+        <argsstring>(InputIter first, InputIter last)</argsstring>
+        <name>ElementsAreMatcherImpl</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::ElementsAreMatcherImpl</qualifiedname>
+        <param>
+          <type>InputIter</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>InputIter</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2878" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2878" bodyend="2882"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2885" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2885" bodyend="2901"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2904" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2904" bodyend="2918"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</definition>
+        <argsstring>(Container container, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>Container</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2920" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2920" bodyend="2998"/>
+        <references refid="classtesting_1_1internal_1_1StlContainerView_1a36eccf53329730f6e55c12002128bf25" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="398" endline="403">testing::internal::StlContainerView&lt; RawContainer &gt;::ConstReference</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a93f460d160390f2984c040e1869d3b0d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Message" kindref="compound">Message</ref></type>
+        <definition>static Message testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::Elements</definition>
+        <argsstring>(size_t count)</argsstring>
+        <name>Elements</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::Elements</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3001" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3001" bodyend="3003"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a93f460d160390f2984c040e1869d3b0d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Message" kindref="compound">Message</ref></type>
+        <definition>static Message testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::Elements</definition>
+        <argsstring>(size_t count)</argsstring>
+        <name>Elements</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::Elements</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3001" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3001" bodyend="3003"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a8a8cf605a9fdc0eb8855fe9ce1aafb1e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::count</definition>
+        <argsstring>() const</argsstring>
+        <name>count</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3005" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3005" bodyend="3005"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab77985a10f91fe7cbf1a30883e23cb06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ElementsAreMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl" kindref="compound">ElementsAreMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3009" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a8a8cf605a9fdc0eb8855fe9ce1aafb1e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::count</definition>
+        <argsstring>() const</argsstring>
+        <name>count</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3005" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3005" bodyend="3005"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab77985a10f91fe7cbf1a30883e23cb06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ElementsAreMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ElementsAreMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl" kindref="compound">ElementsAreMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3009" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; Container &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; Container &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2867" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2867" bodyend="3010"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a8a8cf605a9fdc0eb8855fe9ce1aafb1e" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>count</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a8a8cf605a9fdc0eb8855fe9ce1aafb1e" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>count</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab2ae88256ac950b69cd2af67b9820c87" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>Element</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab2ae88256ac950b69cd2af67b9820c87" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>Element</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a93f460d160390f2984c040e1869d3b0d" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>Elements</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a93f460d160390f2984c040e1869d3b0d" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>Elements</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1abfe21bd90e0c085d4a171e22f1e2cc09" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>ElementsAreMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1abfe21bd90e0c085d4a171e22f1e2cc09" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>ElementsAreMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab77985a10f91fe7cbf1a30883e23cb06" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab77985a10f91fe7cbf1a30883e23cb06" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a9492f6be7fe09e26eb7c5c00ff18062b" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a9492f6be7fe09e26eb7c5c00ff18062b" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a6562159fa83e09417c3552fd881f878e" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a30461d2bce0844bd3e7dd8f798c6d913" prot="private" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a5897abb9a1dcf88afe04e14986ebe46f" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>StlContainer</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a5897abb9a1dcf88afe04e14986ebe46f" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>StlContainer</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ad5d20c1aa6e8c06c82fe3ac4d68c2278" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>StlContainerReference</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ad5d20c1aa6e8c06c82fe3ac4d68c2278" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>StlContainerReference</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a68c37c6cc56c047323543044445a5022" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>View</name></member>
+      <member refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a68c37c6cc56c047323543044445a5022" prot="public" virt="non-virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>View</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::ElementsAreMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

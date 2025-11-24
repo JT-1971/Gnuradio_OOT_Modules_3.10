@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1Random" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::Random</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" local="no">gtest-internal.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1Random_1ad378599ead1173525f1d44b458a3450a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+        <definition>static const UInt32 testing::internal::Random::kMaxRange</definition>
+        <argsstring></argsstring>
+        <name>kMaxRange</name>
+        <qualifiedname>testing::internal::Random::kMaxRange</qualifiedname>
+        <initializer>= 1u &lt;&lt; 31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="678" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="678" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1Random_1ad500e33e3342415afb8a3ab242afa9cc" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+        <definition>UInt32 testing::internal::Random::state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>testing::internal::Random::state_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="689" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="689" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1a6e112be5e7cce00551f6383025f69460" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::Random::Random</definition>
+        <argsstring>(UInt32 seed)</argsstring>
+        <name>Random</name>
+        <qualifiedname>testing::internal::Random::Random</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="680" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="680" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1adf2f24199318a46f885c78f50d89a69e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::Random::Reseed</definition>
+        <argsstring>(UInt32 seed)</argsstring>
+        <name>Reseed</name>
+        <qualifiedname>testing::internal::Random::Reseed</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="682" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="682" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1a9315b7fb621cbcfdf92ed4b5e584c0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+        <definition>UInt32 testing::internal::Random::Generate</definition>
+        <argsstring>(UInt32 range)</argsstring>
+        <name>Generate</name>
+        <qualifiedname>testing::internal::Random::Generate</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="686" column="10"/>
+        <referencedby refid="namespacetesting_1_1internal_1a0e1d3dc36138a591769412d4c7779861" compoundref="dsd_2test_2gtest_2src_2gtest-internal-inl_8h" startline="311" endline="328">testing::internal::ShuffleRange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1a6e112be5e7cce00551f6383025f69460" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::Random::Random</definition>
+        <argsstring>(UInt32 seed)</argsstring>
+        <name>Random</name>
+        <qualifiedname>testing::internal::Random::Random</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="680" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="680" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1adf2f24199318a46f885c78f50d89a69e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::Random::Reseed</definition>
+        <argsstring>(UInt32 seed)</argsstring>
+        <name>Reseed</name>
+        <qualifiedname>testing::internal::Random::Reseed</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="682" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="682" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1a9315b7fb621cbcfdf92ed4b5e584c0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+        <definition>UInt32 testing::internal::Random::Generate</definition>
+        <argsstring>(UInt32 range)</argsstring>
+        <name>Generate</name>
+        <qualifiedname>testing::internal::Random::Generate</qualifiedname>
+        <param>
+          <type><ref refid="namespacetesting_1_1internal_1a436defbb8e92c8e94e33ebcc86f278ba" kindref="member">UInt32</ref></type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="686" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1aa2f476d8cfe29f928b90d7339c849734" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::Random::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(Random)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::Random::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1Random" kindref="compound">Random</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="690" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1Random_1aa2f476d8cfe29f928b90d7339c849734" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::Random::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(Random)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::Random::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1Random" kindref="compound">Random</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="690" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="676" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="676" bodyend="691"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1Random_1a9315b7fb621cbcfdf92ed4b5e584c0db" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Generate</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1a9315b7fb621cbcfdf92ed4b5e584c0db" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Generate</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1aa2f476d8cfe29f928b90d7339c849734" prot="private" virt="non-virtual"><scope>testing::internal::Random</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1aa2f476d8cfe29f928b90d7339c849734" prot="private" virt="non-virtual"><scope>testing::internal::Random</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1ad378599ead1173525f1d44b458a3450a" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>kMaxRange</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1a6e112be5e7cce00551f6383025f69460" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Random</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1a6e112be5e7cce00551f6383025f69460" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Random</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1adf2f24199318a46f885c78f50d89a69e" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Reseed</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1adf2f24199318a46f885c78f50d89a69e" prot="public" virt="non-virtual"><scope>testing::internal::Random</scope><name>Reseed</name></member>
+      <member refid="classtesting_1_1internal_1_1Random_1ad500e33e3342415afb8a3ab242afa9cc" prot="private" virt="non-virtual"><scope>testing::internal::Random</scope><name>state_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

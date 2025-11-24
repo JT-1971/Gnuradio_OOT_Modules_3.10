@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1IgnoredValue" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::IgnoredValue</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-generated-internal-utils_8h" local="no">gmock-generated-internal-utils.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoredValue_1a6c72839c07a9da8d027efb253144bd91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::IgnoredValue::IgnoredValue</definition>
+        <argsstring>(const T &amp;)</argsstring>
+        <name>IgnoredValue</name>
+        <qualifiedname>testing::internal::IgnoredValue::IgnoredValue</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="63" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoredValue_1a6c72839c07a9da8d027efb253144bd91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::IgnoredValue::IgnoredValue</definition>
+        <argsstring>(const T &amp;)</argsstring>
+        <name>IgnoredValue</name>
+        <qualifiedname>testing::internal::IgnoredValue::IgnoredValue</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="63" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" line="55" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-generated-internal-utils.h" bodystart="55" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1IgnoredValue_1a6c72839c07a9da8d027efb253144bd91" prot="public" virt="non-virtual"><scope>testing::internal::IgnoredValue</scope><name>IgnoredValue</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoredValue_1a6c72839c07a9da8d027efb253144bd91" prot="public" virt="non-virtual"><scope>testing::internal::IgnoredValue</scope><name>IgnoredValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

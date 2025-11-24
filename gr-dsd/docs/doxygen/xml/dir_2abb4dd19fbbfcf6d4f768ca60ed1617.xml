@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_2abb4dd19fbbfcf6d4f768ca60ed1617" kind="dir">
+    <compoundname>include</compoundname>
+    <innerfile refid="dsd_2include_2config_8h">dsd/include/config.h</innerfile>
+    <innerfile refid="descramble_8h">descramble.h</innerfile>
+    <innerfile refid="dmr__const_8h">dmr_const.h</innerfile>
+    <innerfile refid="dsd_8h">dsd.h</innerfile>
+    <innerfile refid="dstar__const_8h">dstar_const.h</innerfile>
+    <innerfile refid="dstar__header_8h">dstar_header.h</innerfile>
+    <innerfile refid="fcs_8h">fcs.h</innerfile>
+    <innerfile refid="git__ver_8h">git_ver.h</innerfile>
+    <innerfile refid="nxdn96__const_8h">nxdn96_const.h</innerfile>
+    <innerfile refid="nxdn__const_8h">nxdn_const.h</innerfile>
+    <innerfile refid="p25p1__check__hdu_8h">p25p1_check_hdu.h</innerfile>
+    <innerfile refid="p25p1__check__ldu_8h">p25p1_check_ldu.h</innerfile>
+    <innerfile refid="p25p1__check__nid_8h">p25p1_check_nid.h</innerfile>
+    <innerfile refid="p25p1__const_8h">p25p1_const.h</innerfile>
+    <innerfile refid="p25p1__hdu_8h">p25p1_hdu.h</innerfile>
+    <innerfile refid="p25p1__heuristics_8h">p25p1_heuristics.h</innerfile>
+    <innerfile refid="p25p1__ldu_8h">p25p1_ldu.h</innerfile>
+    <innerfile refid="pa__devs_8h">pa_devs.h</innerfile>
+    <innerfile refid="provoice__const_8h">provoice_const.h</innerfile>
+    <innerfile refid="x2tdma__const_8h">x2tdma_const.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/"/>
+  </compounddef>
+</doxygen>

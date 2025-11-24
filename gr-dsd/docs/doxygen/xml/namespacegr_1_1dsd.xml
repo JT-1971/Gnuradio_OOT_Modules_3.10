@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1dsd" kind="namespace" language="C++">
+    <compoundname>gr::dsd</compoundname>
+    <innerclass refid="classgr_1_1dsd_1_1dsd__block__ff" prot="public">gr::dsd::dsd_block_ff</innerclass>
+    <innerclass refid="classgr_1_1dsd_1_1dsd__block__ff__impl" prot="public">gr::dsd::dsd_block_ff_impl</innerclass>
+    <innerclass refid="structgr_1_1dsd_1_1dsd__params" prot="public">gr::dsd::dsd_params</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696" prot="public" static="no" strong="no">
+        <type></type>
+        <name>dsd_frame_mode</name>
+        <qualifiedname>gr::dsd::dsd_frame_mode</qualifiedname>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696ac733e400b4fc0cdd6f81a2f5f348b4cb" prot="public">
+          <name>dsd_FRAME_AUTO_DETECT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696a8f7e1100c34c26a44aaf1e1439899e31" prot="public">
+          <name>dsd_FRAME_P25_PHASE_1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696a580e83b6ebd595a1c59d7c02ce030b69" prot="public">
+          <name>dsd_FRAME_DSTAR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696ad0a645ae22e7d556a79ecd7b8fbef525" prot="public">
+          <name>dsd_FRAME_NXDN48_IDAS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696a88a48a879ebc47c8eade6df383672426" prot="public">
+          <name>dsd_FRAME_NXDN96</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696adee7dce7f9f9a1af209b6a2e649322c2" prot="public">
+          <name>dsd_FRAME_PROVOICE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696a4388563930d660ccf4348a3af3a1a410" prot="public">
+          <name>dsd_FRAME_DMR_MOTOTRBO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696a5ebd2f0cdbd1871f9ec27d5a8f1229aa" prot="public">
+          <name>dsd_FRAME_X2_TDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/include/dsd/dsd_block_ff.h" line="17" column="1" bodyfile="/home/dr/Code/gr-dsd/include/dsd/dsd_block_ff.h" bodystart="17" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>dsd_modulation_optimizations</name>
+        <qualifiedname>gr::dsd::dsd_modulation_optimizations</qualifiedname>
+        <enumvalue id="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7af6602f83e7dafdab2f64374ed382822c" prot="public">
+          <name>dsd_MOD_AUTO_SELECT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7a153c87cf6c022df10abf482f98f15a94" prot="public">
+          <name>dsd_MOD_C4FM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7a336034722b54346be01ef80f299867d4" prot="public">
+          <name>dsd_MOD_GFSK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7a1a22a4d233cd37739fee05c0cae4f101" prot="public">
+          <name>dsd_MOD_QPSK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/include/dsd/dsd_block_ff.h" line="28" column="1" bodyfile="/home/dr/Code/gr-dsd/include/dsd/dsd_block_ff.h" bodystart="28" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/include/dsd/dsd_block_ff.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

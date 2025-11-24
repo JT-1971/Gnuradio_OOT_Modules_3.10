@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</compoundname>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Super &amp; &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Super &amp; &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Super</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a359f011b30d20e2b07c235e4996100ad" prot="private" static="no" mutable="no">
+        <type>const Super &amp;</type>
+        <definition>const Super &amp; testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::object_</definition>
+        <argsstring></argsstring>
+        <name>object_</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::object_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1017" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1017" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a9d524dbb42095279ec0265381abcd5b1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::Impl</definition>
+        <argsstring>(Super &amp;x)</argsstring>
+        <name>Impl</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::Impl</qualifiedname>
+        <param>
+          <type>Super &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="996" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="996" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a19663e577640a3c2e985c9f8c0d33f9b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::MatchAndExplain</definition>
+        <argsstring>(Super &amp;x, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::MatchAndExplain</qualifiedname>
+        <param>
+          <type>Super &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1000" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1000" bodyend="1004"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a5e1ab4188fbe0f34b0ecccf4d710bd41" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1006" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1006" bodyend="1009"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a8371d111053352c6205b3718b39bf13e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1011" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1011" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a9d524dbb42095279ec0265381abcd5b1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::Impl</definition>
+        <argsstring>(Super &amp;x)</argsstring>
+        <name>Impl</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::Impl</qualifiedname>
+        <param>
+          <type>Super &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="996" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="996" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a19663e577640a3c2e985c9f8c0d33f9b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::MatchAndExplain</definition>
+        <argsstring>(Super &amp;x, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::MatchAndExplain</qualifiedname>
+        <param>
+          <type>Super &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1000" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1000" bodyend="1004"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a5e1ab4188fbe0f34b0ecccf4d710bd41" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1006" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1006" bodyend="1009"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a8371d111053352c6205b3718b39bf13e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1011" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1011" bodyend="1014"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1acc3c99cb28ff2ebc49bf4028096f2203" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(Impl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>Impl</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1019" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1acc3c99cb28ff2ebc49bf4028096f2203" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(Impl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>Impl</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1019" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; Super &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; Super &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl&lt; Super &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="994" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="994" bodyend="1020"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a8371d111053352c6205b3718b39bf13e" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a8371d111053352c6205b3718b39bf13e" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a5e1ab4188fbe0f34b0ecccf4d710bd41" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a5e1ab4188fbe0f34b0ecccf4d710bd41" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1acc3c99cb28ff2ebc49bf4028096f2203" prot="private" virt="non-virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1acc3c99cb28ff2ebc49bf4028096f2203" prot="private" virt="non-virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a9d524dbb42095279ec0265381abcd5b1" prot="public" virt="non-virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>Impl</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a9d524dbb42095279ec0265381abcd5b1" prot="public" virt="non-virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>Impl</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a19663e577640a3c2e985c9f8c0d33f9b" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a19663e577640a3c2e985c9f8c0d33f9b" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl_1a359f011b30d20e2b07c235e4996100ad" prot="private" virt="non-virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>object_</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>~MatcherDescriberInterface</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</scope><name>~MatcherDescriberInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1IsNullMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::IsNullMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1ab8a96a4389c9c352e367ba2edff6e87d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pointer</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::IsNullMatcher::MatchAndExplain</definition>
+        <argsstring>(const Pointer &amp;p, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::IsNullMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const Pointer &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="926" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="926" bodyend="929"/>
+        <references refid="namespacetesting_1_1internal_1ad5e7c706ea3ebdffa1429cf3677062bd" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="76" endline="78">testing::internal::GetRawPointer</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1a81c0b31d64bc65b5573bb56bbc3f4af8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::IsNullMatcher::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::IsNullMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="931" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="931" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1a8349e2d6cef08303be7f2471f330a7c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::IsNullMatcher::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::IsNullMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="932" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="932" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1ab8a96a4389c9c352e367ba2edff6e87d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pointer</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::IsNullMatcher::MatchAndExplain</definition>
+        <argsstring>(const Pointer &amp;p, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::IsNullMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>const Pointer &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="926" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="926" bodyend="929"/>
+        <references refid="namespacetesting_1_1internal_1ad5e7c706ea3ebdffa1429cf3677062bd" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="76" endline="78">testing::internal::GetRawPointer</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1a81c0b31d64bc65b5573bb56bbc3f4af8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::IsNullMatcher::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::IsNullMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="931" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="931" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IsNullMatcher_1a8349e2d6cef08303be7f2471f330a7c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::IsNullMatcher::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::IsNullMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="932" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="932" bodyend="934"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="923" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="923" bodyend="935"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1a8349e2d6cef08303be7f2471f330a7c0" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1a8349e2d6cef08303be7f2471f330a7c0" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1a81c0b31d64bc65b5573bb56bbc3f4af8" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1a81c0b31d64bc65b5573bb56bbc3f4af8" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1ab8a96a4389c9c352e367ba2edff6e87d" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1IsNullMatcher_1ab8a96a4389c9c352e367ba2edff6e87d" prot="public" virt="non-virtual"><scope>testing::internal::IsNullMatcher</scope><name>MatchAndExplain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

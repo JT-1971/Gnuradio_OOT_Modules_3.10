@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1TrulyMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::TrulyMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Predicate</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1TrulyMatcher_1a5697cfc685ae7c8c690838650bdd2d0c" prot="private" static="no" mutable="no">
+        <type>Predicate</type>
+        <definition>Predicate testing::internal::TrulyMatcher&lt; Predicate &gt;::predicate_</definition>
+        <argsstring></argsstring>
+        <name>predicate_</name>
+        <qualifiedname>testing::internal::TrulyMatcher::predicate_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1713" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1713" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1a9fdc4ddba121e0dad4773b5685e0f28d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::TrulyMatcher&lt; Predicate &gt;::TrulyMatcher</definition>
+        <argsstring>(Predicate pred)</argsstring>
+        <name>TrulyMatcher</name>
+        <qualifiedname>testing::internal::TrulyMatcher::TrulyMatcher</qualifiedname>
+        <param>
+          <type>Predicate</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1684" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1684" bodyend="1684"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1ad3781c661936a845ec165c1aad239634" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::TrulyMatcher&lt; Predicate &gt;::MatchAndExplain</definition>
+        <argsstring>(T &amp;x, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::TrulyMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1691" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1691" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1ac327b4bd408386f489c4279e7e3f9530" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::TrulyMatcher&lt; Predicate &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::TrulyMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1704" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1704" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1a2e753f5d571b6a51b8ef620dcbb3a591" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::TrulyMatcher&lt; Predicate &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::TrulyMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1708" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1708" bodyend="1710"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1a9fdc4ddba121e0dad4773b5685e0f28d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::TrulyMatcher&lt; Predicate &gt;::TrulyMatcher</definition>
+        <argsstring>(Predicate pred)</argsstring>
+        <name>TrulyMatcher</name>
+        <qualifiedname>testing::internal::TrulyMatcher::TrulyMatcher</qualifiedname>
+        <param>
+          <type>Predicate</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1684" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1684" bodyend="1684"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1ad3781c661936a845ec165c1aad239634" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool testing::internal::TrulyMatcher&lt; Predicate &gt;::MatchAndExplain</definition>
+        <argsstring>(T &amp;x, MatchResultListener *) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::TrulyMatcher::MatchAndExplain</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1691" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1691" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1ac327b4bd408386f489c4279e7e3f9530" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::TrulyMatcher&lt; Predicate &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::TrulyMatcher::DescribeTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1704" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1704" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1a2e753f5d571b6a51b8ef620dcbb3a591" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::TrulyMatcher&lt; Predicate &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::TrulyMatcher::DescribeNegationTo</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1708" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1708" bodyend="1710"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1abea7de3761568ce8dc304db9788b69ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::TrulyMatcher&lt; Predicate &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(TrulyMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::TrulyMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1TrulyMatcher" kindref="compound">TrulyMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1715" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TrulyMatcher_1abea7de3761568ce8dc304db9788b69ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::TrulyMatcher&lt; Predicate &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(TrulyMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::TrulyMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1TrulyMatcher" kindref="compound">TrulyMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1715" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1682" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1682" bodyend="1716"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1a2e753f5d571b6a51b8ef620dcbb3a591" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1a2e753f5d571b6a51b8ef620dcbb3a591" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1ac327b4bd408386f489c4279e7e3f9530" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1ac327b4bd408386f489c4279e7e3f9530" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1abea7de3761568ce8dc304db9788b69ef" prot="private" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1abea7de3761568ce8dc304db9788b69ef" prot="private" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1ad3781c661936a845ec165c1aad239634" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1ad3781c661936a845ec165c1aad239634" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1a5697cfc685ae7c8c690838650bdd2d0c" prot="private" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>predicate_</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1a9fdc4ddba121e0dad4773b5685e0f28d" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>TrulyMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1TrulyMatcher_1a9fdc4ddba121e0dad4773b5685e0f28d" prot="public" virt="non-virtual"><scope>testing::internal::TrulyMatcher</scope><name>TrulyMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

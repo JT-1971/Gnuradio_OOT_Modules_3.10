@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1bool__constant" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::bool_constant</compoundname>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFromKind, From, kToKind, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFromKind, From, kToKind, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kFloatingPoint_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kFloatingPoint, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kFloatingPoint_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kFloatingPoint, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kInteger_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kInteger, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kInteger_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kInteger, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kBool_00_01bool_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kBool, bool &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kFloatingPoint_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kFloatingPoint, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kFloatingPoint_00_01To_01_4" prot="public" virt="non-virtual">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kFloatingPoint, To &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__pointer" prot="public" virt="non-virtual">testing::internal::is_pointer&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__pointer" prot="public" virt="non-virtual">testing::internal::is_pointer&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__pointer_3_01T_01_5_01_4" prot="public" virt="non-virtual">testing::internal::is_pointer&lt; T * &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__pointer_3_01T_01_5_01_4" prot="public" virt="non-virtual">testing::internal::is_pointer&lt; T * &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__reference" prot="public" virt="non-virtual">testing::internal::is_reference&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__reference" prot="public" virt="non-virtual">testing::internal::is_reference&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__reference_3_01T_01_6_01_4" prot="public" virt="non-virtual">testing::internal::is_reference&lt; T &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1is__reference_3_01T_01_6_01_4" prot="public" virt="non-virtual">testing::internal::is_reference&lt; T &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1type__equals" prot="public" virt="non-virtual">testing::internal::type_equals&lt; T1, T2 &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1type__equals" prot="public" virt="non-virtual">testing::internal::type_equals&lt; T1, T2 &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1type__equals_3_01T_00_01T_01_4" prot="public" virt="non-virtual">testing::internal::type_equals&lt; T, T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structtesting_1_1internal_1_1type__equals_3_01T_00_01T_01_4" prot="public" virt="non-virtual">testing::internal::type_equals&lt; T, T &gt;</derivedcompoundref>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" local="no">gtest-port.h</includes>
+    <templateparamlist>
+      <param>
+        <type>bool</type>
+        <declname>bool_value</declname>
+        <defname>bool_value</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1bool__constant" kindref="compound">bool_constant</ref>&lt; bool_value &gt;</type>
+        <definition>typedef bool_constant&lt;bool_value&gt; testing::internal::bool_constant&lt; bool_value &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::bool_constant::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1612" column="25" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1bool__constant" kindref="compound">bool_constant</ref>&lt; bool_value &gt;</type>
+        <definition>typedef bool_constant&lt;bool_value&gt; testing::internal::bool_constant&lt; bool_value &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::bool_constant::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="1612" column="25" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1612" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structtesting_1_1internal_1_1bool__constant_1a499fba6576296b04d99690a486424b32" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool testing::internal::bool_constant&lt; bool_value &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>testing::internal::bool_constant::value</qualifiedname>
+        <initializer>= bool_value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1613" column="21" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1613" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFromKind, From, kToKind, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kBool, bool &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kBool_00_01bool_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kFloatingPoint, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kFloatingPoint_00_01To_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kInteger, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kInteger_00_01To_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kBool, bool &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kBool_00_01bool_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kBool, bool &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kBool_00_01bool_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kFloatingPoint, To &gt;</label>
+        <link refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kFloatingPoint_00_01To_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>testing::internal::bool_constant&lt; bool_value &gt;</label>
+        <link refid="structtesting_1_1internal_1_1bool__constant"/>
+      </node>
+      <node id="11">
+        <label>testing::internal::is_pointer&lt; T * &gt;</label>
+        <link refid="structtesting_1_1internal_1_1is__pointer_3_01T_01_5_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>testing::internal::is_pointer&lt; T &gt;</label>
+        <link refid="structtesting_1_1internal_1_1is__pointer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>testing::internal::is_reference&lt; T &amp; &gt;</label>
+        <link refid="structtesting_1_1internal_1_1is__reference_3_01T_01_6_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>testing::internal::is_reference&lt; T &gt;</label>
+        <link refid="structtesting_1_1internal_1_1is__reference"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>testing::internal::type_equals&lt; T, T &gt;</label>
+        <link refid="structtesting_1_1internal_1_1type__equals_3_01T_00_01T_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>testing::internal::type_equals&lt; T1, T2 &gt;</label>
+        <link refid="structtesting_1_1internal_1_1type__equals"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="1611" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="1611" bodyend="1614"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::bool_constant</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1aba6d09ecf7eecea6c93480f0d627a167" prot="public" virt="non-virtual"><scope>testing::internal::bool_constant</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1bool__constant_1a499fba6576296b04d99690a486424b32" prot="public" virt="non-virtual"><scope>testing::internal::bool_constant</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

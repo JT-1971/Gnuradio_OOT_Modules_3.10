@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1scoped__ptr" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::scoped_ptr</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" local="no">gtest-port.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1scoped__ptr_1ae755ffeebada8e20b68c1d1ffa91cf13" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T testing::internal::scoped_ptr&lt; T &gt;::element_type</definition>
+        <argsstring></argsstring>
+        <name>element_type</name>
+        <qualifiedname>testing::internal::scoped_ptr::element_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="892" column="13" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1scoped__ptr_1ae755ffeebada8e20b68c1d1ffa91cf13" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T testing::internal::scoped_ptr&lt; T &gt;::element_type</definition>
+        <argsstring></argsstring>
+        <name>element_type</name>
+        <qualifiedname>testing::internal::scoped_ptr::element_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="892" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="892" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1scoped__ptr_1aa95418af170f17c08e79565044b0c8e8" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::ptr_</definition>
+        <argsstring></argsstring>
+        <name>ptr_</name>
+        <qualifiedname>testing::internal::scoped_ptr::ptr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="917" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="917" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1adb972432999a0c63720df148964ac2a5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::scoped_ptr</definition>
+        <argsstring>(T *p=NULL)</argsstring>
+        <name>scoped_ptr</name>
+        <qualifiedname>testing::internal::scoped_ptr::scoped_ptr</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="894" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="894" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1ab721de9bf4369f002fb563e82352ee36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::~scoped_ptr</definition>
+        <argsstring>()</argsstring>
+        <name>~scoped_ptr</name>
+        <qualifiedname>testing::internal::scoped_ptr::~scoped_ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="895" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="895" bodyend="895"/>
+        <references refid="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" startline="907" endline="914">testing::internal::scoped_ptr&lt; T &gt;::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a171c86552b18317d318c90521a027176" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; testing::internal::scoped_ptr&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>testing::internal::scoped_ptr::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="897" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="897" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a17b417a85a9a48e2d99e114cbacc1c20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>testing::internal::scoped_ptr::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="898" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="898" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a5a78280b6a59ff4b63aae444efc61e3f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>testing::internal::scoped_ptr::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="899" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="899" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a600cb25935fa8a3a54238684fb9d5085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>testing::internal::scoped_ptr::release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="901" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="901" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::scoped_ptr&lt; T &gt;::reset</definition>
+        <argsstring>(T *p=NULL)</argsstring>
+        <name>reset</name>
+        <qualifiedname>testing::internal::scoped_ptr::reset</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="907" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="907" bodyend="914"/>
+        <references refid="namespacetesting_1_1internal_1ab2709373c78eb8b1c22a6ba30cceba52">testing::internal::IsTrue</references>
+        <referencedby refid="classtesting_1_1internal_1_1scoped__ptr_1ab721de9bf4369f002fb563e82352ee36" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" startline="895" endline="895">testing::internal::scoped_ptr&lt; T &gt;::~scoped_ptr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1adb972432999a0c63720df148964ac2a5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::scoped_ptr</definition>
+        <argsstring>(T *p=NULL)</argsstring>
+        <name>scoped_ptr</name>
+        <qualifiedname>testing::internal::scoped_ptr::scoped_ptr</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="894" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="894" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1ab721de9bf4369f002fb563e82352ee36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::~scoped_ptr</definition>
+        <argsstring>()</argsstring>
+        <name>~scoped_ptr</name>
+        <qualifiedname>testing::internal::scoped_ptr::~scoped_ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="895" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="895" bodyend="895"/>
+        <references refid="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" startline="907" endline="914">testing::internal::scoped_ptr&lt; T &gt;::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a171c86552b18317d318c90521a027176" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; testing::internal::scoped_ptr&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>testing::internal::scoped_ptr::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="897" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="897" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a17b417a85a9a48e2d99e114cbacc1c20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>testing::internal::scoped_ptr::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="898" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="898" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a5a78280b6a59ff4b63aae444efc61e3f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>testing::internal::scoped_ptr::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="899" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="899" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1a600cb25935fa8a3a54238684fb9d5085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * testing::internal::scoped_ptr&lt; T &gt;::release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>testing::internal::scoped_ptr::release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="901" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="901" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::scoped_ptr&lt; T &gt;::reset</definition>
+        <argsstring>(T *p=NULL)</argsstring>
+        <name>reset</name>
+        <qualifiedname>testing::internal::scoped_ptr::reset</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="907" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" bodystart="907" bodyend="914"/>
+        <references refid="namespacetesting_1_1internal_1ab2709373c78eb8b1c22a6ba30cceba52">testing::internal::IsTrue</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1aa905e98e04e868208e9fb850b93d58f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(scoped_ptr)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::scoped_ptr::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1scoped__ptr" kindref="compound">scoped_ptr</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="919" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1scoped__ptr_1aa905e98e04e868208e9fb850b93d58f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::scoped_ptr&lt; T &gt;::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(scoped_ptr)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::scoped_ptr::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1scoped__ptr" kindref="compound">scoped_ptr</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-port.h" line="919" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" line="890" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-port.h" bodystart="890" bodyend="920"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1ae755ffeebada8e20b68c1d1ffa91cf13" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>element_type</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1ae755ffeebada8e20b68c1d1ffa91cf13" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>element_type</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a5a78280b6a59ff4b63aae444efc61e3f" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>get</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a5a78280b6a59ff4b63aae444efc61e3f" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>get</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1aa905e98e04e868208e9fb850b93d58f4" prot="private" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1aa905e98e04e868208e9fb850b93d58f4" prot="private" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a171c86552b18317d318c90521a027176" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>operator*</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a171c86552b18317d318c90521a027176" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>operator*</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a17b417a85a9a48e2d99e114cbacc1c20" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>operator-&gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a17b417a85a9a48e2d99e114cbacc1c20" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>operator-&gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1aa95418af170f17c08e79565044b0c8e8" prot="private" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>ptr_</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a600cb25935fa8a3a54238684fb9d5085" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>release</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1a600cb25935fa8a3a54238684fb9d5085" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>release</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>reset</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1acac03266a43359801aff0de5c990bec0" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>reset</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1adb972432999a0c63720df148964ac2a5" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>scoped_ptr</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1adb972432999a0c63720df148964ac2a5" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>scoped_ptr</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1ab721de9bf4369f002fb563e82352ee36" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>~scoped_ptr</name></member>
+      <member refid="classtesting_1_1internal_1_1scoped__ptr_1ab721de9bf4369f002fb563e82352ee36" prot="public" virt="non-virtual"><scope>testing::internal::scoped_ptr</scope><name>~scoped_ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

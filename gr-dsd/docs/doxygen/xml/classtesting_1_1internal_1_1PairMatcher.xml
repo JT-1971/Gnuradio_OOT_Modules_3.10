@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1PairMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::PairMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename FirstMatcher</type>
+      </param>
+      <param>
+        <type>typename SecondMatcher</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1PairMatcher_1ac3e59612dd93bddb7ce606ab4419bc26" prot="private" static="no" mutable="no">
+        <type>const FirstMatcher</type>
+        <definition>const FirstMatcher testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::first_matcher_</definition>
+        <argsstring></argsstring>
+        <name>first_matcher_</name>
+        <qualifiedname>testing::internal::PairMatcher::first_matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2859" column="22" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1PairMatcher_1a2ff03fa2ac3d715052feb21b7b61084d" prot="private" static="no" mutable="no">
+        <type>const SecondMatcher</type>
+        <definition>const SecondMatcher testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::second_matcher_</definition>
+        <argsstring></argsstring>
+        <name>second_matcher_</name>
+        <qualifiedname>testing::internal::PairMatcher::second_matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2860" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2860" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1a84f233a7d90ba33e3f0eb7410783c43c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::PairMatcher</definition>
+        <argsstring>(FirstMatcher first_matcher, SecondMatcher second_matcher)</argsstring>
+        <name>PairMatcher</name>
+        <qualifiedname>testing::internal::PairMatcher::PairMatcher</qualifiedname>
+        <param>
+          <type>FirstMatcher</type>
+          <declname>first_matcher</declname>
+        </param>
+        <param>
+          <type>SecondMatcher</type>
+          <declname>second_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2848" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2848" bodyend="2849"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1ae9461cc22148c6b15ad94eb5ad7c8a50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PairType</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::operator Matcher&lt; PairType &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; PairType &gt;</name>
+        <qualifiedname>testing::internal::PairMatcher::operator Matcher&lt; PairType &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2852" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2852" bodyend="2856"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1a84f233a7d90ba33e3f0eb7410783c43c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::PairMatcher</definition>
+        <argsstring>(FirstMatcher first_matcher, SecondMatcher second_matcher)</argsstring>
+        <name>PairMatcher</name>
+        <qualifiedname>testing::internal::PairMatcher::PairMatcher</qualifiedname>
+        <param>
+          <type>FirstMatcher</type>
+          <declname>first_matcher</declname>
+        </param>
+        <param>
+          <type>SecondMatcher</type>
+          <declname>second_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2848" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2848" bodyend="2849"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1ae9461cc22148c6b15ad94eb5ad7c8a50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PairType</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::operator Matcher&lt; PairType &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; PairType &gt;</name>
+        <qualifiedname>testing::internal::PairMatcher::operator Matcher&lt; PairType &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2852" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2852" bodyend="2856"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1aa1e46fafd6d017cfff8884906e567d92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PairMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PairMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PairMatcher" kindref="compound">PairMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2862" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PairMatcher_1aa1e46fafd6d017cfff8884906e567d92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PairMatcher&lt; FirstMatcher, SecondMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PairMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PairMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PairMatcher" kindref="compound">PairMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2862" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2846" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2846" bodyend="2863"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1ac3e59612dd93bddb7ce606ab4419bc26" prot="private" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>first_matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1aa1e46fafd6d017cfff8884906e567d92" prot="private" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1aa1e46fafd6d017cfff8884906e567d92" prot="private" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1ae9461cc22148c6b15ad94eb5ad7c8a50" prot="public" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>operator Matcher&lt; PairType &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1ae9461cc22148c6b15ad94eb5ad7c8a50" prot="public" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>operator Matcher&lt; PairType &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1a84f233a7d90ba33e3f0eb7410783c43c" prot="public" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>PairMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1a84f233a7d90ba33e3f0eb7410783c43c" prot="public" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>PairMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1PairMatcher_1a2ff03fa2ac3d715052feb21b7b61084d" prot="private" virt="non-virtual"><scope>testing::internal::PairMatcher</scope><name>second_matcher_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

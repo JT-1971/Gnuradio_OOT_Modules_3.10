@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="git__ver_8h" kind="file" language="C++">
+    <compoundname>git_ver.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="git__ver_8h_1af4a7a0eb2ce93a3c00d1d44952360888" prot="public" static="no" extern="yes" mutable="no">
+        <type>const char</type>
+        <definition>const char GIT_TAG[]</definition>
+        <argsstring>[]</argsstring>
+        <name>GIT_TAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/git_ver.h" line="1" column="19" declfile="/home/dr/Code/gr-dsd/dsd/include/git_ver.h" declline="1" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/git_ver.h"/>
+  </compounddef>
+</doxygen>

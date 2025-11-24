@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::WithArgsAction::Impl</compoundname>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a967047b99af8f852f4fa2883be283e1a" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef Function&lt;F&gt;::Result testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="599" column="40" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1ae75850936c5448a83f79267d6a2f1903" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentTuple testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="600" column="47" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a967047b99af8f852f4fa2883be283e1a" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef Function&lt;F&gt;::Result testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="599" column="40" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1ae75850936c5448a83f79267d6a2f1903" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef Function&lt;F&gt;::ArgumentTuple testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="600" column="47" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aec4ddfc0434cf9c96d40ef182f92a372" prot="private" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs" kindref="compound">SelectArgs</ref>&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::type</type>
+        <definition>typedef SelectArgs&lt;Result,ArgumentTuple,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10&gt;::type testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::InnerFunctionType</definition>
+        <argsstring></argsstring>
+        <name>InnerFunctionType</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::InnerFunctionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="611" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aec4ddfc0434cf9c96d40ef182f92a372" prot="private" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1SelectArgs" kindref="compound">SelectArgs</ref>&lt; Result, ArgumentTuple, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::type</type>
+        <definition>typedef SelectArgs&lt;Result,ArgumentTuple,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10&gt;::type testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::InnerFunctionType</definition>
+        <argsstring></argsstring>
+        <name>InnerFunctionType</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::InnerFunctionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="611" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a881719eda00bf3ad5e8467dc2d38443d" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; InnerFunctionType &gt;</type>
+        <definition>Action&lt; InnerFunctionType &gt; testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::action_</definition>
+        <argsstring></argsstring>
+        <name>action_</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::action_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="613" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="613" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aab6b18195f0fd54de815bbc6379fc8c9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Impl</definition>
+        <argsstring>(const InnerAction &amp;action)</argsstring>
+        <name>Impl</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Impl</qualifiedname>
+        <param>
+          <type>const InnerAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="602" column="14" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1acdcb2f73c3f54e9ea639d9157d3f4e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Result</type>
+        <definition>virtual Result testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="604" column="20" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="604" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aab6b18195f0fd54de815bbc6379fc8c9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Impl</definition>
+        <argsstring>(const InnerAction &amp;action)</argsstring>
+        <name>Impl</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Impl</qualifiedname>
+        <param>
+          <type>const InnerAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="602" column="14" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1acdcb2f73c3f54e9ea639d9157d3f4e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Result</type>
+        <definition>virtual Result testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::WithArgsAction::Impl::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="604" column="20" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="604" bodyend="607"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::WithArgsAction&lt; InnerAction, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10 &gt;::Impl&lt; F &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="597" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="597" bodyend="614"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a881719eda00bf3ad5e8467dc2d38443d" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>action_</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1ae75850936c5448a83f79267d6a2f1903" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1ae75850936c5448a83f79267d6a2f1903" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aab6b18195f0fd54de815bbc6379fc8c9" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Impl</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aab6b18195f0fd54de815bbc6379fc8c9" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Impl</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aec4ddfc0434cf9c96d40ef182f92a372" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>InnerFunctionType</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1aec4ddfc0434cf9c96d40ef182f92a372" prot="private" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>InnerFunctionType</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1acdcb2f73c3f54e9ea639d9157d3f4e7c" prot="public" virt="virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1acdcb2f73c3f54e9ea639d9157d3f4e7c" prot="public" virt="virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a20f8624fcea1786f2992b358760422a0" prot="public" virt="pure-virtual" ambiguityscope="testing::ActionInterface::"><scope>testing::internal::WithArgsAction::Impl</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a967047b99af8f852f4fa2883be283e1a" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Result</name></member>
+      <member refid="classtesting_1_1internal_1_1WithArgsAction_1_1Impl_1a967047b99af8f852f4fa2883be283e1a" prot="public" virt="non-virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>Result</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>~ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::internal::WithArgsAction::Impl</scope><name>~ActionInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/gmock-matchers.h</compoundname>
+    <includes local="no">math.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">iterator</includes>
+    <includes local="no">limits</includes>
+    <includes local="no">ostream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">gmock/internal/gmock-internal-utils.h</includes>
+    <includes local="yes">gmock/internal/gmock-port.h</includes>
+    <includes local="yes">gtest/gtest.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-matchers.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>gmock/internal/gmock-internal-utils.h</label>
+      </node>
+      <node id="12">
+        <label>gmock/internal/gmock-port.h</label>
+      </node>
+      <node id="13">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="4">
+        <label>iterator</label>
+      </node>
+      <node id="5">
+        <label>limits</label>
+      </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>ostream</label>
+      </node>
+      <node id="7">
+        <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1MatchResultListener" prot="public">testing::MatchResultListener</innerclass>
+    <innerclass refid="classtesting_1_1MatcherDescriberInterface" prot="public">testing::MatcherDescriberInterface</innerclass>
+    <innerclass refid="classtesting_1_1MatcherInterface" prot="public">testing::MatcherInterface</innerclass>
+    <innerclass refid="classtesting_1_1StringMatchResultListener" prot="public">testing::StringMatchResultListener</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1DummyMatchResultListener" prot="private">testing::internal::DummyMatchResultListener</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StreamMatchResultListener" prot="private">testing::internal::StreamMatchResultListener</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherBase" prot="private">testing::internal::MatcherBase</innerclass>
+    <innerclass refid="classtesting_1_1Matcher" prot="public">testing::Matcher</innerclass>
+    <innerclass refid="classtesting_1_1Matcher_3_01const_01internal_1_1string_01_6_01_4" prot="public">testing::Matcher&lt; const internal::string &amp; &gt;</innerclass>
+    <innerclass refid="classtesting_1_1Matcher_3_01internal_1_1string_01_4" prot="public">testing::Matcher&lt; internal::string &gt;</innerclass>
+    <innerclass refid="classtesting_1_1PolymorphicMatcher" prot="public">testing::PolymorphicMatcher</innerclass>
+    <innerclass refid="classtesting_1_1PolymorphicMatcher_1_1MonomorphicImpl" prot="private">testing::PolymorphicMatcher::MonomorphicImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherCastImpl" prot="private">testing::internal::MatcherCastImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01U_01_4_01_4" prot="private">testing::internal::MatcherCastImpl&lt; T, Matcher&lt; U &gt; &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01U_01_4_01_4_1_1Impl" prot="private">testing::internal::MatcherCastImpl&lt; T, Matcher&lt; U &gt; &gt;::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherCastImpl_3_01T_00_01Matcher_3_01T_01_4_01_4" prot="private">testing::internal::MatcherCastImpl&lt; T, Matcher&lt; T &gt; &gt;</innerclass>
+    <innerclass refid="classtesting_1_1SafeMatcherCastImpl" prot="public">testing::SafeMatcherCastImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TuplePrefix" prot="public">testing::internal::TuplePrefix</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TuplePrefix_3_010_01_4" prot="public">testing::internal::TuplePrefix&lt; 0 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TransformTupleValuesHelper" prot="public">testing::internal::TransformTupleValuesHelper</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple" prot="private">testing::internal::TransformTupleValuesHelper::IterateOverTuple</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4" prot="private">testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1AnyMatcherImpl" prot="public">testing::internal::AnyMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1AnythingMatcher" prot="public">testing::internal::AnythingMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1IsNullMatcher" prot="public">testing::internal::IsNullMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1NotNullMatcher" prot="public">testing::internal::NotNullMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4" prot="public">testing::internal::RefMatcher&lt; T &amp; &gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1RefMatcher_3_01T_01_6_01_4_1_1Impl" prot="private">testing::internal::RefMatcher&lt; T &amp; &gt;::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StrEqualityMatcher" prot="public">testing::internal::StrEqualityMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1HasSubstrMatcher" prot="public">testing::internal::HasSubstrMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StartsWithMatcher" prot="public">testing::internal::StartsWithMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1EndsWithMatcher" prot="public">testing::internal::EndsWithMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatchesRegexMatcher" prot="public">testing::internal::MatchesRegexMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1NotMatcherImpl" prot="public">testing::internal::NotMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1NotMatcher" prot="public">testing::internal::NotMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1BothOfMatcherImpl" prot="public">testing::internal::BothOfMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1BothOfMatcher" prot="public">testing::internal::BothOfMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1EitherOfMatcherImpl" prot="public">testing::internal::EitherOfMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1EitherOfMatcher" prot="public">testing::internal::EitherOfMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1TrulyMatcher" prot="public">testing::internal::TrulyMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatcherAsPredicate" prot="public">testing::internal::MatcherAsPredicate</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PredicateFormatterFromMatcher" prot="public">testing::internal::PredicateFormatterFromMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FloatingEqMatcher" prot="public">testing::internal::FloatingEqMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl" prot="public">testing::internal::FloatingEqMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PointeeMatcher" prot="public">testing::internal::PointeeMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PointeeMatcher_1_1Impl" prot="private">testing::internal::PointeeMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1FieldMatcher" prot="public">testing::internal::FieldMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PropertyMatcher" prot="public">testing::internal::PropertyMatcher</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1CallableTraits" prot="public">testing::internal::CallableTraits</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1CallableTraits_3_01ResType_07_5_08_07ArgType_08_4" prot="public">testing::internal::CallableTraits&lt; ResType(*)(ArgType)&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ResultOfMatcher" prot="public">testing::internal::ResultOfMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ResultOfMatcher_1_1Impl" prot="private">testing::internal::ResultOfMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1SizeIsMatcher" prot="public">testing::internal::SizeIsMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl" prot="public">testing::internal::SizeIsMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ContainerEqMatcher" prot="public">testing::internal::ContainerEqMatcher</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LessComparator" prot="public">testing::internal::LessComparator</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1WhenSortedByMatcher" prot="public">testing::internal::WhenSortedByMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl" prot="public">testing::internal::WhenSortedByMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PointwiseMatcher" prot="public">testing::internal::PointwiseMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl" prot="public">testing::internal::PointwiseMatcher::Impl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1QuantifierMatcherImpl" prot="public">testing::internal::QuantifierMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ContainsMatcherImpl" prot="public">testing::internal::ContainsMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1EachMatcherImpl" prot="public">testing::internal::EachMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ContainsMatcher" prot="public">testing::internal::ContainsMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1EachMatcher" prot="public">testing::internal::EachMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1KeyMatcherImpl" prot="public">testing::internal::KeyMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1KeyMatcher" prot="public">testing::internal::KeyMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PairMatcherImpl" prot="public">testing::internal::PairMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1PairMatcher" prot="public">testing::internal::PairMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl" prot="public">testing::internal::ElementsAreMatcherImpl</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1MatchMatrix" prot="public">testing::internal::MatchMatrix</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImplBase" prot="public">testing::internal::UnorderedElementsAreMatcherImplBase</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl" prot="public">testing::internal::UnorderedElementsAreMatcherImpl</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1CastAndAppendTransform" prot="public">testing::internal::CastAndAppendTransform</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher" prot="public">testing::internal::UnorderedElementsAreMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ElementsAreMatcher" prot="public">testing::internal::ElementsAreMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1UnorderedElementsAreArrayMatcher" prot="public">testing::internal::UnorderedElementsAreArrayMatcher</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1ElementsAreArrayMatcher" prot="public">testing::internal::ElementsAreArrayMatcher</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h_1a4091b6969078811146657bd03ebbc1d3" prot="public" static="no">
+        <name>GMOCK_IMPLEMENT_COMPARISON_MATCHER_</name>
+        <param><defname>name</defname></param>
+        <param><defname>op</defname></param>
+        <param><defname>relation</defname></param>
+        <param><defname>negated_relation</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="877" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="876" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h_1ad5b0956adb3a6ca4536d351b3e7c3b85" prot="public" static="no">
+        <name>GMOCK_IMPLEMENT_COMPARISON2_MATCHER_</name>
+        <param><defname>name</defname></param>
+        <param><defname>op</defname></param>
+        <param><defname>relation</defname></param>
+        <initializer>  class name##2Matcher { \
+   public: \
+    template &lt;typename T1, typename T2&gt; \
+    operator Matcher&lt; <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;T1, T2&gt; &gt;() const { \
+      return MakeMatcher(new Impl&lt; <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;T1, T2&gt; &gt;); \
+    } \
+    template &lt;typename T1, typename T2&gt; \
+    operator Matcher&lt;const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;T1, T2&gt;&amp;&gt;() const { \
+      return MakeMatcher(new Impl&lt;const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;T1, T2&gt;&amp;&gt;); \
+    } \
+   private: \
+    template &lt;typename Tuple&gt; \
+    class Impl : public MatcherInterface&lt;Tuple&gt; { \
+     public: \
+      virtual bool MatchAndExplain( \
+          Tuple args, \
+          MatchResultListener* /* listener */) const { \
+        return ::std::tr1::get&lt;0&gt;(args) op ::std::tr1::get&lt;1&gt;(args); \
+      } \
+      virtual void DescribeTo(::std::ostream* os) const { \
+        *os &lt;&lt; &quot;are &quot; relation;                                 \
+      } \
+      virtual void DescribeNegationTo(::std::ostream* os) const { \
+        *os &lt;&lt; &quot;aren&apos;t &quot; relation; \
+      } \
+    }; \
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1321" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1321" bodyend="1348"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h_1a41d888579850c16583baea33ee8d057e" prot="public" static="no">
+        <name>ASSERT_THAT</name>
+        <param><defname>value</defname></param>
+        <param><defname>matcher</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a3771ca0d1a72013aebc3d66e046491ed" kindref="member">ASSERT_PRED_FORMAT1</ref>(\
+    <ref refid="namespacetesting_1_1internal_1a2e829debf98dded11c333862de46dc31" kindref="member">::testing::internal::MakePredicateFormatterFromMatcher</ref>(matcher), value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3979" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3979" bodyend="3980"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h_1ac31e206123aa702e1152bb2735b31409" prot="public" static="no">
+        <name>EXPECT_THAT</name>
+        <param><defname>value</defname></param>
+        <param><defname>matcher</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2gtest__pred__impl_8h_1a07132aa62cf4902e50e68d0265f573b6" kindref="member">EXPECT_PRED_FORMAT1</ref>(\
+    <ref refid="namespacetesting_1_1internal_1a2e829debf98dded11c333862de46dc31" kindref="member">::testing::internal::MakePredicateFormatterFromMatcher</ref>(matcher), value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3981" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3981" bodyend="3982"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h"/>
+  </compounddef>
+</doxygen>

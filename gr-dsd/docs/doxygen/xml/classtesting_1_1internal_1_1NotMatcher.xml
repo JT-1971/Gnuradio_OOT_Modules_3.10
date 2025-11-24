@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1NotMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::NotMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename InnerMatcher</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1NotMatcher_1aa6b7d0db2877713a05451b0f8a8c1241" prot="private" static="no" mutable="no">
+        <type>InnerMatcher</type>
+        <definition>InnerMatcher testing::internal::NotMatcher&lt; InnerMatcher &gt;::matcher_</definition>
+        <argsstring></argsstring>
+        <name>matcher_</name>
+        <qualifiedname>testing::internal::NotMatcher::matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1407" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1407" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1a77bd397c9974e4e49acb84eeb624dce1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::NotMatcher</definition>
+        <argsstring>(InnerMatcher matcher)</argsstring>
+        <name>NotMatcher</name>
+        <qualifiedname>testing::internal::NotMatcher::NotMatcher</qualifiedname>
+        <param>
+          <type>InnerMatcher</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1397" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1397" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1a87ad7beadf9def58cc053229e99e8625" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::NotMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1402" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1402" bodyend="1404"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1a77bd397c9974e4e49acb84eeb624dce1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::NotMatcher</definition>
+        <argsstring>(InnerMatcher matcher)</argsstring>
+        <name>NotMatcher</name>
+        <qualifiedname>testing::internal::NotMatcher::NotMatcher</qualifiedname>
+        <param>
+          <type>InnerMatcher</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1397" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1397" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1a87ad7beadf9def58cc053229e99e8625" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::NotMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1402" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1402" bodyend="1404"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1afab7dbd2d65874fce636f104c09164e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(NotMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::NotMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1NotMatcher" kindref="compound">NotMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1409" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1NotMatcher_1afab7dbd2d65874fce636f104c09164e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::NotMatcher&lt; InnerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(NotMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::NotMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1NotMatcher" kindref="compound">NotMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1409" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1395" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1395" bodyend="1410"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1afab7dbd2d65874fce636f104c09164e6" prot="private" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1afab7dbd2d65874fce636f104c09164e6" prot="private" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1aa6b7d0db2877713a05451b0f8a8c1241" prot="private" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1a77bd397c9974e4e49acb84eeb624dce1" prot="public" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>NotMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1a77bd397c9974e4e49acb84eeb624dce1" prot="public" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>NotMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1a87ad7beadf9def58cc053229e99e8625" prot="public" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1NotMatcher_1a87ad7beadf9def58cc053229e99e8625" prot="public" virt="non-virtual"><scope>testing::internal::NotMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

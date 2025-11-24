@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2gmock-more-matchers_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/gmock-more-matchers.h</compoundname>
+    <includes local="yes">gmock/gmock-generated-matchers.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-more-matchers.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2gmock-more-matchers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gmock/gmock-generated-matchers.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-more-matchers.h"/>
+  </compounddef>
+</doxygen>

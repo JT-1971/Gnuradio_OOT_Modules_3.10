@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structmbe__parameters" kind="struct" language="C++" prot="public">
+    <compoundname>mbe_parameters</compoundname>
+    <includes refid="mbelib_8h" local="no">mbelib.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmbe__parameters_1a7c8a180fb614197b13781e4bd6c5ca72" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::w0</definition>
+        <argsstring></argsstring>
+        <name>w0</name>
+        <qualifiedname>mbe_parameters::w0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="25" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1ab2faa9231b5ff7b7162bc8fa46d4f30a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mbe_parameters::L</definition>
+        <argsstring></argsstring>
+        <name>L</name>
+        <qualifiedname>mbe_parameters::L</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="26" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1aaa2cab5ad192fc5a6d57b04464f0b0ac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mbe_parameters::K</definition>
+        <argsstring></argsstring>
+        <name>K</name>
+        <qualifiedname>mbe_parameters::K</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="27" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a7a62d2021e827eae43a09585523b9183" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mbe_parameters::Vl[57]</definition>
+        <argsstring>[57]</argsstring>
+        <name>Vl</name>
+        <qualifiedname>mbe_parameters::Vl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="28" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a57b4e3e031b7bf99a59b37cd51a75dc6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::Ml[57]</definition>
+        <argsstring>[57]</argsstring>
+        <name>Ml</name>
+        <qualifiedname>mbe_parameters::Ml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="29" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a63db2edf09da3da3d9d33c0b596298c1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::log2Ml[57]</definition>
+        <argsstring>[57]</argsstring>
+        <name>log2Ml</name>
+        <qualifiedname>mbe_parameters::log2Ml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="30" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a8fdfb49a5e32558dcdc5ff3043b8eb7e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::PHIl[57]</definition>
+        <argsstring>[57]</argsstring>
+        <name>PHIl</name>
+        <qualifiedname>mbe_parameters::PHIl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="31" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a709fa971735389a52dd60fc1f3b0b30f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::PSIl[57]</definition>
+        <argsstring>[57]</argsstring>
+        <name>PSIl</name>
+        <qualifiedname>mbe_parameters::PSIl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="32" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1abac6137fd5b60fa5266270c3b82cfd5b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float mbe_parameters::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>mbe_parameters::gamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="33" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1ad40529522ac336f94bfc64e870ec0d7d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mbe_parameters::un</definition>
+        <argsstring></argsstring>
+        <name>un</name>
+        <qualifiedname>mbe_parameters::un</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="34" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmbe__parameters_1a615ab2e3e7915897f2cc1de76ff7dd04" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mbe_parameters::repeat</definition>
+        <argsstring></argsstring>
+        <name>repeat</name>
+        <qualifiedname>mbe_parameters::repeat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="35" column="7" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="23" column="1" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="24" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structmbe__parameters_1abac6137fd5b60fa5266270c3b82cfd5b" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>gamma</name></member>
+      <member refid="structmbe__parameters_1aaa2cab5ad192fc5a6d57b04464f0b0ac" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>K</name></member>
+      <member refid="structmbe__parameters_1ab2faa9231b5ff7b7162bc8fa46d4f30a" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>L</name></member>
+      <member refid="structmbe__parameters_1a63db2edf09da3da3d9d33c0b596298c1" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>log2Ml</name></member>
+      <member refid="structmbe__parameters_1a57b4e3e031b7bf99a59b37cd51a75dc6" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>Ml</name></member>
+      <member refid="structmbe__parameters_1a8fdfb49a5e32558dcdc5ff3043b8eb7e" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>PHIl</name></member>
+      <member refid="structmbe__parameters_1a709fa971735389a52dd60fc1f3b0b30f" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>PSIl</name></member>
+      <member refid="structmbe__parameters_1a615ab2e3e7915897f2cc1de76ff7dd04" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>repeat</name></member>
+      <member refid="structmbe__parameters_1ad40529522ac336f94bfc64e870ec0d7d" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>un</name></member>
+      <member refid="structmbe__parameters_1a7a62d2021e827eae43a09585523b9183" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>Vl</name></member>
+      <member refid="structmbe__parameters_1a7c8a180fb614197b13781e4bd6c5ca72" prot="public" virt="non-virtual"><scope>mbe_parameters</scope><name>w0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

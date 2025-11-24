@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1MatcherDescriberInterface" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>testing::MatcherDescriberInterface</compoundname>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const internal::string &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; internal::string &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ArgsTuple &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Container &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; PairType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Pointer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; LhsContainer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Super &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const Element &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const FieldType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const KeyType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; U &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const ArgumentTuple &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const FirstType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const SecondType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const Pointee &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; std::tr1::tuple &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; RefToConstProperty &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ResultType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; SizeType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const ::std::vector&lt; LhsValue &gt; &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const internal::string &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; internal::string &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ArgsTuple &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Container &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; PairType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Pointer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; LhsContainer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; Super &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const Element &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const FieldType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const KeyType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; U &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const ArgumentTuple &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const FirstType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const SecondType &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const Pointee &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; std::tr1::tuple &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; RefToConstProperty &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ResultType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; SizeType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; const ::std::vector&lt; LhsValue &gt; &amp; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; T &gt;</derivedcompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::MatcherDescriberInterface::~MatcherDescriberInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~MatcherDescriberInterface</name>
+        <qualifiedname>testing::MatcherDescriberInterface::~MatcherDescriberInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="119" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::MatcherDescriberInterface::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const =0</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::MatcherDescriberInterface::DescribeTo</qualifiedname>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1a743f037083cc9992a4cc0d4e9842bc86">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a2c22d3e15126decd9c6af132d4f4b60f">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a3a1f92f7b093d36ab38c35fbcae4ce4d">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1a0389690d0ce06a1ca447db6281a380d3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1aab6dbbe39ef8337e4686ae0f8c81a2c3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a6b2524886e5fa751e96495a74d75b7cd">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a33f7b8bdce4adb02618e90ac2ec949f9">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a0c699f62bbd02595471b793baa9cc75e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1af47e4e9f890d64e7f8abcdf3f5fb8b3e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a605e1c800c74701a773205ec050cd574">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1ad4b5139aa8a3cdcc178c9d81b98d95f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a3f6e292c6452db028b7671618577d9f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1a743f037083cc9992a4cc0d4e9842bc86">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a2c22d3e15126decd9c6af132d4f4b60f">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a3a1f92f7b093d36ab38c35fbcae4ce4d">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1a0389690d0ce06a1ca447db6281a380d3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1aab6dbbe39ef8337e4686ae0f8c81a2c3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a6b2524886e5fa751e96495a74d75b7cd">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a33f7b8bdce4adb02618e90ac2ec949f9">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a0c699f62bbd02595471b793baa9cc75e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1af47e4e9f890d64e7f8abcdf3f5fb8b3e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a605e1c800c74701a773205ec050cd574">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1ad4b5139aa8a3cdcc178c9d81b98d95f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a3f6e292c6452db028b7671618577d9f0">DescribeTo</reimplementedby>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="126" column="16"/>
+        <referencedby refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="134" endline="138">DescribeNegationTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::MatcherDescriberInterface::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::MatcherDescriberInterface::DescribeNegationTo</qualifiedname>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1ac6570e881174ba774b8d56abaa4f7d25">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a960f799e25ba7264d0d45fa61bb9271c">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a4f6017c7aca6e5c8166ff4c613d8dbec">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1ab5a4eac981acde377a4fd344507b1d71">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1a3eff238a812f4a105df1222a28f6cdbf">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a24b76fc2ac7b8d58cb5c7a3c5d5d35ab">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a0a59f77fdbb88a6326e5aba671f2aa3e">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a26d3a829149e4c497aaced42aad7b247">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1a9d7867110ba3f346399f23e41cc75c5b">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a5be5bbd61f7a350fcbe30deea4c2a0c6">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a41ef8b1ae031cf342a380e2f2fb2a526">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1af2185915595c02d6132ba5f3f9ccb6cd">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1ac6570e881174ba774b8d56abaa4f7d25">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a960f799e25ba7264d0d45fa61bb9271c">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a4f6017c7aca6e5c8166ff4c613d8dbec">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1ab5a4eac981acde377a4fd344507b1d71">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1a3eff238a812f4a105df1222a28f6cdbf">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a24b76fc2ac7b8d58cb5c7a3c5d5d35ab">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a0a59f77fdbb88a6326e5aba671f2aa3e">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a26d3a829149e4c497aaced42aad7b247">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1a9d7867110ba3f346399f23e41cc75c5b">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a5be5bbd61f7a350fcbe30deea4c2a0c6">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a41ef8b1ae031cf342a380e2f2fb2a526">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1af2185915595c02d6132ba5f3f9ccb6cd">DescribeNegationTo</reimplementedby>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="134" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="134" bodyend="138"/>
+        <references refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::MatcherDescriberInterface::~MatcherDescriberInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~MatcherDescriberInterface</name>
+        <qualifiedname>testing::MatcherDescriberInterface::~MatcherDescriberInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="119" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::MatcherDescriberInterface::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const =0</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::MatcherDescriberInterface::DescribeTo</qualifiedname>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1a743f037083cc9992a4cc0d4e9842bc86">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a2c22d3e15126decd9c6af132d4f4b60f">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a3a1f92f7b093d36ab38c35fbcae4ce4d">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1a0389690d0ce06a1ca447db6281a380d3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1aab6dbbe39ef8337e4686ae0f8c81a2c3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a6b2524886e5fa751e96495a74d75b7cd">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a33f7b8bdce4adb02618e90ac2ec949f9">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a0c699f62bbd02595471b793baa9cc75e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1af47e4e9f890d64e7f8abcdf3f5fb8b3e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a605e1c800c74701a773205ec050cd574">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1ad4b5139aa8a3cdcc178c9d81b98d95f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a3f6e292c6452db028b7671618577d9f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1a743f037083cc9992a4cc0d4e9842bc86">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a2c22d3e15126decd9c6af132d4f4b60f">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a3a1f92f7b093d36ab38c35fbcae4ce4d">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1a0389690d0ce06a1ca447db6281a380d3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1aab6dbbe39ef8337e4686ae0f8c81a2c3">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a6b2524886e5fa751e96495a74d75b7cd">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a33f7b8bdce4adb02618e90ac2ec949f9">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a0c699f62bbd02595471b793baa9cc75e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1af47e4e9f890d64e7f8abcdf3f5fb8b3e">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a605e1c800c74701a773205ec050cd574">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1af024a1774c1aedae7b1dc532df7e27af">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1ad4b5139aa8a3cdcc178c9d81b98d95f0">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1a685f19f64b22a37317332d512c1bce52">DescribeTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a3f6e292c6452db028b7671618577d9f0">DescribeTo</reimplementedby>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="126" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::MatcherDescriberInterface::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::MatcherDescriberInterface::DescribeNegationTo</qualifiedname>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1ac6570e881174ba774b8d56abaa4f7d25">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a960f799e25ba7264d0d45fa61bb9271c">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a4f6017c7aca6e5c8166ff4c613d8dbec">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1ab5a4eac981acde377a4fd344507b1d71">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1a3eff238a812f4a105df1222a28f6cdbf">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a24b76fc2ac7b8d58cb5c7a3c5d5d35ab">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a0a59f77fdbb88a6326e5aba671f2aa3e">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a26d3a829149e4c497aaced42aad7b247">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1a9d7867110ba3f346399f23e41cc75c5b">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a5be5bbd61f7a350fcbe30deea4c2a0c6">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a41ef8b1ae031cf342a380e2f2fb2a526">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1af2185915595c02d6132ba5f3f9ccb6cd">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1AnyMatcherImpl_1ac6570e881174ba774b8d56abaa4f7d25">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1NotMatcherImpl_1a960f799e25ba7264d0d45fa61bb9271c">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1BothOfMatcherImpl_1a4f6017c7aca6e5c8166ff4c613d8dbec">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EitherOfMatcherImpl_1ab5a4eac981acde377a4fd344507b1d71">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl_1a3eff238a812f4a105df1222a28f6cdbf">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl_1a24b76fc2ac7b8d58cb5c7a3c5d5d35ab">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl_1a0a59f77fdbb88a6326e5aba671f2aa3e">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl_1a26d3a829149e4c497aaced42aad7b247">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ContainsMatcherImpl_1a9d7867110ba3f346399f23e41cc75c5b">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1EachMatcherImpl_1a5be5bbd61f7a350fcbe30deea4c2a0c6">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1KeyMatcherImpl_1a4be87d136547063a16777151b691046d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1PairMatcherImpl_1a41ef8b1ae031cf342a380e2f2fb2a526">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl_1ab8485a836eb7ffabc43b05187e58616d">DescribeNegationTo</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1af2185915595c02d6132ba5f3f9ccb6cd">DescribeNegationTo</reimplementedby>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="134" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="134" bodyend="138"/>
+        <references refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>testing::MatcherInterface&lt; ArgsTuple &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>testing::MatcherInterface&lt; Container &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>testing::MatcherInterface&lt; LhsContainer &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>testing::MatcherInterface&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>testing::MatcherInterface&lt; Pointer &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>testing::MatcherInterface&lt; RefToConstProperty &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>testing::MatcherInterface&lt; ResultType &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>testing::MatcherInterface&lt; SizeType &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>testing::MatcherInterface&lt; Super &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>testing::MatcherInterface&lt; U &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>testing::MatcherInterface&lt; const ::std::vector&lt; LhsValue &gt; &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>testing::MatcherInterface&lt; const ArgumentTuple &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>testing::MatcherInterface&lt; const Element &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>testing::MatcherInterface&lt; const FieldType &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>testing::MatcherInterface&lt; const FirstType &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>testing::MatcherInterface&lt; const KeyType &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>testing::MatcherInterface&lt; const Pointee &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>testing::MatcherInterface&lt; const SecondType &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; const internal::string &amp; &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherInterface&lt; internal::string &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>testing::MatcherInterface&lt; std::tr1::tuple &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="34">
+        <label>testing::MatcherInterface&lt; T &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>testing::internal::AnyMatcherImpl&lt; T &gt;</label>
+        <link refid="classtesting_1_1internal_1_1AnyMatcherImpl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ArgsMatcherImpl"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>testing::internal::BothOfMatcherImpl&lt; T &gt;</label>
+        <link refid="classtesting_1_1internal_1_1BothOfMatcherImpl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>testing::internal::ContainsMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ContainsMatcherImpl"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>testing::internal::EachMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1EachMatcherImpl"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>testing::internal::EitherOfMatcherImpl&lt; T &gt;</label>
+        <link refid="classtesting_1_1internal_1_1EitherOfMatcherImpl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>testing::internal::ElementsAreMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ElementsAreMatcherImpl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>testing::internal::FloatingEqMatcher&lt; FloatType &gt;::Impl&lt; T &gt;</label>
+        <link refid="classtesting_1_1internal_1_1FloatingEqMatcher_1_1Impl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>testing::internal::KeyMatcherImpl&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1KeyMatcherImpl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>testing::internal::NotMatcherImpl&lt; T &gt;</label>
+        <link refid="classtesting_1_1internal_1_1NotMatcherImpl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>testing::internal::PairMatcherImpl&lt; PairType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1PairMatcherImpl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>testing::internal::PointwiseMatcher&lt; TupleMatcher, RhsContainer &gt;::Impl&lt; LhsContainer &gt;</label>
+        <link refid="classtesting_1_1internal_1_1PointwiseMatcher_1_1Impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>testing::internal::QuantifierMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1QuantifierMatcherImpl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>testing::internal::SizeIsMatcher&lt; SizeMatcher &gt;::Impl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1SizeIsMatcher_1_1Impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>testing::internal::UnorderedElementsAreMatcherImpl&lt; Container &gt;</label>
+        <link refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>testing::internal::WhenSortedByMatcher&lt; Comparator, ContainerMatcher &gt;::Impl&lt; LhsContainer &gt;</label>
+        <link refid="classtesting_1_1internal_1_1WhenSortedByMatcher_1_1Impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="117" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="117" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0" prot="public" virt="virtual"><scope>testing::MatcherDescriberInterface</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0" prot="public" virt="virtual"><scope>testing::MatcherDescriberInterface</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b" prot="public" virt="pure-virtual"><scope>testing::MatcherDescriberInterface</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b" prot="public" virt="pure-virtual"><scope>testing::MatcherDescriberInterface</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::MatcherDescriberInterface</scope><name>~MatcherDescriberInterface</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::MatcherDescriberInterface</scope><name>~MatcherDescriberInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

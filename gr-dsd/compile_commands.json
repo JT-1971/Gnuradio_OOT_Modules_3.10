@@ -1,0 +1,266 @@
+[
+{
+  "directory": "/home/dr/Code/gr-dsd/lib",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_dsd_EXPORTS -I/home/dr/Code/gr-dsd/lib/../include -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu++17 -fPIC   -fvisibility=hidden -o CMakeFiles/gnuradio-dsd.dir/dsd_block_ff_impl.cc.o -c /home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.cc",
+  "file": "/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-dsd.dir/dsd_block_ff_impl.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/python/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddsd_python_EXPORTS -I/home/dr/Code/gr-dsd/python/bindings -I/home/dr/Code/gr-dsd/python/bindings/../../lib -I/home/dr/Code/gr-dsd/python/bindings/../../include -I/home/dr/Code/gr-dsd/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/dsd_python.dir/dsd_block_ff_python.cc.o -c /home/dr/Code/gr-dsd/python/bindings/dsd_block_ff_python.cc",
+  "file": "/home/dr/Code/gr-dsd/python/bindings/dsd_block_ff_python.cc",
+  "output": "python/bindings/CMakeFiles/dsd_python.dir/dsd_block_ff_python.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/python/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddsd_python_EXPORTS -I/home/dr/Code/gr-dsd/python/bindings -I/home/dr/Code/gr-dsd/python/bindings/../../lib -I/home/dr/Code/gr-dsd/python/bindings/../../include -I/home/dr/Code/gr-dsd/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/dsd_python.dir/python_bindings.cc.o -c /home/dr/Code/gr-dsd/python/bindings/python_bindings.cc",
+  "file": "/home/dr/Code/gr-dsd/python/bindings/python_bindings.cc",
+  "output": "python/bindings/CMakeFiles/dsd_python.dir/python_bindings.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/ambe3600x2400.c.o -c /home/dr/Code/gr-dsd/mbelib/ambe3600x2400.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/ambe3600x2400.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/ambe3600x2400.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/ambe3600x2450.c.o -c /home/dr/Code/gr-dsd/mbelib/ambe3600x2450.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/ambe3600x2450.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/ambe3600x2450.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/ecc.c.o -c /home/dr/Code/gr-dsd/mbelib/ecc.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/ecc.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/ecc.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/imbe7100x4400.c.o -c /home/dr/Code/gr-dsd/mbelib/imbe7100x4400.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/imbe7100x4400.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/imbe7100x4400.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/imbe7200x4400.c.o -c /home/dr/Code/gr-dsd/mbelib/imbe7200x4400.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/imbe7200x4400.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/imbe7200x4400.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/mbelib",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/mbe.dir/mbelib.c.o -c /home/dr/Code/gr-dsd/mbelib/mbelib.c",
+  "file": "/home/dr/Code/gr-dsd/mbelib/mbelib.c",
+  "output": "mbelib/CMakeFiles/mbe.dir/mbelib.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/c++  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu++14 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/Hamming.cpp.o -c /home/dr/Code/gr-dsd/dsd/src/Hamming.cpp",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/Hamming.cpp",
+  "output": "dsd/CMakeFiles/dsd.dir/src/Hamming.cpp.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dmr_data.c.o -c /home/dr/Code/gr-dsd/dsd/src/dmr_data.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dmr_data.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dmr_data.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dmr_voice.c.o -c /home/dr/Code/gr-dsd/dsd/src/dmr_voice.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dmr_voice.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dmr_voice.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_audio.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_audio.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_audio.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_audio.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_dibit.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_dibit.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_dibit.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_dibit.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_file.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_file.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_file.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_file.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_filters.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_filters.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_filters.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_filters.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_frame.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_frame.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_frame.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_frame.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_frame_sync.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_frame_sync.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_frame_sync.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_frame_sync.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_main.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_main.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_main.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_main.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_mbe.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_mbe.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_mbe.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_mbe.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_serial.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_serial.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_serial.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_serial.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_symbol.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_symbol.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_symbol.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_symbol.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dsd_upsample.c.o -c /home/dr/Code/gr-dsd/dsd/src/dsd_upsample.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dsd_upsample.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dsd_upsample.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dstar.c.o -c /home/dr/Code/gr-dsd/dsd/src/dstar.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dstar.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dstar.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/dstar_header.c.o -c /home/dr/Code/gr-dsd/dsd/src/dstar_header.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/dstar_header.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/dstar_header.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/nxdn96.c.o -c /home/dr/Code/gr-dsd/dsd/src/nxdn96.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/nxdn96.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/nxdn96.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/nxdn_data.c.o -c /home/dr/Code/gr-dsd/dsd/src/nxdn_data.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/nxdn_data.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/nxdn_data.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/nxdn_voice.c.o -c /home/dr/Code/gr-dsd/dsd/src/nxdn_voice.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/nxdn_voice.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/nxdn_voice.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25_lcw.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25_lcw.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25_lcw.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25_lcw.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/c++  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu++14 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_check_hdu.cpp.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_check_hdu.cpp",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_check_hdu.cpp",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_check_hdu.cpp.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/c++  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu++14 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_check_ldu.cpp.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_check_ldu.cpp",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_check_ldu.cpp",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_check_ldu.cpp.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/c++  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu++14 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_check_nid.cpp.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_check_nid.cpp",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_check_nid.cpp",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_check_nid.cpp.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_hdu.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_hdu.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_hdu.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_hdu.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_heuristics.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_heuristics.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_heuristics.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_heuristics.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_ldu.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_ldu.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_ldu.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_ldu.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_ldu1.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_ldu1.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_ldu1.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_ldu1.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_ldu2.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_ldu2.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_ldu2.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_ldu2.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_tdu.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_tdu.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_tdu.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_tdu.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/p25p1_tdulc.c.o -c /home/dr/Code/gr-dsd/dsd/src/p25p1_tdulc.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/p25p1_tdulc.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/p25p1_tdulc.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/pa_devs.c.o -c /home/dr/Code/gr-dsd/dsd/src/pa_devs.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/pa_devs.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/pa_devs.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/provoice.c.o -c /home/dr/Code/gr-dsd/dsd/src/provoice.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/provoice.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/provoice.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/x2tdma_data.c.o -c /home/dr/Code/gr-dsd/dsd/src/x2tdma_data.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/x2tdma_data.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/x2tdma_data.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/src/x2tdma_voice.c.o -c /home/dr/Code/gr-dsd/dsd/src/x2tdma_voice.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/src/x2tdma_voice.c",
+  "output": "dsd/CMakeFiles/dsd.dir/src/x2tdma_voice.c.o"
+},
+{
+  "directory": "/home/dr/Code/gr-dsd/dsd",
+  "command": "/usr/bin/cc  -I/home/dr/Code/gr-dsd/dsd/include -I/home/dr/Code/gr-dsd/mbelib -O3 -DNDEBUG -std=gnu11 -fPIC   -fvisibility=hidden -o CMakeFiles/dsd.dir/git_ver.c.o -c /home/dr/Code/gr-dsd/dsd/git_ver.c",
+  "file": "/home/dr/Code/gr-dsd/dsd/git_ver.c",
+  "output": "dsd/CMakeFiles/dsd.dir/git_ver.c.o"
+}
+]

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">ostream</includes>
+    <includes local="no">string</includes>
+    <includes local="yes">gmock/internal/gmock-generated-internal-utils.h</includes>
+    <includes local="yes">gmock/internal/gmock-port.h</includes>
+    <includes local="yes">gtest/gtest.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-internal-utils.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gmock/internal/gmock-generated-internal-utils.h</label>
+      </node>
+      <node id="6">
+        <label>gmock/internal/gmock-port.h</label>
+      </node>
+      <node id="7">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="3">
+        <label>ostream</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structtesting_1_1internal_1_1PointeeOf" prot="public">testing::internal::PointeeOf</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1PointeeOf_3_01T_01_5_01_4" prot="public">testing::internal::PointeeOf&lt; T * &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LinkedPtrLessThan" prot="public">testing::internal::LinkedPtrLessThan</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1KindOf" prot="public">testing::internal::KindOf</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl" prot="public">testing::internal::LosslessArithmeticConvertibleImpl</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kBool_00_01bool_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kBool, bool &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kInteger_00_01To_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kInteger, To &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kBool_00_01bool_00_01kFloatingPoint_00_01To_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kBool, bool, kFloatingPoint, To &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kBool_00_01bool_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kBool, bool &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kInteger_00_01To_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kInteger, To &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kInteger_00_01From_00_01kFloatingPoint_00_01To_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kInteger, From, kFloatingPoint, To &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kBool_00_01bool_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kBool, bool &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1LosslessArithmeticConvertibleImpl_3_01kFloatingPoint_00_01From_00_01kInteger_00_01To_01_4" prot="public">testing::internal::LosslessArithmeticConvertibleImpl&lt; kFloatingPoint, From, kInteger, To &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1is__reference" prot="public">testing::internal::is_reference</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1is__reference_3_01T_01_6_01_4" prot="public">testing::internal::is_reference&lt; T &amp; &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1type__equals" prot="public">testing::internal::type_equals</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1type__equals_3_01T_00_01T_01_4" prot="public">testing::internal::type_equals&lt; T, T &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1remove__reference" prot="public">testing::internal::remove_reference</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4" prot="public">testing::internal::remove_reference&lt; T &amp; &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1DecayArray" prot="public">testing::internal::DecayArray</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1DecayArray_3_01T_0fN_0e_4" prot="public">testing::internal::DecayArray&lt; T[N]&gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1DecayArray_3_01T_0f_0e_4" prot="public">testing::internal::DecayArray&lt; T[]&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StlContainerView" prot="public">testing::internal::StlContainerView</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StlContainerView_3_01Element_0fN_0e_4" prot="public">testing::internal::StlContainerView&lt; Element[N]&gt;</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1StlContainerView_3_01_1_1std_1_1tr1_1_1tuple_3_01ElementPointer_00_01Size_01_4_01_4" prot="public">testing::internal::StlContainerView&lt; ::std::tr1::tuple&lt; ElementPointer, Size &gt; &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1RemoveConstFromKey" prot="public">testing::internal::RemoveConstFromKey</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1RemoveConstFromKey_3_01std_1_1pair_3_01const_01K_00_01V_01_4_01_4" prot="public">testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1BooleanConstant" prot="public">testing::internal::BooleanConstant</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a0725bd2b3326d282677e5197e53cc5e9" prot="public" static="no">
+        <name>GMOCK_WCHAR_T_IS_NATIVE_</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="104" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a7d8a1871d7a30543a4e1882a8b2bbcd8" prot="public" static="no">
+        <name>GMOCK_DECLARE_KIND_</name>
+        <param><defname>type</defname></param>
+        <param><defname>kind</defname></param>
+        <initializer>  template &lt;&gt; struct KindOf&lt;type&gt; { enum { value = kind }; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="136" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="136" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a72b01bdd08b78e927270885ca880ead4" prot="public" static="no">
+        <name>GMOCK_KIND_OF_</name>
+        <param><defname>type</defname></param>
+        <initializer>  static_cast&lt; <ref refid="namespacetesting_1_1internal_1aa8747bda20137c9aa7f846dee830e686" kindref="member">::testing::internal::TypeKind</ref>&gt;( \
+      <ref refid="structtesting_1_1internal_1_1KindOf" kindref="compound">::testing::internal::KindOf</ref>&lt;type&gt;::value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="168" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a8ee49a1af821b48fd83849c050d0d5a2" prot="public" static="no">
+        <name>GMOCK_IS_SIGNED_</name>
+        <param><defname>T</defname></param>
+        <initializer>(static_cast&lt;T&gt;(-1) &lt; 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="173" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h"/>
+  </compounddef>
+</doxygen>

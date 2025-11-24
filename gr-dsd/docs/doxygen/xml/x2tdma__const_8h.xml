@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="x2tdma__const_8h" kind="file" language="C++">
+    <compoundname>x2tdma_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="x2tdma__const_8h_1a80895200df4009eb6904e7d4c7e6d183" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int aW[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>aW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" line="23" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" declline="23" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="x2tdma__const_8h_1ac725b2129d14001f86b9f0f95b003214" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int aX[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>aX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" line="24" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" declline="24" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="x2tdma__const_8h_1aea168cc3dadcaf8c8a586269db8f6ab2" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int aY[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>aY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" line="25" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" declline="25" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="x2tdma__const_8h_1a623e54f6679b522e8a69b2bf029b79c6" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int aZ[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>aZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" line="26" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h" declline="26" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/x2tdma_const.h"/>
+  </compounddef>
+</doxygen>

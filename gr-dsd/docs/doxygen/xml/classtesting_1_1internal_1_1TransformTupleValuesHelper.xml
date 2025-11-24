@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1TransformTupleValuesHelper" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::TransformTupleValuesHelper</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <innerclass refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple" prot="private">testing::internal::TransformTupleValuesHelper::IterateOverTuple</innerclass>
+    <innerclass refid="structtesting_1_1internal_1_1TransformTupleValuesHelper_1_1IterateOverTuple_3_01Tup_00_010_01_4" prot="private">testing::internal::TransformTupleValuesHelper::IterateOverTuple&lt; Tup, 0 &gt;</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Tuple</type>
+      </param>
+      <param>
+        <type>typename Func</type>
+      </param>
+      <param>
+        <type>typename OutIter</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1TransformTupleValuesHelper_1ab295a274e0eac5ee0ab680888e04ce58" prot="private" static="no">
+        <type><ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt; Tuple &gt;</type>
+        <definition>typedef ::std::tr1::tuple_size&lt;Tuple&gt; testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::TupleSize</definition>
+        <argsstring></argsstring>
+        <name>TupleSize</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::TupleSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="805" column="43" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1TransformTupleValuesHelper_1ab295a274e0eac5ee0ab680888e04ce58" prot="private" static="no">
+        <type><ref refid="structstd_1_1tr1_1_1tuple__size" kindref="compound">::std::tr1::tuple_size</ref>&lt; Tuple &gt;</type>
+        <definition>typedef ::std::tr1::tuple_size&lt;Tuple&gt; testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::TupleSize</definition>
+        <argsstring></argsstring>
+        <name>TupleSize</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::TupleSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="805" column="43" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="805" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TransformTupleValuesHelper_1a27773f284f43c712ec72923a872d35fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OutIter</type>
+        <definition>static OutIter testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::Run</definition>
+        <argsstring>(Func f, const Tuple &amp;t, OutIter out)</argsstring>
+        <name>Run</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::Run</qualifiedname>
+        <param>
+          <type>Func</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const Tuple &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>OutIter</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="810" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="810" bodyend="812"/>
+        <referencedby refid="namespacetesting_1_1internal_1a07ba091a64aa2ba95e41accc55dc8855" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="834" endline="836">testing::internal::TransformTupleValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1TransformTupleValuesHelper_1a27773f284f43c712ec72923a872d35fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OutIter</type>
+        <definition>static OutIter testing::internal::TransformTupleValuesHelper&lt; Tuple, Func, OutIter &gt;::Run</definition>
+        <argsstring>(Func f, const Tuple &amp;t, OutIter out)</argsstring>
+        <name>Run</name>
+        <qualifiedname>testing::internal::TransformTupleValuesHelper::Run</qualifiedname>
+        <param>
+          <type>Func</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const Tuple &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>OutIter</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="810" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="810" bodyend="812"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="803" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="803" bodyend="828"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1TransformTupleValuesHelper_1a27773f284f43c712ec72923a872d35fc" prot="public" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper</scope><name>Run</name></member>
+      <member refid="classtesting_1_1internal_1_1TransformTupleValuesHelper_1a27773f284f43c712ec72923a872d35fc" prot="public" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper</scope><name>Run</name></member>
+      <member refid="classtesting_1_1internal_1_1TransformTupleValuesHelper_1ab295a274e0eac5ee0ab680888e04ce58" prot="private" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper</scope><name>TupleSize</name></member>
+      <member refid="classtesting_1_1internal_1_1TransformTupleValuesHelper_1ab295a274e0eac5ee0ab680888e04ce58" prot="private" virt="non-virtual"><scope>testing::internal::TransformTupleValuesHelper</scope><name>TupleSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

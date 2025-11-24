@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="nxdn96__const_8h" kind="file" language="C++">
+    <compoundname>nxdn96_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="nxdn96__const_8h_1a892598defa64ab770b58e4338fc745d1" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int nW[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>nW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" line="23" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" declline="23" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="nxdn96__const_8h_1a939bee48fd3a1a42c426e41b3fad7ce6" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int nX[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>nX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" line="24" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" declline="24" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="nxdn96__const_8h_1a9aba1edca7f93542d2e548bc5b5f59c7" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int nY[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>nY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" line="25" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" declline="25" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="nxdn96__const_8h_1a5e03c9b75e6cf3abe94c2dd2e2aaaa21" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int nZ[36]</definition>
+        <argsstring>[36]</argsstring>
+        <name>nZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" line="26" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h" declline="26" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/nxdn96_const.h"/>
+  </compounddef>
+</doxygen>

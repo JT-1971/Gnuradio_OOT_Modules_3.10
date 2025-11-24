@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h" kind="file" language="C++">
+    <compoundname>mbelib/test/gmock/include/gmock/internal/gmock-port.h</compoundname>
+    <includes local="no">assert.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="yes">gtest/internal/gtest-linked_ptr.h</includes>
+    <includes local="yes">gtest/internal/gtest-port.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-port.h</label>
+        <link refid="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>assert.h</label>
+      </node>
+      <node id="5">
+        <label>gtest/internal/gtest-linked_ptr.h</label>
+      </node>
+      <node id="6">
+        <label>gtest/internal/gtest-port.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" prot="public" static="no">
+        <name>GMOCK_FLAG</name>
+        <param><defname>name</defname></param>
+        <initializer>FLAGS_gmock_##name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="61" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1a7a0a953221ea8ef5aaa6c644a48af599" prot="public" static="no">
+        <name>GMOCK_DECLARE_bool_</name>
+        <param><defname>name</defname></param>
+        <initializer>extern <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> bool <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="64" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1adeb7f0a8d842d1d541615763835af3f9" prot="public" static="no">
+        <name>GMOCK_DECLARE_int32_</name>
+        <param><defname>name</defname></param>
+        <initializer>    extern <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> <ref refid="namespacetesting_1_1internal_1af89e21e4043b5cf0c120af487b24fa06" kindref="member">::testing::internal::Int32</ref> <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="65" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="65" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1a35af08c45131cf68d78446cb8cfe40fe" prot="public" static="no">
+        <name>GMOCK_DECLARE_string_</name>
+        <param><defname>name</defname></param>
+        <initializer>    extern <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> ::std::string <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="67" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="67" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1a470be328fabbeef3987127adc18a1433" prot="public" static="no">
+        <name>GMOCK_DEFINE_bool_</name>
+        <param><defname>name</defname></param>
+        <param><defname>default_val</defname></param>
+        <param><defname>doc</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> bool <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name) = (default_val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="71" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1a19d91081ff0aaab2f60ef1dc2d6e6b34" prot="public" static="no">
+        <name>GMOCK_DEFINE_int32_</name>
+        <param><defname>name</defname></param>
+        <param><defname>default_val</defname></param>
+        <param><defname>doc</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> <ref refid="namespacetesting_1_1internal_1af89e21e4043b5cf0c120af487b24fa06" kindref="member">::testing::internal::Int32</ref> <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name) = (default_val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="73" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="73" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="define" id="mbelib_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad6badbf90e5a813e2bd5668fc6b6a8f7" prot="public" static="no">
+        <name>GMOCK_DEFINE_string_</name>
+        <param><defname>name</defname></param>
+        <param><defname>default_val</defname></param>
+        <param><defname>doc</defname></param>
+        <initializer>    <ref refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1aa73be6f0ba4a7456180a94904ce17790" kindref="member">GTEST_API_</ref> ::std::string <ref refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-port_8h_1ad7119adfef06be5e7b1551633f5a1436" kindref="member">GMOCK_FLAG</ref>(name) = (default_val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" line="75" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h" bodystart="75" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-port.h"/>
+  </compounddef>
+</doxygen>

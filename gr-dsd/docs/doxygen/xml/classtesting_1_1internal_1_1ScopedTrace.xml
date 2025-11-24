@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ScopedTrace" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ScopedTrace</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" local="no">gtest-internal.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1ab965d7010bbbc82c1bef6ebf8748bede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::ScopedTrace</definition>
+        <argsstring>(const char *file, int line, const Message &amp;message)</argsstring>
+        <name>ScopedTrace</name>
+        <qualifiedname>testing::internal::ScopedTrace::ScopedTrace</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Message" kindref="compound">Message</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="160" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1a658c7c098ff48337058bfa2ccab65881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::~ScopedTrace</definition>
+        <argsstring>()</argsstring>
+        <name>~ScopedTrace</name>
+        <qualifiedname>testing::internal::ScopedTrace::~ScopedTrace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="166" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1ab965d7010bbbc82c1bef6ebf8748bede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::ScopedTrace</definition>
+        <argsstring>(const char *file, int line, const Message &amp;message)</argsstring>
+        <name>ScopedTrace</name>
+        <qualifiedname>testing::internal::ScopedTrace::ScopedTrace</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Message" kindref="compound">Message</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="160" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1a658c7c098ff48337058bfa2ccab65881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::~ScopedTrace</definition>
+        <argsstring>()</argsstring>
+        <name>~ScopedTrace</name>
+        <qualifiedname>testing::internal::ScopedTrace::~ScopedTrace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="166" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1a0c896625ebd31d5cf7a2e7038df1c2b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(ScopedTrace)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::ScopedTrace::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ScopedTrace" kindref="compound">ScopedTrace</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="169" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ScopedTrace_1a0c896625ebd31d5cf7a2e7038df1c2b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ScopedTrace::GTEST_DISALLOW_COPY_AND_ASSIGN_</definition>
+        <argsstring>(ScopedTrace)</argsstring>
+        <name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name>
+        <qualifiedname>testing::internal::ScopedTrace::GTEST_DISALLOW_COPY_AND_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ScopedTrace" kindref="compound">ScopedTrace</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-internal.h" line="169" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" line="156" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-internal.h" bodystart="156" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1a0c896625ebd31d5cf7a2e7038df1c2b5" prot="private" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1a0c896625ebd31d5cf7a2e7038df1c2b5" prot="private" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>GTEST_DISALLOW_COPY_AND_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1ab965d7010bbbc82c1bef6ebf8748bede" prot="public" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>ScopedTrace</name></member>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1ab965d7010bbbc82c1bef6ebf8748bede" prot="public" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>ScopedTrace</name></member>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1a658c7c098ff48337058bfa2ccab65881" prot="public" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>~ScopedTrace</name></member>
+      <member refid="classtesting_1_1internal_1_1ScopedTrace_1a658c7c098ff48337058bfa2ccab65881" prot="public" virt="non-virtual"><scope>testing::internal::ScopedTrace</scope><name>~ScopedTrace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

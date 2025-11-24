@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ArgsMatcherImpl" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ArgsMatcherImpl</compoundname>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ArgsTuple &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1MatcherInterface" prot="public" virt="non-virtual">testing::MatcherInterface&lt; ArgsTuple &gt;</basecompoundref>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h" local="no">gmock-generated-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class ArgsTuple</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k0</declname>
+        <defname>k0</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k1</declname>
+        <defname>k1</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k2</declname>
+        <defname>k2</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k3</declname>
+        <defname>k3</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k4</declname>
+        <defname>k4</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k5</declname>
+        <defname>k5</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k6</declname>
+        <defname>k6</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k7</declname>
+        <defname>k7</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k8</declname>
+        <defname>k8</defname>
+        <defval>-1</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>k9</declname>
+        <defname>k9</defname>
+        <defval>-1</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1TupleFields" kindref="compound">internal::TupleFields</ref>&lt; RawArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::type</type>
+        <definition>typedef internal::TupleFields&lt;RawArgsTuple,k0,k1,k2,k3,k4,k5,k6,k7,k8,k9&gt;::type testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="227" column="9" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1ab90d2c074b2072d6c39bf26209fb941f" prot="public" static="no">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" kindref="member">SelectedArgs</ref> &amp; &gt;</type>
+        <definition>typedef Matcher&lt;const SelectedArgs&amp;&gt; testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MonomorphicInnerMatcher</definition>
+        <argsstring></argsstring>
+        <name>MonomorphicInnerMatcher</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::MonomorphicInnerMatcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="228" column="19" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" prot="public" static="no">
+        <type><ref refid="classtesting_1_1internal_1_1TupleFields" kindref="compound">internal::TupleFields</ref>&lt; RawArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::type</type>
+        <definition>typedef internal::TupleFields&lt;RawArgsTuple,k0,k1,k2,k3,k4,k5,k6,k7,k8,k9&gt;::type testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::SelectedArgs</definition>
+        <argsstring></argsstring>
+        <name>SelectedArgs</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::SelectedArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="227" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1ab90d2c074b2072d6c39bf26209fb941f" prot="public" static="no">
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; const <ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" kindref="member">SelectedArgs</ref> &amp; &gt;</type>
+        <definition>typedef Matcher&lt;const SelectedArgs&amp;&gt; testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MonomorphicInnerMatcher</definition>
+        <argsstring></argsstring>
+        <name>MonomorphicInnerMatcher</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::MonomorphicInnerMatcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="228" column="19" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a719ba7e85d3381661021d699c9978ed0" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ab90d2c074b2072d6c39bf26209fb941f" kindref="member">MonomorphicInnerMatcher</ref></type>
+        <definition>const MonomorphicInnerMatcher testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::inner_matcher_</definition>
+        <argsstring></argsstring>
+        <name>inner_matcher_</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::inner_matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="284" column="33" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7b0cadc369c0c20cd254cc2052782301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(ArgsTuple) RawArgsTuple</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>ArgsTuple</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="225" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7f7a9a826d130d11fe30633d79f59a06" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InnerMatcher</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::ArgsMatcherImpl</definition>
+        <argsstring>(const InnerMatcher &amp;inner_matcher)</argsstring>
+        <name>ArgsMatcherImpl</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::ArgsMatcherImpl</qualifiedname>
+        <param>
+          <type>const InnerMatcher &amp;</type>
+          <declname>inner_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="231" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="231" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MatchAndExplain</definition>
+        <argsstring>(ArgsTuple args, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>ArgsTuple</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="234" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="234" bodyend="248"/>
+        <references refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="104" endline="104">testing::MatchResultListener::IsInterested</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="namespacetesting_1aa5717bb1144edd1d262d310ba70c82ed" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="847" endline="851">testing::PrintToString</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+        <references refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="98" endline="98">testing::MatchResultListener::stream</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="250" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="256" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="256" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7b0cadc369c0c20cd254cc2052782301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GTEST_REMOVE_REFERENCE_AND_CONST_</definition>
+        <argsstring>(ArgsTuple) RawArgsTuple</argsstring>
+        <name>GTEST_REMOVE_REFERENCE_AND_CONST_</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GTEST_REMOVE_REFERENCE_AND_CONST_</qualifiedname>
+        <param>
+          <type>ArgsTuple</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="225" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7f7a9a826d130d11fe30633d79f59a06" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InnerMatcher</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::ArgsMatcherImpl</definition>
+        <argsstring>(const InnerMatcher &amp;inner_matcher)</argsstring>
+        <name>ArgsMatcherImpl</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::ArgsMatcherImpl</qualifiedname>
+        <param>
+          <type>const InnerMatcher &amp;</type>
+          <declname>inner_matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="231" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="231" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::MatchAndExplain</definition>
+        <argsstring>(ArgsTuple args, MatchResultListener *listener) const</argsstring>
+        <name>MatchAndExplain</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::MatchAndExplain</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherInterface_1a296b43607cd99d60365f0e6a762777cf">MatchAndExplain</reimplements>
+        <param>
+          <type>ArgsTuple</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type><ref refid="classtesting_1_1MatchResultListener" kindref="compound">MatchResultListener</ref> *</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="234" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="234" bodyend="248"/>
+        <references refid="classtesting_1_1MatchResultListener_1ac34f9771f2ba6128cd6a1348b3aebda3" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="104" endline="104">testing::MatchResultListener::IsInterested</references>
+        <references refid="namespacetesting_1_1internal_1afa4cd5d7933878d6d820b32c87bb2767" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="653" endline="658">testing::internal::PrintIfNotEmpty</references>
+        <references refid="namespacetesting_1aa5717bb1144edd1d262d310ba70c82ed" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="847" endline="851">testing::PrintToString</references>
+        <references refid="classtesting_1_1StringMatchResultListener_1ad1ed3c6b1077cc76b67567b33f5a2bd1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="189" endline="189">testing::StringMatchResultListener::str</references>
+        <references refid="classtesting_1_1MatchResultListener_1a7f0e5cffd6983499e99546c759aee2f8" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="98" endline="98">testing::MatchResultListener::stream</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::DescribeTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeTo</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::DescribeTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1ad9f861588bd969b6e3e717f13bb94e7b">DescribeTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="250" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::DescribeNegationTo</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>DescribeNegationTo</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::DescribeNegationTo</qualifiedname>
+        <reimplements refid="classtesting_1_1MatcherDescriberInterface_1a2071afbc47097c4d1c0064275af34db0">DescribeNegationTo</reimplements>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="256" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="256" bodyend="260"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a168a7d6a82bd20fd6b1c777ab64c34a5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GetSelectedArgs</definition>
+        <argsstring>(ArgsTuple args)</argsstring>
+        <name>GetSelectedArgs</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GetSelectedArgs</qualifiedname>
+        <param>
+          <type>ArgsTuple</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="263" column="23" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a2ea95d7970a1874c9616e42009ae53b0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::PrintIndices</definition>
+        <argsstring>(::std::ostream *os)</argsstring>
+        <name>PrintIndices</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::PrintIndices</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="269" column="15" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="269" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a168a7d6a82bd20fd6b1c777ab64c34a5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" kindref="member">SelectedArgs</ref></type>
+        <definition>static SelectedArgs testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GetSelectedArgs</definition>
+        <argsstring>(ArgsTuple args)</argsstring>
+        <name>GetSelectedArgs</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GetSelectedArgs</qualifiedname>
+        <param>
+          <type>ArgsTuple</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="263" column="23" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a2ea95d7970a1874c9616e42009ae53b0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::PrintIndices</definition>
+        <argsstring>(::std::ostream *os)</argsstring>
+        <name>PrintIndices</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::PrintIndices</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="269" column="15" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="269" bodyend="282"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a6ef9d2868258271039d001e20f5f7fb2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ArgsMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl" kindref="compound">ArgsMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="286" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ArgsMatcherImpl_1a6ef9d2868258271039d001e20f5f7fb2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ArgsMatcherImpl)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ArgsMatcherImpl::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ArgsMatcherImpl" kindref="compound">ArgsMatcherImpl</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-matchers.h" line="286" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; ArgsTuple &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ArgsMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::MatcherInterface&lt; ArgsTuple &gt;</label>
+        <link refid="classtesting_1_1MatcherInterface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>testing::MatcherDescriberInterface</label>
+        <link refid="classtesting_1_1MatcherDescriberInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ArgsMatcherImpl&lt; ArgsTuple, k0, k1, k2, k3, k4, k5, k6, k7, k8, k9 &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ArgsMatcherImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" line="222" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-matchers.h" bodystart="222" bodyend="287"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7f7a9a826d130d11fe30633d79f59a06" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>ArgsMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7f7a9a826d130d11fe30633d79f59a06" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>ArgsMatcherImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ac8ff5369879836567cedb5434bcca5b9" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>DescribeNegationTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a8e057f67b368f7d94aeb0ddd35837c94" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>DescribeTo</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a168a7d6a82bd20fd6b1c777ab64c34a5" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GetSelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a168a7d6a82bd20fd6b1c777ab64c34a5" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GetSelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a6ef9d2868258271039d001e20f5f7fb2" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a6ef9d2868258271039d001e20f5f7fb2" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7b0cadc369c0c20cd254cc2052782301" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a7b0cadc369c0c20cd254cc2052782301" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>GTEST_REMOVE_REFERENCE_AND_CONST_</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a719ba7e85d3381661021d699c9978ed0" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>inner_matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a60383b3073a61f9d82cbf31fe19e6bfa" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>MatchAndExplain</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ab90d2c074b2072d6c39bf26209fb941f" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>MonomorphicInnerMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1ab90d2c074b2072d6c39bf26209fb941f" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>MonomorphicInnerMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a2ea95d7970a1874c9616e42009ae53b0" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>PrintIndices</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a2ea95d7970a1874c9616e42009ae53b0" prot="private" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>PrintIndices</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1internal_1_1ArgsMatcherImpl_1a0e4e8353ee34607eee4b2dbf61486985" prot="public" virt="non-virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>SelectedArgs</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+      <member refid="classtesting_1_1MatcherDescriberInterface_1ae2236a56ad2cc35cad10efc1208854f4" prot="public" virt="virtual"><scope>testing::internal::ArgsMatcherImpl</scope><name>~MatcherDescriberInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

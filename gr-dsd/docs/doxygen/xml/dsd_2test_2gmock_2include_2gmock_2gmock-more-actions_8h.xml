@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gmock_2include_2gmock_2gmock-more-actions_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gmock/include/gmock/gmock-more-actions.h</compoundname>
+    <includes local="no">algorithm</includes>
+    <includes local="yes">gmock/gmock-generated-actions.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gmock-more-actions.h</label>
+        <link refid="dsd_2test_2gmock_2include_2gmock_2gmock-more-actions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>algorithm</label>
+      </node>
+      <node id="3">
+        <label>gmock/gmock-generated-actions.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1internal_1_1InvokeAction" prot="public">testing::internal::InvokeAction</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1InvokeMethodAction" prot="public">testing::internal::InvokeMethodAction</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-more-actions.h"/>
+  </compounddef>
+</doxygen>

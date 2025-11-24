@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ActionAdaptor" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ActionAdaptor</compoundname>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F1 &gt;</basecompoundref>
+    <basecompoundref refid="classtesting_1_1ActionInterface" prot="public" virt="non-virtual">testing::ActionInterface&lt; F1 &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename F1</type>
+      </param>
+      <param>
+        <type>typename F2</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F1 &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F1&gt;::Result testing::internal::ActionAdaptor&lt; F1, F2 &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::internal::ActionAdaptor::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="411" column="48" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F1 &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F1&gt;::ArgumentTuple testing::internal::ActionAdaptor&lt; F1, F2 &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::ActionAdaptor::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="412" column="55" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F1 &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F1&gt;::Result testing::internal::ActionAdaptor&lt; F1, F2 &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::internal::ActionAdaptor::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="411" column="48" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F1 &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F1&gt;::ArgumentTuple testing::internal::ActionAdaptor&lt; F1, F2 &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::internal::ActionAdaptor::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="412" column="55" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ActionAdaptor_1a4337496ccf38d4846a087c16b4053659" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; <ref refid="classtesting_1_1ActionInterface" kindref="compound">ActionInterface</ref>&lt; F2 &gt; &gt;</type>
+        <definition>const internal::linked_ptr&lt; ActionInterface&lt; F2 &gt; &gt; testing::internal::ActionAdaptor&lt; F1, F2 &gt;::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>testing::internal::ActionAdaptor::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="421" column="30" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1a24ba3330ef3cc365b956c50ec73e4177" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionAdaptor&lt; F1, F2 &gt;::ActionAdaptor</definition>
+        <argsstring>(const Action&lt; F2 &gt; &amp;from)</argsstring>
+        <name>ActionAdaptor</name>
+        <qualifiedname>testing::internal::ActionAdaptor::ActionAdaptor</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F2 &gt; &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="414" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1a8d8a47a31f068cf6e0c95b91605d5540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" kindref="member">Result</ref></type>
+        <definition>virtual Result testing::internal::ActionAdaptor&lt; F1, F2 &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionAdaptor::Perform</qualifiedname>
+        <reimplements refid="classtesting_1_1ActionInterface_1a20f8624fcea1786f2992b358760422a0">Perform</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="416" column="18" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="416" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1a24ba3330ef3cc365b956c50ec73e4177" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionAdaptor&lt; F1, F2 &gt;::ActionAdaptor</definition>
+        <argsstring>(const Action&lt; F2 &gt; &amp;from)</argsstring>
+        <name>ActionAdaptor</name>
+        <qualifiedname>testing::internal::ActionAdaptor::ActionAdaptor</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F2 &gt; &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="414" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1a8d8a47a31f068cf6e0c95b91605d5540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" kindref="member">Result</ref></type>
+        <definition>virtual Result testing::internal::ActionAdaptor&lt; F1, F2 &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionAdaptor::Perform</qualifiedname>
+        <reimplements refid="classtesting_1_1ActionInterface_1a20f8624fcea1786f2992b358760422a0">Perform</reimplements>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="416" column="18" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="416" bodyend="418"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1ad46465f82ccd055324fa267308c2753e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionAdaptor&lt; F1, F2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ActionAdaptor)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ActionAdaptor::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor" kindref="compound">ActionAdaptor</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="423" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionAdaptor_1ad46465f82ccd055324fa267308c2753e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionAdaptor&lt; F1, F2 &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ActionAdaptor)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ActionAdaptor::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor" kindref="compound">ActionAdaptor</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="423" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F1 &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ActionAdaptor&lt; F1, F2 &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ActionAdaptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::ActionInterface&lt; F1 &gt;</label>
+        <link refid="classtesting_1_1ActionInterface"/>
+      </node>
+      <node id="1">
+        <label>testing::internal::ActionAdaptor&lt; F1, F2 &gt;</label>
+        <link refid="classtesting_1_1internal_1_1ActionAdaptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="409" column="1" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="409" bodyend="424"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a24ba3330ef3cc365b956c50ec73e4177" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ActionAdaptor</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a24ba3330ef3cc365b956c50ec73e4177" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ActionAdaptor</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a0f1d44e4c669a9cae5ee5b28419a6f52" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ActionInterface</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a4f78fb73f97b72fea8a93b78a8ab5704" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1ad46465f82ccd055324fa267308c2753e" prot="private" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1ad46465f82ccd055324fa267308c2753e" prot="private" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a4337496ccf38d4846a087c16b4053659" prot="private" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>impl_</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a8d8a47a31f068cf6e0c95b91605d5540" prot="public" virt="virtual"><scope>testing::internal::ActionAdaptor</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1a8d8a47a31f068cf6e0c95b91605d5540" prot="public" virt="virtual"><scope>testing::internal::ActionAdaptor</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>Result</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionAdaptor_1afa8f7872b6db3d8f1545fd98b45b0b95" prot="public" virt="non-virtual"><scope>testing::internal::ActionAdaptor</scope><name>Result</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::internal::ActionAdaptor</scope><name>~ActionInterface</name></member>
+      <member refid="classtesting_1_1ActionInterface_1a7dd0a5fc93d86ae3c9d04963b9f3a93f" prot="public" virt="virtual"><scope>testing::internal::ActionAdaptor</scope><name>~ActionInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

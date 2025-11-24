@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1Action" kind="class" language="C++" prot="public">
+    <compoundname>testing::Action</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" local="no">gmock-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F&gt;::Result testing::Action&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::Action::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="282" column="48" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::Action&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::Action::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="283" column="55" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::Result</type>
+        <definition>typedef internal::Function&lt;F&gt;::Result testing::Action&lt; F &gt;::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>testing::Action::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="282" column="48" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">internal::Function</ref>&lt; F &gt;::ArgumentTuple</type>
+        <definition>typedef internal::Function&lt;F&gt;::ArgumentTuple testing::Action&lt; F &gt;::ArgumentTuple</definition>
+        <argsstring></argsstring>
+        <name>ArgumentTuple</name>
+        <qualifiedname>testing::Action::ArgumentTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="283" column="55" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classtesting_1_1Action_1a66fe4f9c9b9d020273151aa6054b491e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F1</type>
+          </param>
+          <param>
+            <type>typename F2</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class internal::ActionAdaptor</definition>
+        <argsstring></argsstring>
+        <name>internal::ActionAdaptor</name>
+        <qualifiedname>testing::Action::ActionAdaptor</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor" kindref="compound">internal::ActionAdaptor</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="325" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classtesting_1_1Action_1a103d8887946110b8d9b8285a8f1c54cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F1</type>
+          </param>
+          <param>
+            <type>typename F2</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>class internal::ActionAdaptor</definition>
+        <argsstring></argsstring>
+        <name>internal::ActionAdaptor</name>
+        <qualifiedname>testing::Action::ActionAdaptor</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ActionAdaptor" kindref="compound">internal::ActionAdaptor</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="325" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1Action_1af828d08c0d51ac75873b723e7dd1af3b" prot="private" static="no" mutable="no">
+        <type><ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; <ref refid="classtesting_1_1ActionInterface" kindref="compound">ActionInterface</ref>&lt; F &gt; &gt;</type>
+        <definition>internal::linked_ptr&lt; ActionInterface&lt; F &gt; &gt; testing::Action&lt; F &gt;::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>testing::Action::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="327" column="24" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1Action_1a967772922a39dd7098bee429d749f277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>()</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="287" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a5ce44c673e3f91378777b954d88917cd" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(ActionInterface&lt; F &gt; *impl)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1ActionInterface" kindref="compound">ActionInterface</ref>&lt; F &gt; *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="291" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="291" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a7027316ea3a6972ce7847496eb360ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(const Action &amp;action)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="294" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="294" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a806bacddaa1f1daf61f89674564bdf0f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Func</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(const Action&lt; Func &gt; &amp;action)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; Func &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="301" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Action&lt; F &gt;::IsDoDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDoDefault</name>
+        <qualifiedname>testing::Action::IsDoDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="304" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="304" bodyend="304"/>
+        <referencedby refid="classtesting_1_1Action_1ad00a03062885685da84b308e6e8ff4cb" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="312" endline="321">testing::Action&lt; F &gt;::Perform</referencedby>
+        <referencedby refid="classtesting_1_1internal_1_1OnCallSpec_1a97b582bc0995afb01162eb9a458ed514" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h" startline="316" endline="326">testing::internal::OnCallSpec&lt; F &gt;::WillByDefault</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1ad00a03062885685da84b308e6e8ff4cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" kindref="member">Result</ref></type>
+        <definition>Result testing::Action&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::Action::Perform</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="312" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="312" bodyend="321"/>
+        <references refid="namespacetesting_1_1internal_1a7a259643b7f2d23ce2b757728df42c99" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="288" endline="290">testing::internal::Assert</references>
+        <references refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="304" endline="304">testing::Action&lt; F &gt;::IsDoDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a967772922a39dd7098bee429d749f277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>()</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="287" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a5ce44c673e3f91378777b954d88917cd" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(ActionInterface&lt; F &gt; *impl)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1ActionInterface" kindref="compound">ActionInterface</ref>&lt; F &gt; *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="291" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="291" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a7027316ea3a6972ce7847496eb360ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(const Action &amp;action)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="294" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="294" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a806bacddaa1f1daf61f89674564bdf0f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Func</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::Action&lt; F &gt;::Action</definition>
+        <argsstring>(const Action&lt; Func &gt; &amp;action)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; Func &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="301" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::Action&lt; F &gt;::IsDoDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDoDefault</name>
+        <qualifiedname>testing::Action::IsDoDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="304" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1ad00a03062885685da84b308e6e8ff4cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" kindref="member">Result</ref></type>
+        <definition>Result testing::Action&lt; F &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::Action::Perform</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" kindref="member">ArgumentTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="312" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="312" bodyend="321"/>
+        <references refid="namespacetesting_1_1internal_1a7a259643b7f2d23ce2b757728df42c99" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="288" endline="290">testing::internal::Assert</references>
+        <references refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-actions_8h" startline="304" endline="304">testing::Action&lt; F &gt;::IsDoDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1Action_1aca0934e8d413fc4dde488bd483917ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::Action&lt; To &gt;::Action</definition>
+        <argsstring>(const Action&lt; From &gt; &amp;from)</argsstring>
+        <name>Action</name>
+        <qualifiedname>testing::Action::Action</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; From &gt; &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="936" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="936" bodyend="937"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="280" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="280" bodyend="328"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1Action_1a967772922a39dd7098bee429d749f277" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a5ce44c673e3f91378777b954d88917cd" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a7027316ea3a6972ce7847496eb360ccd" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a806bacddaa1f1daf61f89674564bdf0f" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a967772922a39dd7098bee429d749f277" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a5ce44c673e3f91378777b954d88917cd" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a7027316ea3a6972ce7847496eb360ccd" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1a806bacddaa1f1daf61f89674564bdf0f" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1aca0934e8d413fc4dde488bd483917ff5" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Action</name></member>
+      <member refid="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1Action_1ae27fda510696a9294f991de5b1abfaf2" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>ArgumentTuple</name></member>
+      <member refid="classtesting_1_1Action_1af828d08c0d51ac75873b723e7dd1af3b" prot="private" virt="non-virtual"><scope>testing::Action</scope><name>impl_</name></member>
+      <member refid="classtesting_1_1Action_1a66fe4f9c9b9d020273151aa6054b491e" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>internal::ActionAdaptor</name></member>
+      <member refid="classtesting_1_1Action_1a103d8887946110b8d9b8285a8f1c54cb" prot="private" virt="non-virtual"><scope>testing::Action</scope><name>internal::ActionAdaptor</name></member>
+      <member refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>IsDoDefault</name></member>
+      <member refid="classtesting_1_1Action_1a4468ca2ea5e9f7363271145992d09dba" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>IsDoDefault</name></member>
+      <member refid="classtesting_1_1Action_1ad00a03062885685da84b308e6e8ff4cb" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1Action_1ad00a03062885685da84b308e6e8ff4cb" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Result</name></member>
+      <member refid="classtesting_1_1Action_1a9af08a21ad329331fde856cba9b6dea2" prot="public" virt="non-virtual"><scope>testing::Action</scope><name>Result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

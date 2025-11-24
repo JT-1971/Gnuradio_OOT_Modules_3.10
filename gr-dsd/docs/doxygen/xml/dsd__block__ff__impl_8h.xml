@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd__block__ff__impl_8h" kind="file" language="C++">
+    <compoundname>dsd_block_ff_impl.h</compoundname>
+    <includes refid="dsd__block__ff_8h" local="no">dsd/dsd_block_ff.h</includes>
+    <includes refid="dsd_8h" local="no">dsd.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>config.h</label>
+        <link refid="dsd_2include_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>dsd.h</label>
+        <link refid="dsd_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>p25p1_heuristics.h</label>
+        <link refid="p25p1__heuristics_8h"/>
+      </node>
+      <node id="4">
+        <label>dsd/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dsd/dsd_block_ff.h</label>
+        <link refid="dsd__block__ff_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dsd_block_ff_impl.h</label>
+        <link refid="dsd__block__ff__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mbelib.h</label>
+        <link refid="mbelib_8h"/>
+      </node>
+      <node id="17">
+        <label>fcntl.h</label>
+      </node>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="20">
+        <label>math.h</label>
+      </node>
+      <node id="10">
+        <label>signal.h</label>
+      </node>
+      <node id="22">
+        <label>sndfile.h</label>
+      </node>
+      <node id="8">
+        <label>stdio.h</label>
+      </node>
+      <node id="9">
+        <label>stdlib.h</label>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+      <node id="16">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="19">
+        <label>sys/soundcard.h</label>
+      </node>
+      <node id="15">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="13">
+        <label>sys/time.h</label>
+      </node>
+      <node id="14">
+        <label>sys/types.h</label>
+      </node>
+      <node id="12">
+        <label>time.h</label>
+      </node>
+      <node id="18">
+        <label>unistd.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgr_1_1dsd_1_1dsd__params" prot="public">gr::dsd::dsd_params</innerclass>
+    <innerclass refid="classgr_1_1dsd_1_1dsd__block__ff__impl" prot="public">gr::dsd::dsd_block_ff_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1dsd">gr::dsd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h"/>
+  </compounddef>
+</doxygen>

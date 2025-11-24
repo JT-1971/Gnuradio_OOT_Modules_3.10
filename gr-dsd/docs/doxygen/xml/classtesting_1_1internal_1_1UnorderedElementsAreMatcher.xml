@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::UnorderedElementsAreMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1acfcd56f88943d922d7e7ecd8d9c5eb9f" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref></type>
+        <definition>const MatcherTuple testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::matchers_</definition>
+        <argsstring></argsstring>
+        <name>matchers_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3230" column="22" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3230" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1ae0a46833600dc8ef768d154ab111f5fa" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::UnorderedElementsAreMatcher</definition>
+        <argsstring>(const MatcherTuple &amp;args)</argsstring>
+        <name>UnorderedElementsAreMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::UnorderedElementsAreMatcher</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3212" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3212" bodyend="3213"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a5191cb321191985e257225b9a5df95f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3216" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3216" bodyend="3227"/>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+        <references refid="namespacetesting_1_1internal_1a07ba091a64aa2ba95e41accc55dc8855" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="834" endline="836">testing::internal::TransformTupleValues</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1ae0a46833600dc8ef768d154ab111f5fa" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::UnorderedElementsAreMatcher</definition>
+        <argsstring>(const MatcherTuple &amp;args)</argsstring>
+        <name>UnorderedElementsAreMatcher</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::UnorderedElementsAreMatcher</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1internal_1_1MatcherTuple" kindref="compound">MatcherTuple</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3212" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3212" bodyend="3213"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a5191cb321191985e257225b9a5df95f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::operator Matcher&lt; Container &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Container &gt;</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::operator Matcher&lt; Container &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3216" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3216" bodyend="3227"/>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+        <references refid="namespacetesting_1_1internal_1a07ba091a64aa2ba95e41accc55dc8855" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="834" endline="836">testing::internal::TransformTupleValues</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a7735afd5dd74513f0dd14da5d2e3bec3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(UnorderedElementsAreMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher" kindref="compound">UnorderedElementsAreMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3231" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a7735afd5dd74513f0dd14da5d2e3bec3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::UnorderedElementsAreMatcher&lt; MatcherTuple &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(UnorderedElementsAreMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::UnorderedElementsAreMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher" kindref="compound">UnorderedElementsAreMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3231" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3210" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3210" bodyend="3232"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a7735afd5dd74513f0dd14da5d2e3bec3" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a7735afd5dd74513f0dd14da5d2e3bec3" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1acfcd56f88943d922d7e7ecd8d9c5eb9f" prot="private" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a5191cb321191985e257225b9a5df95f5" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1a5191cb321191985e257225b9a5df95f5" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>operator Matcher&lt; Container &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1ae0a46833600dc8ef768d154ab111f5fa" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>UnorderedElementsAreMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcher_1ae0a46833600dc8ef768d154ab111f5fa" prot="public" virt="non-virtual"><scope>testing::internal::UnorderedElementsAreMatcher</scope><name>UnorderedElementsAreMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

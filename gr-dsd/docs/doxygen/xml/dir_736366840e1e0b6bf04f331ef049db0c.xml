@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_736366840e1e0b6bf04f331ef049db0c" kind="dir">
+    <compoundname>internal</compoundname>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-death-test-internal_8h">mbelib/test/gtest/include/gtest/internal/gtest-death-test-internal.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-filepath_8h">mbelib/test/gtest/include/gtest/internal/gtest-filepath.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h">mbelib/test/gtest/include/gtest/internal/gtest-internal.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-linked__ptr_8h">mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-param-util-generated_8h">mbelib/test/gtest/include/gtest/internal/gtest-param-util-generated.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-param-util_8h">mbelib/test/gtest/include/gtest/internal/gtest-param-util.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h">mbelib/test/gtest/include/gtest/internal/gtest-port.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-string_8h">mbelib/test/gtest/include/gtest/internal/gtest-string.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-tuple_8h">mbelib/test/gtest/include/gtest/internal/gtest-tuple.h</innerfile>
+    <innerfile refid="mbelib_2test_2gtest_2include_2gtest_2internal_2gtest-type-util_8h">mbelib/test/gtest/include/gtest/internal/gtest-type-util.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/"/>
+  </compounddef>
+</doxygen>

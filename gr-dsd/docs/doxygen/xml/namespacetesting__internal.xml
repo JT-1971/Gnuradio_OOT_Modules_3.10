@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacetesting__internal" kind="namespace" language="C++">
+    <compoundname>testing_internal</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacetesting__internal_1a3f49d3d0c996242f9d383c850097a656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void testing_internal::DefaultPrintNonContainerTo</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>DefaultPrintNonContainerTo</name>
+        <qualifiedname>testing_internal::DefaultPrintNonContainerTo</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="218" column="6" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" bodystart="218" bodyend="246"/>
+        <referencedby refid="namespacetesting_1_1internal_1a78e4937ba564f01dac2ff25f3eece0ec" compoundref="dsd_2test_2gtest_2include_2gtest_2gtest-printers_8h" startline="335" endline="339">testing::internal::DefaultPrintTo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-printers.h" line="213" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="p25p1__const_8h" kind="file" language="C++">
+    <compoundname>p25p1_const.h</compoundname>
+    <includedby refid="p25p1__ldu_8h" local="yes">p25p1_ldu.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>p25p1_const.h</label>
+        <link refid="p25p1__const_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>p25p1_ldu.h</label>
+        <link refid="p25p1__ldu_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="p25p1__const_8h_1a4c522656bd9fa515bca41b79f7faaf86" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int iW[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>iW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" line="20" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" declline="20" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="p25p1__const_8h_1adf6701b4e5d22a14ff383cd6333da5ff" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int iX[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>iX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" line="21" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" declline="21" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="p25p1__const_8h_1ad9b28779b09c4b26c8b4a6f4605fc796" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int iY[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>iY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" line="22" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" declline="22" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="p25p1__const_8h_1ab48e6a19fb465bea4e53a6771d6a7523" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int iZ[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>iZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" line="23" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h" declline="23" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_const.h"/>
+  </compounddef>
+</doxygen>

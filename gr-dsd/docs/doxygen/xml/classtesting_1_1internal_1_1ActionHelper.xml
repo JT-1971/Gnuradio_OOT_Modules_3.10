@@ -1,0 +1,900 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ActionHelper" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ActionHelper</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Result</type>
+      </param>
+      <param>
+        <type>class Impl</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a30910dd06593834f935b0ddc6fb34627" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt;&gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="641" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="641" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1af196a59c6beffb8e05d45944d1424ac2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="650" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="650" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a13a745fcb71815fe1688636733fa0b87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="659" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="659" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a60d01cc7e115cb95bef5d80f3619dd68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="668" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="668" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1adeb4089f31935d18433a8bb51c56f459" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="677" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="677" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a3b3882628e805597f476064747e95c64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="687" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="687" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a72ef87ee77b8785d58970ce09df60415" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="698" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="698" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a51854008f188788038fd2c31b18a9ff4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="709" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="709" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a8a7ab6b7c7b562b7c275ed435099989b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="720" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="720" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a01c7999ebf70a6859a715623ef429a81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="731" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="731" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a4af225eeb8b02517c0d21def765ddf00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8, A9 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8, A9 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="742" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="742" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a30910dd06593834f935b0ddc6fb34627" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt;&gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt;&gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="641" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="641" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1af196a59c6beffb8e05d45944d1424ac2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="650" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="650" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a13a745fcb71815fe1688636733fa0b87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="659" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="659" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a60d01cc7e115cb95bef5d80f3619dd68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="668" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="668" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1adeb4089f31935d18433a8bb51c56f459" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="677" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="677" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a3b3882628e805597f476064747e95c64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="687" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="687" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a72ef87ee77b8785d58970ce09df60415" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="698" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="698" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a51854008f188788038fd2c31b18a9ff4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="709" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="709" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a8a7ab6b7c7b562b7c275ed435099989b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="720" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="720" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a01c7999ebf70a6859a715623ef429a81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="731" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="731" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionHelper_1a4af225eeb8b02517c0d21def765ddf00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A0</type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type>Result</type>
+        <definition>static Result testing::internal::ActionHelper&lt; Result, Impl &gt;::Perform</definition>
+        <argsstring>(Impl *impl, const ::std::tr1::tuple&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8, A9 &gt; &amp;args)</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::ActionHelper::Perform</qualifiedname>
+        <param>
+          <type>Impl *</type>
+          <declname>impl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classstd_1_1tr1_1_1tuple" kindref="compound">::std::tr1::tuple</ref>&lt; A0, A1, A2, A3, A4, A5, A6, A7, A8, A9 &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="742" column="17" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="742" bodyend="749"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="639" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="639" bodyend="750"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a30910dd06593834f935b0ddc6fb34627" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1af196a59c6beffb8e05d45944d1424ac2" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a13a745fcb71815fe1688636733fa0b87" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a60d01cc7e115cb95bef5d80f3619dd68" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1adeb4089f31935d18433a8bb51c56f459" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a3b3882628e805597f476064747e95c64" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a72ef87ee77b8785d58970ce09df60415" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a51854008f188788038fd2c31b18a9ff4" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a8a7ab6b7c7b562b7c275ed435099989b" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a01c7999ebf70a6859a715623ef429a81" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a4af225eeb8b02517c0d21def765ddf00" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a30910dd06593834f935b0ddc6fb34627" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1af196a59c6beffb8e05d45944d1424ac2" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a13a745fcb71815fe1688636733fa0b87" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a60d01cc7e115cb95bef5d80f3619dd68" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1adeb4089f31935d18433a8bb51c56f459" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a3b3882628e805597f476064747e95c64" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a72ef87ee77b8785d58970ce09df60415" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a51854008f188788038fd2c31b18a9ff4" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a8a7ab6b7c7b562b7c275ed435099989b" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a01c7999ebf70a6859a715623ef429a81" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionHelper_1a4af225eeb8b02517c0d21def765ddf00" prot="public" virt="non-virtual"><scope>testing::internal::ActionHelper</scope><name>Perform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

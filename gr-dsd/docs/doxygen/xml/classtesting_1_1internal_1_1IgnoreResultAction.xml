@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1IgnoreResultAction" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::IgnoreResultAction</compoundname>
+    <innerclass refid="classtesting_1_1internal_1_1IgnoreResultAction_1_1Impl" prot="private">testing::internal::IgnoreResultAction::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" kindref="member">A</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1IgnoreResultAction_1a3a1ad6d29d904acb4ca41eeee45de4a0" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" kindref="member">A</ref></type>
+        <definition>const A testing::internal::IgnoreResultAction&lt; A &gt;::action_</definition>
+        <argsstring></argsstring>
+        <name>action_</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::action_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="819" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="819" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1a9199f7b1b7771b2e2a5fd28caf624623" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::IgnoreResultAction</definition>
+        <argsstring>(const A &amp;action)</argsstring>
+        <name>IgnoreResultAction</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::IgnoreResultAction</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" kindref="member">A</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="774" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="774" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1affb8b7439604c860e1416f45339c6e37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="777" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="777" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1a9199f7b1b7771b2e2a5fd28caf624623" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::IgnoreResultAction</definition>
+        <argsstring>(const A &amp;action)</argsstring>
+        <name>IgnoreResultAction</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::IgnoreResultAction</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacetesting_1a5e9134d655d2fc9323902348083282e7" kindref="member">A</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="774" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="774" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1affb8b7439604c860e1416f45339c6e37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::operator Action&lt; F &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Action&lt; F &gt;</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::operator Action&lt; F &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="777" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="777" bodyend="792"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1a6d42dfd3fd05fbbd24f6856e7bd82ab9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(IgnoreResultAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>IgnoreResultAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="821" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1IgnoreResultAction_1a6d42dfd3fd05fbbd24f6856e7bd82ab9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::IgnoreResultAction&lt; A &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(IgnoreResultAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::IgnoreResultAction::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>IgnoreResultAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="821" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="772" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="772" bodyend="822"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1a3a1ad6d29d904acb4ca41eeee45de4a0" prot="private" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>action_</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1a6d42dfd3fd05fbbd24f6856e7bd82ab9" prot="private" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1a6d42dfd3fd05fbbd24f6856e7bd82ab9" prot="private" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1a9199f7b1b7771b2e2a5fd28caf624623" prot="public" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>IgnoreResultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1a9199f7b1b7771b2e2a5fd28caf624623" prot="public" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>IgnoreResultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1affb8b7439604c860e1416f45339c6e37" prot="public" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>operator Action&lt; F &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1IgnoreResultAction_1affb8b7439604c860e1416f45339c6e37" prot="public" virt="non-virtual"><scope>testing::internal::IgnoreResultAction</scope><name>operator Action&lt; F &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

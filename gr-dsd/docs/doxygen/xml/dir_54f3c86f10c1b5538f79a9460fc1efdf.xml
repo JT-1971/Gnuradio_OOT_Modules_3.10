@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_54f3c86f10c1b5538f79a9460fc1efdf" kind="dir">
+    <compoundname>gmock</compoundname>
+    <innerdir refid="dir_611f75410f84e0dded291a150b41b1ba">include</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/"/>
+  </compounddef>
+</doxygen>

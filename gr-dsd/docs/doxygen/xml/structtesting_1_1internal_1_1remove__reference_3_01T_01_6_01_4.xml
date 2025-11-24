@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::remove_reference&lt; T &amp; &gt;</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" local="no">gmock-internal-utils.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4_1a0d72f004f54016a47c752a82be352a19" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T testing::internal::remove_reference&lt; T &amp; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::remove_reference&lt; T &amp; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="349" column="46" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4_1a0d72f004f54016a47c752a82be352a19" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T testing::internal::remove_reference&lt; T &amp; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::remove_reference&lt; T &amp; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="349" column="46" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" line="349" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/internal/gmock-internal-utils.h" bodystart="349" bodyend="349"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4_1a0d72f004f54016a47c752a82be352a19" prot="public" virt="non-virtual"><scope>testing::internal::remove_reference&lt; T &amp; &gt;</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1remove__reference_3_01T_01_6_01_4_1a0d72f004f54016a47c752a82be352a19" prot="public" virt="non-virtual"><scope>testing::internal::remove_reference&lt; T &amp; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

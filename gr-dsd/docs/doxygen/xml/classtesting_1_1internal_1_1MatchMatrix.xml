@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1MatchMatrix" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::MatchMatrix</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1MatchMatrix_1a9e4eb268fa140a516390631cddc681db" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::num_elements_</definition>
+        <argsstring></argsstring>
+        <name>num_elements_</name>
+        <qualifiedname>testing::internal::MatchMatrix::num_elements_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3047" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1MatchMatrix_1aa89a05c387a88844fd30f03d1a24ce35" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::num_matchers_</definition>
+        <argsstring></argsstring>
+        <name>num_matchers_</name>
+        <qualifiedname>testing::internal::MatchMatrix::num_matchers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3048" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1MatchMatrix_1a2a4868f98ef1bf3ab6b60191d20f3e76" prot="private" static="no" mutable="no">
+        <type>::std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt; char &gt; testing::internal::MatchMatrix::matched_</definition>
+        <argsstring></argsstring>
+        <name>matched_</name>
+        <qualifiedname>testing::internal::MatchMatrix::matched_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3053" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3053" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1afa3313976a69b2a954b2f8b8840c37bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::MatchMatrix::MatchMatrix</definition>
+        <argsstring>(size_t num_elements, size_t num_matchers)</argsstring>
+        <name>MatchMatrix</name>
+        <qualifiedname>testing::internal::MatchMatrix::MatchMatrix</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>num_elements</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_matchers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3018" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3018" bodyend="3022"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a337d9793c61d985dbc1be166e34eed61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::LhsSize</definition>
+        <argsstring>() const</argsstring>
+        <name>LhsSize</name>
+        <qualifiedname>testing::internal::MatchMatrix::LhsSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3024" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3024" bodyend="3024"/>
+        <referencedby refid="classtesting_1_1internal_1_1UnorderedElementsAreMatcherImpl_1a4031291eef9be8c1e9e1effdd02c4334" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="3135" endline="3162">testing::internal::UnorderedElementsAreMatcherImpl&lt; Container &gt;::MatchAndExplain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aff068e9fed3a42466c5da8766ac43134" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::RhsSize</definition>
+        <argsstring>() const</argsstring>
+        <name>RhsSize</name>
+        <qualifiedname>testing::internal::MatchMatrix::RhsSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3025" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3025" bodyend="3025"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a94c7641a932739734cb2207b1bca4036" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::MatchMatrix::HasEdge</definition>
+        <argsstring>(size_t ilhs, size_t irhs) const</argsstring>
+        <name>HasEdge</name>
+        <qualifiedname>testing::internal::MatchMatrix::HasEdge</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3026" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3026" bodyend="3028"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aac7e9c6e0e4b51e6b1334829a0781021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::MatchMatrix::SetEdge</definition>
+        <argsstring>(size_t ilhs, size_t irhs, bool b)</argsstring>
+        <name>SetEdge</name>
+        <qualifiedname>testing::internal::MatchMatrix::SetEdge</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3029" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3029" bodyend="3031"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a3a35e2d6107c225537d7e776465a7893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::MatchMatrix::NextGraph</definition>
+        <argsstring>()</argsstring>
+        <name>NextGraph</name>
+        <qualifiedname>testing::internal::MatchMatrix::NextGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3036" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aff1f0ae748f4a5c96117c0f27b493ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::MatchMatrix::Randomize</definition>
+        <argsstring>()</argsstring>
+        <name>Randomize</name>
+        <qualifiedname>testing::internal::MatchMatrix::Randomize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3038" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a9dc07616205c58e2747dead0a14467b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref></type>
+        <definition>string testing::internal::MatchMatrix::DebugString</definition>
+        <argsstring>() const</argsstring>
+        <name>DebugString</name>
+        <qualifiedname>testing::internal::MatchMatrix::DebugString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3040" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1afa3313976a69b2a954b2f8b8840c37bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::MatchMatrix::MatchMatrix</definition>
+        <argsstring>(size_t num_elements, size_t num_matchers)</argsstring>
+        <name>MatchMatrix</name>
+        <qualifiedname>testing::internal::MatchMatrix::MatchMatrix</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>num_elements</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_matchers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3018" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3018" bodyend="3022"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a337d9793c61d985dbc1be166e34eed61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::LhsSize</definition>
+        <argsstring>() const</argsstring>
+        <name>LhsSize</name>
+        <qualifiedname>testing::internal::MatchMatrix::LhsSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3024" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3024" bodyend="3024"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aff068e9fed3a42466c5da8766ac43134" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::RhsSize</definition>
+        <argsstring>() const</argsstring>
+        <name>RhsSize</name>
+        <qualifiedname>testing::internal::MatchMatrix::RhsSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3025" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3025" bodyend="3025"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a94c7641a932739734cb2207b1bca4036" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::MatchMatrix::HasEdge</definition>
+        <argsstring>(size_t ilhs, size_t irhs) const</argsstring>
+        <name>HasEdge</name>
+        <qualifiedname>testing::internal::MatchMatrix::HasEdge</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3026" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3026" bodyend="3028"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aac7e9c6e0e4b51e6b1334829a0781021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::MatchMatrix::SetEdge</definition>
+        <argsstring>(size_t ilhs, size_t irhs, bool b)</argsstring>
+        <name>SetEdge</name>
+        <qualifiedname>testing::internal::MatchMatrix::SetEdge</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3029" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3029" bodyend="3031"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a3a35e2d6107c225537d7e776465a7893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::MatchMatrix::NextGraph</definition>
+        <argsstring>()</argsstring>
+        <name>NextGraph</name>
+        <qualifiedname>testing::internal::MatchMatrix::NextGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3036" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aff1f0ae748f4a5c96117c0f27b493ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::MatchMatrix::Randomize</definition>
+        <argsstring>()</argsstring>
+        <name>Randomize</name>
+        <qualifiedname>testing::internal::MatchMatrix::Randomize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3038" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1a9dc07616205c58e2747dead0a14467b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref></type>
+        <definition>string testing::internal::MatchMatrix::DebugString</definition>
+        <argsstring>() const</argsstring>
+        <name>DebugString</name>
+        <qualifiedname>testing::internal::MatchMatrix::DebugString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3040" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aa5c4d081304a4923df078bd153c735e4" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::SpaceIndex</definition>
+        <argsstring>(size_t ilhs, size_t irhs) const</argsstring>
+        <name>SpaceIndex</name>
+        <qualifiedname>testing::internal::MatchMatrix::SpaceIndex</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3043" column="10" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3043" bodyend="3045"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1MatchMatrix_1aa5c4d081304a4923df078bd153c735e4" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t testing::internal::MatchMatrix::SpaceIndex</definition>
+        <argsstring>(size_t ilhs, size_t irhs) const</argsstring>
+        <name>SpaceIndex</name>
+        <qualifiedname>testing::internal::MatchMatrix::SpaceIndex</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>ilhs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>irhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="3043" column="10" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="3043" bodyend="3045"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="3016" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="3016" bodyend="3054"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a9dc07616205c58e2747dead0a14467b2" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>DebugString</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a9dc07616205c58e2747dead0a14467b2" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>DebugString</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a94c7641a932739734cb2207b1bca4036" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>HasEdge</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a94c7641a932739734cb2207b1bca4036" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>HasEdge</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a337d9793c61d985dbc1be166e34eed61" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>LhsSize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a337d9793c61d985dbc1be166e34eed61" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>LhsSize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a2a4868f98ef1bf3ab6b60191d20f3e76" prot="private" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>matched_</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1afa3313976a69b2a954b2f8b8840c37bb" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>MatchMatrix</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1afa3313976a69b2a954b2f8b8840c37bb" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>MatchMatrix</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a3a35e2d6107c225537d7e776465a7893" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>NextGraph</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a3a35e2d6107c225537d7e776465a7893" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>NextGraph</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1a9e4eb268fa140a516390631cddc681db" prot="private" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>num_elements_</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aa89a05c387a88844fd30f03d1a24ce35" prot="private" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>num_matchers_</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aff1f0ae748f4a5c96117c0f27b493ac6" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>Randomize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aff1f0ae748f4a5c96117c0f27b493ac6" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>Randomize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aff068e9fed3a42466c5da8766ac43134" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>RhsSize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aff068e9fed3a42466c5da8766ac43134" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>RhsSize</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aac7e9c6e0e4b51e6b1334829a0781021" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>SetEdge</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aac7e9c6e0e4b51e6b1334829a0781021" prot="public" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>SetEdge</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aa5c4d081304a4923df078bd153c735e4" prot="private" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>SpaceIndex</name></member>
+      <member refid="classtesting_1_1internal_1_1MatchMatrix_1aa5c4d081304a4923df078bd153c735e4" prot="private" virt="non-virtual"><scope>testing::internal::MatchMatrix</scope><name>SpaceIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+      <param>
+        <type>typename Proto</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a212e4d13a49b1c4d7e24e25f31286212" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1linked__ptr" kindref="compound">internal::linked_ptr</ref>&lt; Proto &gt;</type>
+        <definition>const internal::linked_ptr&lt; Proto &gt; testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::proto_</definition>
+        <argsstring></argsstring>
+        <name>proto_</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::proto_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="722" column="30" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1af08b3a61e483f704e93872987d30ade0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::SetArgumentPointeeAction</definition>
+        <argsstring>(const Proto &amp;proto)</argsstring>
+        <name>SetArgumentPointeeAction</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::SetArgumentPointeeAction</qualifiedname>
+        <param>
+          <type>const Proto &amp;</type>
+          <declname>proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="711" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="711" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1ac89fa5dde5d2683206a77d29630917cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Result</type>
+          </param>
+          <param>
+            <type>typename ArgumentTuple</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="716" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="716" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1af08b3a61e483f704e93872987d30ade0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::SetArgumentPointeeAction</definition>
+        <argsstring>(const Proto &amp;proto)</argsstring>
+        <name>SetArgumentPointeeAction</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::SetArgumentPointeeAction</qualifiedname>
+        <param>
+          <type>const Proto &amp;</type>
+          <declname>proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="711" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="711" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1ac89fa5dde5d2683206a77d29630917cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Result</type>
+          </param>
+          <param>
+            <type>typename ArgumentTuple</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::Perform</definition>
+        <argsstring>(const ArgumentTuple &amp;args) const</argsstring>
+        <name>Perform</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::Perform</qualifiedname>
+        <param>
+          <type>const ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="716" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" bodystart="716" bodyend="719"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a936f6f5c944c2bd86251b7ef44387006" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(SetArgumentPointeeAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>SetArgumentPointeeAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="724" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a936f6f5c944c2bd86251b7ef44387006" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(SetArgumentPointeeAction)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>SetArgumentPointeeAction</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-actions.h" line="724" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" line="705" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-actions.h" bodystart="705" bodyend="725"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a936f6f5c944c2bd86251b7ef44387006" prot="private" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a936f6f5c944c2bd86251b7ef44387006" prot="private" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1ac89fa5dde5d2683206a77d29630917cd" prot="public" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1ac89fa5dde5d2683206a77d29630917cd" prot="public" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>Perform</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1a212e4d13a49b1c4d7e24e25f31286212" prot="private" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>proto_</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1af08b3a61e483f704e93872987d30ade0" prot="public" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>SetArgumentPointeeAction</name></member>
+      <member refid="classtesting_1_1internal_1_1SetArgumentPointeeAction_3_01N_00_01Proto_00_01true_01_4_1af08b3a61e483f704e93872987d30ade0" prot="public" virt="non-virtual"><scope>testing::internal::SetArgumentPointeeAction&lt; N, Proto, true &gt;</scope><name>SetArgumentPointeeAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

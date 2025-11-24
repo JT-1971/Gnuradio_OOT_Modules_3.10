@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="provoice__const_8h" kind="file" language="C++">
+    <compoundname>provoice_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="provoice__const_8h_1a223985e116c20aa7be2c2d9ba10b5381" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int pW[142]</definition>
+        <argsstring>[142]</argsstring>
+        <name>pW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/provoice_const.h" line="20" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/provoice_const.h" declline="20" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="provoice__const_8h_1a45f6f3becf4c64ac27373e4ed5d593e4" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int pX[142]</definition>
+        <argsstring>[142]</argsstring>
+        <name>pX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/provoice_const.h" line="21" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/provoice_const.h" declline="21" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/provoice_const.h"/>
+  </compounddef>
+</doxygen>

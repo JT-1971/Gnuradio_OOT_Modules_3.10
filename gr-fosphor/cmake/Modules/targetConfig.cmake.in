@@ -1,0 +1,14 @@
+# Copyright 2011-2020 Free Software Foundation, Inc.
+# Copyright 2013-2021 Sylvain Munaut <tnt@246tNt.com>
+#
+# This file is part of gr-fosphor
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+include(CMakeFindDependencyMacro)
+
+set(target_deps "@TARGET_DEPENDENCIES@")
+foreach(dep IN LISTS target_deps)
+    find_dependency(${dep})
+endforeach()
+include("${CMAKE_CURRENT_LIST_DIR}/@TARGET@Targets.cmake")

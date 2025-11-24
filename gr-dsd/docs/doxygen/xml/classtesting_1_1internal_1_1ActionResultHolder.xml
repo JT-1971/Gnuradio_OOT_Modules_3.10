@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ActionResultHolder" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::ActionResultHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">testing::internal::UntypedActionResultHolderBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">testing::internal::UntypedActionResultHolderBase</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ActionResultHolder_1a19d95dd558cd84478ec37f9e4f400919" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T testing::internal::ActionResultHolder&lt; T &gt;::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>testing::internal::ActionResultHolder::value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1363" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1363" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1acc0abd268a06086e6a39a8cf34a8ce0c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionResultHolder&lt; T &gt;::ActionResultHolder</definition>
+        <argsstring>(T a_value)</argsstring>
+        <name>ActionResultHolder</name>
+        <qualifiedname>testing::internal::ActionResultHolder::ActionResultHolder</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1323" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1323" bodyend="1323"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a679d7b9138c721e8876a5e087b817a53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T testing::internal::ActionResultHolder&lt; T &gt;::GetValueAndDelete</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValueAndDelete</name>
+        <qualifiedname>testing::internal::ActionResultHolder::GetValueAndDelete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1329" column="5" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1329" bodyend="1333"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a06d1fb40fc863328dbcc102bc46dece4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ActionResultHolder&lt; T &gt;::PrintAsActionResult</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>PrintAsActionResult</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PrintAsActionResult</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1336" column="16" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1336" bodyend="1340"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1acc0abd268a06086e6a39a8cf34a8ce0c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionResultHolder&lt; T &gt;::ActionResultHolder</definition>
+        <argsstring>(T a_value)</argsstring>
+        <name>ActionResultHolder</name>
+        <qualifiedname>testing::internal::ActionResultHolder::ActionResultHolder</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1323" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1323" bodyend="1323"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a679d7b9138c721e8876a5e087b817a53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T testing::internal::ActionResultHolder&lt; T &gt;::GetValueAndDelete</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValueAndDelete</name>
+        <qualifiedname>testing::internal::ActionResultHolder::GetValueAndDelete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1329" column="5" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1329" bodyend="1333"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a06d1fb40fc863328dbcc102bc46dece4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void testing::internal::ActionResultHolder&lt; T &gt;::PrintAsActionResult</definition>
+        <argsstring>(::std::ostream *os) const</argsstring>
+        <name>PrintAsActionResult</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PrintAsActionResult</qualifiedname>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1336" column="16" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1336" bodyend="1340"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a879ff91df0c26dd20a53b250f54def14" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>ActionResultHolder *</type>
+        <definition>static ActionResultHolder * testing::internal::ActionResultHolder&lt; T &gt;::PerformDefaultAction</definition>
+        <argsstring>(const FunctionMockerBase&lt; F &gt; *func_mocker, const typename Function&lt; F &gt;::ArgumentTuple &amp;args, const string &amp;call_description)</argsstring>
+        <name>PerformDefaultAction</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PerformDefaultAction</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1FunctionMockerBase" kindref="compound">FunctionMockerBase</ref>&lt; F &gt; *</type>
+          <declname>func_mocker</declname>
+        </param>
+        <param>
+          <type>const typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>call_description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1345" column="29" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1345" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a0116a0d1266a221e2bc2e751142a96e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>ActionResultHolder *</type>
+        <definition>static ActionResultHolder * testing::internal::ActionResultHolder&lt; T &gt;::PerformAction</definition>
+        <argsstring>(const Action&lt; F &gt; &amp;action, const typename Function&lt; F &gt;::ArgumentTuple &amp;args)</argsstring>
+        <name>PerformAction</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PerformAction</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1357" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1357" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a879ff91df0c26dd20a53b250f54def14" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>ActionResultHolder *</type>
+        <definition>static ActionResultHolder * testing::internal::ActionResultHolder&lt; T &gt;::PerformDefaultAction</definition>
+        <argsstring>(const FunctionMockerBase&lt; F &gt; *func_mocker, const typename Function&lt; F &gt;::ArgumentTuple &amp;args, const string &amp;call_description)</argsstring>
+        <name>PerformDefaultAction</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PerformDefaultAction</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1FunctionMockerBase" kindref="compound">FunctionMockerBase</ref>&lt; F &gt; *</type>
+          <declname>func_mocker</declname>
+        </param>
+        <param>
+          <type>const typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacetesting_1_1internal_1a5ca8a348395a6145775c1a2334e21889" kindref="member">string</ref> &amp;</type>
+          <declname>call_description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1345" column="29" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1345" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1a0116a0d1266a221e2bc2e751142a96e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>ActionResultHolder *</type>
+        <definition>static ActionResultHolder * testing::internal::ActionResultHolder&lt; T &gt;::PerformAction</definition>
+        <argsstring>(const Action&lt; F &gt; &amp;action, const typename Function&lt; F &gt;::ArgumentTuple &amp;args)</argsstring>
+        <name>PerformAction</name>
+        <qualifiedname>testing::internal::ActionResultHolder::PerformAction</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Action" kindref="compound">Action</ref>&lt; F &gt; &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref>&lt; F &gt;::ArgumentTuple &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1357" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1357" bodyend="1360"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1ac290b3a7759d82a1e8f945bf60e5739d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionResultHolder&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ActionResultHolder)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ActionResultHolder::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ActionResultHolder</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1366" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ActionResultHolder_1ac290b3a7759d82a1e8f945bf60e5739d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ActionResultHolder&lt; T &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ActionResultHolder)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ActionResultHolder::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type>ActionResultHolder</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-spec-builders.h" line="1366" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::internal::ActionResultHolder&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::UntypedActionResultHolderBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>testing::internal::ActionResultHolder&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::UntypedActionResultHolderBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" line="1321" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-spec-builders.h" bodystart="1321" bodyend="1367"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1acc0abd268a06086e6a39a8cf34a8ce0c" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>ActionResultHolder</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1acc0abd268a06086e6a39a8cf34a8ce0c" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>ActionResultHolder</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a679d7b9138c721e8876a5e087b817a53" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>GetValueAndDelete</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a679d7b9138c721e8876a5e087b817a53" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>GetValueAndDelete</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1ac290b3a7759d82a1e8f945bf60e5739d" prot="private" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1ac290b3a7759d82a1e8f945bf60e5739d" prot="private" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a0116a0d1266a221e2bc2e751142a96e9" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>PerformAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a0116a0d1266a221e2bc2e751142a96e9" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>PerformAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a879ff91df0c26dd20a53b250f54def14" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>PerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a879ff91df0c26dd20a53b250f54def14" prot="public" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>PerformDefaultAction</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a06d1fb40fc863328dbcc102bc46dece4" prot="public" virt="virtual"><scope>testing::internal::ActionResultHolder</scope><name>PrintAsActionResult</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a06d1fb40fc863328dbcc102bc46dece4" prot="public" virt="virtual"><scope>testing::internal::ActionResultHolder</scope><name>PrintAsActionResult</name></member>
+      <member refid="classtesting_1_1internal_1_1ActionResultHolder_1a19d95dd558cd84478ec37f9e4f400919" prot="private" virt="non-virtual"><scope>testing::internal::ActionResultHolder</scope><name>value_</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" virt="virtual"><scope>testing::internal::ActionResultHolder</scope><name>~UntypedActionResultHolderBase</name></member>
+      <member refid="classtesting_1_1internal_1_1UntypedActionResultHolderBase_1a2e6c331d249aea75ccc1e4fba3897a29" prot="public" virt="virtual"><scope>testing::internal::ActionResultHolder</scope><name>~UntypedActionResultHolderBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

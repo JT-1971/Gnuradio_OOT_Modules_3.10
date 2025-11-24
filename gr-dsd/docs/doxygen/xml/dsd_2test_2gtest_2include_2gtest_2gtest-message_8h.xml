@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gtest_2include_2gtest_2gtest-message_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gtest/include/gtest/gtest-message.h</compoundname>
+    <includes local="no">limits</includes>
+    <includes local="yes">gtest/internal/gtest-port.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-message.h</label>
+        <link refid="dsd_2test_2gtest_2include_2gtest_2gtest-message_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gtest/internal/gtest-port.h</label>
+      </node>
+      <node id="2">
+        <label>limits</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1Message" prot="public">testing::Message</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dsd_2test_2gtest_2include_2gtest_2gtest-message_8h_1ae8f0c86e5c506587b62315e24a918563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void operator&lt;&lt;</definition>
+        <argsstring>(const testing::internal::Secret &amp;, int)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const testing::internal::Secret &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-message.h" line="55" column="1" declfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-message.h" declline="55" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-message.h"/>
+  </compounddef>
+</doxygen>

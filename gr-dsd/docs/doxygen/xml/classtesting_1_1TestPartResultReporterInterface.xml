@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1TestPartResultReporterInterface" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>testing::TestPartResultReporterInterface</compoundname>
+    <derivedcompoundref refid="classtesting_1_1ScopedFakeTestPartResultReporter" prot="public" virt="non-virtual">testing::ScopedFakeTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1ScopedFakeTestPartResultReporter" prot="public" virt="non-virtual">testing::ScopedFakeTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter" prot="public" virt="non-virtual">testing::internal::DefaultGlobalTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter" prot="public" virt="non-virtual">testing::internal::DefaultGlobalTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter" prot="public" virt="non-virtual">testing::internal::DefaultPerThreadTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter" prot="public" virt="non-virtual">testing::internal::DefaultPerThreadTestPartResultReporter</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper" prot="public" virt="non-virtual">testing::internal::HasNewFatalFailureHelper</derivedcompoundref>
+    <derivedcompoundref refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper" prot="public" virt="non-virtual">testing::internal::HasNewFatalFailureHelper</derivedcompoundref>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2gtest-test-part_8h" local="no">gtest-test-part.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::TestPartResultReporterInterface::~TestPartResultReporterInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~TestPartResultReporterInterface</name>
+        <qualifiedname>testing::TestPartResultReporterInterface::~TestPartResultReporterInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="148" column="11" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::TestPartResultReporterInterface::ReportTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;result)=0</argsstring>
+        <name>ReportTestPartResult</name>
+        <qualifiedname>testing::TestPartResultReporterInterface::ReportTestPartResult</qualifiedname>
+        <reimplementedby refid="classtesting_1_1ScopedFakeTestPartResultReporter_1a3bc6cb939cbc3db71ece8846e6bafe00">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter_1a92cd8be4f8932fcc26006ee4a6cf8556">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter_1a7e1f4fa56b88fc4f07c75eedc2ca3013">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1ScopedFakeTestPartResultReporter_1a3bc6cb939cbc3db71ece8846e6bafe00">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter_1a92cd8be4f8932fcc26006ee4a6cf8556">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter_1a7e1f4fa56b88fc4f07c75eedc2ca3013">ReportTestPartResult</reimplementedby>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="150" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual testing::TestPartResultReporterInterface::~TestPartResultReporterInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~TestPartResultReporterInterface</name>
+        <qualifiedname>testing::TestPartResultReporterInterface::~TestPartResultReporterInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="148" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void testing::TestPartResultReporterInterface::ReportTestPartResult</definition>
+        <argsstring>(const TestPartResult &amp;result)=0</argsstring>
+        <name>ReportTestPartResult</name>
+        <qualifiedname>testing::TestPartResultReporterInterface::ReportTestPartResult</qualifiedname>
+        <reimplementedby refid="classtesting_1_1ScopedFakeTestPartResultReporter_1a3bc6cb939cbc3db71ece8846e6bafe00">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter_1a92cd8be4f8932fcc26006ee4a6cf8556">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter_1a7e1f4fa56b88fc4f07c75eedc2ca3013">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1ScopedFakeTestPartResultReporter_1a3bc6cb939cbc3db71ece8846e6bafe00">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper_1ac7b5e77c9847b2b057cb97193ba82441">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter_1a92cd8be4f8932fcc26006ee4a6cf8556">ReportTestPartResult</reimplementedby>
+        <reimplementedby refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter_1a7e1f4fa56b88fc4f07c75eedc2ca3013">ReportTestPartResult</reimplementedby>
+        <param>
+          <type>const <ref refid="classtesting_1_1TestPartResult" kindref="compound">TestPartResult</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/gtest-test-part.h" line="150" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::ScopedFakeTestPartResultReporter</label>
+        <link refid="classtesting_1_1ScopedFakeTestPartResultReporter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>testing::TestPartResultReporterInterface</label>
+        <link refid="classtesting_1_1TestPartResultReporterInterface"/>
+      </node>
+      <node id="3">
+        <label>testing::internal::DefaultGlobalTestPartResultReporter</label>
+        <link refid="classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>testing::internal::DefaultPerThreadTestPartResultReporter</label>
+        <link refid="classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>testing::internal::HasNewFatalFailureHelper</label>
+        <link refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" line="146" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h" bodystart="146" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22" prot="public" virt="pure-virtual"><scope>testing::TestPartResultReporterInterface</scope><name>ReportTestPartResult</name></member>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1aa2f920e7a5a0a6d0faf19e3727928c22" prot="public" virt="pure-virtual"><scope>testing::TestPartResultReporterInterface</scope><name>ReportTestPartResult</name></member>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" virt="virtual"><scope>testing::TestPartResultReporterInterface</scope><name>~TestPartResultReporterInterface</name></member>
+      <member refid="classtesting_1_1TestPartResultReporterInterface_1a338b51591ed654f84dc0feaaf2b66917" prot="public" virt="virtual"><scope>testing::TestPartResultReporterInterface</scope><name>~TestPartResultReporterInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

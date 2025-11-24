@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="p25p1__check__ldu_8h" kind="file" language="C++">
+    <compoundname>p25p1_check_ldu.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1ad2c0f6af652fdaeb1411e822bb32b49a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_hamming_10_6_3</definition>
+        <argsstring>(char *hex, char *parity)</argsstring>
+        <name>check_and_fix_hamming_10_6_3</name>
+        <param>
+          <type>char *</type>
+          <declname>hex</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to error correct a hex (6-bit) word using the Hamming(10,6,3) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 6-bit word to error correct. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parity to use in the error correction. 4 bits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The estimated error count. It might be erroneous. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="15" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="15" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1adc4a757ddd93d31ed2efe8bd87e6a0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_hamming_10_6_3</definition>
+        <argsstring>(char *hex, char *out_parity)</argsstring>
+        <name>encode_hamming_10_6_3</name>
+        <param>
+          <type>char *</type>
+          <declname>hex</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes an hex word with the Hamming(10,6,3) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 6-bit word to error correct. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address where to store the calculated parity. 4 bytes are used, one for each bit. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="22" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1a1fa8901c076cb3206441c2308fe261a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_reedsolomon_24_12_13</definition>
+        <argsstring>(char *data, char *parity)</argsstring>
+        <name>check_and_fix_reedsolomon_24_12_13</name>
+        <param>
+          <type>char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to correct 12 hex words using the Reed-Solomon(24,12,13) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packed hex words, each of 6 chars, one after the other. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corresponding 12 hex words with the parity information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if irrecoverable errors have been detected, 0 otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="30" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="30" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1a246c5ffff465e09bc0cb5afc811859bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_reedsolomon_24_12_13</definition>
+        <argsstring>(char *hex_data, char *fixed_parity)</argsstring>
+        <name>encode_reedsolomon_24_12_13</name>
+        <param>
+          <type>char *</type>
+          <declname>hex_data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>fixed_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes 12 hex words with the Reed-Solomon(24,12,13) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packed 12 hex words to encode. \fixed_parity The address were to store the 12 hex words with the Reed-Solomon parity. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="37" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="37" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1a3bc51ba190e0e13a7890b18a90c5168a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int check_and_fix_reedsolomon_24_16_9</definition>
+        <argsstring>(char *data, char *parity)</argsstring>
+        <name>check_and_fix_reedsolomon_24_16_9</name>
+        <param>
+          <type>char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to correct 16 hex words using the Reed-Solomon(24,16,9) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packed 16 hex words, each of 6 chars, one after the other. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corresponding 8 hex words with the parity information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if irrecoverable errors have been detected, 0 otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="45" column="5" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="45" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__check__ldu_8h_1af036c215a40bd0adfcc9eed28e0fa661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void encode_reedsolomon_24_16_9</definition>
+        <argsstring>(char *hex_data, char *fixed_parity)</argsstring>
+        <name>encode_reedsolomon_24_16_9</name>
+        <param>
+          <type>char *</type>
+          <declname>hex_data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>fixed_parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes 12 hex words with the Reed-Solomon(24,16,9) FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hex_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packed 16 hex words to encode. \fixed_parity The address were to store the 8 hex words with the Reed-Solomon parity. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" line="52" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h" declline="52" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_check_ldu.h"/>
+  </compounddef>
+</doxygen>

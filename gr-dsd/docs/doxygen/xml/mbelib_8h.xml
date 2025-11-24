@@ -1,0 +1,1512 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mbelib_8h" kind="file" language="C++">
+    <compoundname>mbelib.h</compoundname>
+    <includedby refid="dsd_8h" local="no">dsd.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>dsd.h</label>
+        <link refid="dsd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>p25p1_ldu.h</label>
+        <link refid="p25p1__ldu_8h"/>
+      </node>
+      <node id="3">
+        <label>dsd_block_ff_impl.h</label>
+        <link refid="dsd__block__ff__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>mbelib.h</label>
+        <link refid="mbelib_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structmbe__parameters" prot="public">mbe_parameters</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mbelib_8h_1ace13c16ab53eaabf2859aeb6c2cb6fc8" prot="public" static="no">
+        <name>MBELIB_VERSION</name>
+        <initializer>&quot;1.3.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="21" column="9" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" prot="public" static="no">
+        <type>struct <ref refid="structmbe__parameters" kindref="compound">mbe_parameters</ref></type>
+        <definition>typedef struct mbe_parameters mbe_parms</definition>
+        <argsstring></argsstring>
+        <name>mbe_parms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="38" column="29" bodyfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="mbelib_8h_1a1ad3b6d0b445d7fbb26af96836c32b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_checkGolayBlock</definition>
+        <argsstring>(long int *block)</argsstring>
+        <name>mbe_checkGolayBlock</name>
+        <param>
+          <type>long int *</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="43" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="43" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a7b45bc77518fd7525ba62bc892959058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_golay2312</definition>
+        <argsstring>(char *in, char *out)</argsstring>
+        <name>mbe_golay2312</name>
+        <param>
+          <type>char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="44" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="44" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a41132026282a50f697c4a5d95945e8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_hamming1511</definition>
+        <argsstring>(char *in, char *out)</argsstring>
+        <name>mbe_hamming1511</name>
+        <param>
+          <type>char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="45" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="45" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a47be5f3fedb9a1ae8519aa8c8d9edb7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_7100x4400hamming1511</definition>
+        <argsstring>(char *in, char *out)</argsstring>
+        <name>mbe_7100x4400hamming1511</name>
+        <param>
+          <type>char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="46" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="46" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a7356b495cb735a7bf97746544eeba32c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccAmbe3600x2400C0</definition>
+        <argsstring>(char ambe_fr[4][24])</argsstring>
+        <name>mbe_eccAmbe3600x2400C0</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="51" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="51" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a7beae30188921cce6ff65a0843b96501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccAmbe3600x2400Data</definition>
+        <argsstring>(char ambe_fr[4][24], char *ambe_d)</argsstring>
+        <name>mbe_eccAmbe3600x2400Data</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="52" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="52" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a84a2c382b77646d766ed486871ef13c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_decodeAmbe2400Parms</definition>
+        <argsstring>(char *ambe_d, mbe_parms *cur_mp, mbe_parms *prev_mp)</argsstring>
+        <name>mbe_decodeAmbe2400Parms</name>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="53" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="53" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1acd6b6851956a711c8f997e8e3c206b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_demodulateAmbe3600x2400Data</definition>
+        <argsstring>(char ambe_fr[4][24])</argsstring>
+        <name>mbe_demodulateAmbe3600x2400Data</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="54" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="54" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a75b2cb0b8f3a15cb44ee624736381b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe2400Dataf</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe2400Dataf</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="55" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="55" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1af85c374e9daaa708c58e3a60335dbc45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe2400Data</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe2400Data</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="56" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="56" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a8dcad31e097fc8a4e7018753d2cdea6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe3600x2400Framef</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char ambe_fr[4][24], char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe3600x2400Framef</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="57" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="57" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a6600a7d0a173c7b1cd76331546ec0465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe3600x2400Frame</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char ambe_fr[4][24], char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe3600x2400Frame</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="58" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="58" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1aea228becb2e28aef2892484de364b205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccAmbe3600x2450C0</definition>
+        <argsstring>(char ambe_fr[4][24])</argsstring>
+        <name>mbe_eccAmbe3600x2450C0</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="63" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="63" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1aa1677b110ef50e8849b36ba98b232c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccAmbe3600x2450Data</definition>
+        <argsstring>(char ambe_fr[4][24], char *ambe_d)</argsstring>
+        <name>mbe_eccAmbe3600x2450Data</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="64" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="64" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a56854b58ce00f8816974f7c099d499f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_decodeAmbe2450Parms</definition>
+        <argsstring>(char *ambe_d, mbe_parms *cur_mp, mbe_parms *prev_mp)</argsstring>
+        <name>mbe_decodeAmbe2450Parms</name>
+        <param>
+          <type>char *</type>
+          <declname>ambe_d</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="65" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="65" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a20dd2a79137f3e41017e163bd62cb8d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_demodulateAmbe3600x2450Data</definition>
+        <argsstring>(char ambe_fr[4][24])</argsstring>
+        <name>mbe_demodulateAmbe3600x2450Data</name>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="66" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="66" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a558a52354f30ff9501db7ad3fd1d4dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe2450Dataf</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe2450Dataf</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="67" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a77e57b85df27240283b30ab90ffccce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe2450Data</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe2450Data</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="68" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="68" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a3fbfeb0f1d21b8e56a9ea401d16b8f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe3600x2450Framef</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char ambe_fr[4][24], char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe3600x2450Framef</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="69" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="69" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a7d634781e85aaa276958e556fd72a5c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processAmbe3600x2450Frame</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char ambe_fr[4][24], char ambe_d[49], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processAmbe3600x2450Frame</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_fr</declname>
+          <array>[4][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ambe_d</declname>
+          <array>[49]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="70" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="70" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a710470e55b3de454de53a3e32d97dc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_dumpImbe4400Data</definition>
+        <argsstring>(char *imbe_d)</argsstring>
+        <name>mbe_dumpImbe4400Data</name>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="75" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="75" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a9b5217e4098f86b2f602e69eb21cda92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_dumpImbe7200x4400Data</definition>
+        <argsstring>(char *imbe_d)</argsstring>
+        <name>mbe_dumpImbe7200x4400Data</name>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="76" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="76" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ac1a1b80d098041081c9c74e2d444c0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_dumpImbe7200x4400Frame</definition>
+        <argsstring>(char imbe_fr[8][23])</argsstring>
+        <name>mbe_dumpImbe7200x4400Frame</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="77" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="77" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ae908364dbf3d33a2f6aa5cf3f29d9b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccImbe7200x4400C0</definition>
+        <argsstring>(char imbe_fr[8][23])</argsstring>
+        <name>mbe_eccImbe7200x4400C0</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="78" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="78" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1aece1ad35ec8bacba6860c308588e431c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccImbe7200x4400Data</definition>
+        <argsstring>(char imbe_fr[8][23], char *imbe_d)</argsstring>
+        <name>mbe_eccImbe7200x4400Data</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="79" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="79" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a85fa3542c02bce3120a7844e3139aacc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_decodeImbe4400Parms</definition>
+        <argsstring>(char *imbe_d, mbe_parms *cur_mp, mbe_parms *prev_mp)</argsstring>
+        <name>mbe_decodeImbe4400Parms</name>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="80" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="80" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a28699baad1e9cbc219a0fd5639278523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_demodulateImbe7200x4400Data</definition>
+        <argsstring>(char imbe[8][23])</argsstring>
+        <name>mbe_demodulateImbe7200x4400Data</name>
+        <param>
+          <type>char</type>
+          <declname>imbe</declname>
+          <array>[8][23]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="81" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="81" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a2ed0de8887d938ed029f8cc3203e09e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe4400Dataf</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe4400Dataf</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="82" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="82" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a47bb80f2cc2378315831724a76e39ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe4400Data</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe4400Data</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="83" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="83" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1afda91da1e2ecaf6fcd2ba89e6a4611fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe7200x4400Framef</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char imbe_fr[8][23], char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe7200x4400Framef</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="84" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="84" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a0ad658ebb2f589ef6d0c8b9d529b78f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe7200x4400Frame</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char imbe_fr[8][23], char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe7200x4400Frame</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[8][23]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="85" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="85" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1aaedcf4821f6c33082e00b0ec32851108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_dumpImbe7100x4400Data</definition>
+        <argsstring>(char *imbe_d)</argsstring>
+        <name>mbe_dumpImbe7100x4400Data</name>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="90" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="90" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1acd8d6991e09fe6701be83c72a1c9197a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_dumpImbe7100x4400Frame</definition>
+        <argsstring>(char imbe_fr[7][24])</argsstring>
+        <name>mbe_dumpImbe7100x4400Frame</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="91" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="91" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ade32855ae5c806444ce21134f6de5e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccImbe7100x4400C0</definition>
+        <argsstring>(char imbe_fr[7][24])</argsstring>
+        <name>mbe_eccImbe7100x4400C0</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="92" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="92" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1aba335bf69b30f74d8ae3865be9e44c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mbe_eccImbe7100x4400Data</definition>
+        <argsstring>(char imbe_fr[7][24], char *imbe_d)</argsstring>
+        <name>mbe_eccImbe7100x4400Data</name>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="93" column="5" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="93" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a05df7d64e69c3178cfa8cc4a747062f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_demodulateImbe7100x4400Data</definition>
+        <argsstring>(char imbe[7][24])</argsstring>
+        <name>mbe_demodulateImbe7100x4400Data</name>
+        <param>
+          <type>char</type>
+          <declname>imbe</declname>
+          <array>[7][24]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="94" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="94" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a82b138e189f0a563db78ab442b7f6cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_convertImbe7100to7200</definition>
+        <argsstring>(char *imbe_d)</argsstring>
+        <name>mbe_convertImbe7100to7200</name>
+        <param>
+          <type>char *</type>
+          <declname>imbe_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="95" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="95" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a361626b6c29d4b9ad503e89573e8186f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe7100x4400Framef</definition>
+        <argsstring>(float *aout_buf, int *errs, int *errs2, char *err_str, char imbe_fr[7][24], char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe7100x4400Framef</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="96" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="96" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a017998fa84f32dc34b9e54fa9612a257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_processImbe7100x4400Frame</definition>
+        <argsstring>(short *aout_buf, int *errs, int *errs2, char *err_str, char imbe_fr[7][24], char imbe_d[88], mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced, int uvquality)</argsstring>
+        <name>mbe_processImbe7100x4400Frame</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>errs2</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>err_str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_fr</declname>
+          <array>[7][24]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>imbe_d</declname>
+          <array>[88]</array>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="97" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="97" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a2814024f9834a4e423ee733df8be1b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_printVersion</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>mbe_printVersion</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="102" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="102" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a5799df9fe7a3254e00b8037f9e124066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_moveMbeParms</definition>
+        <argsstring>(mbe_parms *cur_mp, mbe_parms *prev_mp)</argsstring>
+        <name>mbe_moveMbeParms</name>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="103" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="103" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a7aa0be4cf5ed4329b9c5e3fc447a1eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_useLastMbeParms</definition>
+        <argsstring>(mbe_parms *cur_mp, mbe_parms *prev_mp)</argsstring>
+        <name>mbe_useLastMbeParms</name>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="104" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="104" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ac1795ad2200fae5c15bcc3966c455ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_initMbeParms</definition>
+        <argsstring>(mbe_parms *cur_mp, mbe_parms *prev_mp, mbe_parms *prev_mp_enhanced)</argsstring>
+        <name>mbe_initMbeParms</name>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp_enhanced</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="105" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="105" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a664daaae50273f9c71ae69693d08c485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_spectralAmpEnhance</definition>
+        <argsstring>(mbe_parms *cur_mp)</argsstring>
+        <name>mbe_spectralAmpEnhance</name>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="106" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="106" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a103ba7e8a4a89ee7597c27432142f114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_synthesizeSilencef</definition>
+        <argsstring>(float *aout_buf)</argsstring>
+        <name>mbe_synthesizeSilencef</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="107" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="107" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ac272e890358613cdde514ada6ab0bb4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_synthesizeSilence</definition>
+        <argsstring>(short *aout_buf)</argsstring>
+        <name>mbe_synthesizeSilence</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="108" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="108" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1ab4b8aa265be2018e6596cc5ffa96c10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_synthesizeSpeechf</definition>
+        <argsstring>(float *aout_buf, mbe_parms *cur_mp, mbe_parms *prev_mp, int uvquality)</argsstring>
+        <name>mbe_synthesizeSpeechf</name>
+        <param>
+          <type>float *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="109" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="109" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1a670313e73057909a3818d602c8621149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_synthesizeSpeech</definition>
+        <argsstring>(short *aout_buf, mbe_parms *cur_mp, mbe_parms *prev_mp, int uvquality)</argsstring>
+        <name>mbe_synthesizeSpeech</name>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>cur_mp</declname>
+        </param>
+        <param>
+          <type><ref refid="mbelib_8h_1a9e76ddb77d9f3c0171d46fe315c3bc82" kindref="member">mbe_parms</ref> *</type>
+          <declname>prev_mp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="110" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="110" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mbelib_8h_1af996eae28b57c3c21fe88d400e5781ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mbe_floattoshort</definition>
+        <argsstring>(float *float_buf, short *aout_buf)</argsstring>
+        <name>mbe_floattoshort</name>
+        <param>
+          <type>float *</type>
+          <declname>float_buf</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>aout_buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h" line="111" column="6" declfile="/home/dr/Code/gr-dsd/mbelib/mbelib.h" declline="111" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/mbelib.h"/>
+  </compounddef>
+</doxygen>

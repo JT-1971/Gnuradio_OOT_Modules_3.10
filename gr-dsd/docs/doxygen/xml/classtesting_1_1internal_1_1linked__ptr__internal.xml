@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1linked__ptr__internal" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::linked_ptr_internal</compoundname>
+    <includes refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-linked__ptr_8h" local="no">gtest-linked_ptr.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1linked__ptr__internal_1ac296303bbee49f6693c120685a9e2405" prot="private" static="no" mutable="yes">
+        <type><ref refid="classtesting_1_1internal_1_1linked__ptr__internal" kindref="compound">linked_ptr_internal</ref> const  *</type>
+        <definition>linked_ptr_internal const  * testing::internal::linked_ptr_internal::next_</definition>
+        <argsstring></argsstring>
+        <name>next_</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::next_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="132" column="37" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1a742af1f65df2d5e2b7198a1b74264a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::linked_ptr_internal::join_new</definition>
+        <argsstring>()</argsstring>
+        <name>join_new</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::join_new</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="92" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1acd5a341459f7e81b10b4112d8c764e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::linked_ptr_internal::join</definition>
+        <argsstring>(linked_ptr_internal const *ptr) GTEST_LOCK_EXCLUDED_(g_linked_ptr_mutex)</argsstring>
+        <name>join</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::join</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1linked__ptr__internal" kindref="compound">linked_ptr_internal</ref> const *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="108" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="108" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1a8699e539d9702d363ef0351012d1b3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::linked_ptr_internal::depart</definition>
+        <argsstring>() GTEST_LOCK_EXCLUDED_(g_linked_ptr_mutex)</argsstring>
+        <name>depart</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::depart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="120" column="8" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="120" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1a742af1f65df2d5e2b7198a1b74264a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::linked_ptr_internal::join_new</definition>
+        <argsstring>()</argsstring>
+        <name>join_new</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::join_new</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="92" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1acd5a341459f7e81b10b4112d8c764e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::linked_ptr_internal::join</definition>
+        <argsstring>(linked_ptr_internal const *ptr) GTEST_LOCK_EXCLUDED_(g_linked_ptr_mutex)</argsstring>
+        <name>join</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::join</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1linked__ptr__internal" kindref="compound">linked_ptr_internal</ref> const *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="108" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="108" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1linked__ptr__internal_1a8699e539d9702d363ef0351012d1b3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::linked_ptr_internal::depart</definition>
+        <argsstring>() GTEST_LOCK_EXCLUDED_(g_linked_ptr_mutex)</argsstring>
+        <name>depart</name>
+        <qualifiedname>testing::internal::linked_ptr_internal::depart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="120" column="8" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="120" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" line="89" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/internal/gtest-linked_ptr.h" bodystart="89" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1a8699e539d9702d363ef0351012d1b3ca" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>depart</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1a8699e539d9702d363ef0351012d1b3ca" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>depart</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1acd5a341459f7e81b10b4112d8c764e2a" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>join</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1acd5a341459f7e81b10b4112d8c764e2a" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>join</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1a742af1f65df2d5e2b7198a1b74264a83" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>join_new</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1a742af1f65df2d5e2b7198a1b74264a83" prot="public" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>join_new</name></member>
+      <member refid="classtesting_1_1internal_1_1linked__ptr__internal_1ac296303bbee49f6693c120685a9e2405" prot="private" virt="non-virtual"><scope>testing::internal::linked_ptr_internal</scope><name>next_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

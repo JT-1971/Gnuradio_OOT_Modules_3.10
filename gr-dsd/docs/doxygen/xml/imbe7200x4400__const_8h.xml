@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="imbe7200x4400__const_8h" kind="file" language="C++">
+    <compoundname>imbe7200x4400_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a83cd964decd1c9b75d8a5241f0289bb0" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float quantstep[11]</definition>
+        <argsstring>[11]</argsstring>
+        <name>quantstep</name>
+        <initializer>= {
+  1.2, 0.85, 0.65, 0.40, 0.28, 0.15, 0.08, 0.04, 0.02, 0.01
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="24" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a4c216842e61294f526aa53eab1a6c7bd" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float standdev[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>standdev</name>
+        <initializer>= {
+  0.307, 0.241, 0.207, 0.190, 0.179, 0.173, 0.165, 0.170, 0.170
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="31" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a818e4b3f9157902510559ac131956b30" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float B2[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>B2</name>
+        <initializer>= {
+  -2.842205, -2.694235, -2.558260, -2.382850,
+  -2.221042, -2.095574, -1.980845, -1.836058,
+  -1.645556, -1.417658, -1.261301, -1.125631,
+  -0.958207, -0.781591, -0.555837, -0.346976,
+  -0.147249, 0.027755, 0.211495, 0.388380,
+  0.552873, 0.737223, 0.932197, 1.139032,
+  1.320955, 1.483433, 1.648297, 1.801447,
+  1.942731, 2.118613, 2.321486, 2.504443,
+  2.653909, 2.780654, 2.925355, 3.076390,
+  3.220825, 3.402869, 3.585096, 3.784606,
+  3.955521, 4.155636, 4.314009, 4.444150,
+  4.577542, 4.735552, 4.909493, 5.085264,
+  5.254767, 5.411894, 5.568094, 5.738523,
+  5.919215, 6.087701, 6.280685, 6.464201,
+  6.647736, 6.834672, 7.022583, 7.211777,
+  7.471016, 7.738948, 8.124863, 8.695827
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="38" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="38" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a1c734d188fac26f6f39e819962f99d78" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ba[48][5][2]</definition>
+        <argsstring>[48][5][2]</argsstring>
+        <name>ba</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="60" column="13" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="60" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a125957bb24aed5fae9e2c5c9b42fa06f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int hoba[48][50]</definition>
+        <argsstring>[48][50]</argsstring>
+        <name>hoba</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="163" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="163" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a74ccf28a1b7a9a4b1b79aeaabf66d87a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int bo[48][79][2]</definition>
+        <argsstring>[48][79][2]</argsstring>
+        <name>bo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="364" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="364" bodyend="842"/>
+      </memberdef>
+      <memberdef kind="variable" id="imbe7200x4400__const_8h_1a9c6e0a57a481e8f6fe66dac60de83cd6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ImbeJi[48][6]</definition>
+        <argsstring>[48][6]</argsstring>
+        <name>ImbeJi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" line="847" column="11" bodyfile="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h" bodystart="847" bodyend="896"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/imbe7200x4400_const.h"/>
+  </compounddef>
+</doxygen>

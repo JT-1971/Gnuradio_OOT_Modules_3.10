@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_5971fa03233aaee41e919984792b20e4" kind="dir">
+    <compoundname>gmock</compoundname>
+    <innerdir refid="dir_a68ae186804bf5afdcf6a2ac40af00a2">internal</innerdir>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-actions_8h">mbelib/test/gmock/include/gmock/gmock-actions.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-cardinalities_8h">mbelib/test/gmock/include/gmock/gmock-cardinalities.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h">mbelib/test/gmock/include/gmock/gmock-generated-actions.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-function-mockers_8h">mbelib/test/gmock/include/gmock/gmock-generated-function-mockers.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-matchers_8h">mbelib/test/gmock/include/gmock/gmock-generated-matchers.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-generated-nice-strict_8h">mbelib/test/gmock/include/gmock/gmock-generated-nice-strict.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-matchers_8h">mbelib/test/gmock/include/gmock/gmock-matchers.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-more-actions_8h">mbelib/test/gmock/include/gmock/gmock-more-actions.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-more-matchers_8h">mbelib/test/gmock/include/gmock/gmock-more-matchers.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock-spec-builders_8h">mbelib/test/gmock/include/gmock/gmock-spec-builders.h</innerfile>
+    <innerfile refid="mbelib_2test_2gmock_2include_2gmock_2gmock_8h">mbelib/test/gmock/include/gmock/gmock.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/"/>
+  </compounddef>
+</doxygen>

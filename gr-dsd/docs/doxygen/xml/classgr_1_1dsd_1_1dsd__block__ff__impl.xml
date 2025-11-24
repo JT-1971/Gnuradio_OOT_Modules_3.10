@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1dsd_1_1dsd__block__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::dsd::dsd_block_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1dsd_1_1dsd__block__ff" prot="public" virt="non-virtual">gr::dsd::dsd_block_ff</basecompoundref>
+    <includes refid="dsd__block__ff__impl_8h" local="no">dsd_block_ff_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1dsd_1_1dsd__block__ff__impl_1a9633beb6a3501787e2fedb99d8de708b" prot="private" static="no" mutable="no">
+        <type><ref refid="structgr_1_1dsd_1_1dsd__params" kindref="compound">dsd_params</ref></type>
+        <definition>dsd_params gr::dsd::dsd_block_ff_impl::params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <qualifiedname>gr::dsd::dsd_block_ff_impl::params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="30" column="16" bodyfile="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1dsd_1_1dsd__block__ff__impl_1add4e652b3e0434643b8b24e1730c6977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dsd::dsd_block_ff_impl::dsd_block_ff_impl</definition>
+        <argsstring>(dsd_frame_mode frame, dsd_modulation_optimizations mod, int uvquality, bool errorbars, int verbosity)</argsstring>
+        <name>dsd_block_ff_impl</name>
+        <qualifiedname>gr::dsd::dsd_block_ff_impl::dsd_block_ff_impl</qualifiedname>
+        <param>
+          <type><ref refid="namespacegr_1_1dsd_1a83bc94711ee2e176f16f46bd2fc56696" kindref="member">dsd_frame_mode</ref></type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacegr_1_1dsd_1ae62ae71afdeb82c1969724acc162b2d7" kindref="member">dsd_modulation_optimizations</ref></type>
+          <declname>mod</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uvquality</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>errorbars</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verbosity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="33" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dsd_1_1dsd__block__ff__impl_1a0cb554ba1bfea468ef798c736cb22677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::dsd::dsd_block_ff_impl::~dsd_block_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsd_block_ff_impl</name>
+        <qualifiedname>gr::dsd::dsd_block_ff_impl::~dsd_block_ff_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1dsd_1_1dsd__block__ff__impl_1a67319d86838a18e080caa2d0c2de5847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::dsd::dsd_block_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::dsd::dsd_block_ff_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="41" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::dsd::dsd_block_ff</label>
+        <link refid="classgr_1_1dsd_1_1dsd__block__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::dsd::dsd_block_ff_impl</label>
+        <link refid="classgr_1_1dsd_1_1dsd__block__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_decimator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::dsd::dsd_block_ff</label>
+        <link refid="classgr_1_1dsd_1_1dsd__block__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::dsd::dsd_block_ff_impl</label>
+        <link refid="classgr_1_1dsd_1_1dsd__block__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_decimator</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" line="27" column="1" bodyfile="/home/dr/Code/gr-dsd/lib/dsd_block_ff_impl.h" bodystart="28" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff__impl_1add4e652b3e0434643b8b24e1730c6977" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>dsd_block_ff_impl</name></member>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff_1aa2fe81370643e9f70b184208673382b6" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff__impl_1a9633beb6a3501787e2fedb99d8de708b" prot="private" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>params</name></member>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff_1a632e905cb2b6932d0263b7421bd864c3" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff__impl_1a67319d86838a18e080caa2d0c2de5847" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1dsd_1_1dsd__block__ff__impl_1a0cb554ba1bfea468ef798c736cb22677" prot="public" virt="non-virtual"><scope>gr::dsd::dsd_block_ff_impl</scope><name>~dsd_block_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

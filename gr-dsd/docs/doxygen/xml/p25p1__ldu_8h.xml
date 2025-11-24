@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="p25p1__ldu_8h" kind="file" language="C++">
+    <compoundname>p25p1_ldu.h</compoundname>
+    <includes refid="dsd_8h" local="yes">dsd.h</includes>
+    <includes refid="p25p1__hdu_8h" local="yes">p25p1_hdu.h</includes>
+    <includes refid="p25p1__const_8h" local="yes">p25p1_const.h</includes>
+    <includes refid="p25p1__heuristics_8h" local="yes">p25p1_heuristics.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="dsd_2include_2config_8h"/>
+      </node>
+      <node id="2">
+        <label>dsd.h</label>
+        <link refid="dsd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>p25p1_const.h</label>
+        <link refid="p25p1__const_8h"/>
+      </node>
+      <node id="20">
+        <label>p25p1_hdu.h</label>
+        <link refid="p25p1__hdu_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>p25p1_heuristics.h</label>
+        <link refid="p25p1__heuristics_8h"/>
+      </node>
+      <node id="1">
+        <label>p25p1_ldu.h</label>
+        <link refid="p25p1__ldu_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>mbelib.h</label>
+        <link refid="mbelib_8h"/>
+      </node>
+      <node id="13">
+        <label>fcntl.h</label>
+      </node>
+      <node id="16">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>signal.h</label>
+      </node>
+      <node id="18">
+        <label>sndfile.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="15">
+        <label>sys/soundcard.h</label>
+      </node>
+      <node id="11">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="9">
+        <label>sys/time.h</label>
+      </node>
+      <node id="10">
+        <label>sys/types.h</label>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+      </node>
+      <node id="14">
+        <label>unistd.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="p25p1__ldu_8h_1a283ebfde8388e9829c5a931b9b0a4021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void process_IMBE</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, int *status_count)</argsstring>
+        <name>process_IMBE</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>status_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Separate imbe frames and deinterleave. This important methods read the IMBE data from the stream and passes it to the vocoder to produce audio. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DSD options. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DSD state. \status_count An index that allows us to skip the status words interleaved every 36 dibit in the data stream. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" line="19" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__ldu_8h_1a81e064a307751dff41218bbfb962db8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void read_and_correct_hex_word</definition>
+        <argsstring>(dsd_opts *opts, dsd_state *state, char *hex, int *status_count, AnalogSignal *analog_signal_array, int *analog_signal_index)</argsstring>
+        <name>read_and_correct_hex_word</name>
+        <param>
+          <type><ref refid="structdsd__opts" kindref="compound">dsd_opts</ref> *</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type><ref refid="structdsd__state" kindref="compound">dsd_state</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>hex</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>status_count</declname>
+        </param>
+        <param>
+          <type><ref refid="structAnalogSignal" kindref="compound">AnalogSignal</ref> *</type>
+          <declname>analog_signal_array</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>analog_signal_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads an hex word, its parity bits and attempts to error correct it using the Hamming FEC. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DSD options. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DSD state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer where to store the read hex word. Six bytes, one per bit. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>status_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An index that allows us to skip the status words interleaved every 36 dibit in the data stream. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>analog_singal_array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a sequence of <ref refid="structAnalogSignal" kindref="compound">AnalogSignal</ref> elements. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>analog_signal_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current index in the analog_singal_array. This value is increased on each dibit read. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" line="32" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="p25p1__ldu_8h_1a88a42cd89cee83e734ea096441e49797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void correct_hamming_dibits</definition>
+        <argsstring>(char *hex_data, int hex_count, AnalogSignal *analog_signal_array)</argsstring>
+        <name>correct_hamming_dibits</name>
+        <param>
+          <type>char *</type>
+          <declname>hex_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hex_count</declname>
+        </param>
+        <param>
+          <type><ref refid="structAnalogSignal" kindref="compound">AnalogSignal</ref> *</type>
+          <declname>analog_signal_array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Correct the information in analog_signal_array according with the content of data, which has been error corrected and should be valid. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Dibits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>that have already been error corrected and we trust are correct. \count Number of dibits. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>analog_signal_array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a sequence of <ref refid="structAnalogSignal" kindref="compound">AnalogSignal</ref> elements, as many as the value of count. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" line="42" column="6" declfile="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h" declline="42" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/p25p1_ldu.h"/>
+  </compounddef>
+</doxygen>

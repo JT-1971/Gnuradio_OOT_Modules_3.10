@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_4e829d46f3b810e4a5c8a9717611518b" kind="dir">
+    <compoundname>gtest</compoundname>
+    <innerdir refid="dir_74fccd78f51e62bee2d879e2748ca498">include</innerdir>
+    <innerdir refid="dir_393a1343bd7ee0ab67415d6c73afe6f7">src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/"/>
+  </compounddef>
+</doxygen>

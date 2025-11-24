@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmbe.a CMakeFiles/mbe.dir/ambe3600x2400.c.o CMakeFiles/mbe.dir/ambe3600x2450.c.o CMakeFiles/mbe.dir/ecc.c.o CMakeFiles/mbe.dir/imbe7100x4400.c.o CMakeFiles/mbe.dir/imbe7200x4400.c.o CMakeFiles/mbe.dir/mbelib.c.o
+/usr/bin/ranlib libmbe.a

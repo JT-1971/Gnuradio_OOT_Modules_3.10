@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1PointeeMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::PointeeMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <innerclass refid="classtesting_1_1internal_1_1PointeeMatcher_1_1Impl" prot="private">testing::internal::PointeeMatcher::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename InnerMatcher</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1PointeeMatcher_1aa429edbc73c0350807d9b0ffcc6ab922" prot="private" static="no" mutable="no">
+        <type>const InnerMatcher</type>
+        <definition>const InnerMatcher testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::matcher_</definition>
+        <argsstring></argsstring>
+        <name>matcher_</name>
+        <qualifiedname>testing::internal::PointeeMatcher::matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2001" column="22" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2001" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1ad9f7d9dbd115c50811ce82ba27f1ba56" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::PointeeMatcher</definition>
+        <argsstring>(const InnerMatcher &amp;matcher)</argsstring>
+        <name>PointeeMatcher</name>
+        <qualifiedname>testing::internal::PointeeMatcher::PointeeMatcher</qualifiedname>
+        <param>
+          <type>const InnerMatcher &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1950" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1950" bodyend="1950"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1adec012cd8d3fa166ee89236545a57772" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pointer</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::operator Matcher&lt; Pointer &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Pointer &gt;</name>
+        <qualifiedname>testing::internal::PointeeMatcher::operator Matcher&lt; Pointer &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1961" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1961" bodyend="1963"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1ad9f7d9dbd115c50811ce82ba27f1ba56" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::PointeeMatcher</definition>
+        <argsstring>(const InnerMatcher &amp;matcher)</argsstring>
+        <name>PointeeMatcher</name>
+        <qualifiedname>testing::internal::PointeeMatcher::PointeeMatcher</qualifiedname>
+        <param>
+          <type>const InnerMatcher &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1950" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1950" bodyend="1950"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1adec012cd8d3fa166ee89236545a57772" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Pointer</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::operator Matcher&lt; Pointer &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; Pointer &gt;</name>
+        <qualifiedname>testing::internal::PointeeMatcher::operator Matcher&lt; Pointer &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="1961" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="1961" bodyend="1963"/>
+        <references refid="namespacetesting_1aca6c4c4fdf7fb7257ea4fc76971cb82c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="459" endline="461">testing::MakeMatcher</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1a9e564aa0569377a404edefb7b2ccdb16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PointeeMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PointeeMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PointeeMatcher" kindref="compound">PointeeMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2003" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1PointeeMatcher_1a9e564aa0569377a404edefb7b2ccdb16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::PointeeMatcher&lt; InnerMatcher &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(PointeeMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::PointeeMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1PointeeMatcher" kindref="compound">PointeeMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2003" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="1948" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="1948" bodyend="2004"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1a9e564aa0569377a404edefb7b2ccdb16" prot="private" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1a9e564aa0569377a404edefb7b2ccdb16" prot="private" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1aa429edbc73c0350807d9b0ffcc6ab922" prot="private" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1adec012cd8d3fa166ee89236545a57772" prot="public" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>operator Matcher&lt; Pointer &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1adec012cd8d3fa166ee89236545a57772" prot="public" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>operator Matcher&lt; Pointer &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1ad9f7d9dbd115c50811ce82ba27f1ba56" prot="public" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>PointeeMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1PointeeMatcher_1ad9f7d9dbd115c50811ce82ba27f1ba56" prot="public" virt="non-virtual"><scope>testing::internal::PointeeMatcher</scope><name>PointeeMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

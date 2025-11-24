@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic "CMakeFiles/mbetest.dir/mbe-test.cpp.o" CMakeFiles/mbetest.dir/test.cpp.o -o mbetest   -L/home/dr/Code/mbelib  -Wl,-rpath,/home/dr/Code/mbelib -lmbe gmock/libgmock.a gtest/libgtest.a 

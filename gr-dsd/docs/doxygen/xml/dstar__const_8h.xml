@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dstar__const_8h" kind="file" language="C++">
+    <compoundname>dstar_const.h</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dstar__const_8h_1a0320630e20092c56f342161c22f284e1" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int dW[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>dW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dstar_const.h" line="24" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dstar_const.h" declline="24" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="dstar__const_8h_1a4a5885926a7ae79e16ea94c73a145fdb" prot="public" static="no" extern="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int dX[72]</definition>
+        <argsstring>[72]</argsstring>
+        <name>dX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/include/dstar_const.h" line="25" column="18" declfile="/home/dr/Code/gr-dsd/dsd/include/dstar_const.h" declline="25" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/include/dstar_const.h"/>
+  </compounddef>
+</doxygen>

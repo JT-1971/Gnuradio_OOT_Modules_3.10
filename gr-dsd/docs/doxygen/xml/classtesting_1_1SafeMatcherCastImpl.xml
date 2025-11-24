@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1SafeMatcherCastImpl" kind="class" language="C++" prot="public">
+    <compoundname>testing::SafeMatcherCastImpl</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1SafeMatcherCastImpl_1afd29110b29fbf265c12250e98f69bff3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::SafeMatcherCastImpl&lt; T &gt;::Cast</definition>
+        <argsstring>(M polymorphic_matcher_or_value)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::SafeMatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="602" column="25" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="602" bodyend="604"/>
+        <referencedby refid="namespacetesting_1ad49d22f0e87778e2b97a88ee851dcea3" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="640" endline="642">testing::SafeMatcherCast</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1SafeMatcherCastImpl_1a953c5830cbd8370360b9ca07c3f70bd4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::SafeMatcherCastImpl&lt; T &gt;::Cast</definition>
+        <argsstring>(const Matcher&lt; U &gt; &amp;matcher)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::SafeMatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; U &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="616" column="25" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="616" bodyend="636"/>
+        <references refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a72b01bdd08b78e927270885ca880ead4" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="168" endline="170">GMOCK_KIND_OF_</references>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" startline="815" endline="817">GTEST_COMPILE_ASSERT_</references>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1_1internal_1aa8747bda20137c9aa7f846dee830e686a89b3fd4ec20d3052f5ee8b574e13d581" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="127">testing::internal::kOther</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1SafeMatcherCastImpl_1afd29110b29fbf265c12250e98f69bff3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::SafeMatcherCastImpl&lt; T &gt;::Cast</definition>
+        <argsstring>(M polymorphic_matcher_or_value)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::SafeMatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>M</type>
+          <declname>polymorphic_matcher_or_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="602" column="25" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="602" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1SafeMatcherCastImpl_1a953c5830cbd8370360b9ca07c3f70bd4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; T &gt;</type>
+        <definition>static Matcher&lt; T &gt; testing::SafeMatcherCastImpl&lt; T &gt;::Cast</definition>
+        <argsstring>(const Matcher&lt; U &gt; &amp;matcher)</argsstring>
+        <name>Cast</name>
+        <qualifiedname>testing::SafeMatcherCastImpl::Cast</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; U &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="616" column="25" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="616" bodyend="636"/>
+        <references refid="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h_1a72b01bdd08b78e927270885ca880ead4" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="168" endline="170">GMOCK_KIND_OF_</references>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h_1ae1f37dc71d5daa6fb49ca1b6047d4a8c" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-port_8h" startline="815" endline="817">GTEST_COMPILE_ASSERT_</references>
+        <references refid="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h_1a874567b176266188fabfffb8393267ce" compoundref="dsd_2test_2gtest_2include_2gtest_2internal_2gtest-internal_8h" startline="747" endline="748">GTEST_REMOVE_REFERENCE_AND_CONST_</references>
+        <references refid="namespacetesting_1_1internal_1aa8747bda20137c9aa7f846dee830e686a89b3fd4ec20d3052f5ee8b574e13d581" compoundref="dsd_2test_2gmock_2include_2gmock_2internal_2gmock-internal-utils_8h" startline="127">testing::internal::kOther</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="597" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="597" bodyend="637"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1SafeMatcherCastImpl_1afd29110b29fbf265c12250e98f69bff3" prot="public" virt="non-virtual"><scope>testing::SafeMatcherCastImpl</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1SafeMatcherCastImpl_1a953c5830cbd8370360b9ca07c3f70bd4" prot="public" virt="non-virtual"><scope>testing::SafeMatcherCastImpl</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1SafeMatcherCastImpl_1afd29110b29fbf265c12250e98f69bff3" prot="public" virt="non-virtual"><scope>testing::SafeMatcherCastImpl</scope><name>Cast</name></member>
+      <member refid="classtesting_1_1SafeMatcherCastImpl_1a953c5830cbd8370360b9ca07c3f70bd4" prot="public" virt="non-virtual"><scope>testing::SafeMatcherCastImpl</scope><name>Cast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1CallableHelper" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::CallableHelper</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" local="no">gmock-generated-actions.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a19b129c26f5c87448dcf1017773df353" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="300" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="300" bodyend="300"/>
+        <referencedby refid="namespacetesting_1a8a02397c7fdf8e84d559ab72dcc28eb1" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2261" endline="2266">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1ab7bf885ff274cbdc09f19c39e43b7f2b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2331" endline="2336">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1afaa0d88f5442f9aee5d6147377d3e50c" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2268" endline="2273">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1a39bf6c49dc1323cc9539a12249e60aba" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2275" endline="2280">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1ac50647216fdf5197899a3d5034a9a670" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2282" endline="2287">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1ae98e43eecf8f44990b39b460f00b397b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2289" endline="2294">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1a505f6d82df233802c5f4235d77dca164" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2296" endline="2301">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1ab85e5f54a209bf141fc04f8612fbe887" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2303" endline="2308">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1a8d3590561f334d165c620f522219831b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2310" endline="2315">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1a8725892aafb62cc8f6f76280d29595d8" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2317" endline="2322">testing::ACTION_TEMPLATE</referencedby>
+        <referencedby refid="namespacetesting_1a910551adbfeb1854071ef55ae54a5c0f" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-generated-actions_8h" startline="2324" endline="2329">testing::ACTION_TEMPLATE</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a6e0010e13653b6ee1bb0d79c7fd08191" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="316" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1aa48f57e8d2fb75b8a6a3136717792530" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="320" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="320" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a5f6da73ba884f7b2f29dafef0904238c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="326" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="326" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1ad063db5c88cb8ffc82cb90e6b049a890" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="333" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="333" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a341b2bdbdfd942fedaa509aed5321e83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="340" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="340" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a2239521abfa332aaa97f8b80668aec7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="347" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a73e56c23cfe112c292e98cb49309e7b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="354" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="354" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a1064b41d566cf2d6cf0f4e8f7642b35a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="362" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1ac21d6585062a6f9fe7c19cda4119ec2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>A9</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="371" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="371" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1adb754eb4c6f598954035c3ade771ab5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9, A10 a10)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>A9</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>A10</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="380" column="12" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="380" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a19b129c26f5c87448dcf1017773df353" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="300" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a6e0010e13653b6ee1bb0d79c7fd08191" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="316" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1aa48f57e8d2fb75b8a6a3136717792530" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="320" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="320" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a5f6da73ba884f7b2f29dafef0904238c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="326" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="326" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1ad063db5c88cb8ffc82cb90e6b049a890" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="333" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="333" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a341b2bdbdfd942fedaa509aed5321e83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="340" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="340" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a2239521abfa332aaa97f8b80668aec7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="347" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a73e56c23cfe112c292e98cb49309e7b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="354" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="354" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1a1064b41d566cf2d6cf0f4e8f7642b35a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="362" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1ac21d6585062a6f9fe7c19cda4119ec2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>A9</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="371" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="371" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1CallableHelper_1adb754eb4c6f598954035c3ade771ab5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          </param>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+          <param>
+            <type>typename A10</type>
+          </param>
+        </templateparamlist>
+        <type>R</type>
+        <definition>static R testing::internal::CallableHelper&lt; R &gt;::Call</definition>
+        <argsstring>(Function function, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9, A10 a10)</argsstring>
+        <name>Call</name>
+        <qualifiedname>testing::internal::CallableHelper::Call</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1Function" kindref="compound">Function</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>A9</type>
+          <declname>a9</declname>
+        </param>
+        <param>
+          <type>A10</type>
+          <declname>a10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" line="380" column="12" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="380" bodyend="383"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" line="296" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-generated-actions.h" bodystart="296" bodyend="384"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a19b129c26f5c87448dcf1017773df353" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a6e0010e13653b6ee1bb0d79c7fd08191" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1aa48f57e8d2fb75b8a6a3136717792530" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a5f6da73ba884f7b2f29dafef0904238c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1ad063db5c88cb8ffc82cb90e6b049a890" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a341b2bdbdfd942fedaa509aed5321e83" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a2239521abfa332aaa97f8b80668aec7c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a73e56c23cfe112c292e98cb49309e7b0" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a1064b41d566cf2d6cf0f4e8f7642b35a" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1ac21d6585062a6f9fe7c19cda4119ec2c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1adb754eb4c6f598954035c3ade771ab5d" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a19b129c26f5c87448dcf1017773df353" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a6e0010e13653b6ee1bb0d79c7fd08191" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1aa48f57e8d2fb75b8a6a3136717792530" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a5f6da73ba884f7b2f29dafef0904238c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1ad063db5c88cb8ffc82cb90e6b049a890" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a341b2bdbdfd942fedaa509aed5321e83" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a2239521abfa332aaa97f8b80668aec7c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a73e56c23cfe112c292e98cb49309e7b0" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1a1064b41d566cf2d6cf0f4e8f7642b35a" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1ac21d6585062a6f9fe7c19cda4119ec2c" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+      <member refid="classtesting_1_1internal_1_1CallableHelper_1adb754eb4c6f598954035c3ade771ab5d" prot="public" virt="non-virtual"><scope>testing::internal::CallableHelper</scope><name>Call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

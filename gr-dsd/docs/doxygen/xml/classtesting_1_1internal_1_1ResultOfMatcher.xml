@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1ResultOfMatcher" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::ResultOfMatcher</compoundname>
+    <includes refid="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" local="no">gmock-matchers.h</includes>
+    <innerclass refid="classtesting_1_1internal_1_1ResultOfMatcher_1_1Impl" prot="private">testing::internal::ResultOfMatcher::Impl</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Callable</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1CallableTraits" kindref="compound">CallableTraits</ref>&lt; Callable &gt;::ResultType</type>
+        <definition>typedef CallableTraits&lt;Callable&gt;::ResultType testing::internal::ResultOfMatcher&lt; Callable &gt;::ResultType</definition>
+        <argsstring></argsstring>
+        <name>ResultType</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::ResultType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2160" column="48" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" prot="public" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1CallableTraits" kindref="compound">CallableTraits</ref>&lt; Callable &gt;::ResultType</type>
+        <definition>typedef CallableTraits&lt;Callable&gt;::ResultType testing::internal::ResultOfMatcher&lt; Callable &gt;::ResultType</definition>
+        <argsstring></argsstring>
+        <name>ResultType</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::ResultType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2160" column="48" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ResultOfMatcher_1a6f7f7d80162bebdf73681d6a3aa92c7d" prot="private" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1CallableTraits" kindref="compound">CallableTraits</ref>&lt; Callable &gt;::StorageType</type>
+        <definition>typedef CallableTraits&lt;Callable&gt;::StorageType testing::internal::ResultOfMatcher&lt; Callable &gt;::CallableStorageType</definition>
+        <argsstring></argsstring>
+        <name>CallableStorageType</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::CallableStorageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2173" column="49" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classtesting_1_1internal_1_1ResultOfMatcher_1a6f7f7d80162bebdf73681d6a3aa92c7d" prot="private" static="no">
+        <type><ref refid="structtesting_1_1internal_1_1CallableTraits" kindref="compound">CallableTraits</ref>&lt; Callable &gt;::StorageType</type>
+        <definition>typedef CallableTraits&lt;Callable&gt;::StorageType testing::internal::ResultOfMatcher&lt; Callable &gt;::CallableStorageType</definition>
+        <argsstring></argsstring>
+        <name>CallableStorageType</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::CallableStorageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2173" column="49" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ResultOfMatcher_1a0da13870ff65546571ed39ec798242aa" prot="private" static="no" mutable="no">
+        <type>const CallableStorageType</type>
+        <definition>const CallableStorageType testing::internal::ResultOfMatcher&lt; Callable &gt;::callable_</definition>
+        <argsstring></argsstring>
+        <name>callable_</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::callable_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2212" column="29" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1ResultOfMatcher_1a99f40bedd191583303a511dee36f8b45" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; <ref refid="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" kindref="member">ResultType</ref> &gt;</type>
+        <definition>const Matcher&lt; ResultType &gt; testing::internal::ResultOfMatcher&lt; Callable &gt;::matcher_</definition>
+        <argsstring></argsstring>
+        <name>matcher_</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::matcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2213" column="17" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1a77c27bcc81ff133c1117a7edf84df0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::ResultOfMatcher</definition>
+        <argsstring>(Callable callable, const Matcher&lt; ResultType &gt; &amp;matcher)</argsstring>
+        <name>ResultOfMatcher</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::ResultOfMatcher</qualifiedname>
+        <param>
+          <type>Callable</type>
+          <declname>callable</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; <ref refid="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" kindref="member">ResultType</ref> &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2162" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2162" bodyend="2165"/>
+        <references refid="structtesting_1_1internal_1_1CallableTraits_1ab09a6487235947ec9c5d933d07ac605b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2134" endline="2134">testing::internal::CallableTraits&lt; Functor &gt;::CheckIsValid</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1ab537f63126b81ea991ff369becf7ad7e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2168" column="3" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2168" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1a77c27bcc81ff133c1117a7edf84df0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::ResultOfMatcher</definition>
+        <argsstring>(Callable callable, const Matcher&lt; ResultType &gt; &amp;matcher)</argsstring>
+        <name>ResultOfMatcher</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::ResultOfMatcher</qualifiedname>
+        <param>
+          <type>Callable</type>
+          <declname>callable</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1Matcher" kindref="compound">Matcher</ref>&lt; <ref refid="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" kindref="member">ResultType</ref> &gt; &amp;</type>
+          <declname>matcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2162" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2162" bodyend="2165"/>
+        <references refid="structtesting_1_1internal_1_1CallableTraits_1ab09a6487235947ec9c5d933d07ac605b" compoundref="dsd_2test_2gmock_2include_2gmock_2gmock-matchers_8h" startline="2134" endline="2134">testing::internal::CallableTraits&lt; Functor &gt;::CheckIsValid</references>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1ab537f63126b81ea991ff369becf7ad7e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::operator Matcher&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Matcher&lt; T &gt;</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::operator Matcher&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2168" column="3" bodyfile="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" bodystart="2168" bodyend="2170"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1aad5df085fb0d9648eb8eaaf9b53b14e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ResultOfMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ResultOfMatcher" kindref="compound">ResultOfMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2215" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1ResultOfMatcher_1aad5df085fb0d9648eb8eaaf9b53b14e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::ResultOfMatcher&lt; Callable &gt;::GTEST_DISALLOW_ASSIGN_</definition>
+        <argsstring>(ResultOfMatcher)</argsstring>
+        <name>GTEST_DISALLOW_ASSIGN_</name>
+        <qualifiedname>testing::internal::ResultOfMatcher::GTEST_DISALLOW_ASSIGN_</qualifiedname>
+        <param>
+          <type><ref refid="classtesting_1_1internal_1_1ResultOfMatcher" kindref="compound">ResultOfMatcher</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-dsd/mbelib/test/gmock/include/gmock/gmock-matchers.h" line="2215" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" line="2158" column="1" bodyfile="/home/dr/Code/gr-dsd/dsd/test/gmock/include/gmock/gmock-matchers.h" bodystart="2158" bodyend="2216"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a0da13870ff65546571ed39ec798242aa" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>callable_</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a6f7f7d80162bebdf73681d6a3aa92c7d" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>CallableStorageType</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a6f7f7d80162bebdf73681d6a3aa92c7d" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>CallableStorageType</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1aad5df085fb0d9648eb8eaaf9b53b14e8" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1aad5df085fb0d9648eb8eaaf9b53b14e8" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>GTEST_DISALLOW_ASSIGN_</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a99f40bedd191583303a511dee36f8b45" prot="private" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>matcher_</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1ab537f63126b81ea991ff369becf7ad7e" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1ab537f63126b81ea991ff369becf7ad7e" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>operator Matcher&lt; T &gt;</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a77c27bcc81ff133c1117a7edf84df0b9" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>ResultOfMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1a77c27bcc81ff133c1117a7edf84df0b9" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>ResultOfMatcher</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>ResultType</name></member>
+      <member refid="classtesting_1_1internal_1_1ResultOfMatcher_1aa9db2267792fcae2cfa3f57683f4e048" prot="public" virt="non-virtual"><scope>testing::internal::ResultOfMatcher</scope><name>ResultType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

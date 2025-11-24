@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dsd_2test_2gtest_2include_2gtest_2gtest-test-part_8h" kind="file" language="C++">
+    <compoundname>dsd/test/gtest/include/gtest/gtest-test-part.h</compoundname>
+    <includes local="no">iosfwd</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">gtest/internal/gtest-internal.h</includes>
+    <includes local="yes">gtest/internal/gtest-string.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>gtest-test-part.h</label>
+        <link refid="dsd_2test_2gtest_2include_2gtest_2gtest-test-part_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gtest/internal/gtest-internal.h</label>
+      </node>
+      <node id="5">
+        <label>gtest/internal/gtest-string.h</label>
+      </node>
+      <node id="2">
+        <label>iosfwd</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtesting_1_1TestPartResult" prot="public">testing::TestPartResult</innerclass>
+    <innerclass refid="classtesting_1_1TestPartResultArray" prot="public">testing::TestPartResultArray</innerclass>
+    <innerclass refid="classtesting_1_1TestPartResultReporterInterface" prot="public">testing::TestPartResultReporterInterface</innerclass>
+    <innerclass refid="classtesting_1_1internal_1_1HasNewFatalFailureHelper" prot="public">testing::internal::HasNewFatalFailureHelper</innerclass>
+    <innernamespace refid="namespacetesting">testing</innernamespace>
+    <innernamespace refid="namespacetesting_1_1internal">testing::internal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-dsd/dsd/test/gtest/include/gtest/gtest-test-part.h"/>
+  </compounddef>
+</doxygen>
