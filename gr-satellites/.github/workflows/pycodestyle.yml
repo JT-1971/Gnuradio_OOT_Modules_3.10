@@ -1,0 +1,16 @@
+name: pycodestyle
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pycodestyle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pycodestyle
+        run: pip install pycodestyle
+      - name: Run pycodestyle
+        run: pycodestyle . --exclude python/ccsds,docs,tools,tests,examples,python/bindings

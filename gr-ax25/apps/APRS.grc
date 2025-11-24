@@ -1,0 +1,602 @@
+options:
+  parameters:
+    author: dl1ksv
+    catch_exceptions: 'True'
+    category: Custom
+    cmake_opt: ''
+    comment: ''
+    copyright: ''
+    description: Receives ax.25 packets , display the packets, and converts aprs packet
+      to be send via tcp/ip
+    gen_cmake: 'On'
+    gen_linking: dynamic
+    generate_options: qt_gui
+    hier_block_src_path: '.:'
+    id: APRS
+    max_nouts: '0'
+    output_language: python
+    placement: (0,0)
+    qt_qss_theme: ''
+    realtime_scheduling: ''
+    run: 'True'
+    run_command: '{python} -u {filename}'
+    run_options: prompt
+    sizing_mode: fixed
+    thread_safe_setters: ''
+    title: Receives ax.25/ aprs packets
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [10, 10]
+    rotation: 0
+    state: enabled
+
+blocks:
+- name: Attack
+  id: variable
+  parameters:
+    comment: ''
+    value: '0.8'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [866, 7]
+    rotation: 0
+    state: enabled
+- name: Decay
+  id: variable
+  parameters:
+    comment: ''
+    value: '0.1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [783, 6]
+    rotation: 0
+    state: enabled
+- name: Decim
+  id: variable
+  parameters:
+    comment: ''
+    value: '4'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [994, 16]
+    rotation: 0
+    state: enabled
+- name: Frequency
+  id: variable
+  parameters:
+    comment: ''
+    value: '97000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [822, 100]
+    rotation: 0
+    state: enabled
+- name: FrequencyOffset
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: 0,2
+    label: ''
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: '-20'
+    step: '1'
+    stop: '20'
+    value: '10'
+    widget: counter
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [657, 14]
+    rotation: 0
+    state: enabled
+- name: IFGain
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: 0,1
+    label: ''
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: int
+    start: '1'
+    step: '1'
+    stop: '25'
+    value: '20'
+    widget: counter
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [328, 8]
+    rotation: 0
+    state: enabled
+- name: Modus
+  id: variable_qtgui_chooser
+  parameters:
+    comment: ''
+    gui_hint: 0,0
+    label: ''
+    label0: APRS
+    label1: ISS
+    label2: ''
+    label3: ''
+    label4: ''
+    labels: '[]'
+    num_opts: '2'
+    option0: '144800'
+    option1: '145819'
+    option2: '2'
+    option3: '3'
+    option4: '4'
+    options: '[0, 1, 2]'
+    orient: Qt.QVBoxLayout
+    type: real
+    value: '144800'
+    widget: combo_box
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [485, 14]
+    rotation: 0
+    state: enabled
+- name: samp_rate
+  id: variable
+  parameters:
+    comment: ''
+    value: '192000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [210, 12]
+    rotation: 0
+    state: enabled
+- name: Display
+  id: qtgui_tab_widget
+  parameters:
+    alias: ''
+    comment: ''
+    gui_hint: 1,0,1,3
+    label0: Settings
+    label1: Results
+    label10: Tab 10
+    label11: Tab 11
+    label12: Tab 12
+    label13: Tab 13
+    label14: Tab 14
+    label15: Tab 15
+    label16: Tab 16
+    label17: Tab 17
+    label18: Tab 18
+    label19: Tab 19
+    label2: Tab 2
+    label3: Tab 3
+    label4: Tab 4
+    label5: Tab 5
+    label6: Tab 6
+    label7: Tab 7
+    label8: Tab 8
+    label9: Tab 9
+    num_tabs: '2'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1114, 17]
+    rotation: 0
+    state: enabled
+- name: analog_quadrature_demod_cf_0_0
+  id: analog_quadrature_demod_cf
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    gain: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [143, 599]
+    rotation: 0
+    state: enabled
+- name: analog_sig_source_x_0
+  id: analog_sig_source_x
+  parameters:
+    affinity: ''
+    alias: ''
+    amp: '1'
+    comment: ''
+    freq: '-10000'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    offset: '0'
+    phase: '0'
+    samp_rate: samp_rate/4
+    type: complex
+    waveform: analog.GR_COS_WAVE
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [504, 308.0]
+    rotation: 0
+    state: enabled
+- name: audio_sink_0
+  id: audio_sink
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    device_name: default
+    num_inputs: '1'
+    ok_to_block: 'True'
+    samp_rate: '48000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [256, 436.0]
+    rotation: 0
+    state: true
+- name: ax25_afsk1200_0
+  id: ax25_afsk1200
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    debug_level: '2'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    sample_rate: int(samp_rate/4)
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [632, 756.0]
+    rotation: 0
+    state: true
+- name: ax25_ax25decode_0
+  id: ax25_ax25decode
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    debug_level: '2'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    sample_rate: int(samp_rate/4)
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1056, 484.0]
+    rotation: 0
+    state: true
+- name: band_pass_filter_0_0
+  id: band_pass_filter
+  parameters:
+    affinity: ''
+    alias: ''
+    beta: '6.76'
+    comment: ''
+    decim: '1'
+    gain: '1'
+    high_cutoff_freq: '2450'
+    interp: '1'
+    low_cutoff_freq: '950'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate/Decim
+    type: fir_filter_fff
+    width: '100'
+    win: window.WIN_HAMMING
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [387, 552]
+    rotation: 0
+    state: enabled
+- name: band_pass_filter_1
+  id: band_pass_filter
+  parameters:
+    affinity: ''
+    alias: ''
+    beta: '6.76'
+    comment: ''
+    decim: '4'
+    gain: '4'
+    high_cutoff_freq: FrequencyOffset*500+10000
+    interp: '1'
+    low_cutoff_freq: FrequencyOffset*500
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate
+    type: fir_filter_ccc
+    width: '300'
+    win: window.WIN_HAMMING
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [410, 141]
+    rotation: 0
+    state: enabled
+- name: blocks_multiply_xx_0
+  id: blocks_multiply_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    num_inputs: '2'
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [677, 193]
+    rotation: 0
+    state: enabled
+- name: blocks_sub_xx_0_0_0
+  id: blocks_sub_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    num_inputs: '2'
+    type: float
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [943, 530]
+    rotation: 0
+    state: enabled
+- name: detectMarkSpace_0_0
+  id: detectMarkSpace
+  parameters:
+    Frequency: '1200'
+    affinity: ''
+    alias: ''
+    attack: Attack
+    comment: ''
+    decay: Decay
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate/Decim
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [670, 501]
+    rotation: 0
+    state: enabled
+- name: detectMarkSpace_1_0
+  id: detectMarkSpace
+  parameters:
+    Frequency: '2200'
+    affinity: ''
+    alias: ''
+    attack: Attack
+    comment: ''
+    decay: Decay
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate/Decim
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [668, 592]
+    rotation: 0
+    state: enabled
+- name: funcube_fcdpp_0
+  id: funcube_fcdpp
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    device_name: ' ""'
+    freq: Modus-FrequencyOffset
+    if_gain: IFGain
+    lnaswitch: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    mixergainswitch: '1'
+    ppm: '0'
+    unit: '1000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [8, 220.0]
+    rotation: 0
+    state: true
+- name: low_pass_filter_0
+  id: low_pass_filter
+  parameters:
+    affinity: ''
+    alias: ''
+    beta: '6.76'
+    comment: ''
+    cutoff_freq: '4900'
+    decim: '1'
+    gain: '1'
+    interp: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate/4
+    type: fir_filter_ccf
+    width: '1000'
+    win: window.WIN_HAMMING
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [976, 164.0]
+    rotation: 0
+    state: enabled
+- name: qtgui_sink_x_0
+  id: qtgui_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    bw: samp_rate
+    comment: ''
+    fc: (Modus-FrequencyOffset)*1000
+    fftsize: '1024'
+    gui_hint: Display@0:2,0
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: QT GUI Plot
+    plotconst: 'False'
+    plotfreq: 'True'
+    plottime: 'False'
+    plotwaterfall: 'True'
+    rate: '10'
+    showports: 'True'
+    showrf: 'True'
+    type: complex
+    wintype: window.WIN_BLACKMAN_hARRIS
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [256, 296]
+    rotation: 0
+    state: enabled
+- name: qtgui_waterfall_sink_x_0
+  id: qtgui_waterfall_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    axislabels: 'True'
+    bw: samp_rate/4
+    color1: '0'
+    color10: '0'
+    color2: '0'
+    color3: '0'
+    color4: '0'
+    color5: '0'
+    color6: '0'
+    color7: '0'
+    color8: '0'
+    color9: '0'
+    comment: ''
+    fc: '0'
+    fftsize: '1024'
+    freqhalf: 'True'
+    grid: 'False'
+    gui_hint: Display@0:3,0
+    int_max: '10'
+    int_min: '-140'
+    label1: ''
+    label10: ''
+    label2: ''
+    label3: ''
+    label4: ''
+    label5: ''
+    label6: ''
+    label7: ''
+    label8: ''
+    label9: ''
+    legend: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: QT GUI Plot
+    nconnections: '1'
+    showports: 'True'
+    type: complex
+    update_time: '0.10'
+    wintype: window.WIN_BLACKMAN_hARRIS
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1336, 224.0]
+    rotation: 0
+    state: enabled
+- name: show_text_0_0_0
+  id: show_text
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    gui_hint: Display@1:0,0
+    label: ''
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1188, 602]
+    rotation: 0
+    state: enabled
+- name: show_text_0_0_0_0
+  id: show_text
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    gui_hint: Display@1:0,1
+    label: ''
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [940, 768]
+    rotation: 0
+    state: enabled
+
+connections:
+- [analog_quadrature_demod_cf_0_0, '0', audio_sink_0, '0']
+- [analog_quadrature_demod_cf_0_0, '0', band_pass_filter_0_0, '0']
+- [analog_sig_source_x_0, '0', blocks_multiply_xx_0, '1']
+- [ax25_afsk1200_0, '0', show_text_0_0_0_0, '0']
+- [ax25_ax25decode_0, '0', show_text_0_0_0, '0']
+- [band_pass_filter_0_0, '0', ax25_afsk1200_0, '0']
+- [band_pass_filter_0_0, '0', detectMarkSpace_0_0, '0']
+- [band_pass_filter_0_0, '0', detectMarkSpace_1_0, '0']
+- [band_pass_filter_1, '0', blocks_multiply_xx_0, '0']
+- [blocks_multiply_xx_0, '0', low_pass_filter_0, '0']
+- [blocks_sub_xx_0_0_0, '0', ax25_ax25decode_0, '0']
+- [detectMarkSpace_0_0, '0', blocks_sub_xx_0_0_0, '0']
+- [detectMarkSpace_1_0, '0', blocks_sub_xx_0_0_0, '1']
+- [funcube_fcdpp_0, '0', band_pass_filter_1, '0']
+- [funcube_fcdpp_0, '0', qtgui_sink_x_0, '0']
+- [low_pass_filter_0, '0', analog_quadrature_demod_cf_0_0, '0']
+- [low_pass_filter_0, '0', qtgui_waterfall_sink_x_0, '0']
+
+metadata:
+  file_format: 1
