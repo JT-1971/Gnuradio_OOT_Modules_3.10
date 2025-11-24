@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_6f53b93c0a9cb889cc56515b391285e3" kind="dir">
+    <compoundname>radio_astro</compoundname>
+    <innerdir refid="dir_3fe5b3e92d9cea4d6b6868c39ce8090c">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/"/>
+  </compounddef>
+</doxygen>

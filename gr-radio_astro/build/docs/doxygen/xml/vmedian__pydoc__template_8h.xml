@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="vmedian__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>vmedian_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>vmedian_pydoc_template.h</label>
+        <link refid="vmedian__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="vmedian__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radio__astro_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radio_astro, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="10" column="10" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="vmedian__pydoc__template_8h_1a39b99b8a6ba9529bedfbe2c29848c46e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radio_astro_vmedian</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radio_astro_vmedian</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="19" column="20" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vmedian__pydoc__template_8h_1a9441bb43abfa1a07b16e64424a743e28" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radio_astro_vmedian_vmedian</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radio_astro_vmedian_vmedian</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="22" column="20" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vmedian__pydoc__template_8h_1a87d04e8b234d364541795a64070f69b5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radio_astro_vmedian_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radio_astro_vmedian_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="25" column="20" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vmedian__pydoc__template_8h_1aaaa1e17a47ea8c120c47f17cee79ab17" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radio_astro_vmedian_set_vlen</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radio_astro_vmedian_set_vlen</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="28" column="20" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vmedian__pydoc__template_8h_1af13c26e5e701871d7f9df0c42f56b033" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radio_astro_vmedian_set_mode</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radio_astro_vmedian_set_mode</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" line="31" column="20" bodyfile="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/vmedian_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

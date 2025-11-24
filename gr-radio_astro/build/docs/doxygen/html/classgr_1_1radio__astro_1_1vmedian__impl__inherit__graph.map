@@ -1,0 +1,7 @@
+<map id="gr::radio_astro::vmedian_impl" name="gr::radio_astro::vmedian_impl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,223,177"/>
+<area shape="rect" id="Node000002" href="$classgr_1_1radio__astro_1_1vmedian.html" title="Vector Median of several vectors. For 3 or 4 vectors the code implements exactly the median of the va..." alt="" coords="23,79,205,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,118,117,152,111,152,111,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="75,5,153,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,79,111,79,111,44"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="gr::radio_astro::dedispersion" name="gr::radio_astro::dedispersion">
+<area shape="rect" id="Node000001" title="Dedisperse incoming power spectrum." alt="" coords="23,79,230,104"/>
+<area shape="rect" id="Node000003" href="$classgr_1_1radio__astro_1_1dedispersion__impl.html" title=" " alt="" coords="5,152,248,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,118,129,152,124,152,124,118"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="87,5,166,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,44,129,79,124,79,124,44"/>
+</map>

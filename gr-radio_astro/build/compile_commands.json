@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_radio_astro_EXPORTS -I/home/dr/Code/gr-radio_astro/lib/../include -O3 -DNDEBUG -std=gnu++17 -fPIC   -fvisibility=hidden -o CMakeFiles/gnuradio-radio_astro.dir/dedispersion_impl.cc.o -c /home/dr/Code/gr-radio_astro/lib/dedispersion_impl.cc",
+  "file": "/home/dr/Code/gr-radio_astro/lib/dedispersion_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-radio_astro.dir/dedispersion_impl.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_radio_astro_EXPORTS -I/home/dr/Code/gr-radio_astro/lib/../include -O3 -DNDEBUG -std=gnu++17 -fPIC   -fvisibility=hidden -o CMakeFiles/gnuradio-radio_astro.dir/detect_impl.cc.o -c /home/dr/Code/gr-radio_astro/lib/detect_impl.cc",
+  "file": "/home/dr/Code/gr-radio_astro/lib/detect_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-radio_astro.dir/detect_impl.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_radio_astro_EXPORTS -I/home/dr/Code/gr-radio_astro/lib/../include -O3 -DNDEBUG -std=gnu++17 -fPIC   -fvisibility=hidden -o CMakeFiles/gnuradio-radio_astro.dir/vmedian_impl.cc.o -c /home/dr/Code/gr-radio_astro/lib/vmedian_impl.cc",
+  "file": "/home/dr/Code/gr-radio_astro/lib/vmedian_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-radio_astro.dir/vmedian_impl.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dradio_astro_python_EXPORTS -I/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../lib -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../include -I/home/dr/Code/gr-radio_astro/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -Wno-error=deprecated-declarations -flto -fno-fat-lto-objects -o CMakeFiles/radio_astro_python.dir/dedispersion_python.cc.o -c /home/dr/Code/gr-radio_astro/python/radio_astro/bindings/dedispersion_python.cc",
+  "file": "/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/dedispersion_python.cc",
+  "output": "python/radio_astro/bindings/CMakeFiles/radio_astro_python.dir/dedispersion_python.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dradio_astro_python_EXPORTS -I/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../lib -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../include -I/home/dr/Code/gr-radio_astro/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -Wno-error=deprecated-declarations -flto -fno-fat-lto-objects -o CMakeFiles/radio_astro_python.dir/detect_python.cc.o -c /home/dr/Code/gr-radio_astro/python/radio_astro/bindings/detect_python.cc",
+  "file": "/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/detect_python.cc",
+  "output": "python/radio_astro/bindings/CMakeFiles/radio_astro_python.dir/detect_python.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dradio_astro_python_EXPORTS -I/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../lib -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../include -I/home/dr/Code/gr-radio_astro/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -Wno-error=deprecated-declarations -flto -fno-fat-lto-objects -o CMakeFiles/radio_astro_python.dir/vmedian_python.cc.o -c /home/dr/Code/gr-radio_astro/python/radio_astro/bindings/vmedian_python.cc",
+  "file": "/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/vmedian_python.cc",
+  "output": "python/radio_astro/bindings/CMakeFiles/radio_astro_python.dir/vmedian_python.cc.o"
+},
+{
+  "directory": "/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dradio_astro_python_EXPORTS -I/home/dr/Code/gr-radio_astro/build/python/radio_astro/bindings -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../lib -I/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/../../../include -I/home/dr/Code/gr-radio_astro/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden   -fvisibility=hidden -Wno-unused-variable -Wno-error=deprecated-declarations -flto -fno-fat-lto-objects -o CMakeFiles/radio_astro_python.dir/python_bindings.cc.o -c /home/dr/Code/gr-radio_astro/python/radio_astro/bindings/python_bindings.cc",
+  "file": "/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/python_bindings.cc",
+  "output": "python/radio_astro/bindings/CMakeFiles/radio_astro_python.dir/python_bindings.cc.o"
+}
+]

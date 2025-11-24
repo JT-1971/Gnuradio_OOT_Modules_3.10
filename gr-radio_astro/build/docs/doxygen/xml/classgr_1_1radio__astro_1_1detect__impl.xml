@@ -1,0 +1,1017 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radio__astro_1_1detect__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radio_astro::detect_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radio__astro_1_1detect" prot="public" virt="non-virtual">gr::radio_astro::detect</basecompoundref>
+    <includes refid="detect__impl_8h" local="no">detect_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a1c31ef610235991c4206aa49b42f2c41" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::d_vec_length</definition>
+        <argsstring></argsstring>
+        <name>d_vec_length</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_vec_length</qualifiedname>
+        <initializer>= 2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="69" column="11" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a893c02f1e9f0826acaf58d30e9a15cbb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radio_astro::detect_impl::d_dms</definition>
+        <argsstring></argsstring>
+        <name>d_dms</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_dms</qualifiedname>
+        <initializer>= 4.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="70" column="13" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aaf11087183cfd0dcb643bc92886827be" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radio_astro::detect_impl::d_f_obs</definition>
+        <argsstring></argsstring>
+        <name>d_f_obs</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_f_obs</qualifiedname>
+        <initializer>= 1.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="71" column="13" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aaeb76ae239b106f7dcaa5f17946ac780" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radio_astro::detect_impl::d_bw</definition>
+        <argsstring></argsstring>
+        <name>d_bw</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_bw</qualifiedname>
+        <initializer>= 1.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="72" column="13" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1abfaf471a734efdb4e5eb54841f312732" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radio_astro::detect_impl::d_t_int</definition>
+        <argsstring></argsstring>
+        <name>d_t_int</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_t_int</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="73" column="13" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a4c367c19e96f52560cdb35aa682727b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::d_nt</definition>
+        <argsstring></argsstring>
+        <name>d_nt</name>
+        <qualifiedname>gr::radio_astro::detect_impl::d_nt</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="74" column="11" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a11bc03dbdee6dc10ac3161cd8544b2d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::vlen</definition>
+        <argsstring></argsstring>
+        <name>vlen</name>
+        <qualifiedname>gr::radio_astro::detect_impl::vlen</qualifiedname>
+        <initializer>= d_vec_length</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="75" column="11" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a53685d979339b5d582215d76287e5ee7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::vlen2</definition>
+        <argsstring></argsstring>
+        <name>vlen2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::vlen2</qualifiedname>
+        <initializer>= vlen/2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="76" column="11" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ae686b5985dda316fe2df9e8046b3cd1c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::nsigma</definition>
+        <argsstring></argsstring>
+        <name>nsigma</name>
+        <qualifiedname>gr::radio_astro::detect_impl::nsigma</qualifiedname>
+        <initializer>= 4.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="77" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a141a9062177cb1626652a3ebb173910f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::peak</definition>
+        <argsstring></argsstring>
+        <name>peak</name>
+        <qualifiedname>gr::radio_astro::detect_impl::peak</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="78" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a8d0ac00e5c3fd28ba47e827e8aac70c9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::rms</definition>
+        <argsstring></argsstring>
+        <name>rms</name>
+        <qualifiedname>gr::radio_astro::detect_impl::rms</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="79" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a3f1397919d1f0ce7b93a33958226a12a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::mjd</definition>
+        <argsstring></argsstring>
+        <name>mjd</name>
+        <qualifiedname>gr::radio_astro::detect_impl::mjd</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="80" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ac97b42be5f12d82108b52b42d68b9dcb" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::radio_astro::detect_impl::circular[MAX_BUFF]</definition>
+        <argsstring>[MAX_BUFF]</argsstring>
+        <name>circular</name>
+        <qualifiedname>gr::radio_astro::detect_impl::circular</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="81" column="18" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1abb5f83e72f31bc137078670475998172" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radio_astro::detect_impl::circular2[MAX_BUFF]</definition>
+        <argsstring>[MAX_BUFF]</argsstring>
+        <name>circular2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::circular2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="82" column="13" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a4911a1a5411ff72b5552cee0d71e8252" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::inext</definition>
+        <argsstring></argsstring>
+        <name>inext</name>
+        <qualifiedname>gr::radio_astro::detect_impl::inext</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="83" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a3b0429076d756d2696e879dc3cb92459" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::inext2</definition>
+        <argsstring></argsstring>
+        <name>inext2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::inext2</qualifiedname>
+        <initializer>= <ref refid="detect__impl_8h_1a4b70916bdf28ed7afd94e4fb98230a90" kindref="member">MAX_BUFF</ref>/2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="84" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1acde34d61fef68b2b7a53c1becb3c2577" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::imax2</definition>
+        <argsstring></argsstring>
+        <name>imax2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::imax2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="85" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1adee02c8c053ea7295a4ac24f6e5f42d3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::max2</definition>
+        <argsstring></argsstring>
+        <name>max2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::max2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="86" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a0bfbc95364bf0b0eb49c3d3c11133a68" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::sum2</definition>
+        <argsstring></argsstring>
+        <name>sum2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::sum2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="87" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a9fe2bb757c4162b7d72f49ab3d46630a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::rms2</definition>
+        <argsstring></argsstring>
+        <name>rms2</name>
+        <qualifiedname>gr::radio_astro::detect_impl::rms2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="88" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ae9d5b332f31a8d375e379cec0e646a7f" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::nsum</definition>
+        <argsstring></argsstring>
+        <name>nsum</name>
+        <qualifiedname>gr::radio_astro::detect_impl::nsum</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="89" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aeb6af43efac7cbbad762442ef2b92c9b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::nmaxcount</definition>
+        <argsstring></argsstring>
+        <name>nmaxcount</name>
+        <qualifiedname>gr::radio_astro::detect_impl::nmaxcount</qualifiedname>
+        <initializer>= vlen</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="90" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ae17fe8921f7efbe94be9602088c69961" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::oneovern</definition>
+        <argsstring></argsstring>
+        <name>oneovern</name>
+        <qualifiedname>gr::radio_astro::detect_impl::oneovern</qualifiedname>
+        <initializer>= 1./double(nmaxcount)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="91" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1abf3ef40e8d12f6109689a6149f539bc8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radio_astro::detect_impl::bufferfull</definition>
+        <argsstring></argsstring>
+        <name>bufferfull</name>
+        <qualifiedname>gr::radio_astro::detect_impl::bufferfull</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="92" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ab32479520497a1799c15f4f53416a58f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::nsigma_rms</definition>
+        <argsstring></argsstring>
+        <name>nsigma_rms</name>
+        <qualifiedname>gr::radio_astro::detect_impl::nsigma_rms</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="93" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ac6c2bbe0a2276d6b986ee517b4dd7dc1" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::radio_astro::detect_impl::samples[MAX_VLEN]</definition>
+        <argsstring>[MAX_VLEN]</argsstring>
+        <name>samples</name>
+        <qualifiedname>gr::radio_astro::detect_impl::samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="94" column="18" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a4c4b04a892520c5864a189427395627d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radio_astro::detect_impl::initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>gr::radio_astro::detect_impl::initialized</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="95" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aae39a29902354206065327d0ed64937c" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::printcount</definition>
+        <argsstring></argsstring>
+        <name>printcount</name>
+        <qualifiedname>gr::radio_astro::detect_impl::printcount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="96" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a57fd3e719ccac404b37a376d7f4140df" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::bufferdelay</definition>
+        <argsstring></argsstring>
+        <name>bufferdelay</name>
+        <qualifiedname>gr::radio_astro::detect_impl::bufferdelay</qualifiedname>
+        <initializer>= float(<ref refid="detect__impl_8h_1a41c234a9b5961736ef38546445835d65" kindref="member">MAX_VLEN</ref>/2)*1.E-6/d_bw</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="97" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aa625252f80362f6babaf00c3e9a83370" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::radio_astro::detect_impl::vcount</definition>
+        <argsstring></argsstring>
+        <name>vcount</name>
+        <qualifiedname>gr::radio_astro::detect_impl::vcount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="98" column="21" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a43888a8865929a5b954fe01ab0d3f220" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::radio_astro::detect_impl::logvcount</definition>
+        <argsstring></argsstring>
+        <name>logvcount</name>
+        <qualifiedname>gr::radio_astro::detect_impl::logvcount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="99" column="21" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1aa8f054e25ff229b84bb75eb8fb9b518f" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::eventoffset</definition>
+        <argsstring></argsstring>
+        <name>eventoffset</name>
+        <qualifiedname>gr::radio_astro::detect_impl::eventoffset</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="100" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a9c266f494ef15681362781e4051f6b59" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::dt0</definition>
+        <argsstring></argsstring>
+        <name>dt0</name>
+        <qualifiedname>gr::radio_astro::detect_impl::dt0</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="101" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a4f054067cf37cd60cc8a2534b49f046e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::nzero</definition>
+        <argsstring></argsstring>
+        <name>nzero</name>
+        <qualifiedname>gr::radio_astro::detect_impl::nzero</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="102" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1ab181c381fa9f31ad759b723f6190490f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::mjd0</definition>
+        <argsstring></argsstring>
+        <name>mjd0</name>
+        <qualifiedname>gr::radio_astro::detect_impl::mjd0</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="103" column="14" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a9fa3c1d677b2d077489540b4f75429bb" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::lastday</definition>
+        <argsstring></argsstring>
+        <name>lastday</name>
+        <qualifiedname>gr::radio_astro::detect_impl::lastday</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="104" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radio__astro_1_1detect__impl_1a3b179fd3dec2bbbdbf54557869087b32" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::ecount</definition>
+        <argsstring></argsstring>
+        <name>ecount</name>
+        <qualifiedname>gr::radio_astro::detect_impl::ecount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="105" column="12" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a94b4af9435801b274a29432cb5c717f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radio_astro::detect_impl::detect_impl</definition>
+        <argsstring>(int vec_length, float dms, float f_obs, float bw, float t_int, int nt)</argsstring>
+        <name>detect_impl</name>
+        <qualifiedname>gr::radio_astro::detect_impl::detect_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vec_length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dms</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_obs</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t_int</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="107" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ad668fd59866ba3978c4cb2498e5b5ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radio_astro::detect_impl::~detect_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~detect_impl</name>
+        <qualifiedname>gr::radio_astro::detect_impl::~detect_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="108" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a09732fc1aa37c0a55b65de0daaea5201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <qualifiedname>gr::radio_astro::detect_impl::forecast</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="111" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a0c6280cd3dac0763e2111d5b96b2ffaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_dms</definition>
+        <argsstring>(float dms)</argsstring>
+        <name>set_dms</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_dms</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1a8c6bc2be6db5769b28cfed75de6d8503">set_dms</reimplements>
+        <param>
+          <type>float</type>
+          <declname>dms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="114" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ad4c063ba9ff9314607cb769c774e6073" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_bw</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_bw</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_bw</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1a936748ccc3fef4d557602ef115be6523">set_bw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="117" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a586e7b4fba42474ad162f4fb05179e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_freq</definition>
+        <argsstring>(float f_obs)</argsstring>
+        <name>set_freq</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_freq</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1af129b37c396e46e8db031489a53387e8">set_freq</reimplements>
+        <param>
+          <type>float</type>
+          <declname>f_obs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="120" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ac8871c45d6f41a1f283374295581b884" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_dt</definition>
+        <argsstring>(float t_int)</argsstring>
+        <name>set_dt</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_dt</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1a92b6f885dfa67cdccc37bd9c533e07ce">set_dt</reimplements>
+        <param>
+          <type>float</type>
+          <declname>t_int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="122" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1afc89f388f216d446744ad709cc48719f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_mode</definition>
+        <argsstring>(int nt)</argsstring>
+        <name>set_mode</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_mode</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1a806372490426f7193aacfbb35953b7d4">set_mode</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="124" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ac4631c329555b3f8900c8c4a692a52d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radio_astro::detect_impl::set_vlen</definition>
+        <argsstring>(int vec_length)</argsstring>
+        <name>set_vlen</name>
+        <qualifiedname>gr::radio_astro::detect_impl::set_vlen</qualifiedname>
+        <reimplements refid="classgr_1_1radio__astro_1_1detect_1ad7d177cb7a4c2284c7898418f807d31e">set_vlen</reimplements>
+        <param>
+          <type>int</type>
+          <declname>vec_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="126" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a522388c7a3adfae1623e62915f8dbeb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::update_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>update_buffer</name>
+        <qualifiedname>gr::radio_astro::detect_impl::update_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="128" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a2a9ee312e22ebae1f2415cf07c866804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::event</definition>
+        <argsstring>(const long ninputs, const gr_complex *input, gr_complex *output)</argsstring>
+        <name>event</name>
+        <qualifiedname>gr::radio_astro::detect_impl::event</qualifiedname>
+        <param>
+          <type>const long</type>
+          <declname>ninputs</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="130" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1aed44b75850c893e425c4e0b678a8fa20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radio_astro::detect_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <qualifiedname>gr::radio_astro::detect_impl::general_work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="132" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1afa512efd5ae039fd75c6cf48983a7aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::ymd_to_mjd</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>ymd_to_mjd</name>
+        <qualifiedname>gr::radio_astro::detect_impl::ymd_to_mjd</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="138" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ab13a46a25f08217f01b7f61c02974d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr::radio_astro::detect_impl::ymd_to_mjd_x</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>ymd_to_mjd_x</name>
+        <qualifiedname>gr::radio_astro::detect_impl::ymd_to_mjd_x</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="141" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1ada69fa5c816265bf3a0c6e77e472ec0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::get_mjd</definition>
+        <argsstring>()</argsstring>
+        <name>get_mjd</name>
+        <qualifiedname>gr::radio_astro::detect_impl::get_mjd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="143" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a20fe8ca21a881dc8e5d79f28b90d0e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::get_utc</definition>
+        <argsstring>()</argsstring>
+        <name>get_utc</name>
+        <qualifiedname>gr::radio_astro::detect_impl::get_utc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="145" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radio__astro_1_1detect__impl_1a8b445088e719b2763aa9d25d3f5f5c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::radio_astro::detect_impl::get_mjdutc</definition>
+        <argsstring>(double *utc)</argsstring>
+        <name>get_mjdutc</name>
+        <qualifiedname>gr::radio_astro::detect_impl::get_mjdutc</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>utc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="147" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radio_astro::detect</label>
+        <link refid="classgr_1_1radio__astro_1_1detect"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radio_astro::detect_impl</label>
+        <link refid="classgr_1_1radio__astro_1_1detect__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radio_astro::detect</label>
+        <link refid="classgr_1_1radio__astro_1_1detect"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radio_astro::detect_impl</label>
+        <link refid="classgr_1_1radio__astro_1_1detect__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" line="65" column="5" bodyfile="/home/dr/Code/gr-radio_astro/lib/detect_impl.h" bodystart="66" bodyend="148"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a57fd3e719ccac404b37a376d7f4140df" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>bufferdelay</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1abf3ef40e8d12f6109689a6149f539bc8" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>bufferfull</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ac97b42be5f12d82108b52b42d68b9dcb" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>circular</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1abb5f83e72f31bc137078670475998172" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>circular2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aaeb76ae239b106f7dcaa5f17946ac780" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_bw</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a893c02f1e9f0826acaf58d30e9a15cbb" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_dms</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aaf11087183cfd0dcb643bc92886827be" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_f_obs</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a4c367c19e96f52560cdb35aa682727b4" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_nt</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1abfaf471a734efdb4e5eb54841f312732" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_t_int</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a1c31ef610235991c4206aa49b42f2c41" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>d_vec_length</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a94b4af9435801b274a29432cb5c717f3" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>detect_impl</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a9c266f494ef15681362781e4051f6b59" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>dt0</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a3b179fd3dec2bbbdbf54557869087b32" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>ecount</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a2a9ee312e22ebae1f2415cf07c866804" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>event</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aa8f054e25ff229b84bb75eb8fb9b518f" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>eventoffset</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a09732fc1aa37c0a55b65de0daaea5201" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aed44b75850c893e425c4e0b678a8fa20" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ada69fa5c816265bf3a0c6e77e472ec0e" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>get_mjd</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a8b445088e719b2763aa9d25d3f5f5c5e" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>get_mjdutc</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a20fe8ca21a881dc8e5d79f28b90d0e39" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>get_utc</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1acde34d61fef68b2b7a53c1becb3c2577" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>imax2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a4911a1a5411ff72b5552cee0d71e8252" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>inext</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a3b0429076d756d2696e879dc3cb92459" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>inext2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a4c4b04a892520c5864a189427395627d" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>initialized</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a9fa3c1d677b2d077489540b4f75429bb" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>lastday</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a43888a8865929a5b954fe01ab0d3f220" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>logvcount</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect_1a75c2c925891dee1135d27fee1bf6ec15" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1adee02c8c053ea7295a4ac24f6e5f42d3" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>max2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a3f1397919d1f0ce7b93a33958226a12a" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>mjd</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ab181c381fa9f31ad759b723f6190490f" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>mjd0</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aeb6af43efac7cbbad762442ef2b92c9b" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>nmaxcount</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ae686b5985dda316fe2df9e8046b3cd1c" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>nsigma</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ab32479520497a1799c15f4f53416a58f" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>nsigma_rms</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ae9d5b332f31a8d375e379cec0e646a7f" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>nsum</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a4f054067cf37cd60cc8a2534b49f046e" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>nzero</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ae17fe8921f7efbe94be9602088c69961" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>oneovern</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a141a9062177cb1626652a3ebb173910f" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>peak</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aae39a29902354206065327d0ed64937c" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>printcount</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a8d0ac00e5c3fd28ba47e827e8aac70c9" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>rms</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a9fe2bb757c4162b7d72f49ab3d46630a" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>rms2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ac6c2bbe0a2276d6b986ee517b4dd7dc1" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>samples</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ad4c063ba9ff9314607cb769c774e6073" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_bw</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a0c6280cd3dac0763e2111d5b96b2ffaa" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_dms</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ac8871c45d6f41a1f283374295581b884" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_dt</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a586e7b4fba42474ad162f4fb05179e11" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_freq</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1afc89f388f216d446744ad709cc48719f" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_mode</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ac4631c329555b3f8900c8c4a692a52d9" prot="public" virt="virtual"><scope>gr::radio_astro::detect_impl</scope><name>set_vlen</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect_1a8e20f9a48c269cc60a668a958a6d71f6" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a0bfbc95364bf0b0eb49c3d3c11133a68" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>sum2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a522388c7a3adfae1623e62915f8dbeb6" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>update_buffer</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1aa625252f80362f6babaf00c3e9a83370" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>vcount</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a11bc03dbdee6dc10ac3161cd8544b2d4" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>vlen</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1a53685d979339b5d582215d76287e5ee7" prot="private" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>vlen2</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1afa512efd5ae039fd75c6cf48983a7aea" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>ymd_to_mjd</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ab13a46a25f08217f01b7f61c02974d81" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>ymd_to_mjd_x</name></member>
+      <member refid="classgr_1_1radio__astro_1_1detect__impl_1ad668fd59866ba3978c4cb2498e5b5ab1" prot="public" virt="non-virtual"><scope>gr::radio_astro::detect_impl</scope><name>~detect_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

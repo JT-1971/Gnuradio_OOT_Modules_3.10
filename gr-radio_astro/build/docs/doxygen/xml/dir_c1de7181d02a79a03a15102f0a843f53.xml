@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c1de7181d02a79a03a15102f0a843f53" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="dedispersion__pydoc__template_8h">dedispersion_pydoc_template.h</innerfile>
+    <innerfile refid="detect__pydoc__template_8h">detect_pydoc_template.h</innerfile>
+    <innerfile refid="vmedian__pydoc__template_8h">vmedian_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dr/Code/gr-radio_astro/python/radio_astro/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>
